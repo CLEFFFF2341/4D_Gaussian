@@ -958,7 +958,7 @@ if __name__ == "__main__":
     parser.add_argument('--stop_after_frame', type=int, default=0)
     parser.add_argument('--phase03_initial_cloud', type=str, default='')
     parser.add_argument('--flow_method', choices=['F0','B1','B2','H','M'], default='M')
-    parser.add_argument('--flow_k', type=int, default=8)
+    parser.add_argument('--flow_k', type=int, default=64)
     parser.add_argument('--flow_sigma', type=float, default=2.)
     parser.add_argument('--flow_epsilon', type=float, default=.02)
     parser.add_argument('--flow_lambda', type=float, default=-1.)

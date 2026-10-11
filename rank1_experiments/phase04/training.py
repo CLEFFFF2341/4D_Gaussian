@@ -42,6 +42,9 @@ class SharedTraining:
         self.out = Path(args.model_path)
         self.out.mkdir(parents=True, exist_ok=True)
         resolved = vars(args).copy()
+        if self.lambda_flow is not None:
+            resolved['effective_flow_lambda'] = self.lambda_flow
+            resolved['lambda_inherited_from_checkpoint'] = args.flow_lambda < 0
         resolved.update(shared_rgb_geometry='pc.get_xyz', source_detached=True, weights_detached=True,
                         out_sigma=128., projection='complete camera projection on source grid',
                         lambda_policy='fixed supplied' if self.lambda_flow is not None else 'first training batch gradient ratio; fixed thereafter',

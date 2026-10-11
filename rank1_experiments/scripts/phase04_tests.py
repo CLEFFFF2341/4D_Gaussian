@@ -78,6 +78,10 @@ def cpu_tests():
     expected = -math.log(.02)+math.log(2*math.pi*128**2)
     assert abs(float(empty_loss)-expected) < 1e-5 and diag['abstain_pixels'] == 2
     record('abstention_fixed_denominator', nll=float(empty_loss), expected=expected)
+    negative, _ = flow_loss(torch.zeros(1,1,2), torch.ones(1,1), torch.zeros(1,2),
+                            torch.tensor([True]), 'M', sigma=.1)
+    assert negative < 0  # a normalized density may exceed one
+    record('negative_nll_is_preserved', value=float(negative))
     identity = Identity.initial(3)
     original = identity.uid.clone()
     identity.append(original[[1]])
@@ -108,6 +112,23 @@ def cpu_tests():
     assert perspective_delta.norm() > 1  # full projection includes depth-induced xy motion
     record('extrinsics_camera_depth_and_perspective_motion', rotated_delta=rotated_delta,
            depth_translation_exact_delta=perspective_delta.tolist(), linear_vector_xy_for_pure_z=[0.,0.])
+    source_positions = torch.tensor([[.1,.2,2.], [.3,.4,3.]], dtype=torch.float64, requires_grad=True)
+    target_positions = (source_positions.detach()+torch.tensor([[.02,.01,.02],[-.03,.02,-.04]],dtype=torch.float64)).requires_grad_()
+    def geometry_objective(target):
+        target_xy, _ = project(target, projection, view, 40, 20)
+        source_xy, _ = project(source_positions, projection, view, 40, 20)
+        return objective((target_xy-source_xy.detach())[None], 'M')
+    value = geometry_objective(target_positions)
+    actual, stopped = torch.autograd.grad(value, (target_positions,source_positions),allow_unused=True)
+    numerical = torch.zeros_like(target_positions)
+    for index in np.ndindex(tuple(target_positions.shape)):
+        plus,minus=target_positions.detach().clone(),target_positions.detach().clone()
+        plus[index]+=1e-5;minus[index]-=1e-5
+        numerical[index]=(geometry_objective(plus)-geometry_objective(minus))/2e-5
+    error=float((actual-numerical).abs().max())
+    assert error<1e-8 and stopped is None and actual.norm()>0
+    record('world_geometry_finite_difference_and_source_detach', max_absolute_error=error,
+           target_gradient_norm=float(actual.norm()),source_gradient=None)
     flow = torch.ones(2, 7, 11)
     resized = resize_flow(flow, 13, 17)
     assert torch.allclose(resized[:, 0, 0], torch.tensor([17/11, 13/7]))

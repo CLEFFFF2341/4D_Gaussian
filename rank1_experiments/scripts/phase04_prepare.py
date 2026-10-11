@@ -41,7 +41,7 @@ replace('''        boundary_save(args, gaussians, train_cameras, generator, fram
             print('PHASE04_CONTROLLED_STOP complete checkpoint and diagnostics saved', flush=True)
             raise SystemExit(0)''')
 replace("    args = parser.parse_args(sys.argv[1:])", '''    parser.add_argument('--flow_method', choices=['F0','B1','B2','H','M'], default='M')
-    parser.add_argument('--flow_k', type=int, default=8)
+    parser.add_argument('--flow_k', type=int, default=64)
     parser.add_argument('--flow_sigma', type=float, default=2.)
     parser.add_argument('--flow_epsilon', type=float, default=.02)
     parser.add_argument('--flow_lambda', type=float, default=-1.)
@@ -57,8 +57,8 @@ statepath = ROOT/'experiment_state.json'
 state = json.loads(statepath.read_text(encoding='utf-8'))
 if state.get('phase') == '03':
     (ROOT/'manifests/phase04_start_state.json').write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding='utf-8')
+state.setdefault('phase04_started', datetime.now().astimezone().isoformat())
 state.update(phase='04', status='RUNNING', phase04='RUNNING', next_phase='04', continue_gate_passed=False,
-             phase04_started=datetime.now().astimezone().isoformat(),
              scope='Phase04 common source candidates, B1/B2/H/M/F0 correctness and short training; no pilot quality claim')
 statepath.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding='utf-8')
 print(json.dumps(dict(entry=str(target), sha256=hashlib.sha256(target.read_bytes()).hexdigest())))
