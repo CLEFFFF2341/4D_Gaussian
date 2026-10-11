@@ -42,7 +42,7 @@ def project(xyz, full_projection, view, width, height):
     camera = homogeneous @ view
     denom = clip[:, 3:4]
     safe = torch.where(denom.abs() > 1e-7, denom, torch.full_like(denom, 1e-7))
-    ndc = clip[:, :2] / safe
+    ndc = clip[:, :2] / (safe + 1e-7)  # pinned RGB preprocess uses w + 1e-7
     size = xyz.new_tensor([width, height])
     pixels = ((ndc + 1) * size - 1) * .5
     valid = (camera[:, 2] > .2) & (denom[:, 0] > 1e-7) & torch.isfinite(pixels).all(-1)
@@ -101,7 +101,7 @@ def flow_loss(flows, weights, teacher, valid, method='M', sigma=2., epsilon=.02,
     if not (sigma > 0 and out_sigma > 0 and 0 < epsilon < 1 and scale > 0):
         raise ValueError('Invalid global likelihood constants')
     if method == 'F0':
-        return flows.sum()*0, {'method': method, 'flow_enabled': False}
+        return flows.new_zeros(()), {'method': method, 'flow_enabled': False}
     dtype = torch.float64 if reference_double else torch.float32
     m, y = flows.to(dtype)/scale, teacher.detach().to(dtype)/scale
     w = weights.detach().to(dtype).clamp_min(0)

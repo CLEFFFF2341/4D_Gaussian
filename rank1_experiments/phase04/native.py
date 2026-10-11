@@ -32,6 +32,10 @@ def raster_candidates(source, camera, target_uid, k=8, debug=False):
     empty = torch.empty(0)  # native forward treats empty CPU arguments as null
     n = len(xyz)
     h, w = camera.image_height, camera.image_width
+    if not n:
+        return dict(ids=torch.full((h,w,k), -1, dtype=torch.long, device=xyz.device),
+                    weights=xyz.new_zeros((h,w,k)), mass=xyz.new_zeros((h,w,2)), mapping=mapping,
+                    native_alpha=xyz.new_zeros((1,h,w)), debug=None)
     args = (xyz.new_zeros(3), xyz, empty, xyz.new_zeros((n, 1)),
             xyz.new_zeros((n, 3)), source['opacity'], source['scaling'], source['rotation'],
             1., empty, empty, empty.bool(), empty.bool(), camera.world_view_transform,
@@ -53,7 +57,15 @@ def candidate_loss(source, target_xyz, camera, candidates, teacher, valid,
     target_xy, target_valid = project(target_xyz, camera.full_proj_transform,
                                       camera.world_view_transform, w, h)
     mapping = candidates['mapping']
-    trows = mapping[ids.clamp_min(0)]
+    if len(mapping) and len(target_xyz):
+        trows = mapping[ids.clamp_min(0)]
+    else:
+        # Empty source/target geometry still scores every fixed valid pixel.
+        total, diagnostics = flow_loss(target_xyz.new_zeros((h*w,ids.shape[-1],2)),
+            weights*0, teacher.permute(1,2,0).reshape(-1,2), valid.flatten(), method, sigma, epsilon,
+            scale=resolution_scale(w,h))
+        diagnostics.update(uid_mass_retention=0., topk_mass_retention=0., geometry_mass_retention=0.)
+        return total + target_xyz.sum()*0, diagnostics
     good = (ids >= 0) & (trows >= 0) & source_valid[ids.clamp_min(0)] & target_valid[trows.clamp_min(0)]
     safe_weights = weights * good
     y = teacher.permute(1, 2, 0).reshape(-1, 2)
