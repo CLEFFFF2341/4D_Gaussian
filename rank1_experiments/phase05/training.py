@@ -16,6 +16,7 @@ class PilotTraining(SharedTraining):
         super().__init__(args,pc)
         self.calibrating=args.pilot_calibrate
         self.did_calibrate=False
+        pc.phase04_flow_lambda=self.lambda_flow # complete checkpoint retains supplied fixed coefficient
         if self.calibrating:self.enabled=True
         else:
             assert args.flow_lambda>=0,'Pilot lambda must be fixed before training'

@@ -21,7 +21,7 @@ for scene in p['scenes']:
     prefix=d['sampler_prefix_sha256']
     for method in p['methods']:assert d['methods'][method]['gradient']['xyz_norm']>0 and d['methods'][method]['gradient']['offset_norm']>0
     trial=next(j for j in p['jobs'] if j['scene']==scene and j['method']=='M' and j['ratio']==.1)
-    cfg=yaml.safe_load(Path(trial['config']).read_text());smoke=ROOT/'runs/pilot/startup'/scene/'M'
+    cfg=yaml.safe_load(Path(trial['config']).read_text());smoke=ROOT/'runs/pilot/startup_v3'/scene/'M'
     cfg['model_params']['model_path']=str(smoke)
     path=ROOT/'configs/phase05_startup'/f'{scene}_M.yaml';path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(yaml.safe_dump(cfg,sort_keys=False),encoding='utf-8')
@@ -36,6 +36,7 @@ for scene in p['scenes']:
     assert len(flow)>0 and all(r['flow_xyz_grad_norm']>0 and r['flow_offset_grad_norm']>0 for r in flow)
     assert all(r['diagnostic_samples']>0 and len(r['outlier_histogram'])==5 for r in flow)
     cp=torch.load(smoke/'checkpoints/latest.pt',weights_only=False,map_location='cpu');state=cp['gaussian_state']
+    assert state['phase04_flow_lambda']==value,'Fixed supplied lambda must survive full checkpoint'
     for group in state['optimizer'].param_groups:
         if group['name']=='offset_3d':assert group['params'][0] is state['offset_3d']
     assert state['identity'].uid.unique().numel()==len(state['identity'].uid)

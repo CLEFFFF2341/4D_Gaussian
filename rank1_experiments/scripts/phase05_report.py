@@ -66,6 +66,11 @@ B0复用原90帧作者兼容结果，新增区域评估写到runs/pilot/referenc
         disk=sum(r['disk_bytes'] for r in search)/sum(r['updated_frames'] for r in search)
         body+=f'''\n## 后续成本估计\n\n当前每个更新帧含诊断与保存平均{seconds:.2f}秒。阶段06若按两场景四变体90帧，原型预算约{seconds*89*8/3600:.2f} GPU小时，目标可见性额外成本尚未实测，先给1—2倍范围。阶段08若六场景、三种子、三方法、300帧，相同开发分辨率外推约{seconds*299*54/3600:.1f} GPU小时与{disk*299*54/1024**3:.0f}GiB存储；1352×1014四倍像素的共享头尚未核验，暂用2—6倍耗时范围。这是成本外推，不是正式测量；教师、初始化、第二数据集和原B0另计。\n'''
     else:body+='\n## 后续成本估计\n\n阶段04原型显示本轮可能需要14—22 GPU小时及160—300GiB；在首个90帧单元完成后更新阶段06/08估计。正式共享头尚未实测。\n'
+    commands=ROOT/'manifests/phase05_commands.jsonl'
+    failed=[json.loads(line) for line in commands.read_text().splitlines() if json.loads(line)['returncode']!=0] if commands.exists() else []
+    body+=f'\n启动阶段失败命令共{len(failed)}条，实际日志保留在command ledger。曾发现记录模块语法、checkpoint读取路径和CSV重复frame键问题，已逐版本修复并重测；固定显式λ也加入完整checkpoint状态校验。早期启动产物保留，当前启动检查使用startup_v3，不混入正式24组试验。\n'
+    failure=ROOT/'manifests/phase05_failure.json'
+    if progress.get('status')=='FAILED' and failure.exists():body+='\n执行失败记录：'+read(failure)['error']+'。未完成试验不能用于研究结论。\n'
     body+='\n原稀疏开发初始化的背景覆盖限制仍存在，单cam01与两场景不能支持广泛结论。相邻帧不被当作独立统计样本。\n'
     path=ROOT/'reports/phase05_go_no_go.md';path.write_text(body,encoding='utf-8')
     print(json.dumps(dict(status=progress.get('status','PREPARED'),complete_search=len(search),signal=None if not gate else gate['signal'])))
