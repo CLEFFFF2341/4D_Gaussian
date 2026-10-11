@@ -35,3 +35,4 @@
 **/*.whl
 !/rank1_experiments/diagnostics/phase04/*.png
 !/rank1_experiments/diagnostics/phase05/*.png
+/rank1_experiments/manifests/*_runner.lock

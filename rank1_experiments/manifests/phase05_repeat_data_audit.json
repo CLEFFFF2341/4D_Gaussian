@@ -1,0 +1,28 @@
+{
+  "scope": "Pending300-frame repetition only; current90-frame search unaffected",
+  "splits_final_sha256": "73a9abfa9126beaa007a8dad794a55b8cdfc4ef9fcd7269b7fd13097de35017d",
+  "scenes": {
+    "coffee_martini": {
+      "cam01_in_train": true,
+      "validation": [],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ]
+    },
+    "cut_roasted_beef": {
+      "cam01_in_train": true,
+      "validation": [],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ]
+    }
+  },
+  "requirement": "New held-out-cam01 training split and new common initializations for ALL seeds0/1/2; never reuse old final supervised-cam01 checkpoint for development repetition",
+  "details": "phase05/REPEAT_DATA_REQUIREMENTS.md"
+}

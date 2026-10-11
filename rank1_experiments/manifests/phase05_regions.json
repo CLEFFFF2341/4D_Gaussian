@@ -1,0 +1,2532 @@
+{
+  "status": "FROZEN",
+  "files": [
+    {
+      "scene": "coffee_martini",
+      "frame": 0,
+      "target": 1,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0000.npz",
+      "sha256": "e520c9b40f89aa5bd92ef4a3e0e0b23226ed7b9f093a038e3506d8a12e04e1fa",
+      "pixels": {
+        "dynamic": 6895,
+        "boundary": 3983,
+        "static": 333412,
+        "teacher_inconsistent": 2425
+      },
+      "rgb_sha256": "2a59d891e76ab247836218ae049c575d1a41da8346aafe8af1bb2d688f133991"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 1,
+      "target": 2,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0001.npz",
+      "sha256": "282fd565366509308e4f618d0d33c9105a102247cbe868783510fafef4d1986a",
+      "pixels": {
+        "dynamic": 7405,
+        "boundary": 3968,
+        "static": 332481,
+        "teacher_inconsistent": 2846
+      },
+      "rgb_sha256": "dd13f8c227e09e279c9698abd26ba1aa371aa0ce19463390e206bae570909b22"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 2,
+      "target": 3,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0002.npz",
+      "sha256": "5df5bf655d597cf0c662be3b04b025c8bea7095a3be9f934346d27c324ffabee",
+      "pixels": {
+        "dynamic": 5308,
+        "boundary": 3247,
+        "static": 335638,
+        "teacher_inconsistent": 1786
+      },
+      "rgb_sha256": "887fb04c7e1b5d8679ddb041162f1452fac69d471866b5c1cbb0ee2b5a01945f"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 3,
+      "target": 4,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0003.npz",
+      "sha256": "a0f4e7736c532f4697b66b8caf724682b9ee9603cd6bde04b6a63a1f31732f52",
+      "pixels": {
+        "dynamic": 3372,
+        "boundary": 1367,
+        "static": 337917,
+        "teacher_inconsistent": 1443
+      },
+      "rgb_sha256": "6a24609c29e8b913260d067047a1cb20a75b648a5114e6b500771210e6089b8d"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 4,
+      "target": 5,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0004.npz",
+      "sha256": "b5b9a17f06772c543f4f49e8c42b62d1a2a6068bf2025dc8094524b87f17b6cd",
+      "pixels": {
+        "dynamic": 3300,
+        "boundary": 1259,
+        "static": 337235,
+        "teacher_inconsistent": 2197
+      },
+      "rgb_sha256": "bed06ea4e075c8e98ad52edfca576f6363b2e6b367e8cceed4c82d064cddfa29"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 5,
+      "target": 6,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0005.npz",
+      "sha256": "c3d70dbcd6eb2429f1829eff421befef7acef80e7b9f7353d48cebd581087e53",
+      "pixels": {
+        "dynamic": 3326,
+        "boundary": 1399,
+        "static": 337713,
+        "teacher_inconsistent": 1693
+      },
+      "rgb_sha256": "20440c64ddb698350bf01f2574ade2725fae4112dc889f98eb6e794ef91a3e8d"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 6,
+      "target": 7,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0006.npz",
+      "sha256": "cc4e98d8a1e36d51e17307fa9d6f19aa5984f116e3dce381a687e2ef0fe44d73",
+      "pixels": {
+        "dynamic": 2864,
+        "boundary": 1288,
+        "static": 338373,
+        "teacher_inconsistent": 1495
+      },
+      "rgb_sha256": "3b027640c5026d944e3bf3bdd77b141a68382422eabd8d9598bc813cccb25ad7"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 7,
+      "target": 8,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0007.npz",
+      "sha256": "145063f4618e6e35fab21622d12b3d6978d2166dec0cced9a3bc362770c87e5b",
+      "pixels": {
+        "dynamic": 2917,
+        "boundary": 1242,
+        "static": 338315,
+        "teacher_inconsistent": 1500
+      },
+      "rgb_sha256": "8ba593b0feb1669046ff5a2b33893487b129bf25e42cbf3e7ef6a442ffc1061b"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 8,
+      "target": 9,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0008.npz",
+      "sha256": "a52ae9eadc8418d97c9444b93e78584ec7467f3d22f750c587c31d6d65b17ab0",
+      "pixels": {
+        "dynamic": 2503,
+        "boundary": 1367,
+        "static": 338963,
+        "teacher_inconsistent": 1266
+      },
+      "rgb_sha256": "40cc47a62a2af5035f44102073225199bbf9abcfdc972afb6a571213cfef6da7"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 9,
+      "target": 10,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0009.npz",
+      "sha256": "b830117217b8e98068efb6f3735b0b09fcec0a00cc8ac3a163fa1b184651b46c",
+      "pixels": {
+        "dynamic": 943,
+        "boundary": 935,
+        "static": 340475,
+        "teacher_inconsistent": 1314
+      },
+      "rgb_sha256": "83fc913047fe107946c2140769e982838953ba4106691ef739be5b773afd7bc1"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 10,
+      "target": 11,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0010.npz",
+      "sha256": "9fe0a4c28e1d18f9ba3a9017e1985218c024811261a03161bf8f2b2c198621f0",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341517,
+        "teacher_inconsistent": 1215
+      },
+      "rgb_sha256": "04e66749bd4f6bcaf1b888ace7d96f599338bfbe1298fc828af2137c46c78cf9"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 11,
+      "target": 12,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0011.npz",
+      "sha256": "7da49b60a44a37ce65528e72b3072320e9e26d024386272c53bf043e492658ba",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341125,
+        "teacher_inconsistent": 1607
+      },
+      "rgb_sha256": "1beb7ac79049ed892fed4214c067426228ec8c44b751869826e78ddc290629ad"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 12,
+      "target": 13,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0012.npz",
+      "sha256": "77303cc104605f9d75f09af144d6caf3c51271835a6a40d0feb07b3627bdb41d",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341404,
+        "teacher_inconsistent": 1328
+      },
+      "rgb_sha256": "d07b3874eab52046ac871d944e733fbc92c836c1023bf6a9de2d40df9a130b48"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 13,
+      "target": 14,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0013.npz",
+      "sha256": "e96195b89baac7d5191a5b9b58b7b52ceb33d0bf44c13998c70737f46fa082a1",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341786,
+        "teacher_inconsistent": 946
+      },
+      "rgb_sha256": "32ba77147e7f784617b2c7fc33aee28634c9f4d6311759a7cc1a44dc824299b8"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 14,
+      "target": 15,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0014.npz",
+      "sha256": "73a4e7582ab7ddd682e11acf760132499dec6bb313c35298b3bcf60abbca0363",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341498,
+        "teacher_inconsistent": 1234
+      },
+      "rgb_sha256": "41e93ef90a3ae970186dc81d7278bcc194c1a69cb5bd51c92f89f60df475f265"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 15,
+      "target": 16,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0015.npz",
+      "sha256": "11ba03e0d8542a0793d46bbd532f0cc0670703266babd3ac9bd981460cfe9a13",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341265,
+        "teacher_inconsistent": 1467
+      },
+      "rgb_sha256": "be386b1c9d253bf55388ca8a13700ee9e32a28117dacb54ade7c7fc4df35987c"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 16,
+      "target": 17,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0016.npz",
+      "sha256": "7535d0a10a9b7daa854c947da33323669c06b0b0b887c56b11bbb4f64c874b67",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341407,
+        "teacher_inconsistent": 1325
+      },
+      "rgb_sha256": "b9e0e6a211c5b06361f4a5a1176daae34f8f9c317db45535bd92246a536e4c07"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 17,
+      "target": 18,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0017.npz",
+      "sha256": "ef59fa852a2824ae99258f4b6f806e27da25dcc54ee04ec74bf65045478edff5",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341262,
+        "teacher_inconsistent": 1470
+      },
+      "rgb_sha256": "0a809e08ca8a4689e06e900749da25e99238bb490770f25db64d99dfd394c0f5"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 18,
+      "target": 19,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0018.npz",
+      "sha256": "d55f1189da8b6a73629a30788893e5f787b093515cab91c12dc7a87f26b0eae4",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341714,
+        "teacher_inconsistent": 1018
+      },
+      "rgb_sha256": "477c321b348e41a580c99479b8e45888c4135bdfdc5a84881e7441b48e329973"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 19,
+      "target": 20,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0019.npz",
+      "sha256": "b116019d2a576a6c7a5615f55b2518383be2e2dd5818c92af5cd6da55b61325a",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341244,
+        "teacher_inconsistent": 1488
+      },
+      "rgb_sha256": "d2ec97af4520846305314841b064ad8bbd094c42d4baebb121a3306e0d925b15"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 20,
+      "target": 21,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0020.npz",
+      "sha256": "d26416ab8b79f0454649d71ee71f704a5caa963b5ee81ea3ff9b1b85a94a77f9",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341524,
+        "teacher_inconsistent": 1208
+      },
+      "rgb_sha256": "3564fb06fd5d4813c3563e372fe0f76325b90666569c7e1ea1c67acaa4d36fac"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 21,
+      "target": 22,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0021.npz",
+      "sha256": "fd7b3d037f7544552e0b8059595cf6ab07693fc99fae883bc36c24a4fcaa0545",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341750,
+        "teacher_inconsistent": 982
+      },
+      "rgb_sha256": "9ef50c072e36aca2ac6a8a69f635eb88e95ae9016e2a3c73ac89c2106d520685"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 22,
+      "target": 23,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0022.npz",
+      "sha256": "bae150fc186442fa34100c80aaf8dd24889b1e04f493a8227a50f4c1eed116fe",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341029,
+        "teacher_inconsistent": 1703
+      },
+      "rgb_sha256": "e2b440cca79230ef94a0880ad0ae35fa7f04f74a39dea98ea07949d994ae5661"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 23,
+      "target": 24,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0023.npz",
+      "sha256": "e563c7747da8d573438fea7887286b91cbb03846b79fa9f203d5425d34e51a5b",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341077,
+        "teacher_inconsistent": 1655
+      },
+      "rgb_sha256": "0fa87c637a8fd16f0ec078a8d1331ed65ded0716c388d3fd7451c26cea6da023"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 24,
+      "target": 25,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0024.npz",
+      "sha256": "9b8e36bec3a605df8ca2a93ead9c39d768741a7392128ab1481c9d53c5c7b311",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340749,
+        "teacher_inconsistent": 1983
+      },
+      "rgb_sha256": "0d2285731c9554ebe06c755cfff4ff0db55b5ff85178ea67e578905a92553baa"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 25,
+      "target": 26,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0025.npz",
+      "sha256": "21566884b7adfbffd7ec2ee608ab3d24e009a22b30b7b9bcfbf363b5dda53be4",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341727,
+        "teacher_inconsistent": 1005
+      },
+      "rgb_sha256": "6ee0c0f01fb9a7a5531ec0049540588f89086e31c630a27085a4e3e83d7272b8"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 26,
+      "target": 27,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0026.npz",
+      "sha256": "8aa81ac02548d65a1e2a66360c7f13ddb65d425f11c089e18d9c775ebff08544",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341036,
+        "teacher_inconsistent": 1696
+      },
+      "rgb_sha256": "fc836fee89c488f6a93fe78c31fda488f399b1ce4827ea76338d29366d94aea1"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 27,
+      "target": 28,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0027.npz",
+      "sha256": "a620a899fcaf007a78065f4cdcf182977c611fe38becdd4263381f00c5357533",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341546,
+        "teacher_inconsistent": 1186
+      },
+      "rgb_sha256": "23e035bb28c29ceb0d917115945a2ed7e1522171af8b98a35637e8d82c027619"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 28,
+      "target": 29,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0028.npz",
+      "sha256": "75b93fd4f54a618a653f219fd98de5e953d31d1d4d47776b3e891259bb0db66c",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341157,
+        "teacher_inconsistent": 1575
+      },
+      "rgb_sha256": "860a83d440216838dfb163171293961b9d001a74c59ae271ad57bfac00952bc5"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 29,
+      "target": 30,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0029.npz",
+      "sha256": "c457130d8488dc55438c19fa09562f324672b03df9f6443c3dbea6ae927d3d63",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340748,
+        "teacher_inconsistent": 1984
+      },
+      "rgb_sha256": "7c063419be2bbdac84ca5b8cea0e991f491cfe952fccfd5a1652f18e112c977b"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 30,
+      "target": 31,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0030.npz",
+      "sha256": "ac98592c8cfae9ce3ca3d404ca91bd91dd6e4d8311bae055df8cc522d29939e7",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341487,
+        "teacher_inconsistent": 1245
+      },
+      "rgb_sha256": "d15cc617087cdcd016ed5f8f7efd4224eac19d607ef1e7f4cb7c92e3ca9829a8"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 31,
+      "target": 32,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0031.npz",
+      "sha256": "764f06a95af6a44e6c5be1807b2b4c7a2296fb975c2834e8039f316773c0fa97",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341180,
+        "teacher_inconsistent": 1552
+      },
+      "rgb_sha256": "2945e6770437c47fbe5320d92f64aea970b83d5327130a52b1e3487b506918f5"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 32,
+      "target": 33,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0032.npz",
+      "sha256": "05f38ee5380288837a2e4a26df24bd7ad26245a6f9bc08379ff5c1783428f32a",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341326,
+        "teacher_inconsistent": 1406
+      },
+      "rgb_sha256": "4b35c4824ecad466ff6bb6035c354149a0393b38314655f5686d700b305bdeca"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 33,
+      "target": 34,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0033.npz",
+      "sha256": "afa1bc3a247b379abaf333a0934f9c720df523ecad70d3f270d470bf107de139",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341278,
+        "teacher_inconsistent": 1454
+      },
+      "rgb_sha256": "5ba07d3d6c9772bab4eaeb6f4aa38631a755ccc975d1b9446b68599197de9bc8"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 34,
+      "target": 35,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0034.npz",
+      "sha256": "7005b0512a3583d3dac4facbf9cd1693847ef38807190aa2f7e046f63779016f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341051,
+        "teacher_inconsistent": 1681
+      },
+      "rgb_sha256": "1209c4f2e68644f24ca156afd9e3d349cc7e424d667afb66885b2aa86e3e41c6"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 35,
+      "target": 36,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0035.npz",
+      "sha256": "2128e1be2900cac4069349064988e2abf1e2494511521d909df36ba90f9ccd4b",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340648,
+        "teacher_inconsistent": 2084
+      },
+      "rgb_sha256": "b5cf121ee6f931cd499133b0f493309e3b521dac333a46f0677d072ebff8f062"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 36,
+      "target": 37,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0036.npz",
+      "sha256": "17c6cf5b65e117304e736bb75bc36ed0ab5b90252475ebf54a1f92e94b98368b",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341727,
+        "teacher_inconsistent": 1005
+      },
+      "rgb_sha256": "a1fe354319b35ee783d37e2b234478c8752cafe6e70223d5ba667f8e5bda6cd4"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 37,
+      "target": 38,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0037.npz",
+      "sha256": "3ad9fbe30c9bb3a026eea9419a93b0f38b0ceb35c1d624438601d6ef269ea099",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341780,
+        "teacher_inconsistent": 952
+      },
+      "rgb_sha256": "b0d3af1a17a5bc80e6072ec99187ba6f0bd337fe5181c74db81cf8ee2f9b11b7"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 38,
+      "target": 39,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0038.npz",
+      "sha256": "f9ab7ec672cabf0d3d17791956134bfc25eef7208a92f0283cb896d7967ce95a",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341215,
+        "teacher_inconsistent": 1517
+      },
+      "rgb_sha256": "b9da4a2f4f7f8eadd573a04fa62ee9f9e68c677e7e2915a5b2b51acabc37bc12"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 39,
+      "target": 40,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0039.npz",
+      "sha256": "3baa384056bca0d737d9c1356bc09789ea9a372ec7c109661e927b0e78a18ba5",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341687,
+        "teacher_inconsistent": 1045
+      },
+      "rgb_sha256": "fc3df2fef1c1d2cceeb5c3e69ec1b1f7fa296e595aaa35ed30176fb02b31ed3a"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 40,
+      "target": 41,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0040.npz",
+      "sha256": "6e730295eefbe69d64b5e9302eafd9dc2c60c2a0836e16ccc2183e154a6bfa68",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341397,
+        "teacher_inconsistent": 1335
+      },
+      "rgb_sha256": "064453a575171ad7abab0dc7cf91718d9a185563610fcb670cb8654721601a49"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 41,
+      "target": 42,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0041.npz",
+      "sha256": "65adc54f287ac6ec31bd645057cea548049ede9e9fcf46fcf5db2e49c8fe95c5",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341293,
+        "teacher_inconsistent": 1439
+      },
+      "rgb_sha256": "188ad60286d302d7da0b783658ad8fa28777a9f5c3dbe9669cc7c8c78114ed21"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 42,
+      "target": 43,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0042.npz",
+      "sha256": "5530628513e12967f5e5d0c0ab7ee01b5874e135e5322ce2587e8cd5538fbb3e",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341564,
+        "teacher_inconsistent": 1168
+      },
+      "rgb_sha256": "8aba9d558aa73ebea60120d58c0f2c9874f05e9b5962a7a3f69dd252c7ea9243"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 43,
+      "target": 44,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0043.npz",
+      "sha256": "c421ce80c39894920549d81aa139a5b09844ee702dd2d7affa9abb8062a32306",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341622,
+        "teacher_inconsistent": 1110
+      },
+      "rgb_sha256": "9cedd727241d3dcc3e16788d6e2a3d99b2c33225681a50c93432f7ffbec82620"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 44,
+      "target": 45,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0044.npz",
+      "sha256": "bbf220e0ae6b80aa09a224a4941b061d75b1b05edfd19fcf91675b62e8f954bb",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340800,
+        "teacher_inconsistent": 1932
+      },
+      "rgb_sha256": "972ade073e57337c1b4988995ce4b6e3ade235a46f365f68df9ef4f302ccb2e7"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 45,
+      "target": 46,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0045.npz",
+      "sha256": "99e9ec7451a1ca7f6dbdc56ad3e69013cb664649a574358cb25ff1bc72f61a3f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341697,
+        "teacher_inconsistent": 1035
+      },
+      "rgb_sha256": "16a27011b5d0b408bb3de53e0307e280c11f1cf282b6ff83a1e95c0b81781789"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 46,
+      "target": 47,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0046.npz",
+      "sha256": "0e547f76e2acba81ceafbebfdcfc25c0a30db1e0eae38059371b7202dd8807be",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341200,
+        "teacher_inconsistent": 1532
+      },
+      "rgb_sha256": "792c368f8021581085c3743d3c68845d468b0706c5393284215b3cbc96dbb3ec"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 47,
+      "target": 48,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0047.npz",
+      "sha256": "dec8cc82f50d05860d2604d84d60db33e7c906e83347cf68eb751ba6eeeae02e",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341792,
+        "teacher_inconsistent": 940
+      },
+      "rgb_sha256": "018a2ba8983d615c9dcf323078cba150644dcefb06f0e37f32eaa1552ce04ab0"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 48,
+      "target": 49,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0048.npz",
+      "sha256": "559d562bb9d206eb7e9d3034fe471a6198e77e5913eb252dd39fe2855cf68894",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341328,
+        "teacher_inconsistent": 1404
+      },
+      "rgb_sha256": "58265b2129ae6be222b25e076f4cd7e714738d1f5d8f381908a60d32adde3bda"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 49,
+      "target": 50,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0049.npz",
+      "sha256": "4c8830b088f261bd3518b0ee24d5317714e71a24ee3516f114455a2393b6e35f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341159,
+        "teacher_inconsistent": 1573
+      },
+      "rgb_sha256": "3bf831ed1b4245375e2f935a1cea958cef9bcae30d529b5f0b24de485b7fa1b2"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 50,
+      "target": 51,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0050.npz",
+      "sha256": "10c2917c420dcaee9b49fa67be94a524211dd96d71be840c05715655c637ed7f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341541,
+        "teacher_inconsistent": 1191
+      },
+      "rgb_sha256": "a71c04637a093790b517a4fda2ac7f61cc163692d5f3cafd2fa3808f58f10664"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 51,
+      "target": 52,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0051.npz",
+      "sha256": "77b7db37281741aa2f080dad53dc60aa35346e93ac85dad0a4478278c231074a",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341193,
+        "teacher_inconsistent": 1539
+      },
+      "rgb_sha256": "c7a818e5208d1ba0720e203ac4651e8697fcee24c378a486ae16d5e12e0b4d4b"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 52,
+      "target": 53,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0052.npz",
+      "sha256": "89c861214b95dff25249b707aa52378130dd28f44d14f7df6b4da5015bcc494a",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341751,
+        "teacher_inconsistent": 981
+      },
+      "rgb_sha256": "0521d9713b97bbc2de3507e3a45649c79faa742a74a51d4e766644ec1eace8a5"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 53,
+      "target": 54,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0053.npz",
+      "sha256": "addcc17337661c92cadb8131c08ed8db6ef30f59be114cd30cb26164bd22d51e",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341464,
+        "teacher_inconsistent": 1268
+      },
+      "rgb_sha256": "697e56a83358547cf11431290f762f43ff44a5d2b1fd21195ab26521d87a0cab"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 54,
+      "target": 55,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0054.npz",
+      "sha256": "983f20bf854c9ada133422276d2b4ae57b8b9b0126a88d2483ad1d83397bc6f0",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341807,
+        "teacher_inconsistent": 925
+      },
+      "rgb_sha256": "6309ddda0e62c55d0912413df9781a25f586bab847a6db6e94ad6568fb3b96b2"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 55,
+      "target": 56,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0055.npz",
+      "sha256": "7d2fd2bfff121216d071b8afe16e57cfae5a227ea4112691f1dd2b8181f035ba",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341387,
+        "teacher_inconsistent": 1345
+      },
+      "rgb_sha256": "0a8efb85a39a20411722b2e62dd9336f3b5426ae439d4e84d7d734583aefd754"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 56,
+      "target": 57,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0056.npz",
+      "sha256": "97b2448a948905dbbccaf22b816382c0732a89779976f19c0eb3c3515a89e831",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341506,
+        "teacher_inconsistent": 1226
+      },
+      "rgb_sha256": "e57f7351532763f582035df9617ef47a3aff65193f8cd582c2f0ed16a6d73cfc"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 57,
+      "target": 58,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0057.npz",
+      "sha256": "40a76a9e570d9abf6c8323c29c0d2897cdbbd02f571ff3cc747a0fa071ae6828",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341685,
+        "teacher_inconsistent": 1047
+      },
+      "rgb_sha256": "d413c25f1a456ff1dad6edede12dd36b2196bee5436450757f57be845da7a142"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 58,
+      "target": 59,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0058.npz",
+      "sha256": "996d62d9e0fcec07973054afd5e8d4ca4f990cde66be4249d29e22f676c73455",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341291,
+        "teacher_inconsistent": 1441
+      },
+      "rgb_sha256": "a8c9a52da138590397e0c40dc0d1c6a3be588878af61c3dbf13c71e2a0355ba1"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 59,
+      "target": 60,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0059.npz",
+      "sha256": "cdda68c7b3ab52048f52bddaf22b06ce617b217e9eb499d9c9250ae572be034d",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341228,
+        "teacher_inconsistent": 1504
+      },
+      "rgb_sha256": "6520104551ae8ecbc67ac4e8c47ffc0ebaed692975cfd19eea21d821b75b9b33"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 60,
+      "target": 61,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0060.npz",
+      "sha256": "2eb0fd6481eb8c292fe26b990e4e967f416db117464b0de30b97f395cd559553",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341534,
+        "teacher_inconsistent": 1198
+      },
+      "rgb_sha256": "80f5412cfc94c2dc8260a5b6ddea8f6f9cba1b2c709d8311da6a15fa9c7985ba"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 61,
+      "target": 62,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0061.npz",
+      "sha256": "cd1b80cf5a4d68eaf0151c89eda58cc03dd19c990747bda5d0685252e6be025c",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341616,
+        "teacher_inconsistent": 1116
+      },
+      "rgb_sha256": "d7a9cf645efdbd01194fb166f89208fb20811bfc370d26040b44d26dc7061f5e"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 62,
+      "target": 63,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0062.npz",
+      "sha256": "c950fe2e5a5536c28eddd26a696d438ff0cfad7d055a3faaccf6d22699641f89",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340953,
+        "teacher_inconsistent": 1779
+      },
+      "rgb_sha256": "ad141cd181a57849ccac760fa0733d151bacadae6fd7a99a7634edb4baee6f40"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 63,
+      "target": 64,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0063.npz",
+      "sha256": "97c29a5d8b20e595d43062fb2559bac900ebe93e4d69c5cc9eea1441d74236b8",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341670,
+        "teacher_inconsistent": 1062
+      },
+      "rgb_sha256": "dc4ae03978844bf28e09a997ce034b6a4cdc76aa128932bc64bf0a0f4df94500"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 64,
+      "target": 65,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0064.npz",
+      "sha256": "368a21157b24a8379f67f170f481882bfdb23923e73b2981f992a37f37cbb8d0",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341051,
+        "teacher_inconsistent": 1681
+      },
+      "rgb_sha256": "5b3f1d415d0305fec4189b70d893c5036c5a81300056b81be81415ba916cd67f"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 65,
+      "target": 66,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0065.npz",
+      "sha256": "20baffd271b5cfd6a520f9aafb6495c26503f4a6d2204b944a104a2d3c3493ea",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341309,
+        "teacher_inconsistent": 1423
+      },
+      "rgb_sha256": "ff0d166512305bbf8be0fa1fb6b4e9d9db8d14f018bcbd201f377a017aeb740c"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 66,
+      "target": 67,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0066.npz",
+      "sha256": "45166ba718090545ddc42be97aa1d37998ed443c4ded7f5b3a81cf68a0819dd1",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341545,
+        "teacher_inconsistent": 1187
+      },
+      "rgb_sha256": "bb3f73a154f8c584d99ab7c05c27269322c4e4e19402da0247a61a74f8bf208d"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 67,
+      "target": 68,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0067.npz",
+      "sha256": "3a73de37c8773eacab204399351f9cb73d5c424fe56c860a4692c46e838ab5e6",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341000,
+        "teacher_inconsistent": 1732
+      },
+      "rgb_sha256": "18a3e1c39eab4b84fc8b428a504cd60c2295501593b47963ad39d3a93c0cb241"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 68,
+      "target": 69,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0068.npz",
+      "sha256": "b4cf8ef114b38630b14087dd9f1e1bd25ba01c2e2f59e86dfafdf5ec0b381a06",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340427,
+        "teacher_inconsistent": 2305
+      },
+      "rgb_sha256": "640c9e0b726ab1f6d1ec2d902adfc2b408e9429f8a746ab762afe3b60154b787"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 69,
+      "target": 70,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0069.npz",
+      "sha256": "0a5c1877b4855aa2119d50d752556f429bdd1d9190765aec95221e62492d885e",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341298,
+        "teacher_inconsistent": 1434
+      },
+      "rgb_sha256": "3f9eef17ee83428c85bf641229cd66a08ad351b8e04bb259f052e72d8f66b690"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 70,
+      "target": 71,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0070.npz",
+      "sha256": "e3ed77ffa3f5643a3b5a00d313bc01f66e59564988782b6dfead7d7fc824ced2",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341505,
+        "teacher_inconsistent": 1227
+      },
+      "rgb_sha256": "6cff5e5440c7b0b99a94bc06270614f57c9318a750452ed4d72eb1bcfe004014"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 71,
+      "target": 72,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0071.npz",
+      "sha256": "9a38e31988961841590e50223ab524d6c23bdec72077f83c4ac679b907bcfabe",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341557,
+        "teacher_inconsistent": 1175
+      },
+      "rgb_sha256": "e9e3a412f0cf31e62e592d918b1ecbedfd511d37d942a9380a63614fdfbe8fba"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 72,
+      "target": 73,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0072.npz",
+      "sha256": "22997d6e13f4c8d243863556d935475121d821f4f9dd9842b04186760a355ab2",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341657,
+        "teacher_inconsistent": 1075
+      },
+      "rgb_sha256": "0b9c8a0c164414e19e026e75647da1f6c57cf196e7a036b4b8c55c54dfa111ca"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 73,
+      "target": 74,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0073.npz",
+      "sha256": "4f6b45c48526386fa49d46555c1a2477c970fb9baac1b27ab30a5d0b385493f1",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341863,
+        "teacher_inconsistent": 869
+      },
+      "rgb_sha256": "593fc6d0a31466cf26aea2732ec4d10c99ea8f55df3103e0651e5877289c5727"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 74,
+      "target": 75,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0074.npz",
+      "sha256": "62e5aaeb488a4425b953bce26eaa4371ca900276128bf2e4c1f5bc8e8bb96e6d",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341364,
+        "teacher_inconsistent": 1368
+      },
+      "rgb_sha256": "9c3d2d7d717f9d97a785940693e78493285623ccf09636b8290adbb35aed8229"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 75,
+      "target": 76,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0075.npz",
+      "sha256": "9b112076d008be7795da2d2e76891fbf93413350fb555a083edc764f933463c1",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341677,
+        "teacher_inconsistent": 1055
+      },
+      "rgb_sha256": "dd0a785e54ca1a86e975a37664709803d6d750d039f8a410377254320436b7c4"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 76,
+      "target": 77,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0076.npz",
+      "sha256": "b1ced6d14751be00246896558899826be96e25678b992ab4902d595b1d62bfed",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340801,
+        "teacher_inconsistent": 1931
+      },
+      "rgb_sha256": "913e6799562a796afb60739f73a02fcc38223f762d572681efca0e6dce9bd281"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 77,
+      "target": 78,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0077.npz",
+      "sha256": "069e92b21a710bbe27c39e31130febd425effb3e0d9856fbb781563b6a1df805",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341063,
+        "teacher_inconsistent": 1669
+      },
+      "rgb_sha256": "950dfd3306a6b4190a2fab312bf174ffc979a977eceb466c329ba8a4131758b2"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 78,
+      "target": 79,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0078.npz",
+      "sha256": "6929ada6d0f640d2cf5315c7af96e91d6e5df8ed76b955eb8ac538a1abf0f65a",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341552,
+        "teacher_inconsistent": 1180
+      },
+      "rgb_sha256": "359ec6543e64315178fd76a0d4fb52f1b07298a1cc49fbc09bb5c1280cf09c4b"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 79,
+      "target": 80,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0079.npz",
+      "sha256": "4b036b98074399bac6cc0368bc4b33897be7ac8812ce4715975b1da300c7825c",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341699,
+        "teacher_inconsistent": 1033
+      },
+      "rgb_sha256": "562828f2424a1b7697d5b9224638ddb52ee20a969a0b587b6dabd8e6edff2a23"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 80,
+      "target": 81,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0080.npz",
+      "sha256": "8c83de32d382368fb8e84ecd8ab1333079dd11500a017be87ff8710a5e7c8913",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341468,
+        "teacher_inconsistent": 1264
+      },
+      "rgb_sha256": "ec4fd2b3dd94d82029163db800fd04045a2cc73bcb07563b60545efea9081a41"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 81,
+      "target": 82,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0081.npz",
+      "sha256": "399ea575ee337ca702014b2d601f3fb1eb6dcb552cfaf185aa657c4a0c578d5f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341874,
+        "teacher_inconsistent": 858
+      },
+      "rgb_sha256": "98c1161b3466f6d99de9f3e91095113b8d8e0f76b439dc75b407f7a3f6e3d516"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 82,
+      "target": 83,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0082.npz",
+      "sha256": "90ab2925782ed1eef1f15160a4b5da092300622788ebc2418a00737f14e6a4b2",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341124,
+        "teacher_inconsistent": 1608
+      },
+      "rgb_sha256": "bef6ea04a1f1fb51cde85bf72dc4b3be5528052abac02a481594dcff37ec9a5f"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 83,
+      "target": 84,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0083.npz",
+      "sha256": "d0d33b24bab7fb9445c157d9f57c2f3b0aabad7c90e257dafb0ecf4c6f59d0ac",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341811,
+        "teacher_inconsistent": 921
+      },
+      "rgb_sha256": "3c3f6bc586136b4b5e788c97ca5a27f0e515623d0c944cbfdecba29321a67757"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 84,
+      "target": 85,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0084.npz",
+      "sha256": "a2413a5c7294681c3f417ffc8795b943a387036e0e4f4b2f54713a7afbb01d54",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341245,
+        "teacher_inconsistent": 1487
+      },
+      "rgb_sha256": "309c104982d4ffd3092a1efe1f14983ffdbf4a3d63fd79caf024fc8b83ba32cb"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 85,
+      "target": 86,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0085.npz",
+      "sha256": "7183c6d589b42271dc95f952e171aa0d7285aa3cd778a2c6b28cf1548f0ebc03",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341145,
+        "teacher_inconsistent": 1587
+      },
+      "rgb_sha256": "986ea00cdb2dbdb4793dfee94137df32f8703e94bc1dd46533562ce3f6dbb577"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 86,
+      "target": 87,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0086.npz",
+      "sha256": "ffce606335202f55f92481f37a1698b5da68f213c1fde58611a64530cafb01e3",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341889,
+        "teacher_inconsistent": 843
+      },
+      "rgb_sha256": "be609834a8ae8015ad8a0941050ab3414db20635a0879794a64cd94e56952431"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 87,
+      "target": 88,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0087.npz",
+      "sha256": "e53437ae616e94152c73ea3a1aef543441cbf3ba55d92e218e0a68c5a76a7332",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341059,
+        "teacher_inconsistent": 1673
+      },
+      "rgb_sha256": "078ee25162a30023276e92764452e997eeae29fd6dd89a4caa1f1ecef68c2131"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 88,
+      "target": 89,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0088.npz",
+      "sha256": "5582897b4e12b8a44acc5155f993171d944d5941abafda752dd3d10057d0e4c5",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340909,
+        "teacher_inconsistent": 1823
+      },
+      "rgb_sha256": "5f732d0c8ef12cc295e07e69111a0e09c98e23866b5cfa01c0b41485d6f8d5df"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 89,
+      "target": 88,
+      "path": "cache\\phase05_eval_regions\\dev\\coffee_martini\\0089.npz",
+      "sha256": "07a69e0c16743300e935436c9b8d5f0db0528ab652f708d614d99809d5f58ebf",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340417,
+        "teacher_inconsistent": 2315
+      },
+      "rgb_sha256": "2596862481d346a40dc58ecfd8bd1ae6f2f58673747c3068397acc4d8c89c821"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 0,
+      "target": 1,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0000.npz",
+      "sha256": "fc8d368b24026690c5b9e087d8e8860e909fac777e7b9ef8dadddc796117af05",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 336057,
+        "teacher_inconsistent": 6675
+      },
+      "rgb_sha256": "e138c429945be842ce394bb26885c439fbe340629c73d39e55ef331484d40460"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 1,
+      "target": 2,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0001.npz",
+      "sha256": "6e419713fe26af1a0fa47604b3452b4c9b2f1f5437d152710b4cbfbac1626051",
+      "pixels": {
+        "dynamic": 369,
+        "boundary": 844,
+        "static": 341397,
+        "teacher_inconsistent": 966
+      },
+      "rgb_sha256": "04f4e990696841e834d8d1a9d5977fe8975abacee47797021b1aa320ffc266ae"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 2,
+      "target": 3,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0002.npz",
+      "sha256": "517a9c18e36b50d2489c06e28c5d7248b958428429360fbbb653a9ba1811f19c",
+      "pixels": {
+        "dynamic": 581,
+        "boundary": 976,
+        "static": 339122,
+        "teacher_inconsistent": 3029
+      },
+      "rgb_sha256": "bd69cbd06625b0002cfe82979f60ad1027bab0161064e18bc06ddaca1c00e8ea"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 3,
+      "target": 4,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0003.npz",
+      "sha256": "febfcf0f9648bc67a470d1f1e4d1d0e484a5f5cc6fbf8bf99d097f22ea1ca6a5",
+      "pixels": {
+        "dynamic": 522,
+        "boundary": 715,
+        "static": 339936,
+        "teacher_inconsistent": 2274
+      },
+      "rgb_sha256": "70d59e61c337d636bdd9aa8622b1348174eb7a0757f2d77e1b75f48a8ee3e304"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 4,
+      "target": 5,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0004.npz",
+      "sha256": "7cd9961d2bfe987da337fe168a1364059fdf0a1f8246babe1f9f2911d901394d",
+      "pixels": {
+        "dynamic": 491,
+        "boundary": 961,
+        "static": 337060,
+        "teacher_inconsistent": 5181
+      },
+      "rgb_sha256": "648d7e76c7ab58f4604d9958182b18e948409b8aca8a4a6ca4494015e8efba5d"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 5,
+      "target": 6,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0005.npz",
+      "sha256": "9273bdaebfe82ecb086bf1071e606dbec396a4c8e46ce4896b613c10501c6641",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 334836,
+        "teacher_inconsistent": 7896
+      },
+      "rgb_sha256": "955a349b80b4c27adf5e314cd4c28038402b2dc3ecab5a510c742e7be813f519"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 6,
+      "target": 7,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0006.npz",
+      "sha256": "44464f7969c01e8a6479126284a9e39fccc941e27fd630f5c8d50692fd504a50",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339253,
+        "teacher_inconsistent": 3479
+      },
+      "rgb_sha256": "276a1e5589c199dc1498c74433a9c034ad836151b303d24e11b02459ba1bf05d"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 7,
+      "target": 8,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0007.npz",
+      "sha256": "5c46f0bc967e17914ba2b610a594ba8e4cda1bb597695d4b87607b0ada92feb5",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339082,
+        "teacher_inconsistent": 3650
+      },
+      "rgb_sha256": "4f6c356ec05e4380f72e4b84ed8333545aac355ba273413baed079545160dcb4"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 8,
+      "target": 9,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0008.npz",
+      "sha256": "3017e1854bb92fe48ef59f6342ad7d5bb45e9afa625664e41a1d601fb173ce76",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340123,
+        "teacher_inconsistent": 2609
+      },
+      "rgb_sha256": "0f998b113f55aef8dfe91b331caff79fdaf662628be58e6d74046bee7972553e"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 9,
+      "target": 10,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0009.npz",
+      "sha256": "69ac6f465a4b47763fcda3dd1f1639684e7f08d050c5ae683b0a49ea9fec33c8",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 336130,
+        "teacher_inconsistent": 6602
+      },
+      "rgb_sha256": "bb7eca0bfe385c6559cba1178a280d3cd9f55fad4713d0d6028db094333ece85"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 10,
+      "target": 11,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0010.npz",
+      "sha256": "b6d4d36c99879f81dde46c84b31527f9f6b017650492d47f5116ced13dbb492f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339763,
+        "teacher_inconsistent": 2969
+      },
+      "rgb_sha256": "76799964431e63f1e3128bebf028f0dec0faa435cf699286748f2164a69b3ddc"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 11,
+      "target": 12,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0011.npz",
+      "sha256": "e6b842908ceb613b94aceb92e6ee6a394856d874784cf2e9b255f39609aaf855",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339928,
+        "teacher_inconsistent": 2804
+      },
+      "rgb_sha256": "c239cccb18a28e17c8624948a6761538ed19e0986940b95cf8e2e9ba6c174e07"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 12,
+      "target": 13,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0012.npz",
+      "sha256": "c00219197785cf868fd2aca392dc9beb5fe8ee8623ade89fc828da195f789e15",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 337129,
+        "teacher_inconsistent": 5603
+      },
+      "rgb_sha256": "f573339e6112c49ce6fbe9277c6de561c1b0b4e8fbe4e27ec683347a9f9455af"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 13,
+      "target": 14,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0013.npz",
+      "sha256": "8b81cbd96bef4b0cee543c8e9279bf14e2c566149c27c76fc46d53d76fc0ddd5",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 337072,
+        "teacher_inconsistent": 5660
+      },
+      "rgb_sha256": "62e6f34151d1340a517ea2ce7bc6e818ccdbb788f5736c5a30e47114f609d4fd"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 14,
+      "target": 15,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0014.npz",
+      "sha256": "56519dbedb742e90da1580b78f2188b3409c347a6c6956f62dca743a7947d839",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 336004,
+        "teacher_inconsistent": 6728
+      },
+      "rgb_sha256": "4af51f9d3bde94c94b4c0406af29c45a90eacd8d3770873788007141c07e76d3"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 15,
+      "target": 16,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0015.npz",
+      "sha256": "8e07c1bdc449b52d27aebbe42f335ac3179745235fd6c788ad8de55e3bd89cf9",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341835,
+        "teacher_inconsistent": 897
+      },
+      "rgb_sha256": "21b7a92e0f178dbdb05c9c160e797ec592dda4f9d3bbd315b378f7fd34eebd68"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 16,
+      "target": 17,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0016.npz",
+      "sha256": "030a70f73579449f88e9e6d9b74bfe3243159c77824f776646a7bfbd1df48478",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 337602,
+        "teacher_inconsistent": 5130
+      },
+      "rgb_sha256": "0ba6b1db5c9344352fa66f1a2f3417c7d9325c544952a928e822d2bba41c4477"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 17,
+      "target": 18,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0017.npz",
+      "sha256": "85cf8bb82f71a6485eb4c99f012c7d3da6f8754010350b64ae510f985f753b15",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339575,
+        "teacher_inconsistent": 3157
+      },
+      "rgb_sha256": "2b65a912f8efcc0dc337b08ddd67bd578d04da9022467cba888028a779923aac"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 18,
+      "target": 19,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0018.npz",
+      "sha256": "2d75aa075fcb7560cc870df282fa0c69da30c752160f6665cf9220654d67532e",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338096,
+        "teacher_inconsistent": 4636
+      },
+      "rgb_sha256": "068c20170bbb2f4dc5bb4c1aa8feb4a8040811f09ee886cee42156313ddd719e"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 19,
+      "target": 20,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0019.npz",
+      "sha256": "797b3807e17c3294a64e113b573429f128f4903ed075a0dce7bbc514ee072187",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340362,
+        "teacher_inconsistent": 2370
+      },
+      "rgb_sha256": "db560a57d38abb0b936605ccff76026b0dadadf4ed2e28bf0377459d06598a42"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 20,
+      "target": 21,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0020.npz",
+      "sha256": "57bca2d7656924ff4be5e176067192bc1d190ac36ab9ee182556578bf193b7b2",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341877,
+        "teacher_inconsistent": 855
+      },
+      "rgb_sha256": "2012f1335be0afde03181c50838c60e2313808c2c2aa633ff4741924ba735d64"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 21,
+      "target": 22,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0021.npz",
+      "sha256": "4b5138567620015cb3e52cc1642374585223220032ccf8397717f57545fd1609",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341125,
+        "teacher_inconsistent": 1607
+      },
+      "rgb_sha256": "77a934f6de586db52806157cffb3055fb749af77dd107e8a83da44ceda1ce0bd"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 22,
+      "target": 23,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0022.npz",
+      "sha256": "09b5471981e409d7d386695a279e2110e184409fc858c83300a4494a23fb871f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338120,
+        "teacher_inconsistent": 4612
+      },
+      "rgb_sha256": "3ec7a74a38bb84c493165e49504f11037b56834fcfacd62fac842be9a3067a2e"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 23,
+      "target": 24,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0023.npz",
+      "sha256": "312cdb9ada3ff039845d6a69b86d198e18ad0a890ee6ba97636b89f329d28f53",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 335707,
+        "teacher_inconsistent": 7025
+      },
+      "rgb_sha256": "fdda7654c50a78d60ebe64eda468272dbc3877d7661cf5733c78a07dfe199f90"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 24,
+      "target": 25,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0024.npz",
+      "sha256": "2f805cded1f4c2822af8692be4c451818a62d0ed8e875490c613e6522e4ac737",
+      "pixels": {
+        "dynamic": 186,
+        "boundary": 475,
+        "static": 341473,
+        "teacher_inconsistent": 1073
+      },
+      "rgb_sha256": "44ec22a49d6e205920c44ea25144fa5222b3f9d6f29fc9c8885f1b8bdd8bffa5"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 25,
+      "target": 26,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0025.npz",
+      "sha256": "800965a2ad50b34c109ee1c6a4b54174034c231f8ae319f66a721c36aad0c26c",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 336805,
+        "teacher_inconsistent": 5927
+      },
+      "rgb_sha256": "62f39791b7e629649cda1dac46f8f258dd7215bf42a1a4abab2cbe97ac84a420"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 26,
+      "target": 27,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0026.npz",
+      "sha256": "226823b496b99812ad9c99427f7c9b792a6406faf791e7f445e03759ba31081e",
+      "pixels": {
+        "dynamic": 313,
+        "boundary": 498,
+        "static": 338049,
+        "teacher_inconsistent": 4370
+      },
+      "rgb_sha256": "8a942d76a32981a9eaa9e7c8e800903a87ce620e26126f75da6264458e2df972"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 27,
+      "target": 28,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0027.npz",
+      "sha256": "52b3df4cc8404aa6221f4ab52291261ac21780891d7c6a61f659ace1fc2b02fc",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338451,
+        "teacher_inconsistent": 4281
+      },
+      "rgb_sha256": "980f2d00e3a042e4b2fd13bf8bdd23bc7b5fb00cdabee146d92bc52192c02519"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 28,
+      "target": 29,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0028.npz",
+      "sha256": "f0fce1947230aa2c29617088a6a98c68e1862becc5313dcd0ba56e2ec36ee752",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 335784,
+        "teacher_inconsistent": 6948
+      },
+      "rgb_sha256": "9feade0d97c2cbbe6850ac38100b37957cf41676ea83fb10156c903231214993"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 29,
+      "target": 30,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0029.npz",
+      "sha256": "3f1ea52762b93725336a91952e85eaeb474b31016d4cea1ebff6ac3aa25f20c1",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338816,
+        "teacher_inconsistent": 3916
+      },
+      "rgb_sha256": "d82a33ed69c9c8d97161e209b9455996c0a75651bc9e59bf0971cd0fde1e2d33"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 30,
+      "target": 31,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0030.npz",
+      "sha256": "ef2316844dbc08aa894f48fe49cde4defadf5f6177167800928bdfc2922633c9",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338949,
+        "teacher_inconsistent": 3783
+      },
+      "rgb_sha256": "83a7a051198d45679792eeec7aa304164cf5c1957cbe25d2073f1714281f1715"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 31,
+      "target": 32,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0031.npz",
+      "sha256": "6b08863c157431c6b29e9abcd6bb47f672ad439f8635a86f599e32fd9691cad7",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341752,
+        "teacher_inconsistent": 980
+      },
+      "rgb_sha256": "b07f0bc313ef02d8bd50a84b0dada7cc5f56b210ec179b3dc30d09df8da16453"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 32,
+      "target": 33,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0032.npz",
+      "sha256": "5283831c297585d134dcc3fd7fafb04ccf1ad970319a019ccdfa71cfd9e11b4d",
+      "pixels": {
+        "dynamic": 299,
+        "boundary": 537,
+        "static": 336780,
+        "teacher_inconsistent": 5653
+      },
+      "rgb_sha256": "9ea8925fe0524a2c5c05b347b6bd78a1199b303a94c2096e9bb19efd52e9b989"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 33,
+      "target": 34,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0033.npz",
+      "sha256": "8fc6dc50f2811c50ce76a51e5a53937cb033b59770dc66e8ef3e142c04fa2efa",
+      "pixels": {
+        "dynamic": 1197,
+        "boundary": 1500,
+        "static": 340350,
+        "teacher_inconsistent": 1185
+      },
+      "rgb_sha256": "699bc8047679ee8eff5d161363571169a6e29515b081ed0cdbfac1994944cfea"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 34,
+      "target": 35,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0034.npz",
+      "sha256": "4f09d1ba736697a90ef188b7b8396053be3be5078e63c1e3fab0f638c157b46c",
+      "pixels": {
+        "dynamic": 1747,
+        "boundary": 1897,
+        "static": 340278,
+        "teacher_inconsistent": 707
+      },
+      "rgb_sha256": "ae4a30c20b763500d663ea4cb4859c3edd217e6992e847651f05c237b80c995c"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 35,
+      "target": 36,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0035.npz",
+      "sha256": "cb5d614dfa93dec2d5cba00bfd5c8898f7bfcbcff1c5c5180722516f64f152f8",
+      "pixels": {
+        "dynamic": 1813,
+        "boundary": 1828,
+        "static": 337494,
+        "teacher_inconsistent": 3425
+      },
+      "rgb_sha256": "745276c155c23d056a3ef38b48b32792a2f4c9de9bd8e193f5e29248baaa528d"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 36,
+      "target": 37,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0036.npz",
+      "sha256": "d38b5991256ce76c9a792894ab2a465e74eddcd7af6ad02e2c18c29f07a88be9",
+      "pixels": {
+        "dynamic": 574,
+        "boundary": 1263,
+        "static": 337286,
+        "teacher_inconsistent": 4872
+      },
+      "rgb_sha256": "8659381044703f9c225a4cf90ad8c9ee3679fda858b8d8758cba67679e2f9c85"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 37,
+      "target": 38,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0037.npz",
+      "sha256": "8f2ab3736fbc6f61ba9e31a58978ac097b7c39fd6c5d22445e5ccbbddfbc7a1d",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339598,
+        "teacher_inconsistent": 3134
+      },
+      "rgb_sha256": "978c33997ee7a4efa7b5d93a881af6a9a7382535fd5bce52ba36f8a14075eb65"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 38,
+      "target": 39,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0038.npz",
+      "sha256": "7de764ab845fcb4559724ea4822906e569303077242cad572cefe71eaf90c321",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 337925,
+        "teacher_inconsistent": 4807
+      },
+      "rgb_sha256": "f4f65c9fe58f05ca9dce2169e032dafb0083ddebb9552c053b9f8d041167e4ad"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 39,
+      "target": 40,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0039.npz",
+      "sha256": "230cc72efe23285eaf1c3cc884ccca9a781e94f24a61a2a403cf577088b9aa07",
+      "pixels": {
+        "dynamic": 106,
+        "boundary": 358,
+        "static": 341730,
+        "teacher_inconsistent": 896
+      },
+      "rgb_sha256": "acbda7135728be271d5e76f7f5deafa67fe853921d21e6c5334358fc2d05c489"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 40,
+      "target": 41,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0040.npz",
+      "sha256": "97808af23ab96e06a2ab631403a723e752f2e644095c76f7d07eeb1b9daf8b6c",
+      "pixels": {
+        "dynamic": 1801,
+        "boundary": 1881,
+        "static": 337089,
+        "teacher_inconsistent": 3842
+      },
+      "rgb_sha256": "84f4d2c87a725f928dc7624c4de8b9aa3425c24d279adf71329a05ccdac4171c"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 41,
+      "target": 42,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0041.npz",
+      "sha256": "4a8630784f41eb24afe8fe3ad8b22bb9cb060d10ba9ff82fa64005ada6d0a76b",
+      "pixels": {
+        "dynamic": 2094,
+        "boundary": 2006,
+        "static": 334713,
+        "teacher_inconsistent": 5925
+      },
+      "rgb_sha256": "4828b7091936d05895f266ca23f93fdec389fed099b47202097a79b4f1b70549"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 42,
+      "target": 43,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0042.npz",
+      "sha256": "691da2f316ed98ac890517bb279146231c3476b9295b8a3379411c4a0c2cb8f9",
+      "pixels": {
+        "dynamic": 1046,
+        "boundary": 1361,
+        "static": 339631,
+        "teacher_inconsistent": 2055
+      },
+      "rgb_sha256": "06beb9c0a1b56ef6151c33c67d073e5743253b05365a10efec7c9e5903011179"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 43,
+      "target": 44,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0043.npz",
+      "sha256": "ab51867485d3c5d2582753b763bd5d0c5e35ae5fe9db80a8413a476defdc7229",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341921,
+        "teacher_inconsistent": 811
+      },
+      "rgb_sha256": "c3e1958fab804f80e0d03d615a26fd76f74eaec04844bc56e2946599537a4610"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 44,
+      "target": 45,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0044.npz",
+      "sha256": "6a617502f904ad5dec4ac16dc665fa7b11e79588ae7f656402e759b4de6a0f0a",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341815,
+        "teacher_inconsistent": 917
+      },
+      "rgb_sha256": "bac7a9f17ddb900b44b617dbd1c197e4cd7711f24a6ee387afe936a1b8bd60ff"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 45,
+      "target": 46,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0045.npz",
+      "sha256": "1022d45ab4f22f2c11aa8b180e5e6b84f60f3e11ff78271a2ffabcf77975eb17",
+      "pixels": {
+        "dynamic": 517,
+        "boundary": 935,
+        "static": 337711,
+        "teacher_inconsistent": 4504
+      },
+      "rgb_sha256": "c572ac86e111779e5c7e2a5357294590619fd8449f7a744c02569bc0db2e9340"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 46,
+      "target": 47,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0046.npz",
+      "sha256": "68de7c0b288c3531ef43484bcee0036edaf482df9bed8b52f9023d54432009f3",
+      "pixels": {
+        "dynamic": 439,
+        "boundary": 657,
+        "static": 336447,
+        "teacher_inconsistent": 5846
+      },
+      "rgb_sha256": "8a2b7e7d2f62669e65ef1fc905ae830447b74343865b7b68a53a4336ac1dd88e"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 47,
+      "target": 48,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0047.npz",
+      "sha256": "022e8f20dd068442a133c09fb11c9a82fdd5e095e2b9047683a8ad3613cfdffc",
+      "pixels": {
+        "dynamic": 2061,
+        "boundary": 1992,
+        "static": 339641,
+        "teacher_inconsistent": 1030
+      },
+      "rgb_sha256": "578ca34ee7b1962e95b4df435dc5703e2c5e86f5e23e10b4ab85bf0a3fd1e108"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 48,
+      "target": 49,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0048.npz",
+      "sha256": "b2cdd8ad4fd8144815437f99126085217c99ea3ba46634c4e1cb8a4e1b3ccb7a",
+      "pixels": {
+        "dynamic": 2337,
+        "boundary": 2137,
+        "static": 335366,
+        "teacher_inconsistent": 5029
+      },
+      "rgb_sha256": "28c7aa9a40be6ef23b0e2f5b0530ed90da48a7b0036cf3d1c9e1faa1437c0cc5"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 49,
+      "target": 50,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0049.npz",
+      "sha256": "96125a67275cc01644176cdeea4af48b9f4510c88ada56b8ea8defa97bb02d79",
+      "pixels": {
+        "dynamic": 1332,
+        "boundary": 1576,
+        "static": 337684,
+        "teacher_inconsistent": 3716
+      },
+      "rgb_sha256": "2cdfb2d4d55132f2b5acd04c30584317497743a1d4534d533742fa8fc106cc78"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 50,
+      "target": 51,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0050.npz",
+      "sha256": "ea7ad37745a73a139464daf9ef3a7bab84c89caaeb30c6a6a2eb400892249642",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 334719,
+        "teacher_inconsistent": 8013
+      },
+      "rgb_sha256": "895a9d6d77867705e6f0691b32459f220fe22c0c54e2fb8b96ab9d1a14e1bcaa"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 51,
+      "target": 52,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0051.npz",
+      "sha256": "23453ad4230b3ad62eb7ef0653748a838b4501e6f611dab042b00e35a96fd831",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338966,
+        "teacher_inconsistent": 3766
+      },
+      "rgb_sha256": "ad712323feb441a3384b3250ffd4450af106bd9d8d255682d9e63dcdfd947e62"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 52,
+      "target": 53,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0052.npz",
+      "sha256": "6c0da6397dd06516d19bd0b03d6dba9bc194761465ca5c6b5b5cfe9717de6579",
+      "pixels": {
+        "dynamic": 1103,
+        "boundary": 1417,
+        "static": 340872,
+        "teacher_inconsistent": 757
+      },
+      "rgb_sha256": "8a848d9437e3599f231f3548eac08ecb2d5a2361d16e61c8191e9593cf5ad1ed"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 53,
+      "target": 54,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0053.npz",
+      "sha256": "a2dcf0d568a86f02880569340a75c1bdb3e95cc992fd2023e4cf44b244bbaae3",
+      "pixels": {
+        "dynamic": 2352,
+        "boundary": 2039,
+        "static": 333326,
+        "teacher_inconsistent": 7054
+      },
+      "rgb_sha256": "6539b906614c23ef411ff7c81f6f9d7d576a6f886904302e4031bc8f9b222271"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 54,
+      "target": 55,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0054.npz",
+      "sha256": "931c13fa6dc81e317004af57a02ac29f8dce1b2d92f277e50b13d95808b28aad",
+      "pixels": {
+        "dynamic": 2697,
+        "boundary": 2065,
+        "static": 332649,
+        "teacher_inconsistent": 7386
+      },
+      "rgb_sha256": "0e14f96062168de30044550007b4188b1a8d3dd23afae98f70aea2fcd8d8ee95"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 55,
+      "target": 56,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0055.npz",
+      "sha256": "55a60e31d6dd95af8dd700641307427cd8113bd2d33539909e0eaef6c582081c",
+      "pixels": {
+        "dynamic": 1287,
+        "boundary": 1580,
+        "static": 336909,
+        "teacher_inconsistent": 4536
+      },
+      "rgb_sha256": "eba89bab6f227da02454dd3c32df69a94938cbf729cef8898fba0972d2d371f1"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 56,
+      "target": 57,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0056.npz",
+      "sha256": "4fbdea8aa94cdb00194b60d79b05f0d9c9b9f45a4f790b4b8445a68b8a1a0ad1",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341715,
+        "teacher_inconsistent": 1017
+      },
+      "rgb_sha256": "862a598306a8a90d067735013d055012cdbbddd8124779684ca8d3b518178d8b"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 57,
+      "target": 58,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0057.npz",
+      "sha256": "30acb7527f13fcc2a0d6ad492e604d0dc3f5a17e4e7e08b6f2bc91ae63ef4a73",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339006,
+        "teacher_inconsistent": 3726
+      },
+      "rgb_sha256": "1f90c5ed97dd138463a805488598b556bd54321fab93ca4ded9b1ee10457c9bf"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 58,
+      "target": 59,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0058.npz",
+      "sha256": "6fab71debce08ecc87643769b9aaea6c292d1f28e739ac0646d220338d0dafc2",
+      "pixels": {
+        "dynamic": 423,
+        "boundary": 886,
+        "static": 339703,
+        "teacher_inconsistent": 2606
+      },
+      "rgb_sha256": "1ea215d1b3a40dbe1fa5ec4a1f5533a674e5b76b6e4e50a1759c0a5191e0158a"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 59,
+      "target": 60,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0059.npz",
+      "sha256": "dedd54a319ed104acfb7fe0cad1f50d86213716cb876baed4b4545e27d48e2dc",
+      "pixels": {
+        "dynamic": 1634,
+        "boundary": 1820,
+        "static": 339413,
+        "teacher_inconsistent": 1685
+      },
+      "rgb_sha256": "d20298f7f394116e61e553bdafa42c54b79f1fd9d44757ccc57bfb6f206cb933"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 60,
+      "target": 61,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0060.npz",
+      "sha256": "ad87f85a6618b0a88af071d2538086bfb4ae3cca6ee262b8beb27d5d7063cfd8",
+      "pixels": {
+        "dynamic": 1081,
+        "boundary": 1375,
+        "static": 338358,
+        "teacher_inconsistent": 3293
+      },
+      "rgb_sha256": "8a89b860563a04fcc22140322840d9bca7d342a693cb400c34e265d13ca27a19"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 61,
+      "target": 62,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0061.npz",
+      "sha256": "d94703f08366eb4dc97bf1bd2c6e04e39083b61e1ee2ad7aa4645a61c565cf8e",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341407,
+        "teacher_inconsistent": 1325
+      },
+      "rgb_sha256": "52b08df260cab9b162b04c7000a21159fc8b139ff35882b9b8564c2c89550f99"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 62,
+      "target": 63,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0062.npz",
+      "sha256": "829f373f1126eaad75a969080b26dee0d5c50c4a2bd9860dd22760de473a7c38",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 342184,
+        "teacher_inconsistent": 548
+      },
+      "rgb_sha256": "b1d15ed6e0ad6b60cd9144a62d0fc68bff309237df40e0461515aadd29ee72b0"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 63,
+      "target": 64,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0063.npz",
+      "sha256": "601098a5697c7344c51770a5e994540805a3cffdb0eb4eab6159a2a1f93cb8ad",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340675,
+        "teacher_inconsistent": 2057
+      },
+      "rgb_sha256": "790478f64dd8b18661bf63de1be716375e7c81f48b2f9c33a6df313ece5d45cb"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 64,
+      "target": 65,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0064.npz",
+      "sha256": "3161fbd2934410ba9638662b490c7b7d0346491f6eb9c679844d91e41234b672",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340096,
+        "teacher_inconsistent": 2636
+      },
+      "rgb_sha256": "d93489e1e853bd8beeb5a566fff6b7a7ae08ab49a10eb90787433315bafb3d61"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 65,
+      "target": 66,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0065.npz",
+      "sha256": "fd7bd9b06b36f8bf331453e1fc5aa06ef730893f639632b0c0e0c3f0883f4f24",
+      "pixels": {
+        "dynamic": 967,
+        "boundary": 1347,
+        "static": 338737,
+        "teacher_inconsistent": 3028
+      },
+      "rgb_sha256": "ddcfbea54089894bfe5456931b6114f0c79ddf007cf96d1ae0b525bd0922ccbd"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 66,
+      "target": 67,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0066.npz",
+      "sha256": "05a4e40d6930ab603b3a1e129f621f99653301f6ea6748feb6402c5e64ef4055",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338637,
+        "teacher_inconsistent": 4095
+      },
+      "rgb_sha256": "34fcba9a36d35d1d39194dc45acc941f2701af70778ed9b9801284e90f6d8c9b"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 67,
+      "target": 68,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0067.npz",
+      "sha256": "8f3890b8abe9d77f1974820bd15d2a328aed706326e5ad406899524f8d2b63e6",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338098,
+        "teacher_inconsistent": 4634
+      },
+      "rgb_sha256": "5b95c213e688a2f711b44e4f83b842507f338c1db6cad3c334f54c7298b73d56"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 68,
+      "target": 69,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0068.npz",
+      "sha256": "08e276859f557da6408aba40f4185f43b28712c83f0ddf659437c1ddd2b3fe4d",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 335526,
+        "teacher_inconsistent": 7206
+      },
+      "rgb_sha256": "3ab9213324e5d3e5f7cb719eb07799ccdc52d108df893fd16d0b435a8cc55a3f"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 69,
+      "target": 70,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0069.npz",
+      "sha256": "a29bfa94d05252bb4220939b66d725691a360d942e421c41b509f9ed4333f031",
+      "pixels": {
+        "dynamic": 1039,
+        "boundary": 1038,
+        "static": 336000,
+        "teacher_inconsistent": 5693
+      },
+      "rgb_sha256": "bcca533228b24889aed548e6a68b7e1ba0f0fd4ba34c54b7e7acad426d3600d7"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 70,
+      "target": 71,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0070.npz",
+      "sha256": "04c9663e198e371f19ddb724981936f92bea92cd56019dc719305750e318a0d6",
+      "pixels": {
+        "dynamic": 1551,
+        "boundary": 1264,
+        "static": 333741,
+        "teacher_inconsistent": 7440
+      },
+      "rgb_sha256": "40b8589238830357c12dd59d3a8aacd9c7b623c62965f1ce224c612b1b2ab8a4"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 71,
+      "target": 72,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0071.npz",
+      "sha256": "763dc598bbc67ef904163a038982a753ca365f6438e1b045ea93a96f5b4b331c",
+      "pixels": {
+        "dynamic": 1704,
+        "boundary": 1676,
+        "static": 334218,
+        "teacher_inconsistent": 6810
+      },
+      "rgb_sha256": "93420385d9706564cab6a8eee88a4d03735d2f0e73ebfdd2635994a2718b3b17"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 72,
+      "target": 73,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0072.npz",
+      "sha256": "949f695223ed42e91cae01ebf04fdcb01f2807fcaa8b4db6fdffcbfc0207c5d7",
+      "pixels": {
+        "dynamic": 2273,
+        "boundary": 2036,
+        "static": 334662,
+        "teacher_inconsistent": 5797
+      },
+      "rgb_sha256": "b8eab5132a703c67b7cc8c2ec684ab51604464e8e93de934b976068f5e6bdf67"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 73,
+      "target": 74,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0073.npz",
+      "sha256": "c415b6c006a7d1a7d198bcd853a78aa6b96d6b48f28db0533b95949c7c9dfac1",
+      "pixels": {
+        "dynamic": 332,
+        "boundary": 721,
+        "static": 336343,
+        "teacher_inconsistent": 6057
+      },
+      "rgb_sha256": "1df5b32e3bebebbcc23f259a10dba639b76240480ccff041fd8e15de1c5c4ce8"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 74,
+      "target": 75,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0074.npz",
+      "sha256": "eee92cf9fc1e0181f92796cebe0ed27e67d4af90fca92b5feccfdceccc4ef396",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340999,
+        "teacher_inconsistent": 1733
+      },
+      "rgb_sha256": "9fd9450e930eaa08a1b6a81c4eeb71dce85b2eb79cc2ae3adc2a0b8e415ffb42"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 75,
+      "target": 76,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0075.npz",
+      "sha256": "5015a1f0b9ba3857075417b658591ec5b2fa8e4987969d273a01da0b4bd86cac",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341107,
+        "teacher_inconsistent": 1625
+      },
+      "rgb_sha256": "ccf3f89d7d48e908c8b064908746dbb4858e4ef29d9a15ff535e9e8601c7f542"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 76,
+      "target": 77,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0076.npz",
+      "sha256": "60ab921d94f7653bdc56cdd99c52ce60fb7eb3f5b3d5d1c9abaee65aa496f8af",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340269,
+        "teacher_inconsistent": 2463
+      },
+      "rgb_sha256": "ade9bccf9fe12ccbb9bc5553e4647bae2a80dcab050e99cbb1bd25a5aa475cef"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 77,
+      "target": 78,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0077.npz",
+      "sha256": "da7b29e5ed7cec722df7e2b702e1609f7b44a16537ed242c90cf6d8b2329fad5",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341909,
+        "teacher_inconsistent": 823
+      },
+      "rgb_sha256": "81ef3ae938d8f4bf8204d3a33fd2d00968d9039b16af722d4b6def3e492de9fc"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 78,
+      "target": 79,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0078.npz",
+      "sha256": "b88131ebfe8a448685c59240475b3127041205bfe436a86530b065cb97b5777c",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341370,
+        "teacher_inconsistent": 1362
+      },
+      "rgb_sha256": "512ef5881e3d893f7ab5d46419a1439a221e26718e394e07bee950a0c6c01b4f"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 79,
+      "target": 80,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0079.npz",
+      "sha256": "a4be2bb9d0dd90a5bca64b85513aea52efcfa4191a37d9af707e50409c0591af",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339220,
+        "teacher_inconsistent": 3512
+      },
+      "rgb_sha256": "3272e475a5070bfbfd446ef72d80472f7a0fdf98d7984d7ae531c0869646c14b"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 80,
+      "target": 81,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0080.npz",
+      "sha256": "33bf2e43f729e49927a2cb282de75903a6d15c136e6a85c57db3f5cc10f02ede",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341095,
+        "teacher_inconsistent": 1637
+      },
+      "rgb_sha256": "eab0677cfadc6ec28588fbf906f743571eae7afa3ce5c19f30419442585dd92e"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 81,
+      "target": 82,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0081.npz",
+      "sha256": "47d971dad2a24e93705c4a4845b8e8e832500a83c476bff446a5171fff1e1dbd",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341760,
+        "teacher_inconsistent": 972
+      },
+      "rgb_sha256": "108149e88dc575c454b0c24a94d45326baf2b7b58b836a076d68a88ab6291d26"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 82,
+      "target": 83,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0082.npz",
+      "sha256": "8ef2d45ef642e6362aabef0e658235207b34d86724896ddd8eeea7c616a02a3f",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 340314,
+        "teacher_inconsistent": 2418
+      },
+      "rgb_sha256": "74be7b2de510aa9d53ff08758ff6e98b61d48c8f9f252247dedf992adda46060"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 83,
+      "target": 84,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0083.npz",
+      "sha256": "5a0889058eaf4e0cd4ef72c7baf12f7704d45980559c1f5c7e5a36f6fe4f3aa7",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 341886,
+        "teacher_inconsistent": 846
+      },
+      "rgb_sha256": "5ee85a29d1c3e9a9a406779b0c68592a7ea11d56e5cc9ff5b68f8e3482576198"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 84,
+      "target": 85,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0084.npz",
+      "sha256": "1ba5f0cf59a7ef0e9c0db39a6b9fca1f0cd1baf89ba0043e38669abc58b34f62",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 339930,
+        "teacher_inconsistent": 2802
+      },
+      "rgb_sha256": "10681cd1ee398301c70db089af39dfcaf4be59d8125ccc2a7fe04dee4ed77048"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 85,
+      "target": 86,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0085.npz",
+      "sha256": "c79dc9c1c91bcc7ee3b42b7c6d5d15fdd25441aa7f61e7fbac094d4dcd214e95",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 336996,
+        "teacher_inconsistent": 5736
+      },
+      "rgb_sha256": "d1eb9a8ffad378392df30b7d8f74938bcb8148ec06bcf9e35bced4cf548f2e1a"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 86,
+      "target": 87,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0086.npz",
+      "sha256": "80b34b818631ed858dbbbd900a8bd98a2b68144b1a721cd7ea95fe568c044b36",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 338560,
+        "teacher_inconsistent": 4172
+      },
+      "rgb_sha256": "5985a183fe8e266bcd8ec29df3287126d58820a7e6ec1cd79e22444a820379bc"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 87,
+      "target": 88,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0087.npz",
+      "sha256": "5b2f2bab995b2fb48beb37b649d356dc07a09974a17f301704a22fa5cd9b5575",
+      "pixels": {
+        "dynamic": 361,
+        "boundary": 605,
+        "static": 336798,
+        "teacher_inconsistent": 5573
+      },
+      "rgb_sha256": "a31d319406fdb61369b4397c71f77f7e722e4e13e937dd7e7ba309fab8fe1105"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 88,
+      "target": 89,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0088.npz",
+      "sha256": "a35aec9aa1f226bc3ddc94889c60cdf0febf76093b5ed9b6861f8b1e57c99ae3",
+      "pixels": {
+        "dynamic": 635,
+        "boundary": 1017,
+        "static": 338680,
+        "teacher_inconsistent": 3417
+      },
+      "rgb_sha256": "9c01dc2f1d045d3c36672f4978adf6872810129b13e1e31a4bb9cac162cafe20"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 89,
+      "target": 88,
+      "path": "cache\\phase05_eval_regions\\dev\\cut_roasted_beef\\0089.npz",
+      "sha256": "3d036abd35430f099e58974813ba2f40fa9482e7aed2451c2465c84bc9a578c3",
+      "pixels": {
+        "dynamic": 913,
+        "boundary": 1215,
+        "static": 337813,
+        "teacher_inconsistent": 4006
+      },
+      "rgb_sha256": "63332d497cd3e8893b4578b7bbe5d18a78726de80ba426b83d694d39df0d4788"
+    }
+  ],
+  "teacher_sha256": "d306e7d75428bf943f7c6f163c05df60c9a808964e757c3d26c29b539a4a9bac",
+  "teacher_config_sha256": "32e1413055eecf506c92fe6cdcffcd5179694e22e66f558fa93a766d1a95d1d8",
+  "teacher_code_sha256": "298a074f865395d2d61e1eaed10b051c3af67ed09d69e01a0deefaac9b793fb2",
+  "protocol_sha256": "34b5551d6e8639f94ddf83129f6162a95f98c3141637e013e1e5bbe7a503179d",
+  "seconds": 12.277125999999953,
+  "peak_allocated": 163402752,
+  "scope": "cam01 only, evaluation-only teacher proxy; no test camera access or use by training"
+}
