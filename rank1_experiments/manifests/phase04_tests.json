@@ -44,6 +44,11 @@
       "expected": 15.453960599676726
     },
     {
+      "name": "negative_nll_is_preserved",
+      "status": "PASS",
+      "value": -2.7470905780792236
+    },
+    {
       "name": "clone_split_prune_reorder_uid",
       "status": "PASS",
       "mapping": [
@@ -63,9 +68,32 @@
       "name": "translation_camera_projection_direction_source_grid",
       "status": "PASS",
       "forward": [
-        2.0,
-        0.8660253882408142
+        1.999999900000006,
+        0.8660253449395476
       ]
+    },
+    {
+      "name": "extrinsics_camera_depth_and_perspective_motion",
+      "status": "PASS",
+      "rotated_delta": [
+        -1.999999900000006,
+        0.0
+      ],
+      "depth_translation_exact_delta": [
+        -1.3333332222222296,
+        -0.5773502107146911
+      ],
+      "linear_vector_xy_for_pure_z": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "world_geometry_finite_difference_and_source_detach",
+      "status": "PASS",
+      "max_absolute_error": 5.896314547726433e-10,
+      "target_gradient_norm": 1.6843525753024182,
+      "source_gradient": null
     },
     {
       "name": "non_square_resize_and_reference_units",
@@ -83,6 +111,18 @@
           ]
         ]
       ]
+    },
+    {
+      "name": "source_grid_translated_footprint",
+      "status": "PASS",
+      "source_pixel_has_uid": true,
+      "target_same_pixel_has_uid": false
+    },
+    {
+      "name": "outlier_can_swallow_motion_gradient",
+      "status": "PASS",
+      "outlier_posterior": 1.0,
+      "gradient_norm": 0.0
     },
     {
       "name": "disappearance_and_disocclusion",
@@ -346,6 +386,16 @@
       "status": "PASS",
       "output_error": 0.0,
       "gradient_error": 1.4901161193847656e-08
+    },
+    {
+      "name": "empty_target_fixed_score_and_reason",
+      "status": "PASS",
+      "pixels": 209,
+      "nll": 15.453961372375488,
+      "reason": {
+        "empty_source": 0,
+        "no_target_identity": 209
+      }
     },
     {
       "name": "gpu",

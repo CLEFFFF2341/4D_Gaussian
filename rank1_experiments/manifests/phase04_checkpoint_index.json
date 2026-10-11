@@ -1,0 +1,390 @@
+[
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\F0\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421491826,
+    "sha256": "9eba049de61a3777efb1ebb1d30ee2f151f66674451cccda017149c0b44866ef",
+    "method": "F0",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\F0\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 442935162,
+    "sha256": "6e33501e9f61349042fc1370ad8be4d7964b75d7fcffd4c8afb46947d602200f",
+    "method": "F0",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\B1\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421491890,
+    "sha256": "0c4a28ef84cddd547b5058f88de81d925cbf75689b21ee97d7f432eb09bb7081",
+    "method": "B1",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\B1\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 442935226,
+    "sha256": "33044661177b157701689d445375433273eeda20259ad5dd6cb5825decee67d2",
+    "method": "B1",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\B2\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421491890,
+    "sha256": "05461c67a1f35d1f7b43195482ed54c21f98a779ce823983f8a3978e676025c8",
+    "method": "B2",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\B2\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 442935226,
+    "sha256": "54ba4874c8f9da80b43c3d84ca3e44f4d01ffd448e7b569e3f1e0aa8e21e196f",
+    "method": "B2",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\H\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421491890,
+    "sha256": "19e954063a847131d6954b1f68046d25c70dbe8304a507db25b94df1ca193b0b",
+    "method": "H",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\H\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 442935226,
+    "sha256": "63c12abb61285443c730cc5b736defba7ee7829f99e51a312d8c778ab6c2d40a",
+    "method": "H",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\M\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421491890,
+    "sha256": "d2bb5c318cf2ee3beb431bcf7601fe225d539939ac4f5d770b75c7738f297f2c",
+    "method": "M",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\coffee_martini\\M\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 442935226,
+    "sha256": "71d1aa1ed85d630664b8c115c117c037ead74d934426f6bf161dcbe49c442d38",
+    "method": "M",
+    "scene": "coffee_martini",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\F0\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297389818,
+    "sha256": "2c33174295a46e3a6ab23c6b1b3351994cf9a62a986ddb5782c42e43c50a3eae",
+    "method": "F0",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\F0\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310397946,
+    "sha256": "cccf0dad38a85f42dae89009e2313afe5f88618c05a6db57922aa1722cfa25dc",
+    "method": "F0",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\B1\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297389882,
+    "sha256": "bd3c00bf37c1b9a50c568757bc6bf892618f5c2fb63db0f11337da37bdab56ee",
+    "method": "B1",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\B1\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310397946,
+    "sha256": "444277781f170012e747c5ca97fe37647eaa079264ffd86ce85218356b26b4e8",
+    "method": "B1",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\B2\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297389882,
+    "sha256": "a51fa1f3007e4d085dd362f59a696395435f6b05f199710ffc32c99b911cef64",
+    "method": "B2",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\B2\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310397946,
+    "sha256": "357a8e7d1491bd3701383eef3cd7e9f1eede402f1dcc6ebc8ac36a9865a57c90",
+    "method": "B2",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\H\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297389882,
+    "sha256": "dd73569cf141fda93a52b68308842424df3d95b3c4189b1d4a2e611044745209",
+    "method": "H",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\H\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310397946,
+    "sha256": "9f35d77d9a76110039fb2a6374873b07bdca63c212e2b265156e90b628c74d72",
+    "method": "H",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\M\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297389882,
+    "sha256": "ec48dea3112eb3d918b0419829d8e4d48b9a80cc820f9a805d77e245db037b88",
+    "method": "M",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\frozen\\cut_roasted_beef\\M\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310397946,
+    "sha256": "b74b93465323a47279c6beb998555077afb145c5788fc6d45df32e7d62d2ed34",
+    "method": "M",
+    "scene": "cut_roasted_beef",
+    "topology": "frozen"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\F0\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421823990,
+    "sha256": "42bbec6096f4387f06e7f8c45735f37a328e0d859d4c550834ec0131ce3f1a21",
+    "method": "F0",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\F0\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 443266298,
+    "sha256": "a33aef66a747821651d50bab56100005429a4582ac2a23e88a6667db7d65c04e",
+    "method": "F0",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\B1\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421823990,
+    "sha256": "222bab8705ca185c07fea61d8c1131595e09086f8dedb36ddf138c8768be75a1",
+    "method": "B1",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\B1\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 443266362,
+    "sha256": "1b43fda5243f402077b8583d19f96e903efd6ba668c97ae4aa3b8375e2534efa",
+    "method": "B1",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\B2\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421823990,
+    "sha256": "70b10c64033c20fc0760f92951cecc559b6323a5980f54f5ee4f5bb1f7d3c1e3",
+    "method": "B2",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\B2\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 443266362,
+    "sha256": "72aabf7fa5b8142debc681dbc0b85d3f05649ab02fe2d0729777cf1cca580837",
+    "method": "B2",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\H\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421823990,
+    "sha256": "b7aa0bda4f8d380fbf4b7ac44b282b6bc978b4114eec17c886861c9aa5587557",
+    "method": "H",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\H\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 443266362,
+    "sha256": "c6001d9d09976cb006fe3605afd016c1d888adaa14b3ab76fb2106e31e0e8270",
+    "method": "H",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\M\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421823990,
+    "sha256": "9233a283a50bf7e294fa86c32803fb006f8148f27c035c95fcb2a071ce54fa47",
+    "method": "M",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\coffee_martini\\M\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 443266362,
+    "sha256": "7150e7ee607d9a1726610bebeab2e85de63f2ce471e43576cf1fa0ca7aefd889",
+    "method": "M",
+    "scene": "coffee_martini",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\F0\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297607166,
+    "sha256": "609d6883bf189d3fa551499a6096244c0da7c8e650718f8a212fd32f0244d204",
+    "method": "F0",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\F0\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310647610,
+    "sha256": "a73c89650c29b773bf5cd96b579a5949c644b0a2fa65239944f1b6f54f06ff84",
+    "method": "F0",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\B1\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297607230,
+    "sha256": "2b33948383449b5bbbe213a1fa60a5e21adb497df8fb0865f1332169c57af4b0",
+    "method": "B1",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\B1\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310668794,
+    "sha256": "8712071210cef2fa1c32abb5bbdfce2f7aae71e1951a3dc879071ae8e1e6db68",
+    "method": "B1",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\B2\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297606462,
+    "sha256": "db4b15225a3a638f9f4ccceadb5ddb5b0fd5ab706aac62020809f44a9b252ebe",
+    "method": "B2",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\B2\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310655034,
+    "sha256": "95254a294ee92c29e330760d9e49510129333ae4471445399849f4a6d875a59a",
+    "method": "B2",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\H\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297605758,
+    "sha256": "6f8899d5e65f34027e1356d33a3c9ea8f51fc4c338262bb34e93bfcea6579943",
+    "method": "H",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\H\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310670202,
+    "sha256": "9e11c5cbd996b0e7306b7acb967e28bdd85395af20c412fbe021c352e3439cfb",
+    "method": "H",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\M\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 297605694,
+    "sha256": "e52004bcd44c31a696f57f73727b28e17bc8b1fdd0dd110e25addc81502be9f4",
+    "method": "M",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\native\\cut_roasted_beef\\M\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 310633338,
+    "sha256": "c82a5868446ea54724ad689fbb2bc6f910a55bcd61712dd7dad8625853b48836",
+    "method": "M",
+    "scene": "cut_roasted_beef",
+    "topology": "native"
+  },
+  {
+    "path": "runs\\phase04\\resume\\coffee_martini\\repeat\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 443266490,
+    "sha256": "10122f216c7fd8a24c67a84bf63f5e904e1e921c917a66da246c886087def181",
+    "role": "resume_repeat_diagnostic"
+  },
+  {
+    "path": "runs\\phase04\\resume\\coffee_martini\\resume\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 443266490,
+    "sha256": "6512dd6c230c860178ccc6b1bf689ec9c0a4380f14cba9b9f04326eaaeee9284",
+    "role": "resume_repeat_diagnostic"
+  },
+  {
+    "path": "runs\\phase04_versions\\v2\\frozen_coffee_martini_B1\\checkpoints\\frame_0002.pt",
+    "frame": 2,
+    "bytes": 421491890,
+    "sha256": "f955cc7f10b78d7a648c01d54ece708b7322bac7357f2159c04fecf7a1f121b3",
+    "role": "superseded_engineering_version"
+  },
+  {
+    "path": "runs\\phase04_versions\\v2\\frozen_coffee_martini_B1\\checkpoints\\latest.pt",
+    "frame": 4,
+    "bytes": 442935226,
+    "sha256": "64dee9486d51b085de1d62cbb55d5fd44d719ad4d91c5f4fce55b94f0f43d5cc",
+    "role": "superseded_engineering_version"
+  }
+]

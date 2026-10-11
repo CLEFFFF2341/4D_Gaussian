@@ -1,0 +1,8 @@
+[
+  {
+    "original_path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\phase04\\frozen\\coffee_martini\\B1",
+    "retained_path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\phase04_versions\\v2\\frozen_coffee_martini_B1",
+    "git_commit": "59c12ac",
+    "reason": "Started before exact pinned w+1e-7 projection denominator correction; engineering history excluded from final comparison"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "frames": [
+    4,
+    4,
+    4
+  ],
+  "points": [
+    335059,
+    335059,
+    335059
+  ],
+  "retained_lambda": [
+    0.012236513971955914,
+    0.012236513971955914,
+    0.012236513971955914
+  ],
+  "uid_unique": true,
+  "actual_offset_optimizer_identity": true,
+  "render_comparisons": [
+    {
+      "camera": "cam02",
+      "resume_mae": 0.0020215953700244427,
+      "repeat_mae": 0.0018837464740499854,
+      "tolerance": 0.003767492948099971,
+      "abs_max": 0.26838481426239014
+    },
+    {
+      "camera": "cam06",
+      "resume_mae": 0.0015716510824859142,
+      "repeat_mae": 0.0015125598292797804,
+      "tolerance": 0.0030251196585595608,
+      "abs_max": 0.19707134366035461
+    },
+    {
+      "camera": "cam10",
+      "resume_mae": 0.0018967752112075686,
+      "repeat_mae": 0.001671305508352816,
+      "tolerance": 0.003342611016705632,
+      "abs_max": 0.2106398344039917
+    },
+    {
+      "camera": "cam16",
+      "resume_mae": 0.0015252152225002646,
+      "repeat_mae": 0.0015525256749242544,
+      "tolerance": 0.003105051349848509,
+      "abs_max": 0.20828977227210999
+    }
+  ],
+  "bitwise_determinism_claimed": false
+}

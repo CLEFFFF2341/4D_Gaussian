@@ -21,8 +21,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012028037018799e-06,
       "responsibility_entropy": 1.8606769638172636,
-      "export_seconds": 0.4771418000000267,
-      "peak_allocated": 775495168
+      "export_seconds": 0.47176430000035907,
+      "peak_allocated": 775057920
     },
     {
       "scene": "coffee_martini",
@@ -44,8 +44,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012028037018799e-06,
       "responsibility_entropy": 1.8606769638172636,
-      "export_seconds": 0.4771418000000267,
-      "peak_allocated": 883804160
+      "export_seconds": 0.47176430000035907,
+      "peak_allocated": 884272640
     },
     {
       "scene": "coffee_martini",
@@ -67,8 +67,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012028037018799e-06,
       "responsibility_entropy": 1.8606769638172636,
-      "export_seconds": 0.4771418000000267,
-      "peak_allocated": 893586944
+      "export_seconds": 0.47176430000035907,
+      "peak_allocated": 892713472
     },
     {
       "scene": "coffee_martini",
@@ -90,8 +90,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012028037018799e-06,
       "responsibility_entropy": 1.8606769638172636,
-      "export_seconds": 0.4771418000000267,
-      "peak_allocated": 916476416
+      "export_seconds": 0.47176430000035907,
+      "peak_allocated": 914439168
     },
     {
       "scene": "coffee_martini",
@@ -113,8 +113,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.01202786301854e-06,
       "responsibility_entropy": 2.7623034109111546,
-      "export_seconds": 0.0228357999999389,
-      "peak_allocated": 1414130176
+      "export_seconds": 0.02192830000012691,
+      "peak_allocated": 1412678144
     },
     {
       "scene": "coffee_martini",
@@ -136,8 +136,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.01202786301854e-06,
       "responsibility_entropy": 2.7623034109111546,
-      "export_seconds": 0.0228357999999389,
-      "peak_allocated": 1623062016
+      "export_seconds": 0.02192830000012691,
+      "peak_allocated": 1622352384
     },
     {
       "scene": "coffee_martini",
@@ -159,8 +159,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.01202786301854e-06,
       "responsibility_entropy": 2.7623034109111546,
-      "export_seconds": 0.0228357999999389,
-      "peak_allocated": 1664393728
+      "export_seconds": 0.02192830000012691,
+      "peak_allocated": 1663506432
     },
     {
       "scene": "coffee_martini",
@@ -182,8 +182,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.01202786301854e-06,
       "responsibility_entropy": 2.7623034109111546,
-      "export_seconds": 0.0228357999999389,
-      "peak_allocated": 1752138752
+      "export_seconds": 0.02192830000012691,
+      "peak_allocated": 1748252160
     },
     {
       "scene": "coffee_martini",
@@ -205,8 +205,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012027824068948e-06,
       "responsibility_entropy": 2.9044587564982014,
-      "export_seconds": 0.16078340000012759,
-      "peak_allocated": 2340520960
+      "export_seconds": 0.15717859999995198,
+      "peak_allocated": 2337958912
     },
     {
       "scene": "coffee_martini",
@@ -228,8 +228,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012027824068948e-06,
       "responsibility_entropy": 2.9044587564982014,
-      "export_seconds": 0.16078340000012759,
-      "peak_allocated": 2560225280
+      "export_seconds": 0.15717859999995198,
+      "peak_allocated": 2559925248
     },
     {
       "scene": "coffee_martini",
@@ -251,8 +251,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012027824068948e-06,
       "responsibility_entropy": 2.9044587564982014,
-      "export_seconds": 0.16078340000012759,
-      "peak_allocated": 2648055808
+      "export_seconds": 0.15717859999995198,
+      "peak_allocated": 2646525952
     },
     {
       "scene": "coffee_martini",
@@ -274,16 +274,16 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.012027824068948e-06,
       "responsibility_entropy": 2.9044587564982014,
-      "export_seconds": 0.16078340000012759,
-      "peak_allocated": 2817873920
+      "export_seconds": 0.15717859999995198,
+      "peak_allocated": 2817194496
     },
     {
       "scene": "coffee_martini",
       "camera": "cam02",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 8.984102350950707e-10,
-      "rgb_gradient_norm": 0.0023152180947363377,
+      "rgb_gradient_max_error": 2.4958808353403583e-09,
+      "rgb_gradient_norm": 0.0023152183275669813,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
     },
@@ -307,8 +307,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.008932776388262e-06,
       "responsibility_entropy": 1.921165783298789,
-      "export_seconds": 0.0035173999999642547,
-      "peak_allocated": 792544768
+      "export_seconds": 0.0038885000003574532,
+      "peak_allocated": 791872000
     },
     {
       "scene": "coffee_martini",
@@ -330,8 +330,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.008932776388262e-06,
       "responsibility_entropy": 1.921165783298789,
-      "export_seconds": 0.0035173999999642547,
-      "peak_allocated": 892985344
+      "export_seconds": 0.0038885000003574532,
+      "peak_allocated": 891175424
     },
     {
       "scene": "coffee_martini",
@@ -353,8 +353,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.008932776388262e-06,
       "responsibility_entropy": 1.921165783298789,
-      "export_seconds": 0.0035173999999642547,
-      "peak_allocated": 902665728
+      "export_seconds": 0.0038885000003574532,
+      "peak_allocated": 901944320
     },
     {
       "scene": "coffee_martini",
@@ -376,8 +376,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.008932776388262e-06,
       "responsibility_entropy": 1.921165783298789,
-      "export_seconds": 0.0035173999999642547,
-      "peak_allocated": 924100096
+      "export_seconds": 0.0038885000003574532,
+      "peak_allocated": 924960256
     },
     {
       "scene": "coffee_martini",
@@ -399,8 +399,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.0089326021192105e-06,
       "responsibility_entropy": 2.9437678480519054,
-      "export_seconds": 0.019860999999764317,
-      "peak_allocated": 1424343552
+      "export_seconds": 0.018904500000189728,
+      "peak_allocated": 1423312384
     },
     {
       "scene": "coffee_martini",
@@ -422,8 +422,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.0089326021192105e-06,
       "responsibility_entropy": 2.9437678480519054,
-      "export_seconds": 0.019860999999764317,
-      "peak_allocated": 1631382528
+      "export_seconds": 0.018904500000189728,
+      "peak_allocated": 1630676480
     },
     {
       "scene": "coffee_martini",
@@ -445,8 +445,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.0089326021192105e-06,
       "responsibility_entropy": 2.9437678480519054,
-      "export_seconds": 0.019860999999764317,
-      "peak_allocated": 1672776192
+      "export_seconds": 0.018904500000189728,
+      "peak_allocated": 1673547264
     },
     {
       "scene": "coffee_martini",
@@ -468,8 +468,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.0089326021192105e-06,
       "responsibility_entropy": 2.9437678480519054,
-      "export_seconds": 0.019860999999764317,
-      "peak_allocated": 1757260288
+      "export_seconds": 0.018904500000189728,
+      "peak_allocated": 1755641344
     },
     {
       "scene": "coffee_martini",
@@ -491,8 +491,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.00893264580018e-06,
       "responsibility_entropy": 3.1455938251085453,
-      "export_seconds": 0.17765259999987393,
-      "peak_allocated": 2345788416
+      "export_seconds": 0.16887729999962175,
+      "peak_allocated": 2342368256
     },
     {
       "scene": "coffee_martini",
@@ -514,8 +514,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.00893264580018e-06,
       "responsibility_entropy": 3.1455938251085453,
-      "export_seconds": 0.17765259999987393,
-      "peak_allocated": 2569683456
+      "export_seconds": 0.16887729999962175,
+      "peak_allocated": 2566356480
     },
     {
       "scene": "coffee_martini",
@@ -537,8 +537,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.00893264580018e-06,
       "responsibility_entropy": 3.1455938251085453,
-      "export_seconds": 0.17765259999987393,
-      "peak_allocated": 2658715648
+      "export_seconds": 0.16887729999962175,
+      "peak_allocated": 2654168576
     },
     {
       "scene": "coffee_martini",
@@ -560,15 +560,15 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.00893264580018e-06,
       "responsibility_entropy": 3.1455938251085453,
-      "export_seconds": 0.17765259999987393,
-      "peak_allocated": 2829842432
+      "export_seconds": 0.16887729999962175,
+      "peak_allocated": 2825565696
     },
     {
       "scene": "coffee_martini",
       "camera": "cam06",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 5.500816513404061e-08,
+      "rgb_gradient_max_error": 2.2813303246493888e-08,
       "rgb_gradient_norm": 0.0021046947222203016,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
@@ -593,8 +593,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031933066702167e-06,
       "responsibility_entropy": 1.8761678091846397,
-      "export_seconds": 0.0038094000001365202,
-      "peak_allocated": 793700352
+      "export_seconds": 0.004179899999599002,
+      "peak_allocated": 790755840
     },
     {
       "scene": "coffee_martini",
@@ -616,8 +616,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031933066702167e-06,
       "responsibility_entropy": 1.8761678091846397,
-      "export_seconds": 0.0038094000001365202,
-      "peak_allocated": 891759104
+      "export_seconds": 0.004179899999599002,
+      "peak_allocated": 890778112
     },
     {
       "scene": "coffee_martini",
@@ -639,8 +639,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031933066702167e-06,
       "responsibility_entropy": 1.8761678091846397,
-      "export_seconds": 0.0038094000001365202,
-      "peak_allocated": 901510144
+      "export_seconds": 0.004179899999599002,
+      "peak_allocated": 900090368
     },
     {
       "scene": "coffee_martini",
@@ -662,8 +662,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031933066702167e-06,
       "responsibility_entropy": 1.8761678091846397,
-      "export_seconds": 0.0038094000001365202,
-      "peak_allocated": 924215808
+      "export_seconds": 0.004179899999599002,
+      "peak_allocated": 923169792
     },
     {
       "scene": "coffee_martini",
@@ -685,8 +685,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.03193297924767e-06,
       "responsibility_entropy": 2.8113954894852404,
-      "export_seconds": 0.020532399999865447,
-      "peak_allocated": 1422973952
+      "export_seconds": 0.019001599999683094,
+      "peak_allocated": 1421136896
     },
     {
       "scene": "coffee_martini",
@@ -708,8 +708,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.03193297924767e-06,
       "responsibility_entropy": 2.8113954894852404,
-      "export_seconds": 0.020532399999865447,
-      "peak_allocated": 1632182784
+      "export_seconds": 0.019001599999683094,
+      "peak_allocated": 1628689920
     },
     {
       "scene": "coffee_martini",
@@ -731,8 +731,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.03193297924767e-06,
       "responsibility_entropy": 2.8113954894852404,
-      "export_seconds": 0.020532399999865447,
-      "peak_allocated": 1674757120
+      "export_seconds": 0.019001599999683094,
+      "peak_allocated": 1671157248
     },
     {
       "scene": "coffee_martini",
@@ -754,8 +754,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.03193297924767e-06,
       "responsibility_entropy": 2.8113954894852404,
-      "export_seconds": 0.020532399999865447,
-      "peak_allocated": 1760144896
+      "export_seconds": 0.019001599999683094,
+      "peak_allocated": 1756855296
     },
     {
       "scene": "coffee_martini",
@@ -777,8 +777,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031932979347893e-06,
       "responsibility_entropy": 2.9866415263301227,
-      "export_seconds": 0.17367819999981293,
-      "peak_allocated": 2348380160
+      "export_seconds": 0.16503469999997833,
+      "peak_allocated": 2343057408
     },
     {
       "scene": "coffee_martini",
@@ -800,8 +800,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031932979347893e-06,
       "responsibility_entropy": 2.9866415263301227,
-      "export_seconds": 0.17367819999981293,
-      "peak_allocated": 2570479616
+      "export_seconds": 0.16503469999997833,
+      "peak_allocated": 2563556864
     },
     {
       "scene": "coffee_martini",
@@ -823,8 +823,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031932979347893e-06,
       "responsibility_entropy": 2.9866415263301227,
-      "export_seconds": 0.17367819999981293,
-      "peak_allocated": 2654971904
+      "export_seconds": 0.16503469999997833,
+      "peak_allocated": 2652957184
     },
     {
       "scene": "coffee_martini",
@@ -846,15 +846,15 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.031932979347893e-06,
       "responsibility_entropy": 2.9866415263301227,
-      "export_seconds": 0.17367819999981293,
-      "peak_allocated": 2826189312
+      "export_seconds": 0.16503469999997833,
+      "peak_allocated": 2826326016
     },
     {
       "scene": "coffee_martini",
       "camera": "cam10",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 1.15795728561352e-09,
+      "rgb_gradient_max_error": 9.086420504900161e-10,
       "rgb_gradient_norm": 0.00256912293843925,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
@@ -879,8 +879,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 1.9028961137761582,
-      "export_seconds": 0.0036229000002094836,
-      "peak_allocated": 791873536
+      "export_seconds": 0.0037625999998454063,
+      "peak_allocated": 791218176
     },
     {
       "scene": "coffee_martini",
@@ -902,8 +902,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 1.9028961137761582,
-      "export_seconds": 0.0036229000002094836,
-      "peak_allocated": 891620352
+      "export_seconds": 0.0037625999998454063,
+      "peak_allocated": 891445248
     },
     {
       "scene": "coffee_martini",
@@ -925,8 +925,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 1.9028961137761582,
-      "export_seconds": 0.0036229000002094836,
-      "peak_allocated": 902199296
+      "export_seconds": 0.0037625999998454063,
+      "peak_allocated": 902999552
     },
     {
       "scene": "coffee_martini",
@@ -948,8 +948,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 1.9028961137761582,
-      "export_seconds": 0.0036229000002094836,
-      "peak_allocated": 924047872
+      "export_seconds": 0.0037625999998454063,
+      "peak_allocated": 923129344
     },
     {
       "scene": "coffee_martini",
@@ -971,8 +971,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 2.8928469680646836,
-      "export_seconds": 0.02095320000034917,
-      "peak_allocated": 1420631040
+      "export_seconds": 0.01948080000011032,
+      "peak_allocated": 1419382784
     },
     {
       "scene": "coffee_martini",
@@ -994,8 +994,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 2.8928469680646836,
-      "export_seconds": 0.02095320000034917,
-      "peak_allocated": 1630596608
+      "export_seconds": 0.01948080000011032,
+      "peak_allocated": 1632135680
     },
     {
       "scene": "coffee_martini",
@@ -1017,8 +1017,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 2.8928469680646836,
-      "export_seconds": 0.02095320000034917,
-      "peak_allocated": 1671990272
+      "export_seconds": 0.01948080000011032,
+      "peak_allocated": 1672596992
     },
     {
       "scene": "coffee_martini",
@@ -1040,8 +1040,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073488693404e-06,
       "responsibility_entropy": 2.8928469680646836,
-      "export_seconds": 0.02095320000034917,
-      "peak_allocated": 1756580352
+      "export_seconds": 0.01948080000011032,
+      "peak_allocated": 1757870080
     },
     {
       "scene": "coffee_martini",
@@ -1063,8 +1063,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073445119302e-06,
       "responsibility_entropy": 3.083289813481564,
-      "export_seconds": 0.1914774000001671,
-      "peak_allocated": 2343565312
+      "export_seconds": 0.16886190000013812,
+      "peak_allocated": 2344060416
     },
     {
       "scene": "coffee_martini",
@@ -1086,8 +1086,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073445119302e-06,
       "responsibility_entropy": 3.083289813481564,
-      "export_seconds": 0.1914774000001671,
-      "peak_allocated": 2567941632
+      "export_seconds": 0.16886190000013812,
+      "peak_allocated": 2567076352
     },
     {
       "scene": "coffee_martini",
@@ -1109,8 +1109,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073445119302e-06,
       "responsibility_entropy": 3.083289813481564,
-      "export_seconds": 0.1914774000001671,
-      "peak_allocated": 2657404416
+      "export_seconds": 0.16886190000013812,
+      "peak_allocated": 2655184896
     },
     {
       "scene": "coffee_martini",
@@ -1132,15 +1132,15 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 5.001073445119302e-06,
       "responsibility_entropy": 3.083289813481564,
-      "export_seconds": 0.1914774000001671,
-      "peak_allocated": 2828941824
+      "export_seconds": 0.16886190000013812,
+      "peak_allocated": 2825249280
     },
     {
       "scene": "coffee_martini",
       "camera": "cam16",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 8.003553375601768e-11,
+      "rgb_gradient_max_error": 8.731149137020111e-11,
       "rgb_gradient_norm": 0.0020352450665086508,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
@@ -1165,8 +1165,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334175890883e-06,
       "responsibility_entropy": 1.9082787908773606,
-      "export_seconds": 0.004668500000207132,
-      "peak_allocated": 592331264
+      "export_seconds": 0.004861099999743601,
+      "peak_allocated": 592309760
     },
     {
       "scene": "cut_roasted_beef",
@@ -1188,8 +1188,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334175890883e-06,
       "responsibility_entropy": 1.9082787908773606,
-      "export_seconds": 0.004668500000207132,
-      "peak_allocated": 686345728
+      "export_seconds": 0.004861099999743601,
+      "peak_allocated": 686324224
     },
     {
       "scene": "cut_roasted_beef",
@@ -1198,9 +1198,9 @@
       "method": "H",
       "loss": 4.5571722984313965,
       "gradients": {
-        "norm": 0.005601461705434081,
-        "xyz_norm": 0.003960831556469202,
-        "offset_norm": 0.003960831556469202,
+        "norm": 0.005601461046889573,
+        "xyz_norm": 0.003960831090807915,
+        "offset_norm": 0.003960831090807915,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1211,8 +1211,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334175890883e-06,
       "responsibility_entropy": 1.9082787908773606,
-      "export_seconds": 0.004668500000207132,
-      "peak_allocated": 697814528
+      "export_seconds": 0.004861099999743601,
+      "peak_allocated": 697793024
     },
     {
       "scene": "cut_roasted_beef",
@@ -1221,9 +1221,9 @@
       "method": "M",
       "loss": 3.2449347972869873,
       "gradients": {
-        "norm": 0.0032235177439309624,
-        "xyz_norm": 0.0022793712560087442,
-        "offset_norm": 0.0022793712560087442,
+        "norm": 0.0032235174146587084,
+        "xyz_norm": 0.0022793710231781006,
+        "offset_norm": 0.0022793710231781006,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1234,7 +1234,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334175890883e-06,
       "responsibility_entropy": 1.9082787908773606,
-      "export_seconds": 0.004668500000207132,
+      "export_seconds": 0.004861099999743601,
       "peak_allocated": 719277568
     },
     {
@@ -1244,9 +1244,9 @@
       "method": "B1",
       "loss": 0.03367117419838905,
       "gradients": {
-        "norm": 0.14450709771152853,
-        "xyz_norm": 0.10218194872140884,
-        "offset_norm": 0.10218194872140884,
+        "norm": 0.1445070871748164,
+        "xyz_norm": 0.10218194127082825,
+        "offset_norm": 0.10218194127082825,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1257,7 +1257,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334089158148e-06,
       "responsibility_entropy": 2.8885963527142895,
-      "export_seconds": 0.01880200000005061,
+      "export_seconds": 0.018756800000119256,
       "peak_allocated": 1214921728
     },
     {
@@ -1267,9 +1267,9 @@
       "method": "B2",
       "loss": 3.2449347972869873,
       "gradients": {
-        "norm": 0.002560961547441739,
-        "xyz_norm": 0.001810873276554048,
-        "offset_norm": 0.001810873276554048,
+        "norm": 0.002560961218169485,
+        "xyz_norm": 0.0018108730437234044,
+        "offset_norm": 0.0018108730437234044,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1280,8 +1280,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334089158148e-06,
       "responsibility_entropy": 2.8885963527142895,
-      "export_seconds": 0.01880200000005061,
-      "peak_allocated": 1423376384
+      "export_seconds": 0.018756800000119256,
+      "peak_allocated": 1423354880
     },
     {
       "scene": "cut_roasted_beef",
@@ -1290,9 +1290,9 @@
       "method": "H",
       "loss": 4.997837066650391,
       "gradients": {
-        "norm": 0.005601461705434081,
-        "xyz_norm": 0.003960831556469202,
-        "offset_norm": 0.003960831556469202,
+        "norm": 0.005601461046889573,
+        "xyz_norm": 0.003960831090807915,
+        "offset_norm": 0.003960831090807915,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1303,8 +1303,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334089158148e-06,
       "responsibility_entropy": 2.8885963527142895,
-      "export_seconds": 0.01880200000005061,
-      "peak_allocated": 1465932800
+      "export_seconds": 0.018756800000119256,
+      "peak_allocated": 1465911296
     },
     {
       "scene": "cut_roasted_beef",
@@ -1313,9 +1313,9 @@
       "method": "M",
       "loss": 3.2449347972869873,
       "gradients": {
-        "norm": 0.002560961547441739,
-        "xyz_norm": 0.001810873276554048,
-        "offset_norm": 0.001810873276554048,
+        "norm": 0.002560961218169485,
+        "xyz_norm": 0.0018108730437234044,
+        "offset_norm": 0.0018108730437234044,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1326,8 +1326,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.985334089158148e-06,
       "responsibility_entropy": 2.8885963527142895,
-      "export_seconds": 0.01880200000005061,
-      "peak_allocated": 1551397888
+      "export_seconds": 0.018756800000119256,
+      "peak_allocated": 1551376384
     },
     {
       "scene": "cut_roasted_beef",
@@ -1336,9 +1336,9 @@
       "method": "B1",
       "loss": 0.03367117419838905,
       "gradients": {
-        "norm": 0.13487130608086176,
-        "xyz_norm": 0.0953684151172638,
-        "offset_norm": 0.0953684151172638,
+        "norm": 0.13487129554414964,
+        "xyz_norm": 0.0953684076666832,
+        "offset_norm": 0.0953684076666832,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1349,8 +1349,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9853340891608285e-06,
       "responsibility_entropy": 3.091398042503348,
-      "export_seconds": 0.14666529999976774,
-      "peak_allocated": 2138142208
+      "export_seconds": 0.14049699999986842,
+      "peak_allocated": 2137178624
     },
     {
       "scene": "cut_roasted_beef",
@@ -1372,8 +1372,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9853340891608285e-06,
       "responsibility_entropy": 3.091398042503348,
-      "export_seconds": 0.14666529999976774,
-      "peak_allocated": 2360347136
+      "export_seconds": 0.14049699999986842,
+      "peak_allocated": 2359383552
     },
     {
       "scene": "cut_roasted_beef",
@@ -1382,9 +1382,9 @@
       "method": "H",
       "loss": 5.058321952819824,
       "gradients": {
-        "norm": 0.005601461705434081,
-        "xyz_norm": 0.003960831556469202,
-        "offset_norm": 0.003960831556469202,
+        "norm": 0.005601461046889573,
+        "xyz_norm": 0.003960831090807915,
+        "offset_norm": 0.003960831090807915,
         "decoder_norms": []
       },
       "valid_pixels": 339254,
@@ -1395,8 +1395,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9853340891608285e-06,
       "responsibility_entropy": 3.091398042503348,
-      "export_seconds": 0.14666529999976774,
-      "peak_allocated": 2448208384
+      "export_seconds": 0.14049699999986842,
+      "peak_allocated": 2448186880
     },
     {
       "scene": "cut_roasted_beef",
@@ -1418,15 +1418,15 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9853340891608285e-06,
       "responsibility_entropy": 3.091398042503348,
-      "export_seconds": 0.14666529999976774,
-      "peak_allocated": 2619983360
+      "export_seconds": 0.14049699999986842,
+      "peak_allocated": 2619961856
     },
     {
       "scene": "cut_roasted_beef",
       "camera": "cam02",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 1.6946488656799374e-10,
+      "rgb_gradient_max_error": 6.479177194762542e-10,
       "rgb_gradient_norm": 0.00047401938354596496,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
@@ -1451,7 +1451,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621185517368e-06,
       "responsibility_entropy": 1.936617054725902,
-      "export_seconds": 0.0038534999998773856,
+      "export_seconds": 0.00332319999961328,
       "peak_allocated": 595452928
     },
     {
@@ -1474,7 +1474,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621185517368e-06,
       "responsibility_entropy": 1.936617054725902,
-      "export_seconds": 0.0038534999998773856,
+      "export_seconds": 0.00332319999961328,
       "peak_allocated": 689190400
     },
     {
@@ -1497,7 +1497,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621185517368e-06,
       "responsibility_entropy": 1.936617054725902,
-      "export_seconds": 0.0038534999998773856,
+      "export_seconds": 0.00332319999961328,
       "peak_allocated": 698443776
     },
     {
@@ -1520,7 +1520,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621185517368e-06,
       "responsibility_entropy": 1.936617054725902,
-      "export_seconds": 0.0038534999998773856,
+      "export_seconds": 0.00332319999961328,
       "peak_allocated": 719957504
     },
     {
@@ -1543,8 +1543,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984620991961187e-06,
       "responsibility_entropy": 2.9789902748081474,
-      "export_seconds": 0.01818009999988135,
-      "peak_allocated": 1216916480
+      "export_seconds": 0.016823500000100466,
+      "peak_allocated": 1216723456
     },
     {
       "scene": "cut_roasted_beef",
@@ -1566,8 +1566,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984620991961187e-06,
       "responsibility_entropy": 2.9789902748081474,
-      "export_seconds": 0.01818009999988135,
-      "peak_allocated": 1425947136
+      "export_seconds": 0.016823500000100466,
+      "peak_allocated": 1425907200
     },
     {
       "scene": "cut_roasted_beef",
@@ -1589,8 +1589,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984620991961187e-06,
       "responsibility_entropy": 2.9789902748081474,
-      "export_seconds": 0.01818009999988135,
-      "peak_allocated": 1469907456
+      "export_seconds": 0.016823500000100466,
+      "peak_allocated": 1469709312
     },
     {
       "scene": "cut_roasted_beef",
@@ -1612,8 +1612,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984620991961187e-06,
       "responsibility_entropy": 2.9789902748081474,
-      "export_seconds": 0.01818009999988135,
-      "peak_allocated": 1552950272
+      "export_seconds": 0.016823500000100466,
+      "peak_allocated": 1554094592
     },
     {
       "scene": "cut_roasted_beef",
@@ -1635,8 +1635,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621035505907e-06,
       "responsibility_entropy": 3.2071151781192486,
-      "export_seconds": 0.15546039999981076,
-      "peak_allocated": 2140014592
+      "export_seconds": 0.1481183000000783,
+      "peak_allocated": 2140567040
     },
     {
       "scene": "cut_roasted_beef",
@@ -1658,8 +1658,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621035505907e-06,
       "responsibility_entropy": 3.2071151781192486,
-      "export_seconds": 0.15546039999981076,
-      "peak_allocated": 2361684480
+      "export_seconds": 0.1481183000000783,
+      "peak_allocated": 2362402816
     },
     {
       "scene": "cut_roasted_beef",
@@ -1681,8 +1681,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621035505907e-06,
       "responsibility_entropy": 3.2071151781192486,
-      "export_seconds": 0.15546039999981076,
-      "peak_allocated": 2450909696
+      "export_seconds": 0.1481183000000783,
+      "peak_allocated": 2449345536
     },
     {
       "scene": "cut_roasted_beef",
@@ -1704,15 +1704,15 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984621035505907e-06,
       "responsibility_entropy": 3.2071151781192486,
-      "export_seconds": 0.15546039999981076,
-      "peak_allocated": 2623235584
+      "export_seconds": 0.1481183000000783,
+      "peak_allocated": 2622648320
     },
     {
       "scene": "cut_roasted_beef",
       "camera": "cam06",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 2.0749268969666446e-10,
+      "rgb_gradient_max_error": 1.9676349438668694e-10,
       "rgb_gradient_norm": 0.00033385519054718316,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
@@ -1724,9 +1724,9 @@
       "method": "B1",
       "loss": 0.027359502390027046,
       "gradients": {
-        "norm": 0.04071379770960693,
-        "xyz_norm": 0.02878900244832039,
-        "offset_norm": 0.02878900244832039,
+        "norm": 0.0407137950754289,
+        "xyz_norm": 0.02878900058567524,
+        "offset_norm": 0.02878900058567524,
         "decoder_norms": []
       },
       "valid_pixels": 341605,
@@ -1737,7 +1737,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995491885258e-06,
       "responsibility_entropy": 1.904689559636969,
-      "export_seconds": 0.003187499999967258,
+      "export_seconds": 0.003301799999917421,
       "peak_allocated": 597442560
     },
     {
@@ -1760,7 +1760,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995491885258e-06,
       "responsibility_entropy": 1.904689559636969,
-      "export_seconds": 0.003187499999967258,
+      "export_seconds": 0.003301799999917421,
       "peak_allocated": 692655616
     },
     {
@@ -1783,7 +1783,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995491885258e-06,
       "responsibility_entropy": 1.904689559636969,
-      "export_seconds": 0.003187499999967258,
+      "export_seconds": 0.003301799999917421,
       "peak_allocated": 702509056
     },
     {
@@ -1806,7 +1806,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995491885258e-06,
       "responsibility_entropy": 1.904689559636969,
-      "export_seconds": 0.003187499999967258,
+      "export_seconds": 0.003301799999917421,
       "peak_allocated": 723277312
     },
     {
@@ -1816,9 +1816,9 @@
       "method": "B1",
       "loss": 0.027359502390027046,
       "gradients": {
-        "norm": 0.035851792583128865,
-        "xyz_norm": 0.02535104565322399,
-        "offset_norm": 0.02535104565322399,
+        "norm": 0.03585178994895084,
+        "xyz_norm": 0.025351043790578842,
+        "offset_norm": 0.025351043790578842,
         "decoder_norms": []
       },
       "valid_pixels": 341605,
@@ -1829,7 +1829,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 2.882409461604996,
-      "export_seconds": 0.017325400000117952,
+      "export_seconds": 0.017196299999795883,
       "peak_allocated": 1218031104
     },
     {
@@ -1852,8 +1852,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 2.882409461604996,
-      "export_seconds": 0.017325400000117952,
-      "peak_allocated": 1426368000
+      "export_seconds": 0.017196299999795883,
+      "peak_allocated": 1424814080
     },
     {
       "scene": "cut_roasted_beef",
@@ -1875,8 +1875,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 2.882409461604996,
-      "export_seconds": 0.017325400000117952,
-      "peak_allocated": 1467846144
+      "export_seconds": 0.017196299999795883,
+      "peak_allocated": 1467852800
     },
     {
       "scene": "cut_roasted_beef",
@@ -1898,8 +1898,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 2.882409461604996,
-      "export_seconds": 0.017325400000117952,
-      "peak_allocated": 1551093760
+      "export_seconds": 0.017196299999795883,
+      "peak_allocated": 1552366592
     },
     {
       "scene": "cut_roasted_beef",
@@ -1908,9 +1908,9 @@
       "method": "B1",
       "loss": 0.027359502390027046,
       "gradients": {
-        "norm": 0.03497828070849437,
-        "xyz_norm": 0.02473337948322296,
-        "offset_norm": 0.02473337948322296,
+        "norm": 0.03497827807431633,
+        "xyz_norm": 0.024733377620577812,
+        "offset_norm": 0.024733377620577812,
         "decoder_norms": []
       },
       "valid_pixels": 341605,
@@ -1921,8 +1921,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 3.0672036224002643,
-      "export_seconds": 0.16672109999990425,
-      "peak_allocated": 2138160128
+      "export_seconds": 0.14918299999999363,
+      "peak_allocated": 2137836544
     },
     {
       "scene": "cut_roasted_beef",
@@ -1944,8 +1944,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 3.0672036224002643,
-      "export_seconds": 0.16672109999990425,
-      "peak_allocated": 2362231808
+      "export_seconds": 0.14918299999999363,
+      "peak_allocated": 2360432640
     },
     {
       "scene": "cut_roasted_beef",
@@ -1967,8 +1967,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 3.0672036224002643,
-      "export_seconds": 0.16672109999990425,
-      "peak_allocated": 2449411072
+      "export_seconds": 0.14918299999999363,
+      "peak_allocated": 2449104896
     },
     {
       "scene": "cut_roasted_beef",
@@ -1990,16 +1990,16 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.983995449234681e-06,
       "responsibility_entropy": 3.0672036224002643,
-      "export_seconds": 0.16672109999990425,
-      "peak_allocated": 2622608384
+      "export_seconds": 0.14918299999999363,
+      "peak_allocated": 2622190592
     },
     {
       "scene": "cut_roasted_beef",
       "camera": "cam10",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 6.558593668160029e-10,
-      "rgb_gradient_norm": 0.00036742709926329553,
+      "rgb_gradient_max_error": 4.31138857948099e-09,
+      "rgb_gradient_norm": 0.0003674270701594651,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
     },
@@ -2010,9 +2010,9 @@
       "method": "B1",
       "loss": 0.03566709905862808,
       "gradients": {
-        "norm": 0.518328728629585,
-        "xyz_norm": 0.36651375889778137,
-        "offset_norm": 0.36651375889778137,
+        "norm": 0.518328644335888,
+        "xyz_norm": 0.3665136992931366,
+        "offset_norm": 0.3665136992931366,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2023,7 +2023,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984668755114408e-06,
       "responsibility_entropy": 1.9219503484456282,
-      "export_seconds": 0.003298200000244833,
+      "export_seconds": 0.003037399999811896,
       "peak_allocated": 594877440
     },
     {
@@ -2033,9 +2033,9 @@
       "method": "B2",
       "loss": 3.244812488555908,
       "gradients": {
-        "norm": 0.004147772777811311,
-        "xyz_norm": 0.002932918258011341,
-        "offset_norm": 0.002932918258011341,
+        "norm": 0.004147772119266803,
+        "xyz_norm": 0.002932917792350054,
+        "offset_norm": 0.002932917792350054,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2046,7 +2046,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984668755114408e-06,
       "responsibility_entropy": 1.9219503484456282,
-      "export_seconds": 0.003298200000244833,
+      "export_seconds": 0.003037399999811896,
       "peak_allocated": 688862208
     },
     {
@@ -2056,9 +2056,9 @@
       "method": "H",
       "loss": 4.573024749755859,
       "gradients": {
-        "norm": 0.003356861811540827,
-        "xyz_norm": 0.002373659750446677,
-        "offset_norm": 0.002373659750446677,
+        "norm": 0.003356861482268573,
+        "xyz_norm": 0.0023736595176160336,
+        "offset_norm": 0.0023736595176160336,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2069,7 +2069,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984668755114408e-06,
       "responsibility_entropy": 1.9219503484456282,
-      "export_seconds": 0.003298200000244833,
+      "export_seconds": 0.003037399999811896,
       "peak_allocated": 699012608
     },
     {
@@ -2079,9 +2079,9 @@
       "method": "M",
       "loss": 3.244812488555908,
       "gradients": {
-        "norm": 0.004147772777811311,
-        "xyz_norm": 0.002932918258011341,
-        "offset_norm": 0.002932918258011341,
+        "norm": 0.004147772119266803,
+        "xyz_norm": 0.002932917792350054,
+        "offset_norm": 0.002932917792350054,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2092,7 +2092,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.984668755114408e-06,
       "responsibility_entropy": 1.9219503484456282,
-      "export_seconds": 0.003298200000244833,
+      "export_seconds": 0.003037399999811896,
       "peak_allocated": 719872000
     },
     {
@@ -2102,9 +2102,9 @@
       "method": "B1",
       "loss": 0.03566709905862808,
       "gradients": {
-        "norm": 0.498829742047111,
-        "xyz_norm": 0.35272589325904846,
-        "offset_norm": 0.35272589325904846,
+        "norm": 0.49882961560656547,
+        "xyz_norm": 0.3527258038520813,
+        "offset_norm": 0.3527258038520813,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2115,7 +2115,7 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 2.9341328377338605,
-      "export_seconds": 0.017362900000080117,
+      "export_seconds": 0.017192199999954028,
       "peak_allocated": 1216012288
     },
     {
@@ -2125,9 +2125,9 @@
       "method": "B2",
       "loss": 3.244812488555908,
       "gradients": {
-        "norm": 0.0039378482157294056,
-        "xyz_norm": 0.0027844791766256094,
-        "offset_norm": 0.0027844791766256094,
+        "norm": 0.003937847227912644,
+        "xyz_norm": 0.0027844784781336784,
+        "offset_norm": 0.0027844784781336784,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2138,8 +2138,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 2.9341328377338605,
-      "export_seconds": 0.017362900000080117,
-      "peak_allocated": 1425788416
+      "export_seconds": 0.017192199999954028,
+      "peak_allocated": 1425819648
     },
     {
       "scene": "cut_roasted_beef",
@@ -2148,9 +2148,9 @@
       "method": "H",
       "loss": 5.021180629730225,
       "gradients": {
-        "norm": 0.003356861811540827,
-        "xyz_norm": 0.002373659750446677,
-        "offset_norm": 0.002373659750446677,
+        "norm": 0.003356861482268573,
+        "xyz_norm": 0.0023736595176160336,
+        "offset_norm": 0.0023736595176160336,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2161,8 +2161,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 2.9341328377338605,
-      "export_seconds": 0.017362900000080117,
-      "peak_allocated": 1469761024
+      "export_seconds": 0.017192199999954028,
+      "peak_allocated": 1469792256
     },
     {
       "scene": "cut_roasted_beef",
@@ -2171,9 +2171,9 @@
       "method": "M",
       "loss": 3.244812488555908,
       "gradients": {
-        "norm": 0.00393784854500166,
-        "xyz_norm": 0.002784479409456253,
-        "offset_norm": 0.002784479409456253,
+        "norm": 0.003937847227912644,
+        "xyz_norm": 0.0027844784781336784,
+        "offset_norm": 0.0027844784781336784,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2184,8 +2184,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 2.9341328377338605,
-      "export_seconds": 0.017362900000080117,
-      "peak_allocated": 1551472640
+      "export_seconds": 0.017192199999954028,
+      "peak_allocated": 1551503872
     },
     {
       "scene": "cut_roasted_beef",
@@ -2194,9 +2194,9 @@
       "method": "B1",
       "loss": 0.03566709905862808,
       "gradients": {
-        "norm": 0.473918425766262,
-        "xyz_norm": 0.33511093258857727,
-        "offset_norm": 0.33511093258857727,
+        "norm": 0.47391834147256495,
+        "xyz_norm": 0.3351108729839325,
+        "offset_norm": 0.3351108729839325,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2207,8 +2207,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 3.152664868749829,
-      "export_seconds": 0.16072730000041702,
-      "peak_allocated": 2139646976
+      "export_seconds": 0.15314809999972567,
+      "peak_allocated": 2139678208
     },
     {
       "scene": "cut_roasted_beef",
@@ -2217,9 +2217,9 @@
       "method": "B2",
       "loss": 3.244812488555908,
       "gradients": {
-        "norm": 0.0037520392242575734,
-        "xyz_norm": 0.0026530923787504435,
-        "offset_norm": 0.0026530923787504435,
+        "norm": 0.0037520382364408114,
+        "xyz_norm": 0.0026530916802585125,
+        "offset_norm": 0.0026530916802585125,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2230,8 +2230,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 3.152664868749829,
-      "export_seconds": 0.16072730000041702,
-      "peak_allocated": 2362985984
+      "export_seconds": 0.15314809999972567,
+      "peak_allocated": 2363017216
     },
     {
       "scene": "cut_roasted_beef",
@@ -2240,9 +2240,9 @@
       "method": "H",
       "loss": 5.083675861358643,
       "gradients": {
-        "norm": 0.003356861811540827,
-        "xyz_norm": 0.002373659750446677,
-        "offset_norm": 0.002373659750446677,
+        "norm": 0.003356861482268573,
+        "xyz_norm": 0.0023736595176160336,
+        "offset_norm": 0.0023736595176160336,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2253,8 +2253,8 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 3.152664868749829,
-      "export_seconds": 0.16072730000041702,
-      "peak_allocated": 2450716160
+      "export_seconds": 0.15314809999972567,
+      "peak_allocated": 2451429376
     },
     {
       "scene": "cut_roasted_beef",
@@ -2263,9 +2263,9 @@
       "method": "M",
       "loss": 3.244812488555908,
       "gradients": {
-        "norm": 0.0037520392242575734,
-        "xyz_norm": 0.0026530923787504435,
-        "offset_norm": 0.0026530923787504435,
+        "norm": 0.0037520382364408114,
+        "xyz_norm": 0.0026530916802585125,
+        "offset_norm": 0.0026530916802585125,
         "decoder_norms": []
       },
       "valid_pixels": 341982,
@@ -2276,15 +2276,15 @@
       "geometry_mass_retention": 1.0,
       "outlier_posterior": 4.9846686681134695e-06,
       "responsibility_entropy": 3.152664868749829,
-      "export_seconds": 0.16072730000041702,
-      "peak_allocated": 2622379520
+      "export_seconds": 0.15314809999972567,
+      "peak_allocated": 2623643648
     },
     {
       "scene": "cut_roasted_beef",
       "camera": "cam15",
       "method": "F0",
       "rgb_forward_max_error": 0.0,
-      "rgb_gradient_max_error": 7.275957614183426e-11,
+      "rgb_gradient_max_error": 1.2526868431450566e-10,
       "rgb_gradient_norm": 0.0003167534596286714,
       "flow_gradient_norm": 0.0,
       "parameters_unchanged": true
