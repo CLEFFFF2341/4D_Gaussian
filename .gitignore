@@ -10,6 +10,7 @@
 !/rank1_experiments/patches/
 !/rank1_experiments/working/
 !/rank1_experiments/phase04/
+!/rank1_experiments/phase05/
 !/rank1_experiments/diagnostics/
 !/rank1_experiments/*.json
 !/rank1_experiments/*.md
@@ -33,3 +34,4 @@
 **/*.zip
 **/*.whl
 !/rank1_experiments/diagnostics/phase04/*.png
+!/rank1_experiments/diagnostics/phase05/*.png
