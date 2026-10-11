@@ -110,6 +110,12 @@ class SharedTraining:
         print('PHASE04_FLOW '+json.dumps(row), flush=True)
 
     def end_frame(self, frame):
+        from phase03_hooks import atomic_save
+        atomic_save(dict(uid=self.pc.identity.uid.detach().cpu(),
+                         parent=self.pc.identity.parent.detach().cpu(),
+                         next_uid=self.pc.identity.next_uid,
+                         topology_version=self.pc.topology_version),
+                    self.out/'identities'/f'{frame:04d}.pt')
         if self.enabled:
             # Release candidate graphs/storage before complete boundary checkpoint.
             self.candidates, self.teachers, self.source = {}, {}, None

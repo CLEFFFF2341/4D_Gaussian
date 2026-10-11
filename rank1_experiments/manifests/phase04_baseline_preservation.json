@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "phase03_lock_sha256": "b57fc005e68b8c18ed697640deea91a7b45e9432c69aa1df99e2d0bce7654d40",
+  "files_hashed": 4140,
+  "large_pt_files_present_not_rehashed": 480,
+  "errors": [],
+  "scope": "Full hashes of non-PT locked artifacts; presence and size of PT only; phase04 never writes old B0 runs/caches"
+}
