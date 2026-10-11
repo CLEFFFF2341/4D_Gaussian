@@ -2,16 +2,23 @@
   "status": "RUNNING",
   "pid": 22720,
   "started": "2026-10-11T12:17:28.649112+08:00",
-  "updated": "2026-10-11T12:20:08.712553+08:00",
+  "updated": "2026-10-11T12:22:03.122501+08:00",
   "active": {
     "scene": "coffee_martini",
     "method": "F0",
     "ratio": 0.0,
     "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\diagnostic\\coffee_martini\\F0\\r000",
-    "stage": "training"
+    "stage": "validation"
   },
-  "active_complete_frame": 48,
-  "completed": [],
+  "active_complete_frame": 90,
+  "completed": [
+    {
+      "scene": "coffee_martini",
+      "method": "F0",
+      "ratio": 0.0,
+      "run": "runs\\pilot\\diagnostic\\coffee_martini\\F0\\r000"
+    }
+  ],
   "planned_search_jobs": 24,
   "completed_search_jobs": 0,
   "scope": "seed0 search only; final three-seed gate not passed",

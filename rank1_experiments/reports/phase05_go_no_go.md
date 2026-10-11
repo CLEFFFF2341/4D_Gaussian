@@ -1,6 +1,6 @@
 # 阶段05：最小混合方法 go/no-go
 
-更新：2026-10-11T12:17:28.687052+08:00。**当前状态：RUNNING，完整90帧搜索已完成 0/24 单元，F0诊断 0/2。**
+更新：2026-10-11T12:22:03.162847+08:00。**当前状态：RUNNING，完整90帧搜索已完成 0/24 单元，F0诊断 1/2。**
 
 本报告随实际单元完成更新。未完成全部24组前不选参，不给M有效性结论。阶段04的短训不能代替阶段05成绩；阶段06尚未启动。
 
@@ -22,7 +22,7 @@ B0复用原90帧作者兼容结果，新增区域评估写到runs/pilot/referenc
 
 | 场景 | 方法 | 比例 | PSNR | SSIM | LPIPS | 边界代理PSNR | 更新与保存秒 | 峰值allocated GiB |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| 尚无完整90帧单元 | — | — | — | — | — | — | — | — |
+| coffee_martini | F0 | 0.00 | 20.9523 | 0.8219 | 0.2775 | 20.2799 | 209.1 | 1.22 |
 
 每帧指标在各run的metrics_per_frame.csv及evaluation/validation/per_frame.json；流/RGB范数、候选与异常后验分布、motion confidence梯度、UID/K/像素覆盖、点数及资源保留在各run和trial索引。固定协议、命令与失败见manifests/phase05_protocol.json、phase05_started_commands.jsonl、phase05_commands.jsonl。执行状态见phase05_progress.json。
 
