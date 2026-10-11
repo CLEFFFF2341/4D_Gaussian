@@ -18,7 +18,7 @@ for col,scene in enumerate(('coffee_martini','cut_roasted_beef')):
     for control in ('B2','H'):
         delta=np.array([m['metrics']['PSNR']-c['metrics']['PSNR'] for m,c in zip(frames['M'],frames[control])])
         axes[0,col].plot(range(1,91),delta,label='M - '+control)
-        worst=int(delta.argmin());examples.append(dict(scene=scene,control=control,frame=worst+1,difference=float(delta[worst]),
+        worst=int(delta[1:].argmin())+1;examples.append(dict(scene=scene,control=control,frame=worst+1,difference=float(delta[worst]),
                                                      label='least gain or decline; no frame treated as independent sample',seed=0))
     axes[0,col].axhline(0,color='black',lw=1);axes[0,col].legend();axes[0,col].set(title=scene,xlabel='Frame',ylabel='Paired validation PSNR difference (dB)')
     x=np.arange(4)

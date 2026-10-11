@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 import yaml
 import torch
-ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'scripts')]
+ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'scripts'),str(ROOT/'working/MoRGS')]
 from phase05.common import protocol,read,write,sha
 from phase05_launch import launch
 

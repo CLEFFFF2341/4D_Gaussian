@@ -14,7 +14,8 @@ def main():
     winners=select(search) if complete else None
     gate=screen(search,winners) if complete else None
     if gate:write(ROOT/'manifests/phase05_screen.json',dict(status='SEED0_SCREEN_COMPLETE',winners=winners,**gate))
-    table='\n'.join(f"| {r['scene']} | {r['method']} | {r['ratio']:.2f} | {r['metrics']['PSNR']:.4f} | {r['metrics']['SSIM']:.4f} | {r['metrics']['LPIPS']:.4f} | {r['regions']['boundary']['PSNR'] or 0:.4f} | {r['seconds']:.1f} | {r['peak_allocated_gib']:.2f} |" for r in sorted(rows,key=lambda r:(r['scene'],r['method'],r['ratio'])))
+    display=lambda v:'—' if v is None else f'{v:.4f}'
+    table='\n'.join(f"| {r['scene']} | {r['method']} | {r['ratio']:.2f} | {r['metrics']['PSNR']:.4f} | {r['metrics']['SSIM']:.4f} | {r['metrics']['LPIPS']:.4f} | {display(r['regions']['boundary']['PSNR'])} | {r['seconds']:.1f} | {r['peak_allocated_gib']:.2f} |" for r in sorted(rows,key=lambda r:(r['scene'],r['method'],r['ratio'])))
     body=f'''# 阶段05：最小混合方法 go/no-go
 
 更新：{now()}。**当前状态：{progress.get('status','PREPARED')}，完整90帧搜索已完成 {len(search)}/24 单元，F0诊断 {sum(r['method']=='F0' for r in rows)}/2。**
@@ -35,7 +36,7 @@ B0复用原90帧作者兼容结果，新增区域评估写到runs/pilot/referenc
 
 ## 全部已完成试验
 
-空区域的显示占位不参与选参；原JSON保留null。耗时为更新frame2—90训练、诊断及保存，初始化和教师预计算分别记录，不能称纯训练kernel耗时。
+空区域显示为缺失；原JSON保留null。耗时为更新frame2—90训练、诊断及保存，初始化和教师预计算分别记录，不能称纯训练kernel耗时。
 
 | 场景 | 方法 | 比例 | PSNR | SSIM | LPIPS | 边界代理PSNR | 更新与保存秒 | 峰值allocated GiB |
 |---|---|---:|---:|---:|---:|---:|---:|---:|

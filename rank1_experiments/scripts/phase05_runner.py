@@ -9,7 +9,7 @@ import sys
 import threading
 import time
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'scripts')]
+ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'scripts'),str(ROOT/'working/MoRGS')]
 from phase05.common import read,write,sha,now,state_update,protocol
 from phase05_launch import launch
 
@@ -160,6 +160,7 @@ def main():
     os.write(fd,str(os.getpid()).encode());os.close(fd)
     runner=Runner();thread=threading.Thread(target=runner.progress,daemon=True);thread.start()
     runner.save_progress()
+    subprocess.run([sys.executable,str(ROOT/'scripts/phase05_report.py')],check=True)
     try:runner.run()
     except BaseException as error:
         runner.status='FAILED';runner.save_progress()

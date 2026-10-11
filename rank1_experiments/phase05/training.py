@@ -29,6 +29,7 @@ class PilotTraining(SharedTraining):
         super().begin_frame(frame)
         self.rgb_sum=0.;self.sample_sequence=[];self.flow_rows=[]
         self.did_write=False
+        self.gate_logged=set()
 
     def observe(self,camera,rgb_loss,iteration):
         self.rgb_sum+=float(rgb_loss.detach())
@@ -58,12 +59,14 @@ class PilotTraining(SharedTraining):
             return rgb_loss.new_zeros(())
         self.did_write=False
         value=super().flow(camera,rgb_loss,iteration)
-        if self.did_write and self.enabled and value.requires_grad:
+        if self.did_write and self.enabled and value.requires_grad and camera.uid not in self.gate_logged:
             gate=self.pc._latents['motion_label']
             g=torch.autograd.grad(value/self.lambda_flow,[gate],retain_graph=True,allow_unused=True)[0]
             with (self.out/'motion_gate_diagnostics.jsonl').open('a',encoding='utf-8') as f:
                 f.write(json.dumps(dict(frame=self.frame,iteration=iteration,camera=camera.uid,
-                       norm=None if g is None else float(g.norm()),mean_confidence=float(self.pc.get_motion_label.mean())))+'\n')
+                       norm=None if g is None else float(g.norm()),mean_confidence=float(self.pc.get_motion_label.detach().mean()),
+                       sampling='first event per camera per frame; all density changes still get XYZ/offset and coverage diagnostics'))+'\n')
+            self.gate_logged.add(camera.uid)
         return value
 
     @torch.no_grad()
