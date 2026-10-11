@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "scene": "coffee_martini",
+  "method": "M",
+  "ratio": 0.1,
+  "sigma": 2,
+  "k": 64,
+  "seed": 0,
+  "run": "runs\\pilot\\search\\coffee_martini\\M\\r100",
+  "metrics": {
+    "PSNR": 20.848044692145454,
+    "SSIM": 0.8210590336057875,
+    "LPIPS": 0.2779578920867708
+  },
+  "regions": {
+    "dynamic": {
+      "nonempty_frames": 10,
+      "empty_frames": 80,
+      "pixels": 38833,
+      "PSNR": 21.38622883947219,
+      "SSIM": 0.5893143624067306
+    },
+    "boundary": {
+      "nonempty_frames": 10,
+      "empty_frames": 80,
+      "pixels": 20055,
+      "PSNR": 20.18352214307933,
+      "SSIM": 0.6879639506340027
+    },
+    "static": {
+      "nonempty_frames": 90,
+      "empty_frames": 0,
+      "pixels": 30679253,
+      "PSNR": 20.90541348021693,
+      "SSIM": 0.8217298891809252
+    },
+    "teacher_inconsistent": {
+      "nonempty_frames": 90,
+      "empty_frames": 0,
+      "pixels": 127794,
+      "PSNR": 14.959454161020904,
+      "SSIM": 0.7248159911897447
+    }
+  },
+  "updated_frames": 89,
+  "seconds": 2232.609842600001,
+  "peak_allocated_gib": 3.2828683853149414,
+  "peak_reserved_gib": 3.642578125,
+  "disk_bytes": 8930818587,
+  "lambda_flow": 0.01223629838725207,
+  "initial": {
+    "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+    "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+    "bytes": 175363187
+  },
+  "config_sha256": "b731bf090fc36df8848b3d810aea566a49edd37b6e6a83d3246e9a62831e094c",
+  "sampler_manifest_sha256": "bf784a4cde327e3a8297387ba14bc5e782baf40973d6c385f77cc9c37c27d7a5",
+  "checkpoints": [
+    {
+      "path": "runs\\pilot\\search\\coffee_martini\\M\\r100\\checkpoints\\frame_0002.pt",
+      "bytes": 421823990,
+      "sha256": "903a6bbd03628380d15ceeb277ffe2549dab5ada9733b4db956c7bb79db91614"
+    },
+    {
+      "path": "runs\\pilot\\search\\coffee_martini\\M\\r100\\checkpoints\\frame_0005.pt",
+      "bytes": 443267062,
+      "sha256": "7b46866ae548c347cb8d19ff87f2b90bf844186d0307c2f383d8ee4acc693074"
+    },
+    {
+      "path": "runs\\pilot\\search\\coffee_martini\\M\\r100\\checkpoints\\frame_0010.pt",
+      "bytes": 443273142,
+      "sha256": "dcfc5ee4479d0a537dac4d1542bdfb9fc1f9ea4cfe51c2e43778dffc23adc640"
+    },
+    {
+      "path": "runs\\pilot\\search\\coffee_martini\\M\\r100\\checkpoints\\frame_0030.pt",
+      "bytes": 443283958,
+      "sha256": "896b45895c98bc6c9a3a5ea1f74360df32a7c9a48a2385690431819bdc7ff1f0"
+    },
+    {
+      "path": "runs\\pilot\\search\\coffee_martini\\M\\r100\\checkpoints\\frame_0060.pt",
+      "bytes": 443285238,
+      "sha256": "71f82e35e525d5e12bc73be32d3453e386b222a2624f05d3e9a0ef2bebbd2f1f"
+    },
+    {
+      "path": "runs\\pilot\\search\\coffee_martini\\M\\r100\\checkpoints\\frame_0090.pt",
+      "bytes": 443288310,
+      "sha256": "f6d929fe0c3c1605822e409069cdea2426967a3b71560308791c03388b270563"
+    },
+    {
+      "path": "runs\\pilot\\search\\coffee_martini\\M\\r100\\checkpoints\\latest.pt",
+      "bytes": 443287610,
+      "sha256": "5c0aa591a84476e774453557c48bc8ba19994a0ac9dace659ec60c3e792b7bfc"
+    }
+  ],
+  "uid_min": 0.9995769262313843,
+  "k_min": 0.995724081993103,
+  "candidate_coverage_min": 1.0,
+  "evaluation_sha256": "932f0af4c27b6736cc35a4fca7516cada98da0967a4a917b9e1e88e6fe0c6f2a",
+  "completed": "2026-10-11T13:03:52.369927+08:00"
+}
