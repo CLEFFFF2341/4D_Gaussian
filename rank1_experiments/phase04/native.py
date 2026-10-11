@@ -65,6 +65,9 @@ def candidate_loss(source, target_xyz, camera, candidates, teacher, valid,
             weights*0, teacher.permute(1,2,0).reshape(-1,2), valid.flatten(), method, sigma, epsilon,
             scale=resolution_scale(w,h))
         diagnostics.update(uid_mass_retention=0., topk_mass_retention=0., geometry_mass_retention=0.)
+        count=diagnostics.get('valid_pixels',0)
+        diagnostics['abstain_reasons']={'empty_source':count if not len(mapping) else 0,
+                                       'no_target_identity':count if not len(target_xyz) and len(mapping) else 0}
         return total + target_xyz.sum()*0, diagnostics
     good = (ids >= 0) & (trows >= 0) & source_valid[ids.clamp_min(0)] & target_valid[trows.clamp_min(0)]
     safe_weights = weights * good
@@ -94,4 +97,11 @@ def candidate_loss(source, target_xyz, camera, candidates, teacher, valid,
         geometry_mass_retention=float(safe_weights[mask].sum()/weights[mask].sum().clamp_min(1e-12)),
         outlier_posterior=sum(d.get('outlier_posterior', 0)*d.get('valid_pixels', 0) for d in stats)/den,
         responsibility_entropy=sum(d.get('responsibility_entropy', 0)*d.get('valid_pixels', 0) for d in stats)/den)
+    source_has = mass[:,0] > 0
+    matched_has = mass[:,1] > 0
+    geometry_has = safe_weights.sum(-1) > 0
+    diagnostics['abstain_reasons']=dict(
+        no_source_contribution=int((mask & ~source_has).sum()),
+        no_matching_uid=int((mask & source_has & ~matched_has).sum()),
+        invalid_projected_candidates=int((mask & matched_has & ~geometry_has).sum()))
     return total, diagnostics

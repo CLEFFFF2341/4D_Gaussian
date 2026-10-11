@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT/'working/MoRGS'))
 from phase04.shared_flow import Identity, match_uid, project, reference_candidates, flow_loss, resize_flow, resolution_scale
-from phase04.native import raster_candidates
+from phase04.native import raster_candidates, candidate_loss
 from utils.graphics_utils import getProjectionMatrix
 
 rows = []
@@ -227,6 +227,12 @@ def gpu_tests():
         gc, gg = torch.autograd.grad(lc, cpu)[0], torch.autograd.grad(lg, gpu)[0]
         assert torch.allclose(lc, lg.cpu(), atol=2e-6) and torch.allclose(gc, gg.cpu(), atol=2e-6)
         record('gpu_cpu_loss_gradient_'+method, output_error=float(abs(lc-lg.cpu())), gradient_error=float((gc-gg.cpu()).abs().max()))
+    no_target = torch.zeros(0,3,device='cuda',requires_grad=True)
+    empty = raster_candidates(source,camera,torch.zeros(0,device='cuda',dtype=torch.long),8)
+    value,diag = candidate_loss(source,no_target,camera,empty,torch.zeros(2,h,w,device='cuda'),torch.ones(h,w,device='cuda',dtype=torch.bool),'M')
+    assert torch.isfinite(value) and diag['abstain_pixels']==h*w and diag['abstain_reasons']['no_target_identity']==h*w
+    torch.autograd.grad(value,no_target)
+    record('empty_target_fixed_score_and_reason',pixels=h*w,nll=float(value),reason=diag['abstain_reasons'])
     record('gpu', device_name=torch.cuda.get_device_name(0))
 
 
