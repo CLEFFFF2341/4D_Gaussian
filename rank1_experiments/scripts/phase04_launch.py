@@ -15,6 +15,10 @@ if __name__ == '__main__':
     log = ROOT/'logs'/f'phase04_{label}_{stamp}.log'
     command = [str(ROOT/'scripts/run_phase04.cmd'), str(Path(script).resolve()), *arguments]
     started = datetime.now().astimezone().isoformat()
+    code_hashes = {str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest()
+                   for p in list((ROOT/'phase04').glob('*.py'))+list((ROOT/'phase04').glob('*.cu'))+
+                   [ROOT/'working/MoRGS/train_phase04.py'] if p.exists()}
+    git_commit = subprocess.check_output(['git','rev-parse','HEAD'], cwd=ROOT).decode().strip()
     t = time.perf_counter()
     print(subprocess.list2cmdline(command), flush=True)
     with log.open('w', encoding='utf-8') as handle:
@@ -23,6 +27,7 @@ if __name__ == '__main__':
                   started=started, ended=datetime.now().astimezone().isoformat(),
                   seconds=time.perf_counter()-t, returncode=result.returncode,
                   log=str(log.relative_to(ROOT)), log_sha256=hashlib.sha256(log.read_bytes()).hexdigest())
+    record.update(git_commit=git_commit, code_sha256_at_start=code_hashes)
     with (ROOT/'manifests/phase04_commands.jsonl').open('a', encoding='utf-8') as handle:
         handle.write(json.dumps(record, ensure_ascii=False)+'\n')
     print(json.dumps(record, ensure_ascii=False), flush=True)

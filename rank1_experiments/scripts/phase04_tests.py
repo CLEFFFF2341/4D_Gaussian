@@ -113,6 +113,27 @@ def cpu_tests():
                                               1, 1, torch.tensor([False, True]), 1)
     assert ids.item() == 1 and abs(weights.item()-.05) < 1e-10
     record('full_transmittance_includes_unmatched', matched_weight=weights.item(), mass=mass.tolist())
+    # Rasterize a translated footprint: supervision at the source pixel must
+    # keep its identity even after the footprint leaves that target pixel.
+    args = (torch.tensor([[10., 0., 10., .8]], dtype=torch.float64), torch.tensor([0]),
+            torch.tensor([[0, 1]]), 3, 8, torch.tensor([True]), 1)
+    source_ids = reference_candidates(torch.tensor([[1., 1.]], dtype=torch.float64), *args)[0]
+    target_ids = reference_candidates(torch.tensor([[5., 1.]], dtype=torch.float64), *args)[0]
+    assert source_ids[1, 1, 0] == 0 and target_ids[1, 1, 0] == -1
+    record('source_grid_translated_footprint', source_pixel_has_uid=True, target_same_pixel_has_uid=False)
+    for k in (0, 1):
+        value, diag = flow_loss(torch.zeros(2, k, 2, requires_grad=True), torch.zeros(2, k),
+                                torch.zeros(2, 2), torch.ones(2, dtype=torch.bool), 'M')
+        assert torch.isfinite(value) and diag['abstain_pixels'] == 2
+    for method in ('B1', 'B2', 'H', 'M'):
+        value, _ = flow_loss(torch.zeros(2, 2, 2, requires_grad=True), torch.ones(2, 2),
+                             torch.zeros(2, 2), torch.zeros(2, dtype=torch.bool), method)
+        assert value == 0
+    outlier_flow = torch.tensor([[[1e5, -1e5]]], requires_grad=True)
+    value, diag = flow_loss(outlier_flow, torch.ones(1, 1), torch.zeros(1, 2), torch.tensor([True]), 'M')
+    gradient = torch.autograd.grad(value, outlier_flow)[0]
+    assert diag['outlier_posterior'] == 1 and gradient.norm() == 0
+    record('outlier_can_swallow_motion_gradient', outlier_posterior=diag['outlier_posterior'], gradient_norm=float(gradient.norm()))
     # RGB motion from an opaque surface is one latent identity; transparent
     # overlapping layers can produce a valid mean and violate this assumption.
     cases = [
@@ -179,7 +200,8 @@ def gpu_tests():
 
 if __name__ == '__main__':
     synthetic = cpu_tests()
-    gpu_tests()
-    output = ROOT/'manifests/phase04_tests.json'
+    if '--cpu-only' not in sys.argv:
+        gpu_tests()
+    output = ROOT/'manifests'/('phase04_cpu_tests.json' if '--cpu-only' in sys.argv else 'phase04_tests.json')
     output.write_text(json.dumps(dict(status='PASS', tests=rows, synthetic=synthetic), indent=2), encoding='utf-8')
     print('PHASE04_TESTS_PASS', flush=True)

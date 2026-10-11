@@ -22,7 +22,8 @@ class SharedGaussianModel(GaussianModel):
         if self.offset_3d is not None:
             self.offset_3d = next(g['params'][0] for g in self.optimizer.param_groups if g['name'] == 'offset_3d')
         self.identity.select(~mask)
-        self.topology_version += 1
+        if bool(mask.any()):
+            self.topology_version += 1
         self.assert_optimizer_identity()
 
     def densification_postfix(self, *args, **kwargs):
@@ -38,7 +39,8 @@ class SharedGaussianModel(GaussianModel):
         super().densification_postfix(*args, **kwargs)
         assert len(parents) == len(args[0])
         self.identity.append(parents)
-        self.topology_version += 1
+        if len(parents):
+            self.topology_version += 1
         self.assert_optimizer_identity()
 
     def densify_dynamic(self, *args, **kwargs):

@@ -71,7 +71,8 @@ class SharedTraining:
             return rgb_loss.new_zeros(())
         version = self.pc.topology_version
         cached = self.candidates.get(camera.uid)
-        if cached is None or cached[0] != version:
+        candidate_changed = cached is None or cached[0] != version
+        if candidate_changed:
             cached = (version, raster_candidates(self.source, camera, self.pc.identity.uid, self.args.flow_k))
             self.candidates[camera.uid] = cached
         if camera.uid not in self.teachers:
@@ -82,7 +83,7 @@ class SharedTraining:
                                              self.args.flow_sigma, self.args.flow_epsilon)
         assert torch.isfinite(value), 'nonfinite shared flow loss'
         first = camera.uid not in self.logged
-        if first or self.lambda_flow is None:
+        if first or candidate_changed or self.lambda_flow is None:
             rgb_gradient = motion_gradients(rgb_loss, self.pc)
             flow_gradient = motion_gradients(value, self.pc)
             if self.lambda_flow is None:

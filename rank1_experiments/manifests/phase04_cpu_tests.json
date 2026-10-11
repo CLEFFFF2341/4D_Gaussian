@@ -1,0 +1,397 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "finite_difference_B1",
+      "status": "PASS",
+      "max_absolute_error": 4.68657890273505e-11
+    },
+    {
+      "name": "finite_difference_B2",
+      "status": "PASS",
+      "max_absolute_error": 1.953954359423804e-11
+    },
+    {
+      "name": "finite_difference_H",
+      "status": "PASS",
+      "max_absolute_error": 9.245548771019685e-12
+    },
+    {
+      "name": "finite_difference_M",
+      "status": "PASS",
+      "max_absolute_error": 1.74153053089654e-11
+    },
+    {
+      "name": "prior_stop_gradient",
+      "status": "PASS",
+      "motion_gradient": 0.23994624614715576,
+      "weight_gradient": null
+    },
+    {
+      "name": "edge_cases",
+      "status": "PASS",
+      "cases": 18,
+      "methods": 4
+    },
+    {
+      "name": "k1_and_coincident_components",
+      "status": "PASS"
+    },
+    {
+      "name": "abstention_fixed_denominator",
+      "status": "PASS",
+      "nll": 15.453960418701172,
+      "expected": 15.453960599676726
+    },
+    {
+      "name": "clone_split_prune_reorder_uid",
+      "status": "PASS",
+      "mapping": [
+        3,
+        1,
+        -1
+      ],
+      "uids": [
+        5,
+        1,
+        4,
+        0,
+        3
+      ]
+    },
+    {
+      "name": "translation_camera_projection_direction_source_grid",
+      "status": "PASS",
+      "forward": [
+        1.999999900000006,
+        0.8660253449395476
+      ]
+    },
+    {
+      "name": "non_square_resize_and_reference_units",
+      "status": "PASS"
+    },
+    {
+      "name": "full_transmittance_includes_unmatched",
+      "status": "PASS",
+      "matched_weight": 0.04999999999999999,
+      "mass": [
+        [
+          [
+            0.95,
+            0.04999999999999999
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "source_grid_translated_footprint",
+      "status": "PASS",
+      "source_pixel_has_uid": true,
+      "target_same_pixel_has_uid": false
+    },
+    {
+      "name": "outlier_can_swallow_motion_gradient",
+      "status": "PASS",
+      "outlier_posterior": 1.0,
+      "gradient_norm": 0.0
+    },
+    {
+      "name": "disappearance_and_disocclusion",
+      "status": "PASS",
+      "mapping": [
+        -1,
+        0
+      ],
+      "newborn_uid": 30
+    },
+    {
+      "name": "analytic_assumption_and_counterexamples",
+      "status": "PASS",
+      "cases": [
+        {
+          "case": "static",
+          "single_latent_assumption": true,
+          "losses": {
+            "B1": 9.999999974752427e-07,
+            "B2": 3.2443690299987793,
+            "H": 3.467517614364624,
+            "M": 3.2443690299987793
+          },
+          "candidates": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "teacher": [
+            0.0,
+            0.0
+          ],
+          "prior": [
+            0.8,
+            0.2
+          ]
+        },
+        {
+          "case": "opposite_foreground",
+          "single_latent_assumption": true,
+          "losses": {
+            "B1": 9.600000381469727,
+            "B2": 14.359187126159668,
+            "H": 3.755199670791626,
+            "M": 3.7551915645599365
+          },
+          "candidates": [
+            [
+              12.0,
+              0.0
+            ],
+            [
+              -12.0,
+              0.0
+            ]
+          ],
+          "teacher": [
+            12.0,
+            0.0
+          ],
+          "prior": [
+            0.6,
+            0.4
+          ]
+        },
+        {
+          "case": "single_continuous_surface",
+          "single_latent_assumption": true,
+          "losses": {
+            "B1": 9.999999974752427e-07,
+            "B2": 3.2443690299987793,
+            "H": 3.93752121925354,
+            "M": 3.2443690299987793
+          },
+          "candidates": [
+            [
+              2.0,
+              1.0
+            ],
+            [
+              2.0,
+              1.0
+            ]
+          ],
+          "teacher": [
+            2.0,
+            1.0
+          ],
+          "prior": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "case": "transparent_mean_counterexample",
+          "single_latent_assumption": false,
+          "losses": {
+            "B1": 9.999999974752427e-07,
+            "B2": 3.2443690299987793,
+            "H": 15.453960418701172,
+            "M": 15.450908660888672
+          },
+          "candidates": [
+            [
+              12.0,
+              0.0
+            ],
+            [
+              -12.0,
+              0.0
+            ]
+          ],
+          "teacher": [
+            0.0,
+            0.0
+          ],
+          "prior": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "case": "reflection_teacher_counterexample",
+          "single_latent_assumption": false,
+          "losses": {
+            "B1": 18.0,
+            "B2": 15.466167449951172,
+            "H": 15.466167449951172,
+            "M": 15.464621543884277
+          },
+          "candidates": [
+            [
+              8.0,
+              0.0
+            ],
+            [
+              -4.0,
+              0.0
+            ]
+          ],
+          "teacher": [
+            20.0,
+            0.0
+          ],
+          "prior": [
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    }
+  ],
+  "synthetic": [
+    {
+      "case": "static",
+      "single_latent_assumption": true,
+      "losses": {
+        "B1": 9.999999974752427e-07,
+        "B2": 3.2443690299987793,
+        "H": 3.467517614364624,
+        "M": 3.2443690299987793
+      },
+      "candidates": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "teacher": [
+        0.0,
+        0.0
+      ],
+      "prior": [
+        0.8,
+        0.2
+      ]
+    },
+    {
+      "case": "opposite_foreground",
+      "single_latent_assumption": true,
+      "losses": {
+        "B1": 9.600000381469727,
+        "B2": 14.359187126159668,
+        "H": 3.755199670791626,
+        "M": 3.7551915645599365
+      },
+      "candidates": [
+        [
+          12.0,
+          0.0
+        ],
+        [
+          -12.0,
+          0.0
+        ]
+      ],
+      "teacher": [
+        12.0,
+        0.0
+      ],
+      "prior": [
+        0.6,
+        0.4
+      ]
+    },
+    {
+      "case": "single_continuous_surface",
+      "single_latent_assumption": true,
+      "losses": {
+        "B1": 9.999999974752427e-07,
+        "B2": 3.2443690299987793,
+        "H": 3.93752121925354,
+        "M": 3.2443690299987793
+      },
+      "candidates": [
+        [
+          2.0,
+          1.0
+        ],
+        [
+          2.0,
+          1.0
+        ]
+      ],
+      "teacher": [
+        2.0,
+        1.0
+      ],
+      "prior": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "case": "transparent_mean_counterexample",
+      "single_latent_assumption": false,
+      "losses": {
+        "B1": 9.999999974752427e-07,
+        "B2": 3.2443690299987793,
+        "H": 15.453960418701172,
+        "M": 15.450908660888672
+      },
+      "candidates": [
+        [
+          12.0,
+          0.0
+        ],
+        [
+          -12.0,
+          0.0
+        ]
+      ],
+      "teacher": [
+        0.0,
+        0.0
+      ],
+      "prior": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "case": "reflection_teacher_counterexample",
+      "single_latent_assumption": false,
+      "losses": {
+        "B1": 18.0,
+        "B2": 15.466167449951172,
+        "H": 15.466167449951172,
+        "M": 15.464621543884277
+      },
+      "candidates": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          -4.0,
+          0.0
+        ]
+      ],
+      "teacher": [
+        20.0,
+        0.0
+      ],
+      "prior": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}
