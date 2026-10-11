@@ -154,7 +154,7 @@ def gpu_tests():
                   scaling=torch.full((n, 3), .3, device='cuda'),
                   rotation=torch.tensor([[1., 0., 0., 0.]], device='cuda').repeat(n, 1),
                   uid=torch.arange(n, device='cuda'))
-    for k in (1, 8, 32):
+    for k in (1, 8, 32, 64):
         for mode in ('all', 'pruned', 'none'):
             target = source['uid'] if mode == 'all' else source['uid'][::2] if mode == 'pruned' else torch.zeros(0, device='cuda', dtype=torch.long)
             out = raster_candidates(source, camera, target, k, debug=True)

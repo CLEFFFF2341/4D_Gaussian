@@ -1,0 +1,71 @@
+--- train_phase03.py (frozen)
++++ train_phase04.py
+@@ -34,6 +34,9 @@
+ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'scripts'))
+ from phase03_hooks import (CachedTeachers, boundary_save, guard_training_rgb, configure_initial_cloud,
+                            load_boundary, restore_boundary, seed_all)
++sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
++from phase04.model import SharedGaussianModel as GaussianModel
++from phase04.training import SharedTraining
+ EPS = 1.0e-7
+ try:
+     from torch.utils.tensorboard import SummaryWriter
+@@ -207,7 +210,9 @@
+         progress_bar_frame = None
+         frame_counter = 0
+ 
++    shared = SharedTraining(args, gaussians)
+     for frame_idx in range(start_frame_idx, n_frames+1):
++        shared.begin_frame(frame_idx)
+ 
+         if wandb_enabled and frame_idx <= 2:
+             frame_str = f"{str(frame_idx).zfill(4)}"
+@@ -483,16 +488,8 @@
+                 recon_loss = (1.0 - opt.lambda_dssim) * Ll1 + opt.lambda_dssim * (1.0 - Lssim)
+                 loss += recon_loss
+             
+-            if render_flow==True: 
+-                flow2d = render_pkg["flow"] #+ offset
+-                optical_flow = viewpoint_cam.optical_flow.clone() 
+-                optical_flow_mask = viewpoint_cam.optical_flow_sam2_mask_final
+-
+-                alpha_sum  = render_pkg["alpha"]          
+-                eps = 1e-6
+-                flow2d = flow2d / (alpha_sum + eps)
+-                flow_loss =  (((flow2d) - optical_flow).pow(2).sum(dim=0) + eps**2).sqrt().mean()
+-                loss += 0.01 * flow_loss 
++            if render_flow:
++                loss += shared.flow(viewpoint_cam, recon_loss, iteration)
+ 
+             # 3D Motion Residual Field Regularization
+             if frame_idx > 1:
+@@ -718,8 +715,15 @@
+             else: 
+                 scene.save_compressed(-1, qp)
+ 
++        requested_stop = args.stop_after_frame
++        args.stop_after_frame = 0
+         boundary_save(args, gaussians, train_cameras, generator, frame_idx,
+                       frame_resource_start, opt.iterations, ema_loss_for_log)
++        args.stop_after_frame = requested_stop
++        shared.end_frame(frame_idx)
++        if requested_stop == frame_idx:
++            print('PHASE04_CONTROLLED_STOP complete checkpoint and diagnostics saved', flush=True)
++            raise SystemExit(0)
+ 
+         # Update previous frame's attributes and latents for next frame's residual encoding
+         if frame_idx != n_frames:
+@@ -953,6 +957,13 @@
+     parser.add_argument('--use_xyz_legacy', action='store_true', default=False, help='If set, use legacy xyz decoding in GaussianModel (_xyz_legacy) to reproduce paper numbers. To save compressed pkl\'s, leave unset or set to False. Default: False (use _xyz_fixed).')
+     parser.add_argument('--stop_after_frame', type=int, default=0)
+     parser.add_argument('--phase03_initial_cloud', type=str, default='')
++    parser.add_argument('--flow_method', choices=['F0','B1','B2','H','M'], default='M')
++    parser.add_argument('--flow_k', type=int, default=8)
++    parser.add_argument('--flow_sigma', type=float, default=2.)
++    parser.add_argument('--flow_epsilon', type=float, default=.02)
++    parser.add_argument('--flow_lambda', type=float, default=-1.)
++    parser.add_argument('--flow_grad_ratio', type=float, default=.1)
++    parser.add_argument('--flow_freeze_topology', action='store_true')
+     args = parser.parse_args(sys.argv[1:])
+     # args.save_iterations.append(args.iterations)
+     

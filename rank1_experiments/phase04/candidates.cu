@@ -21,7 +21,7 @@ __global__ void candidates(const float2* xy,const float4* conic,const uint32_t* 
     int x=p%W,y=p/W;
     uint2 r=ranges[(y/16)*((W+15)/16)+x/16];
     float T=1.f,all=0.f,matched=0.f;
-    float best[32]; int rows[32];
+    float best[64]; int rows[64];
     for(int j=0;j<K;j++){best[j]=0.f;rows[j]=-1;}
     for(uint32_t i=r.x;i<r.y;i++){
         int row=list[i]; float2 v=xy[row]; float4 c=conic[row];
@@ -50,7 +50,7 @@ __global__ void candidates(const float2* xy,const float4* conic,const uint32_t* 
 std::vector<torch::Tensor> export_candidates(torch::Tensor geom,torch::Tensor bin,
  torch::Tensor image,torch::Tensor alive,int64_t P,int64_t R,int64_t H,int64_t W,int64_t K,bool debug) {
     TORCH_CHECK(geom.is_cuda()&&bin.is_cuda()&&image.is_cuda()&&alive.is_cuda(),"CUDA required");
-    TORCH_CHECK(K>0&&K<=32&&P>0&&H>0&&W>0&&R>=0,"invalid dimensions");
+    TORCH_CHECK(K>0&&K<=64&&P>0&&H>0&&W>0&&R>=0,"invalid dimensions");
     TORCH_CHECK(alive.scalar_type()==torch::kBool&&alive.numel()==P&&alive.is_contiguous(),"alive bool contiguous [P]");
     TORCH_CHECK(geom.scalar_type()==torch::kUInt8&&bin.scalar_type()==torch::kUInt8&&image.scalar_type()==torch::kUInt8,"buffer dtype");
     const c10::cuda::CUDAGuard guard(geom.device());
