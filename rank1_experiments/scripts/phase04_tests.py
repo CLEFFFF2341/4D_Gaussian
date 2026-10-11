@@ -97,6 +97,17 @@ def cpu_tests():
     assert valid.all() and torch.allclose(pixels[0], torch.tensor([19.5, 9.5], dtype=torch.float64))
     assert torch.allclose(-delta, pixels[0]-pixels[1])
     record('translation_camera_projection_direction_source_grid', forward=delta.tolist())
+    rotated = torch.tensor([[0.,0.,1.,0.], [0.,1.,0.,0.], [-1.,0.,0.,0.], [0.,0.,0.,1.]], dtype=torch.float64)
+    world = torch.tensor([[2.,0.,.1], [2.,0.,.3]], dtype=torch.float64)
+    pixels, valid = project(world, rotated@projection, rotated, 40, 20)
+    assert valid.all() and torch.allclose(pixels[1]-pixels[0], torch.tensor([-2.,0.], dtype=torch.float64), atol=1e-7)
+    rotated_delta = (pixels[1]-pixels[0]).tolist()
+    depth_move = torch.tensor([[.4,.2,2.], [.4,.2,3.]], dtype=torch.float64)
+    pixels, _ = project(depth_move, projection, view, 40, 20)
+    perspective_delta = pixels[1]-pixels[0]
+    assert perspective_delta.norm() > 1  # full projection includes depth-induced xy motion
+    record('extrinsics_camera_depth_and_perspective_motion', rotated_delta=rotated_delta,
+           depth_translation_exact_delta=perspective_delta.tolist(), linear_vector_xy_for_pure_z=[0.,0.])
     flow = torch.ones(2, 7, 11)
     resized = resize_flow(flow, 13, 17)
     assert torch.allclose(resized[:, 0, 0], torch.tensor([17/11, 13/7]))
