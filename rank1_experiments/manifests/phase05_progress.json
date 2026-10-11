@@ -1,13 +1,13 @@
 {
   "status": "RUNNING",
-  "pid": 22720,
+  "pid": 38412,
   "started": "2026-10-11T12:17:28.649112+08:00",
-  "updated": "2026-10-11T14:09:44.729325+08:00",
+  "updated": "2026-10-11T14:35:49.245186+08:00",
   "active": {
-    "scene": "coffee_martini",
+    "scene": "cut_roasted_beef",
     "method": "B2",
     "ratio": 0.1,
-    "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\B2\\r100",
+    "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\B2\\r100",
     "stage": "validation"
   },
   "active_complete_frame": 90,
@@ -41,10 +41,16 @@
       "method": "B2",
       "ratio": 0.1,
       "run": "runs\\pilot\\search\\coffee_martini\\B2\\r100"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "B2",
+      "ratio": 0.1,
+      "run": "runs\\pilot\\search\\cut_roasted_beef\\B2\\r100"
     }
   ],
   "planned_search_jobs": 24,
-  "completed_search_jobs": 3,
+  "completed_search_jobs": 4,
   "scope": "seed0 search only; final three-seed gate not passed",
   "next_phase": "05"
 }
