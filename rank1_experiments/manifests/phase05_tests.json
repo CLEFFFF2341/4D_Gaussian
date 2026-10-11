@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tests": [
+    "SSIM_map_matches_frozen_metric",
+    "empty_region_is_missing",
+    "known_region_error",
+    "fixed_proxy_partition",
+    "source_grid_FB_bounds",
+    "equal_macro_selection_tie",
+    "LPIPS_and_other_scene_guard",
+    "seed0_cannot_pass_final_repeat_gate"
+  ]
+}

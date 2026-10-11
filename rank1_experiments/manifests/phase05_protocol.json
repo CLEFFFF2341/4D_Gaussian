@@ -1,0 +1,580 @@
+{
+  "status": "FROZEN",
+  "frozen_at": "2026-10-11T12:06:29.900936+08:00",
+  "stage": "05",
+  "scope": "seed0 90-frame pilot search; conditional 300-frame three-seed repeat is a separate pending step",
+  "scenes": [
+    "coffee_martini",
+    "cut_roasted_beef"
+  ],
+  "methods": [
+    "B1",
+    "B2",
+    "H",
+    "M"
+  ],
+  "ratios_in_order": [
+    0.1,
+    0.03,
+    0.3
+  ],
+  "sigma": 2.0,
+  "epsilon": 0.02,
+  "k": 64,
+  "groups_per_family": 3,
+  "max_groups_per_family": 6,
+  "extra_sigma_search": "Not invoked for this predeclared first search; no method gets additional search",
+  "seed": 0,
+  "frames": 90,
+  "resolution_wh": [
+    676,
+    507
+  ],
+  "density": "native; same rules, no new point budget",
+  "initial_checkpoints": {
+    "coffee_martini": {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+      "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+      "bytes": 175363187
+    },
+    "cut_roasted_beef": {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+      "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+      "bytes": 148080633
+    }
+  },
+  "calibration": "All four unweighted flow gradients on the SAME pre-first-flow-backward frame2 training state; per-scene lambda=ratio*rgb_norm/flow_norm fixed per run",
+  "sampling": "restore seed0 checkpoint camera RNG; record and require equal SHA for every complete frame",
+  "validation": "cam01 only, never cam00; freeze teacher-only regions before scoring any pilot model",
+  "metrics": {
+    "primary": "arithmetic mean of per-frame RGB PSNR, scenes equal macro weight; same FP32/SSIM/VGG LPIPS as phase03",
+    "selection": "one ratio per family by two-scene macro whole-frame PSNR; ties <=1e-6 use lower macro LPIPS then smaller ratio; regions cannot choose different winner",
+    "region_psnr": "RGB MSE restricted to region per frame, then arithmetic frame mean; empty masks reported, no invented scores",
+    "region_ssim": "MoRGS full-image 11x11 SSIM map, average channel then average fixed region pixels"
+  },
+  "region": {
+    "teacher": "same frozen SEA-RAFT weights/config; independent evaluation process",
+    "motion_threshold_reference_px": 1.5,
+    "reference_wh": [
+      1352,
+      1014
+    ],
+    "boundary_radius_reference_px": 6,
+    "boundary_radius_dev_px": 3,
+    "dynamic": "forward/backward valid AND magnitude in reference units >1.5",
+    "boundary": "morphological gradient of dynamic binary mask, radius3dev, intersect fixed FB valid",
+    "static": "FB valid AND NOT dynamic",
+    "teacher_inconsistent": "NOT FB valid; noise/occlusion proxy, not true teacher error",
+    "frame_direction": "frame0..88 outgoing forward; frame89 outgoing backward to88; all masks live on their own source image grid"
+  },
+  "screening": {
+    "strongest_control": "B1/B2/H with the best independently selected macro parameters; compare all B2 and H explicitly",
+    "whole": "M exceeds per-scene strongest control by >=0.05dB in at least one scene and is >=-0.05dB in the other",
+    "regional": "Alternative: both boundary gains >=0.10dB, both whole differences >=-0.05dB",
+    "lpips": "No scene deterioration >0.002",
+    "repeat_threshold": "Three-seed overall macro gain >=0.10dB OR boundary macro>=0.30dB with whole>=-0.05dB; LPIPS not systematically worse",
+    "threshold_scope": "conservative seed0 screening signal only; cannot pass final repeat gate from one seed"
+  },
+  "diagnosis": "If no screening signal: exactly one read-only round using existing gradient, teacher consistency, outlier/UID/K logs plus frozen phase04 direction/projection tests. No selective retraining or new modules",
+  "b0": "read-only existing seed0_loader_exact 90-frame baseline; evaluate into runs/pilot/references, original artifacts unchanged",
+  "f0": "one full90 run per scene, explicit flow_lambda=0; not a tuned rival",
+  "expansion": "Only after signal, freeze selected method parameters globally and run M plus two strongest controls over both300-frame scenes at formal or one common feasible resolution, seeds0/1/2. Requires validation data and shared-head formal resource probe; never label phase05 complete before this gate",
+  "source_sha": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+  "phase04_artifact_lock_sha256": "3f6786292cf747880c4aca3b04db793302be3b3a6f3599bb94ea119f6a9ee576",
+  "immutable_sources": {
+    "phase04\\model.py": "ba131665c2c8399bc5f459be47da1ba0a9a0040ac30a58298443ce026f7ba287",
+    "phase04\\native.py": "72e7e4f537d41d30757b44f532a70795a0b1cc0d3e32c99ce8832583fd46fc2a",
+    "phase04\\shared_flow.py": "8c0c08e57d12bc9bb872a6f7621e52606d88d508d7550d1fcb4887d46af00f97",
+    "phase04\\training.py": "7e972d46aa617421723ea1bd7f71c096562c652b98e48a7f69c0b831d7ffc292",
+    "phase04\\__init__.py": "08eb72b9baaa9858e9fb82d22f75fdbc9b8974d4f4589642c14a8093ef6848a5",
+    "phase04\\candidates.cu": "444ac7513011d72fcb210568e058f1ea51bff683c48064865d89ada7bc3696e5",
+    "working\\MoRGS\\train_phase04.py": "fddd69971c4d8243083d61060f4065fc91eaa5ac984820e4dac744eaa210908d"
+  },
+  "jobs": [
+    {
+      "scene": "coffee_martini",
+      "method": "B1",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_B1_r100.yaml",
+      "config_sha256": "2282e64ddf8fe3e2b3add7565b2d13e65dd4d0eece99c057a1da63ae739cc162",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\B1\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "B1",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_B1_r030.yaml",
+      "config_sha256": "aedb1ba748d3c0ef07bfec8b8649dbbef0081185cb33889b2627d3a9a8d6a260",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\B1\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "B1",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_B1_r300.yaml",
+      "config_sha256": "c6b433c8b820257aec5cbade0d61f936e77d9d6850708f281e66f594563d946d",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\B1\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "B2",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_B2_r100.yaml",
+      "config_sha256": "45b0ebe60ae35810b1a093e9da343a8d774cc80803d9930a5fd530d0d777da87",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\B2\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "B2",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_B2_r030.yaml",
+      "config_sha256": "f5142c13ba43476555a27ca79951a2ffcb133b37bde5adf0c7b9feffa5b3998d",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\B2\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "B2",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_B2_r300.yaml",
+      "config_sha256": "3c7d26196a529e41d505388c022083d479bd77d15955f878e1100193e87989e3",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\B2\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "H",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_H_r100.yaml",
+      "config_sha256": "29bb2f0361092eed47ce17e335e036f98ca43650affe17a2492e7597f3f24b94",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\H\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "H",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_H_r030.yaml",
+      "config_sha256": "9be359d4d4e567b3dcd46e3a4d6cd7def4e43a273cf64ec1cc2a8a0e69304702",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\H\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "H",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_H_r300.yaml",
+      "config_sha256": "0bb8cf231b5db1fa3391eba62c722d1b96851e0db2b0f116ef4e56fb8621853f",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\H\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "M",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_M_r100.yaml",
+      "config_sha256": "b731bf090fc36df8848b3d810aea566a49edd37b6e6a83d3246e9a62831e094c",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\M\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "M",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_M_r030.yaml",
+      "config_sha256": "7318492b769bbf45bae71a0ab3ce4675eda1076c046f35879645e35319b5d2d4",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\M\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "M",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_M_r300.yaml",
+      "config_sha256": "61ab2dcf46a90e32ffb4717d9678497fdbf90fe3217c0aa75a4f8e052c451a52",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\coffee_martini\\M\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "F0",
+      "ratio": 0.0,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r000",
+      "role": "diagnostic",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_F0_r000.yaml",
+      "config_sha256": "265ce6f822b4338dcc0384f56474272f4257f8dd5f442fdc2271c687859c0e57",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\diagnostic\\coffee_martini\\F0\\r000",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "coffee_martini",
+      "method": "CALIBRATE",
+      "ratio": 0.0,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r000",
+      "role": "calibration",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\coffee_martini_CALIBRATE_r000.yaml",
+      "config_sha256": "fb2281b011310636d13019568b35b9979fbd1bd7aa7e2137d5d6b96085d46e16",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\calibration\\coffee_martini\\CALIBRATE\\r000",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+        "bytes": 175363187
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "B1",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_B1_r100.yaml",
+      "config_sha256": "d94f97757a208acaa80c0bb64686c4ed5ffd5aa900c26e2e22e6c598e5d95221",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\B1\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "B1",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_B1_r030.yaml",
+      "config_sha256": "3a738b5c5b20dda4c11ef5b11a38bef5c3885d40e5b419da23de2699393bb4eb",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\B1\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "B1",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_B1_r300.yaml",
+      "config_sha256": "cf135ec8014ae32d162c24aaa699bbd95bb8a791e631ba4bb79e03a08aac6c52",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\B1\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "B2",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_B2_r100.yaml",
+      "config_sha256": "82516e16017f4173f514290ec59e579a2bfca9365335ca7854cebb7a30e4ccfc",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\B2\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "B2",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_B2_r030.yaml",
+      "config_sha256": "4fda4f4e093467923c98e38b2d794c7a8f57b66294280d0b9bdf35ba7e8ab869",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\B2\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "B2",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_B2_r300.yaml",
+      "config_sha256": "6bdc0f248ba8169a75a085b3a22e86779124e773eb3e8e8b232e796aeb048b47",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\B2\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "H",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_H_r100.yaml",
+      "config_sha256": "21552000a9fb07a7319759c2d4866f6cf9046589c374ee03c2e512254aa9c927",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\H\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "H",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_H_r030.yaml",
+      "config_sha256": "3021e6ce417dfd97d5bebdf589655494b6036c298d5ad8ad53ae75e31d1f5b07",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\H\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "H",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_H_r300.yaml",
+      "config_sha256": "2e26dccd8684dccb11f5c70ded01ebeaf29dd2ba02293ed9f4ec0eae915fe3fc",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\H\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "M",
+      "ratio": 0.1,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r100",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_M_r100.yaml",
+      "config_sha256": "59a6be4479bedd538720f62532976d93200981d5c9252b94da7fe982e18e32d2",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\M\\r100",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "M",
+      "ratio": 0.03,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r030",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_M_r030.yaml",
+      "config_sha256": "a8eded4497b147c78e77eb38c2c7a057b5f38c65c0510019b78e1a875bd835d7",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\M\\r030",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "M",
+      "ratio": 0.3,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r300",
+      "role": "search",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_M_r300.yaml",
+      "config_sha256": "197a8a9f0796ce87441ea35afdf2827a11437ad9e8e186c8113d9c6c7a25d359",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\search\\cut_roasted_beef\\M\\r300",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "F0",
+      "ratio": 0.0,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r000",
+      "role": "diagnostic",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_F0_r000.yaml",
+      "config_sha256": "4de4bf829766850d0d4a51298653e85ed5a479bfd033bf161ecbbbb60f816aa0",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\diagnostic\\cut_roasted_beef\\F0\\r000",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "CALIBRATE",
+      "ratio": 0.0,
+      "sigma": 2.0,
+      "k": 64,
+      "trial": "r000",
+      "role": "calibration",
+      "config": "E:\\4D_Gaussian\\rank1_experiments\\configs\\frozen_pilot_configs\\cut_roasted_beef_CALIBRATE_r000.yaml",
+      "config_sha256": "e9a3bf4f7af8d966343560ae0b0bc07339a9135c72c4caa7ad68bc77bed35e00",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\calibration\\cut_roasted_beef\\CALIBRATE\\r000",
+      "initial": {
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+        "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+        "bytes": 148080633
+      }
+    }
+  ],
+  "estimated_seed0_gpu_hours": [
+    14,
+    22
+  ],
+  "estimated_seed0_disk_gib": [
+    160,
+    300
+  ],
+  "free_disk_gib_at_freeze": 1068.0522422790527
+}

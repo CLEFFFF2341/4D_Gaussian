@@ -1,0 +1,68 @@
+{
+  "status": "SMOKE_PASS",
+  "files": [
+    {
+      "scene": "coffee_martini",
+      "frame": 0,
+      "target": 1,
+      "path": "diagnostics\\phase05\\smoke_regions\\coffee_martini\\0000.npz",
+      "sha256": "e520c9b40f89aa5bd92ef4a3e0e0b23226ed7b9f093a038e3506d8a12e04e1fa",
+      "pixels": {
+        "dynamic": 6895,
+        "boundary": 3983,
+        "static": 333412,
+        "teacher_inconsistent": 2425
+      },
+      "rgb_sha256": "2a59d891e76ab247836218ae049c575d1a41da8346aafe8af1bb2d688f133991"
+    },
+    {
+      "scene": "coffee_martini",
+      "frame": 1,
+      "target": 0,
+      "path": "diagnostics\\phase05\\smoke_regions\\coffee_martini\\0001.npz",
+      "sha256": "4fa6cb6c041033c0d7a6e4a5f465f1295a262583ae05475e2b67b30bb429c368",
+      "pixels": {
+        "dynamic": 7120,
+        "boundary": 3767,
+        "static": 334317,
+        "teacher_inconsistent": 1295
+      },
+      "rgb_sha256": "dd13f8c227e09e279c9698abd26ba1aa371aa0ce19463390e206bae570909b22"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 0,
+      "target": 1,
+      "path": "diagnostics\\phase05\\smoke_regions\\cut_roasted_beef\\0000.npz",
+      "sha256": "fc8d368b24026690c5b9e087d8e8860e909fac777e7b9ef8dadddc796117af05",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 336057,
+        "teacher_inconsistent": 6675
+      },
+      "rgb_sha256": "e138c429945be842ce394bb26885c439fbe340629c73d39e55ef331484d40460"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "frame": 1,
+      "target": 0,
+      "path": "diagnostics\\phase05\\smoke_regions\\cut_roasted_beef\\0001.npz",
+      "sha256": "a2c242907fccfad8c76cf914ac79ed4ad51cab763fe484d3d6d5aaf1476ddad9",
+      "pixels": {
+        "dynamic": 0,
+        "boundary": 0,
+        "static": 336290,
+        "teacher_inconsistent": 6442
+      },
+      "rgb_sha256": "04f4e990696841e834d8d1a9d5977fe8975abacee47797021b1aa320ffc266ae"
+    }
+  ],
+  "teacher_sha256": "d306e7d75428bf943f7c6f163c05df60c9a808964e757c3d26c29b539a4a9bac",
+  "teacher_config_sha256": "32e1413055eecf506c92fe6cdcffcd5179694e22e66f558fa93a766d1a95d1d8",
+  "teacher_code_sha256": "298a074f865395d2d61e1eaed10b051c3af67ed09d69e01a0deefaac9b793fb2",
+  "protocol_sha256": "34b5551d6e8639f94ddf83129f6162a95f98c3141637e013e1e5bbe7a503179d",
+  "seconds": 1.2985287999999855,
+  "peak_allocated": 163745792,
+  "scope": "cam01 only, evaluation-only teacher proxy; no test camera access or use by training"
+}

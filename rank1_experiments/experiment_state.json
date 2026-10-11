@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-11T11:54:09.266373+08:00",
+  "updated_at": "2026-10-11T12:06:29.927905+08:00",
   "last_audit_run_ended_at": "2026-10-11T00:02:54.348831+08:00",
   "start_time": "2026-10-10T22:33:30+08:00",
   "timezone": "Asia/Shanghai",
-  "scope": "Phase04 implementation and short-training gate passed; phase05 effectiveness study not started",
-  "phase": "04",
-  "status": "PASS",
+  "scope": "Phase05 seed0 equal-budget pilot in progress; no effectiveness conclusion",
+  "phase": "05",
+  "status": "RUNNING",
   "source_sha": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
   "patch_sha": "e1075fa4d50e28084c21021009920d7fa8c5d3ef1904c3509c9aa5bdb05287f5",
   "manifests": {
@@ -72,14 +72,15 @@
     "Upstream metrics contract and equivalent streaming adapter"
   ],
   "unmet": [],
-  "continue_gate_passed": true,
+  "continue_gate_passed": false,
   "phase02": "PASS",
   "phase03": "PASS",
   "training_results": null,
   "next_actions": [
-    "Execute phase05 only when requested: freeze equal-budget development search and validation protocol",
-    "Compare M against B2 and H over both 90-frame development scenes with native density control",
-    "Continue monitoring UID and K retention; short phase04 runs do not establish quality gains"
+    "Freeze validation proxy masks",
+    "Calibrate from common training checkpoint",
+    "Run all24 native-density90-frame candidates, then evaluate and screen",
+    "Signal requires three-seed300-frame repeat before stage06"
   ],
   "recovery_prompt": "E:\\4D_Gaussian\\rank1_experiments\\RESUME_PROMPT.txt",
   "baseline_reproduction_complete": false,
@@ -386,7 +387,7 @@
   "phase04": "PASS",
   "phase04_started": "2026-10-11T11:13:00.650218+08:00",
   "phase04_complete": true,
-  "phase05": "NOT_STARTED",
+  "phase05": "RUNNING",
   "phase04_report": "reports/phase04_implementation.md",
   "phase04_common_k": 64,
   "phase04_finished": "2026-10-11T11:54:09.266373+08:00",
@@ -405,5 +406,8 @@
     "topk_min": 0.9962060451507568,
     "max_allocated_gib": 3.2409133911132812,
     "quality_improvement_claimed": false
-  }
+  },
+  "phase05_started": "2026-10-11T12:06:29.921350+08:00",
+  "phase05_protocol_sha256": "34b5551d6e8639f94ddf83129f6162a95f98c3141637e013e1e5bbe7a503179d",
+  "phase05_report": "reports/phase05_go_no_go.md"
 }
