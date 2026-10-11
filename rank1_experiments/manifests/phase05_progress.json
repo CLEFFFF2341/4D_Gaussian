@@ -2,12 +2,12 @@
   "status": "RUNNING",
   "pid": 22720,
   "started": "2026-10-11T12:17:28.649112+08:00",
-  "updated": "2026-10-11T12:22:03.122501+08:00",
+  "updated": "2026-10-11T12:26:16.847026+08:00",
   "active": {
-    "scene": "coffee_martini",
+    "scene": "cut_roasted_beef",
     "method": "F0",
     "ratio": 0.0,
-    "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\diagnostic\\coffee_martini\\F0\\r000",
+    "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\pilot\\diagnostic\\cut_roasted_beef\\F0\\r000",
     "stage": "validation"
   },
   "active_complete_frame": 90,
@@ -17,6 +17,12 @@
       "method": "F0",
       "ratio": 0.0,
       "run": "runs\\pilot\\diagnostic\\coffee_martini\\F0\\r000"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "method": "F0",
+      "ratio": 0.0,
+      "run": "runs\\pilot\\diagnostic\\cut_roasted_beef\\F0\\r000"
     }
   ],
   "planned_search_jobs": 24,
