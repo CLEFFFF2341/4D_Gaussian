@@ -50,8 +50,16 @@ def main():
     out=a.output or a.run/'evaluation/validation';out.mkdir(parents=True,exist_ok=True)
     records=[];checks=[];render_times=[]
     maskroot=ROOT/('diagnostics/phase05/smoke_regions' if a.smoke_regions else 'cache/phase05_eval_regions/dev')/a.scene
-    if not a.smoke_regions:assert read(ROOT/'manifests/phase05_regions.json')['status']=='FROZEN'
+    frozen_regions={}
+    if not a.smoke_regions:
+        frozen=read(ROOT/'manifests/phase05_regions.json');assert frozen['status']=='FROZEN'
+        assert frozen['protocol_sha256']==sha(ROOT/'manifests/phase05_protocol.json')
+        frozen_regions={r['frame']:r for r in frozen['files'] if r['scene']==a.scene}
     for frame in frames:
+        if frozen_regions:
+            fixed=frozen_regions[frame-1]
+            assert sha(ROOT/fixed['path'])==fixed['sha256']
+            assert sha(data/'cam01'/f'{frame-1:04d}.png')==fixed['rgb_sha256']
         path=a.run/'snapshots'/f'{frame:04d}.pt'
         if frame==1 and not path.exists():
             path=ROOT/'runs/B0/dev'/a.scene/'seed0_loader_exact/snapshots/0001.pt'

@@ -44,11 +44,13 @@ class Runner:
         assert sha(ROOT/'manifests/phase05_protocol.json')==read(ROOT/'experiment_state.json')['phase05_protocol_sha256']
         assert all(sha(ROOT/p)==h for p,h in self.p['immutable_sources'].items())
         assert all(sha(ROOT/p)==h for p,h in read(ROOT/'manifests/phase05_code_lock.json').items())
+        assert all(sha(ROOT/p)==h for p,h in read(ROOT/'manifests/phase05_calibration_lock.json').items())
 
     def job(self,job,calibrate=False):
         self.verify_frozen();self.active=dict(scene=job['scene'],method=job['method'],ratio=job['ratio'],run=job['run'],stage='training')
         self.save_progress();run=Path(job['run']);scene=job['scene'];method=job['method'];trial=job['trial']
         assert sha(job['config'])==job['config_sha256']
+        assert sha(job['initial']['path'])==job['initial']['sha256']
         index=ROOT/'manifests/phase05_trials'/f'{scene}_{method}_{trial}.json'
         if index.exists():
             row=read(index);assert read(run/'evaluation/validation/results.json')['frames']==90
@@ -93,6 +95,16 @@ class Runner:
             assert min(r['topk_mass_retention'] for r in flow)>=.95,'K truncation failure; stop and repair all controls'
             assert min(r['candidate_coverage'] for r in flow)>=.9,'Candidate coverage failure'
         else:assert all(r['flow_loss']==0 and r['flow_grad_norm']==0 for r in flow)
+        import torch
+        checkpoint=torch.load(run/'checkpoints/latest.pt',weights_only=False,map_location='cpu')
+        state=checkpoint['gaussian_state'];identity=state['identity']
+        assert checkpoint['frame']==90 and state['phase04_flow_lambda']==cfg['effective_flow_lambda']
+        assert identity.uid.unique().numel()==len(identity.uid)==resources[-1]['points']
+        assert state['topology_version']>0,'Native density must actually execute'
+        for group in state['optimizer'].param_groups:
+            if group['name'] in state['param_names']:assert group['params'][0] is state['_latents'][group['name']]
+            if group['name']=='offset_3d':assert group['params'][0] is state['offset_3d']
+        del checkpoint,state,identity
         self.active['stage']='validation';self.save_progress()
         result=run/'evaluation/validation/results.json'
         csvpath=run/'metrics_per_frame.csv'
@@ -157,7 +169,9 @@ class Runner:
         self.active={};self.save_progress()
         self.invoke('paired_figures','phase05_figures.py')
         subprocess.run([sys.executable,str(ROOT/'scripts/phase05_report.py')],check=True)
-        subprocess.run(['git','add',str(ROOT/'manifests'),str(ROOT/'reports/phase05_go_no_go.md'),str(ROOT/'experiment_state.json'),str(ROOT/'configs/frozen_pilot_configs'),str(ROOT/'diagnostics/phase05')],cwd=ROOT.parent,check=True)
+        paths=list((ROOT/'manifests').glob('phase05*.json'))+list((ROOT/'manifests').glob('phase05*.jsonl'))
+        paths+=[ROOT/'manifests/phase05_trials',ROOT/'reports/phase05_go_no_go.md',ROOT/'experiment_state.json',ROOT/'configs/frozen_pilot_configs',ROOT/'diagnostics/phase05']
+        subprocess.run(['git','add',*[str(p) for p in paths if p.exists()]],cwd=ROOT.parent,check=True)
         subprocess.run(['git','commit','-m','phase05 seed0 screening complete: preserve all trials and explicit repeat/no-go decision'],cwd=ROOT.parent,check=True)
 
 def main():
