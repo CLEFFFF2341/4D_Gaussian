@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "scene": "cut_roasted_beef",
+  "method": "M",
+  "ratio": 0.1,
+  "sigma": 2,
+  "k": 64,
+  "seed": 0,
+  "run": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100",
+  "metrics": {
+    "PSNR": 22.034094598558212,
+    "SSIM": 0.8464118871423933,
+    "LPIPS": 0.26147793696986305
+  },
+  "regions": {
+    "dynamic": {
+      "nonempty_frames": 36,
+      "empty_frames": 54,
+      "pixels": 40177,
+      "PSNR": 29.3638635249682,
+      "SSIM": 0.8812496297889285
+    },
+    "boundary": {
+      "nonempty_frames": 36,
+      "empty_frames": 54,
+      "pixels": 46498,
+      "PSNR": 27.615482091483116,
+      "SSIM": 0.8656199524799982
+    },
+    "static": {
+      "nonempty_frames": 90,
+      "empty_frames": 0,
+      "pixels": 30475395,
+      "PSNR": 22.02040249674784,
+      "SSIM": 0.8455412957403395
+    },
+    "teacher_inconsistent": {
+      "nonempty_frames": 90,
+      "empty_frames": 0,
+      "pixels": 330308,
+      "PSNR": 22.839898116502628,
+      "SSIM": 0.9208996593952179
+    }
+  },
+  "updated_frames": 89,
+  "seconds": 1517.0755766999937,
+  "peak_allocated_gib": 3.055873394012451,
+  "peak_reserved_gib": 3.34765625,
+  "disk_bytes": 5713882320,
+  "lambda_flow": 0.011939032906003384,
+  "initial": {
+    "path": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+    "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+    "bytes": 148080633
+  },
+  "config_sha256": "59a6be4479bedd538720f62532976d93200981d5c9252b94da7fe982e18e32d2",
+  "sampler_manifest_sha256": "2e319b6c9c05e30f50b0dcfe2bc2df2cc3e0e17810eb39ddefa0c02bb6cb4b4c",
+  "checkpoints": [
+    {
+      "path": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100\\checkpoints\\frame_0002.pt",
+      "bytes": 297605694,
+      "sha256": "c239af47460c12794a228c9338df74f375fba026aa129188be5979f8fe31e853"
+    },
+    {
+      "path": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100\\checkpoints\\frame_0005.pt",
+      "bytes": 310650046,
+      "sha256": "0a769d532b18edce081df874efbcba44e524a4cecb9597aa6414342575146000"
+    },
+    {
+      "path": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100\\checkpoints\\frame_0010.pt",
+      "bytes": 310715198,
+      "sha256": "4e7f7e509403a512163afc9a022e51dc09d3e38c72270c4556b0b6f08388d2d3"
+    },
+    {
+      "path": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100\\checkpoints\\frame_0030.pt",
+      "bytes": 310722942,
+      "sha256": "353f2426ffce3fb6a47445e7f0bf11873d0ca82637413ef2a8ada8ada6d07400"
+    },
+    {
+      "path": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100\\checkpoints\\frame_0060.pt",
+      "bytes": 310756926,
+      "sha256": "5838b2cb11084f7fa4479ca2207901ee88e8891d4de5489dee0956cfcbf7328b"
+    },
+    {
+      "path": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100\\checkpoints\\frame_0090.pt",
+      "bytes": 310773758,
+      "sha256": "6e0b765107e9a5cd21c5c865c61186d3087098696b90bed0e3ec506d37e0cd56"
+    },
+    {
+      "path": "runs\\pilot\\search\\cut_roasted_beef\\M\\r100\\checkpoints\\latest.pt",
+      "bytes": 310772410,
+      "sha256": "75fe0ac638ff62eb5bf2d3cfb9a032fa9c66c819becd459a1083148855d05db2"
+    }
+  ],
+  "uid_min": 0.9997804760932922,
+  "k_min": 0.9938050508499146,
+  "candidate_coverage_min": 1.0,
+  "evaluation_sha256": "336dae0bd1df41b1854f87f2d776d85316accf0e38636ba4d42624ad99212c66",
+  "completed": "2026-10-11T13:29:31.751495+08:00"
+}
