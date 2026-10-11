@@ -92,18 +92,19 @@ def main():
                  protocol_sha256=sha(ROOT/'manifests/phase05_protocol.json'),
                  seconds=time.perf_counter()-start,rendering_fps=len(render_times)/sum(render_times),
                  peak_allocated=torch.cuda.max_memory_allocated(),peak_reserved=torch.cuda.max_memory_reserved())
-    write(out/'per_frame.json',records);write(out/'results.json',summary)
+    write(out/'per_frame.json',records)
     csvrows=[]
     training={r['frame']:r for r in (read_lines(a.run/'training_metrics.jsonl'))}
     resources={r['frame']:r for r in (read_lines(a.run/'resources.jsonl'))}
     for r in records:
-        row=dict(frame=r['frame'],camera='cam01',**r['metrics'],**training.get(r['frame'],{}),**resources.get(r['frame'],{}))
+        row={'frame':r['frame'],'camera':'cam01',**r['metrics'],**training.get(r['frame'],{}),**resources.get(r['frame'],{})}
         for name,values in r['regions'].items():row.update({name+'_'+k:v for k,v in values.items()})
         csvrows.append(row)
     fields=list(dict.fromkeys(k for row in csvrows for k in row))
     csvpath=out/'metrics_per_frame.csv' if a.output else a.run/'metrics_per_frame.csv'
     with csvpath.open('w',newline='',encoding='utf-8') as f:
         writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader();writer.writerows(csvrows)
+    write(out/'results.json',summary) # acceptance marker only after CSV succeeds
     print(__import__('json').dumps(summary))
 
 def read_lines(path):

@@ -1,5 +1,6 @@
 """Autonomous serial seed0 sweep; fail closed, checkpoint resume and Git trial history."""
 import argparse
+import csv
 import json
 import math
 import os
@@ -94,8 +95,11 @@ class Runner:
         else:assert all(r['flow_loss']==0 and r['flow_grad_norm']==0 for r in flow)
         self.active['stage']='validation';self.save_progress()
         result=run/'evaluation/validation/results.json'
-        if not result.exists():self.invoke(f'eval_{scene}_{method}_{trial}','phase05_evaluate.py','--run',run,'--scene',scene)
+        csvpath=run/'metrics_per_frame.csv'
+        if not result.exists() or 'PSNR' not in csvpath.read_text().splitlines()[0]:
+            self.invoke(f'eval_{scene}_{method}_{trial}','phase05_evaluate.py','--run',run,'--scene',scene)
         evaluation=read(result);assert evaluation['frames']==90 and evaluation['status']=='PASS'
+        with csvpath.open(encoding='utf-8') as f:assert len(list(csv.DictReader(f)))==90
         ckpts=[dict(path=str(p.relative_to(ROOT)),bytes=p.stat().st_size,sha256=sha(p)) for p in sorted((run/'checkpoints').glob('*.pt'))]
         row=dict(status='PASS',scene=scene,method=method,ratio=job['ratio'],sigma=2,k=64,seed=0,run=str(run.relative_to(ROOT)),
                  metrics=evaluation['unified_fp32'],regions=evaluation['regions'],updated_frames=89,

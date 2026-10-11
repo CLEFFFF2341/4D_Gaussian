@@ -40,7 +40,7 @@ for scene in p['scenes']:
         if group['name']=='offset_3d':assert group['params'][0] is state['offset_3d']
     assert state['identity'].uid.unique().numel()==len(state['identity'].uid)
     del cp,state
-    if not (smoke/'evaluation/validation/results.json').exists():
+    if not (smoke/'evaluation/validation/results.json').exists() or 'PSNR' not in (smoke/'metrics_per_frame.csv').read_text().splitlines()[0]:
         assert launch('eval_smoke_'+scene,ROOT/'scripts/phase05_evaluate.py','--run',smoke,'--scene',scene,'--frames','2','--smoke-regions')==0
     evaluation=read(smoke/'evaluation/validation/results.json');assert evaluation['frames']==1 and evaluation['full_model_snapshot_checks'][0]['abs_max']==0
     rows.append(dict(scene=scene,calibration=out.as_posix(),calibration_sha256=sha(out),
