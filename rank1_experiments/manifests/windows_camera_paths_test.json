@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "cases": 4,
+  "scope": "Separator normalization only; preserves camera and frame names."
+}

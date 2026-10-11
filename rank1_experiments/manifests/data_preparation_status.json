@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-10-10T23:09:50.229518+08:00",
+  "n3dv_raw_scenes": 6,
+  "raw_cameras": 120,
+  "all_headers_and_samples_readable": true,
+  "development_strict_decode": {
+    "first_sweep_pass": 37,
+    "first_sweep_total": 38,
+    "failed": "cut_roasted_beef/cam10.mp4",
+    "identical_archive_content": true,
+    "subsequent_single_process_passes": 4,
+    "diagnosis": "Transient decoding/concurrency behavior unresolved; do not label raw video corrupt or silently repair."
+  },
+  "prepared_for_morgs": false,
+  "points3D_downsample2_missing_all_scenes": true,
+  "development_validation_proposal": {
+    "coffee_martini": "cam01",
+    "cut_roasted_beef": "cam01"
+  },
+  "test_camera": "cam00",
+  "camera_reprojection_checked": false,
+  "splits_frozen": false,
+  "derived_data_root_proposal": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf",
+  "meet_room": {
+    "local_found": false,
+    "downloaded": false,
+    "origins": [
+      "https://www.modelscope.cn/datasets/DAMOXR/dynamic_nerf_meeting_room_dataset/summary",
+      "https://drive.google.com/drive/folders/1lNmQ6_ykyKjT6UKy-SnqWoSlI5yjh3l_"
+    ],
+    "exact_scene_names": null,
+    "test_camera_id": null
+  }
+}

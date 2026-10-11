@@ -1,0 +1,24 @@
+{
+  "wheels": [
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\wheels_cu121\\diff_gaussian_rasterization-0.0.0-cp310-cp310-win_amd64.whl",
+      "sha256": "631ed6cfa456cf4f4e9800d6c9299c518ee8906e422346c3c57b06cd649d0493",
+      "bytes": 279291
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\wheels_cu121\\gaussian_rasterization_grad-0.0.0-cp310-cp310-win_amd64.whl",
+      "sha256": "f8e4317b094abe62d71b1f0b9404d749687f8bc269873f7088fcad68623f4c27",
+      "bytes": 292930
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\wheels_cu121\\simple_knn-0.0.0-cp310-cp310-win_amd64.whl",
+      "sha256": "5288375f6baae935c4b009ce7aee2db9482b9caf9478735a87b2d9dd90f6db98",
+      "bytes": 220946
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\wheels_cu121\\torch_cluster-1.6.3+pt25cu121-cp310-cp310-win_amd64.whl",
+      "sha256": "bb9152ed317f8ce60cdb36a406ad5f87b2d4a9059eb613e2b22a150bd449bbb7",
+      "bytes": 1592880
+    }
+  ]
+}

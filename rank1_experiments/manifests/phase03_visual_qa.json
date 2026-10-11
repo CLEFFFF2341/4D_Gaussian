@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Image layout, gross scene alignment and measured quality/resource curves; not paper-number reproduction or method efficacy.",
+  "inspected": [
+    "figures/phase03/dev_coffee_martini_heldout.png",
+    "figures/phase03/dev_cut_roasted_beef_heldout.png",
+    "figures/phase03/final_coffee_martini_heldout.png",
+    "figures/phase03/quality_curves.png",
+    "figures/phase03/resource_curves.png"
+  ],
+  "formal_observations": "Final cam00 frame299 aligns with the table, window, shelves and person; no blank render or gross camera displacement. Fine texture and dynamic torso/hand regions remain imperfect. Formal300 quality curves remain finite and stable.",
+  "development_limitations": "Both sparse-init dev views contain background/edge coverage errors. cut_roasted_beef PSNR declines in later dev frames; initialization, changing content and inherited motion/offset behavior have not been causally separated. Do not treat these runs as paper-quality replication or claim mixture gains from initialization differences.",
+  "layout": "Ground truth, prediction and error panels are readable; color scales, axes and legends are visible."
+}

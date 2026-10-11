@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "simple_knn_max_error": 1.862645149230957e-07,
+  "torch_cluster_edges": [
+    2,
+    96
+  ],
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "seconds": 0.8128921999996237
+}

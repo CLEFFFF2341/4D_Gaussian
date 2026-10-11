@@ -1,0 +1,272 @@
+[
+  {
+    "scene": "coffee_martini",
+    "uid_to_camera": {
+      "0": "cam00",
+      "1": "cam01",
+      "2": "cam02",
+      "3": "cam04",
+      "4": "cam05",
+      "5": "cam06",
+      "6": "cam07",
+      "7": "cam08",
+      "8": "cam09",
+      "9": "cam10",
+      "10": "cam11",
+      "11": "cam12",
+      "12": "cam13",
+      "13": "cam14",
+      "14": "cam16",
+      "15": "cam18",
+      "16": "cam19",
+      "17": "cam20"
+    },
+    "selected_geometry_cameras": [
+      "cam01",
+      "cam05",
+      "cam09",
+      "cam14"
+    ],
+    "teacher_peek_cameras": [
+      "cam02",
+      "cam06",
+      "cam10",
+      "cam16"
+    ],
+    "same_camera_pairing": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "proposed_validation": "cam02",
+    "mapping_status": "raw sorted video-to-pose association; reprojection pending"
+  },
+  {
+    "scene": "cut_roasted_beef",
+    "uid_to_camera": {
+      "0": "cam00",
+      "1": "cam01",
+      "2": "cam02",
+      "3": "cam03",
+      "4": "cam05",
+      "5": "cam06",
+      "6": "cam07",
+      "7": "cam08",
+      "8": "cam09",
+      "9": "cam10",
+      "10": "cam11",
+      "11": "cam12",
+      "12": "cam13",
+      "13": "cam14",
+      "14": "cam15",
+      "15": "cam16",
+      "16": "cam17",
+      "17": "cam18",
+      "18": "cam19",
+      "19": "cam20"
+    },
+    "selected_geometry_cameras": [
+      "cam01",
+      "cam05",
+      "cam09",
+      "cam14"
+    ],
+    "teacher_peek_cameras": [
+      "cam02",
+      "cam06",
+      "cam10",
+      "cam15"
+    ],
+    "same_camera_pairing": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "proposed_validation": "cam02",
+    "mapping_status": "raw sorted video-to-pose association; reprojection pending"
+  },
+  {
+    "scene": "cook_spinach",
+    "uid_to_camera": {
+      "0": "cam00",
+      "1": "cam01",
+      "2": "cam02",
+      "3": "cam03",
+      "4": "cam04",
+      "5": "cam05",
+      "6": "cam06",
+      "7": "cam07",
+      "8": "cam08",
+      "9": "cam09",
+      "10": "cam10",
+      "11": "cam11",
+      "12": "cam12",
+      "13": "cam13",
+      "14": "cam14",
+      "15": "cam15",
+      "16": "cam16",
+      "17": "cam17",
+      "18": "cam18",
+      "19": "cam19",
+      "20": "cam20"
+    },
+    "selected_geometry_cameras": [
+      "cam01",
+      "cam04",
+      "cam08",
+      "cam13"
+    ],
+    "teacher_peek_cameras": [
+      "cam02",
+      "cam05",
+      "cam09",
+      "cam14"
+    ],
+    "same_camera_pairing": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "proposed_validation": "cam02",
+    "mapping_status": "raw sorted video-to-pose association; reprojection pending"
+  },
+  {
+    "scene": "flame_salmon_1",
+    "uid_to_camera": {
+      "0": "cam00",
+      "1": "cam01",
+      "2": "cam02",
+      "3": "cam04",
+      "4": "cam05",
+      "5": "cam06",
+      "6": "cam07",
+      "7": "cam08",
+      "8": "cam09",
+      "9": "cam10",
+      "10": "cam11",
+      "11": "cam12",
+      "12": "cam13",
+      "13": "cam14",
+      "14": "cam15",
+      "15": "cam16",
+      "16": "cam18",
+      "17": "cam19",
+      "18": "cam20"
+    },
+    "selected_geometry_cameras": [
+      "cam01",
+      "cam05",
+      "cam09",
+      "cam14"
+    ],
+    "teacher_peek_cameras": [
+      "cam02",
+      "cam06",
+      "cam10",
+      "cam15"
+    ],
+    "same_camera_pairing": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "proposed_validation": "cam02",
+    "mapping_status": "raw sorted video-to-pose association; reprojection pending"
+  },
+  {
+    "scene": "flame_steak",
+    "uid_to_camera": {
+      "0": "cam00",
+      "1": "cam01",
+      "2": "cam02",
+      "3": "cam03",
+      "4": "cam04",
+      "5": "cam05",
+      "6": "cam06",
+      "7": "cam07",
+      "8": "cam08",
+      "9": "cam09",
+      "10": "cam10",
+      "11": "cam11",
+      "12": "cam12",
+      "13": "cam13",
+      "14": "cam14",
+      "15": "cam15",
+      "16": "cam16",
+      "17": "cam17",
+      "18": "cam18",
+      "19": "cam19",
+      "20": "cam20"
+    },
+    "selected_geometry_cameras": [
+      "cam01",
+      "cam04",
+      "cam08",
+      "cam13"
+    ],
+    "teacher_peek_cameras": [
+      "cam02",
+      "cam05",
+      "cam09",
+      "cam14"
+    ],
+    "same_camera_pairing": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "proposed_validation": "cam02",
+    "mapping_status": "raw sorted video-to-pose association; reprojection pending"
+  },
+  {
+    "scene": "sear_steak",
+    "uid_to_camera": {
+      "0": "cam00",
+      "1": "cam01",
+      "2": "cam02",
+      "3": "cam03",
+      "4": "cam04",
+      "5": "cam05",
+      "6": "cam06",
+      "7": "cam07",
+      "8": "cam08",
+      "9": "cam09",
+      "10": "cam10",
+      "11": "cam11",
+      "12": "cam12",
+      "13": "cam13",
+      "14": "cam14",
+      "15": "cam15",
+      "16": "cam16",
+      "17": "cam17",
+      "18": "cam18",
+      "19": "cam19",
+      "20": "cam20"
+    },
+    "selected_geometry_cameras": [
+      "cam01",
+      "cam04",
+      "cam08",
+      "cam13"
+    ],
+    "teacher_peek_cameras": [
+      "cam02",
+      "cam05",
+      "cam09",
+      "cam14"
+    ],
+    "same_camera_pairing": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "proposed_validation": "cam02",
+    "mapping_status": "raw sorted video-to-pose association; reprojection pending"
+  }
+]

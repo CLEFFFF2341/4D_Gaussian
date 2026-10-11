@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "points": 32,
+  "steps": [
+    {
+      "frame": 1,
+      "loss": 0.0014569817576557398,
+      "gradients": {
+        "xyz": 0.00018830416956916451,
+        "f_dc": 0.0001761638413881883,
+        "f_rest": 0.0,
+        "sc": 0.0003559401957318187,
+        "rot": 1.1889083467719885e-12,
+        "op": 0.000348071800544858,
+        "motion_label": 0.0,
+        "flow": 0.0
+      },
+      "actual_xyz_max_update": 0.00015997886657714844,
+      "optimizer_has_offset": false
+    },
+    {
+      "frame": 2,
+      "loss": 0.001427987008355558,
+      "gradients": {
+        "xyz": 0.0003339403192512691,
+        "f_dc": 4.112757778784726e-08,
+        "f_rest": 0.0,
+        "sc": 1.1208220485059428e-06,
+        "rot": 1.3155216499471933e-11,
+        "op": 2.9273035551113935e-08,
+        "motion_label": 7.413140656886696e-10
+      },
+      "actual_xyz_max_update": 0.0003011971712112427,
+      "optimizer_has_offset": true
+    }
+  ],
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "seconds": 0.30206059999909485,
+  "peak_allocated": 17422848,
+  "peak_reserved": 23068672,
+  "caveat": "Synthetic two-step model/renderer/optimizer check; no scene training, densification or restart claim."
+}

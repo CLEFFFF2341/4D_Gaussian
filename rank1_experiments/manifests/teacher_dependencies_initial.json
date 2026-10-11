@@ -1,0 +1,32 @@
+{
+  "teachers": [
+    {
+      "name": "SEA-RAFT",
+      "vendored_by_morgs_commit": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+      "python_source_tree_sha256": "6650495cfac14704c0ff67aadde45c8303be5a5b74184b6125951d16576570e3",
+      "config_path": "RAFT/config/eval/spring-M.json",
+      "config_sha256": "32e1413055eecf506c92fe6cdcffcd5179694e22e66f558fa93a766d1a95d1d8",
+      "checkpoint_path": "RAFT/models/Tartan-C-T-TSKH-spring540x960-M.pth",
+      "checkpoint_exists": false,
+      "checkpoint_sha256": null,
+      "origin": "https://huggingface.co/MemorySlices/Tartan-C-T-TSKH-spring540x960-M",
+      "status": "IMPORT_ONLY; pretrained inference not executed"
+    },
+    {
+      "name": "SAM2.1",
+      "vendored_by_morgs_commit": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+      "python_source_tree_sha256": "9434438369cb8f469395477d2cf1f56918bbf17849195d4ef899cbf62faf837e",
+      "config_path": "sam2/configs/sam2.1/sam2.1_hiera_l.yaml",
+      "config_sha256": "1dbd6cb6dfebeaf588c7006ee222c6efbfa9049a7ad472a3cdfb2f5d919e8107",
+      "checkpoint_path": "sam2/checkpoints/sam2.1_hiera_large.pt",
+      "checkpoint_exists": false,
+      "checkpoint_sha256": null,
+      "origin": "https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt",
+      "status": "IMPORT_ONLY; pretrained inference not executed"
+    }
+  ],
+  "raft_resnet_dependency": "RAFT constructor calls torchvision ResNet34 ImageNet weights before loading its checkpoint.",
+  "sam2_c_extension": "Bundled sam2/_C.so is a Linux binary; postprocessing extension requires Windows build or an explicitly recorded behavior change.",
+  "sam2_config_default": "./sam2.1/sam2.1_hiera_l.yaml",
+  "sam2_config_resolved": "configs/sam2.1/sam2.1_hiera_l.yaml"
+}

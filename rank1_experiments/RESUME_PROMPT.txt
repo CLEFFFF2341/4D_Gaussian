@@ -1,0 +1,12 @@
+Continue only when asked to execute the next phase. Current Phase03 execution gate PASS.
+Read E:/4D_Gaussian/rank1_experiment_plan_20261010/共同约束与数学定义.md and 完整分阶段实验Prompts.md.
+Read rank1_experiments/reports/phase03_baseline.md and experiment_state.json.
+Current dev B0 runs are seed0_loader_exact; seed0 and old smoke *_v2 are diagnostics using obsolete GPU normalization teacher caches.
+Use cache/teachers/dev_phase03 and final (CPU ToTensor division before CUDA), envs/morgs-cu121, scripts/run_official.cmd.
+Original author source and native required patches retained. train_phase03.py is a generated compatibility entry point; original loss block SHA is verified.
+Full checkpoints are frame-boundary pickles with actual modules/optimizer, previous attrs, offset, mapping, masks and RNG. Do not use legacy capture/restore as equivalent.
+Preserve B0 author offset optimizer disconnection after prune; any correction must be a separate shared control.
+Formal dense uses public fixed poses + COLMAP triangulation/MVS and NumPy voxel averaging; not a claim of identical author SfM initialization.
+Teacher live/replay labels/loss and gradients checked; snapshot and native renderer checked. Normal repeat-run variation is measured, not bitwise deterministic.
+No new supervision or visibility/mixture module implemented. Stage04 must keep B0 reference separate from shared geometry/teacher corrections.
+Do not rerun old phase01/02 finalizers or reset existing outputs.

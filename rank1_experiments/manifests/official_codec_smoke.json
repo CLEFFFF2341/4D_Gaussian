@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "symbols": 12,
+  "encoded_bytes": 4,
+  "exact_roundtrip": true,
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "seconds": 10.353901999998925
+}

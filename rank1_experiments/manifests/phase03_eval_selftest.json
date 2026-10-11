@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "identical": {
+    "psnr": "infinity",
+    "ssim": 1.0,
+    "lpips": 0.0
+  },
+  "constant_error_psnr": 20.0,
+  "author_quantized_constant_psnr": 19.831336975097656,
+  "lpips_symmetry_error": 0.0
+}

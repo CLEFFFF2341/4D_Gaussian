@@ -1,0 +1,78 @@
+--- a/submodules/gaussian-rasterization-grad/cuda_rasterizer/backward.cu
++++ b/submodules/gaussian-rasterization-grad/cuda_rasterizer/backward.cu
+@@ -23,9 +23,9 @@
+ {
+ 	// Compute intermediate values, as it is done during forward
+ 
+-	bool update_mean = update_mask[7 * idx + 0];
+-	bool update_dc = update_mask[7 * idx + 1];
+-	bool update_rest = update_mask[7 * idx + 2];
++	bool update_mean = update_mask[8 * idx + 0];
++	bool update_dc = update_mask[8 * idx + 1];
++	bool update_rest = update_mask[8 * idx + 2];
+ 	bool update_sh = (update_dc || update_rest);
+ 	if ((!update_mean)&&(!update_sh)){
+ 		return;
+@@ -201,8 +201,8 @@
+ 
+ 	// Reading location of 3D covariance for this Gaussian
+ 	const float* cov3D = cov3Ds + 6 * idx;
+-	const bool update_cov = (update_mask[7 * idx + 3] || update_mask[7 * idx + 4]);
+-	const bool update_mean = update_mask[7 * idx + 0];
++	const bool update_cov = (update_mask[8 * idx + 3] || update_mask[8 * idx + 4]);
++	const bool update_mean = update_mask[8 * idx + 0];
+ 	float3 zero_vec = {0, 0, 0};
+ 
+ 	if ((!update_cov)&&(!update_mean)){
+@@ -344,8 +344,8 @@
+ __device__ void computeCov3D(int idx, const glm::vec3 scale, float mod, const glm::vec4 rot, const bool* update_mask,
+ 							 const float* dL_dcov3Ds, glm::vec3* dL_dscales, glm::vec4* dL_drots)
+ {
+-	bool update_scale = update_mask[7 * idx + 3];
+-	bool update_rot = update_mask[7 * idx + 4];
++	bool update_scale = update_mask[8 * idx + 3];
++	bool update_rot = update_mask[8 * idx + 4];
+ 	if ((!update_scale) && (!update_rot))
+ 		return;
+ 	// Recompute (intermediate) results for the 3D covariance computation.
+@@ -449,8 +449,8 @@
+ 	if (idx >= P || !(radii[idx] > 0))
+ 		return;
+ 
+-	bool update_mean = update_mask[7 * idx + 0];
+-	bool update_flow = update_mask[7 * idx + 6];
++	bool update_mean = update_mask[8 * idx + 0];
++	bool update_flow = update_mask[8 * idx + 6];
+ 
+ 	float3 m = means[idx];
+ 
+@@ -692,10 +692,10 @@
+ 				continue;
+ 
+ 			const int global_id = collected_id[j];
+-			bool update_any = update_mask[global_id * 7 + 0] || update_mask[global_id * 7 + 1] ||\
+-							   update_mask[global_id * 7 + 2] || update_mask[global_id * 7 + 3] ||\
+-							   update_mask[global_id * 7 + 4] || update_mask[global_id * 7 + 5] ||\
+-							   update_mask[global_id * 7 + 6];
++			bool update_any = update_mask[global_id * 8 + 0] || update_mask[global_id * 8 + 1] ||\
++							   update_mask[global_id * 8 + 2] || update_mask[global_id * 8 + 3] ||\
++							   update_mask[global_id * 8 + 4] || update_mask[global_id * 8 + 5] ||\
++							   update_mask[global_id * 8 + 6];
+ 			if (!update_any)
+ 				continue;
+ 
+@@ -722,10 +722,10 @@
+ 			// gradients w.r.t. alpha (blending factor for a Gaussian/pixel
+ 			// pair).
+ 			float dL_dalpha = 0.0f;
+-			const bool update_sh = (update_mask[global_id * 7 + 1] || update_mask[global_id * 7 + 2]);
+-			const bool update_mean = update_mask[global_id * 7 + 0];
+-			const bool update_opacity = update_mask[global_id * 7 + 5];
+-			const bool update_flow = update_mask[global_id * 7 + 6];
++			const bool update_sh = (update_mask[global_id * 8 + 1] || update_mask[global_id * 8 + 2]);
++			const bool update_mean = update_mask[global_id * 8 + 0];
++			const bool update_opacity = update_mask[global_id * 8 + 5];
++			const bool update_flow = update_mask[global_id * 8 + 6];
+ 
+ 			for (int ch = 0; ch < C; ch++)
+ 			{

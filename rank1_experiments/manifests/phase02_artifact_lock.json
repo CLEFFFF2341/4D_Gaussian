@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "phase02_prepare_data.py": "60da224128e1cbab5dacef42471432a31fa0316ec106813bd25e52ecca06f6cc",
+    "phase02_teacher_cache.py": "7db1dfe249d940706006557aa960d141ee9a28dca1a905884d244a1d59c5a712",
+    "phase02_geometry.py": "11f08d3cd426ae8792f609a1ea81c506340ca035badf47a1cc637bc39be4d1f8",
+    "phase02_protocol_checks.py": "fc236fe49d5a8953da804f2c05c744263027b36b9e39b2175b721840d7f957fe",
+    "phase02_meetroom_manifest.py": "fdb258fe787c7709749708086a517be7a7cef9d6aeaa3fa8c850220fb7974b95",
+    "phase02_video_timestamps.py": "8175df99db76d6e9ed0608dc2627ad582563718777aa110c5a03f51da3570086",
+    "protocol_cache.py": "320aca796af93f9c7f914149ae58019b6d5618dcd84280c77d7651595271bc37",
+    "phase02_cache_verify.py": "fab739610c73c8b097e3c12d23f781ae18ecc6cf1c6581f4b28337360c289c5f",
+    "phase02_finalize.py": "9f72c1b6712722c8ee28e0cadf02cf9f8baa37e88457ef155adf040e8d2bc3b0"
+  },
+  "source_patches": [
+    {
+      "path": "scene/dataset_readers.py",
+      "original_sha256": "84c7f3995ab7f79baacf9ef2a30fc318ba2d67f1b442d40e3a98b5ff087a7157",
+      "working_sha256": "067aaad89b2bafebee30da75086461a3d2558fb19af2b7cda9209e500cced26a"
+    },
+    {
+      "path": "utils/loader_utils.py",
+      "original_sha256": "59279f64cfd6241ca0355c8b2fee13406aa4d85e6909b55501333f959229f16a",
+      "working_sha256": "8f39932ca838c22bc9b62cc4890355d0b3fa093e144bee91723c869caa3ee751"
+    }
+  ],
+  "development_pngs": 3420,
+  "formal_pngs": 11400,
+  "all_png_hashes_verified": true,
+  "extracted_bytes": 18147846757,
+  "flow_npz": 1440,
+  "sam_npz": 88
+}

@@ -1,0 +1,3163 @@
+{
+  "scene": "cut_roasted_beef",
+  "camera": "cam19",
+  "pose_row": 18,
+  "video": "E:\\4DGS\\data\\cut_roasted_beef\\cam19.mp4",
+  "video_sha256": "d8d4d6139d8b69c67fa608ec15c6218f06920b10027e9d16b0c59f2dabe7f651",
+  "command": [
+    "E:\\4D_Gaussian\\rank1_experiments\\sources\\ffmpeg-0.6.0\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-nostdin",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-xerror",
+    "-threads",
+    "1",
+    "-i",
+    "E:\\4DGS\\data\\cut_roasted_beef\\cam19.mp4",
+    "-filter_threads",
+    "1",
+    "-vf",
+    "scale=1352:1014:flags=area",
+    "-frames:v",
+    "300",
+    "-fps_mode",
+    "passthrough",
+    "-pix_fmt",
+    "bgr24",
+    "-threads",
+    "1",
+    "-f",
+    "rawvideo",
+    "pipe:1"
+  ],
+  "frames": {
+    "final": [
+      {
+        "frame": 0,
+        "source_video_frame": 0,
+        "timestamp_seconds": 0.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0000.png",
+        "bytes": 1282408,
+        "sha256": "d96164a7ca6e1d191a22a8e208640a16443090af95f18e1f04eb11daca9316c3"
+      },
+      {
+        "frame": 1,
+        "source_video_frame": 1,
+        "timestamp_seconds": 0.03333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0001.png",
+        "bytes": 1312989,
+        "sha256": "d84f49aff1161b3ab9f553d8d0ec7234a413d19c18995865099112238e65a639"
+      },
+      {
+        "frame": 2,
+        "source_video_frame": 2,
+        "timestamp_seconds": 0.06666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0002.png",
+        "bytes": 1315168,
+        "sha256": "b58b08977a386129ccf00b05b81f3f3534e30d3beeb1f879a9cff33a3fd77023"
+      },
+      {
+        "frame": 3,
+        "source_video_frame": 3,
+        "timestamp_seconds": 0.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0003.png",
+        "bytes": 1318253,
+        "sha256": "5758e85e6fe6b9eb7d25c7a566a419ef644cc5c6fbf4928fea42f4b78b2b23fe"
+      },
+      {
+        "frame": 4,
+        "source_video_frame": 4,
+        "timestamp_seconds": 0.13333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0004.png",
+        "bytes": 1307835,
+        "sha256": "288ef0eef0052b3713c8c0d532992ea8fd6a086d41b12e11d0563382cf861cf1"
+      },
+      {
+        "frame": 5,
+        "source_video_frame": 5,
+        "timestamp_seconds": 0.16666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0005.png",
+        "bytes": 1265698,
+        "sha256": "8e6c76d26023a2cc6178428bf7e63c2a84409b6f7b7a369eacbf38e68193d12f"
+      },
+      {
+        "frame": 6,
+        "source_video_frame": 6,
+        "timestamp_seconds": 0.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0006.png",
+        "bytes": 1273262,
+        "sha256": "40806bb3abfdfdae9ded17bdaf1f95fcf397a75a2ecbf95a211ef741497f6063"
+      },
+      {
+        "frame": 7,
+        "source_video_frame": 7,
+        "timestamp_seconds": 0.23333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0007.png",
+        "bytes": 1280601,
+        "sha256": "4991d5d7ab82a5662b11f9575a71f34b473e4a650ca270389b3518ac448ab62a"
+      },
+      {
+        "frame": 8,
+        "source_video_frame": 8,
+        "timestamp_seconds": 0.26666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0008.png",
+        "bytes": 1276347,
+        "sha256": "5f17e69bcaedc69c1280a6016e3c9bf7b1583d4783ab44069f8b5b5fc77ba3eb"
+      },
+      {
+        "frame": 9,
+        "source_video_frame": 9,
+        "timestamp_seconds": 0.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0009.png",
+        "bytes": 1294740,
+        "sha256": "bf24fc74c19b3020df6b6c809a73ed1854afa975591b7712b776c4d8f58d5ba8"
+      },
+      {
+        "frame": 10,
+        "source_video_frame": 10,
+        "timestamp_seconds": 0.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0010.png",
+        "bytes": 1309085,
+        "sha256": "025590ca01c1bc8b030491a782af0332c8835ac8f78df4576a8a3f3114269d64"
+      },
+      {
+        "frame": 11,
+        "source_video_frame": 11,
+        "timestamp_seconds": 0.36666666666666664,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0011.png",
+        "bytes": 1310829,
+        "sha256": "8dbdca03a36ddc42db32ee5cb5bd0f1c98007936e48414c55080a2653ad18f02"
+      },
+      {
+        "frame": 12,
+        "source_video_frame": 12,
+        "timestamp_seconds": 0.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0012.png",
+        "bytes": 1311317,
+        "sha256": "4ba49eb3e373ba98db0beccc32d52ade64b23bc602bb46797ea6844778e8add7"
+      },
+      {
+        "frame": 13,
+        "source_video_frame": 13,
+        "timestamp_seconds": 0.43333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0013.png",
+        "bytes": 1322455,
+        "sha256": "d2a163532995c895dca281b5b51c70df0ac1c73362e6b134a6972c7dcf621e68"
+      },
+      {
+        "frame": 14,
+        "source_video_frame": 14,
+        "timestamp_seconds": 0.4666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0014.png",
+        "bytes": 1326723,
+        "sha256": "9a95f27fc8d5848002b6d36005ff7c7e681a0ae0bf786d67c213fba922c6315e"
+      },
+      {
+        "frame": 15,
+        "source_video_frame": 15,
+        "timestamp_seconds": 0.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0015.png",
+        "bytes": 1329974,
+        "sha256": "e9e609284f4cc6d21616660c03cb532dea5bd3f7146f89915418d304400411b4"
+      },
+      {
+        "frame": 16,
+        "source_video_frame": 16,
+        "timestamp_seconds": 0.5333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0016.png",
+        "bytes": 1326557,
+        "sha256": "450cc84d80f780e34906171592672987c6d871825204704ea9b5f7ecdcfa4018"
+      },
+      {
+        "frame": 17,
+        "source_video_frame": 17,
+        "timestamp_seconds": 0.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0017.png",
+        "bytes": 1332155,
+        "sha256": "b39558695b9375a16cdab982bf8bfff34b5cf3b28cccf02a4ffaf2e36dfea919"
+      },
+      {
+        "frame": 18,
+        "source_video_frame": 18,
+        "timestamp_seconds": 0.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0018.png",
+        "bytes": 1337094,
+        "sha256": "5ec7c602cbca54f3768c95e7f5bb93a58c43f2c1516b225a6746f5a9990ea212"
+      },
+      {
+        "frame": 19,
+        "source_video_frame": 19,
+        "timestamp_seconds": 0.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0019.png",
+        "bytes": 1331353,
+        "sha256": "6a3163ee2a49f5b7d85f26c2fec6469f0c95217969156794bfb2d0530601274a"
+      },
+      {
+        "frame": 20,
+        "source_video_frame": 20,
+        "timestamp_seconds": 0.6666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0020.png",
+        "bytes": 1263620,
+        "sha256": "01005cc704ca085409c0217927660739de3297110df203e20b0387bdfdb3227e"
+      },
+      {
+        "frame": 21,
+        "source_video_frame": 21,
+        "timestamp_seconds": 0.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0021.png",
+        "bytes": 1281098,
+        "sha256": "56105d5597dc5f519b4526be2cb92eef1dddfc9b0b2b5a61d31d68d39a23b3f7"
+      },
+      {
+        "frame": 22,
+        "source_video_frame": 22,
+        "timestamp_seconds": 0.7333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0022.png",
+        "bytes": 1288978,
+        "sha256": "ace447262a78dc17abef5d53f0dfb4afc5c1102146f5593a450d09566167f6c6"
+      },
+      {
+        "frame": 23,
+        "source_video_frame": 23,
+        "timestamp_seconds": 0.7666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0023.png",
+        "bytes": 1297481,
+        "sha256": "3c6bf6c5bac9e9e2e2258c76720920e4abafc9f4c3630fa6568b6b345f378e14"
+      },
+      {
+        "frame": 24,
+        "source_video_frame": 24,
+        "timestamp_seconds": 0.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0024.png",
+        "bytes": 1298080,
+        "sha256": "65154572f2241c5b803a88d41096e7e26d13d990134de45fa0a4d593b4f02d05"
+      },
+      {
+        "frame": 25,
+        "source_video_frame": 25,
+        "timestamp_seconds": 0.8333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0025.png",
+        "bytes": 1311328,
+        "sha256": "5ee54cc66cc390fdbcc00399a830c59051dc6caa698aef0b310d7e58cb69d510"
+      },
+      {
+        "frame": 26,
+        "source_video_frame": 26,
+        "timestamp_seconds": 0.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0026.png",
+        "bytes": 1315920,
+        "sha256": "c26f7e5c40baf6b7a4411f5ab77fc63f12ee75655eca148b5e0b5991c69b6030"
+      },
+      {
+        "frame": 27,
+        "source_video_frame": 27,
+        "timestamp_seconds": 0.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0027.png",
+        "bytes": 1318657,
+        "sha256": "5ab74f39857c5cc5a3c09e6055a3707ce03d12bc322c336225fbd705ae7b7aae"
+      },
+      {
+        "frame": 28,
+        "source_video_frame": 28,
+        "timestamp_seconds": 0.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0028.png",
+        "bytes": 1320762,
+        "sha256": "bed188e02736d07f45b543278961cd0b9a024feecdf1febed84caed91aa295f8"
+      },
+      {
+        "frame": 29,
+        "source_video_frame": 29,
+        "timestamp_seconds": 0.9666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0029.png",
+        "bytes": 1328283,
+        "sha256": "c8e667ccfcf4c70518415ba67ad5cc7395badd1b3a63818810c7277f236c6c2f"
+      },
+      {
+        "frame": 30,
+        "source_video_frame": 30,
+        "timestamp_seconds": 1.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0030.png",
+        "bytes": 1333569,
+        "sha256": "271659881be1cc440b22000d1bcbd21f8077ce87fd89cef6f5deb92ed948f8ab"
+      },
+      {
+        "frame": 31,
+        "source_video_frame": 31,
+        "timestamp_seconds": 1.0333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0031.png",
+        "bytes": 1329486,
+        "sha256": "7ca3c335fcb58739778a69d8126e9381c101e5cfaf5fb69d90647f88cb45c973"
+      },
+      {
+        "frame": 32,
+        "source_video_frame": 32,
+        "timestamp_seconds": 1.0666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0032.png",
+        "bytes": 1328309,
+        "sha256": "1c803b50059bfe6ad5ab22b799510abd6dfcc83f4b6464c51325851f159bb61a"
+      },
+      {
+        "frame": 33,
+        "source_video_frame": 33,
+        "timestamp_seconds": 1.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0033.png",
+        "bytes": 1335201,
+        "sha256": "40af92bbd9a22a1cdc281f7a9e8bace946af6f499674adb531f6a6964a4c9ff7"
+      },
+      {
+        "frame": 34,
+        "source_video_frame": 34,
+        "timestamp_seconds": 1.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0034.png",
+        "bytes": 1333166,
+        "sha256": "34c42f208bee9f422051725d6aa92a52655410214845e0473c75eef2e7d42bf4"
+      },
+      {
+        "frame": 35,
+        "source_video_frame": 35,
+        "timestamp_seconds": 1.1666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0035.png",
+        "bytes": 1271576,
+        "sha256": "76d93f4df1b269bc6665a08f5d9753edd17203fe2982a4215518d0af50a7eaf8"
+      },
+      {
+        "frame": 36,
+        "source_video_frame": 36,
+        "timestamp_seconds": 1.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0036.png",
+        "bytes": 1270172,
+        "sha256": "f8644f46a977af468639947d4a12c4d956f787e2306d106f66f37a4cf12003e0"
+      },
+      {
+        "frame": 37,
+        "source_video_frame": 37,
+        "timestamp_seconds": 1.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0037.png",
+        "bytes": 1288210,
+        "sha256": "4f07459719477002ccded0944075226e311563686e709b646ee615c744ba3d62"
+      },
+      {
+        "frame": 38,
+        "source_video_frame": 38,
+        "timestamp_seconds": 1.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0038.png",
+        "bytes": 1295979,
+        "sha256": "305fd752f1e0c59298f5b1440c1ecd75148e054be342939ed97c0d18bf606bd8"
+      },
+      {
+        "frame": 39,
+        "source_video_frame": 39,
+        "timestamp_seconds": 1.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0039.png",
+        "bytes": 1302298,
+        "sha256": "cc504c160bc4377d01ecb535048af331e0564576d28d2aa2099ee01a7b5af10e"
+      },
+      {
+        "frame": 40,
+        "source_video_frame": 40,
+        "timestamp_seconds": 1.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0040.png",
+        "bytes": 1307711,
+        "sha256": "3452de29f60d965eca75c0902cad4d70983f65f66cc81eac9d34bd53ebdaceb2"
+      },
+      {
+        "frame": 41,
+        "source_video_frame": 41,
+        "timestamp_seconds": 1.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0041.png",
+        "bytes": 1313104,
+        "sha256": "e66ab4f4c3227d9529852ff4ac5fac832ae78231eb81e3cceedecb3dd79e3f8e"
+      },
+      {
+        "frame": 42,
+        "source_video_frame": 42,
+        "timestamp_seconds": 1.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0042.png",
+        "bytes": 1321544,
+        "sha256": "ed65ccd2617eb30fda898f142bb4833ff74604f4d783cecce971f96ab8ffbd04"
+      },
+      {
+        "frame": 43,
+        "source_video_frame": 43,
+        "timestamp_seconds": 1.4333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0043.png",
+        "bytes": 1326007,
+        "sha256": "88682f37987b944622f148d35318cf9f35900824133e0d106307c800f41b2da6"
+      },
+      {
+        "frame": 44,
+        "source_video_frame": 44,
+        "timestamp_seconds": 1.4666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0044.png",
+        "bytes": 1326126,
+        "sha256": "e0d90539624d6f6c448440aac4fb1897d9317e8010dce56eea2f8dfad30f6e7e"
+      },
+      {
+        "frame": 45,
+        "source_video_frame": 45,
+        "timestamp_seconds": 1.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0045.png",
+        "bytes": 1327309,
+        "sha256": "935f638b25bc19bbf88da35dd3eb53efe8f4ea789141ee4b62a67de061ef7610"
+      },
+      {
+        "frame": 46,
+        "source_video_frame": 46,
+        "timestamp_seconds": 1.5333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0046.png",
+        "bytes": 1332039,
+        "sha256": "8b79d3a1802f6cd2f702a8b50200768689bd2b4a3c6de00a94ec0de5c6adf70b"
+      },
+      {
+        "frame": 47,
+        "source_video_frame": 47,
+        "timestamp_seconds": 1.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0047.png",
+        "bytes": 1333833,
+        "sha256": "ab2ad9a2b0a496ebb097a87956531362d28468a09cc89e143d1fb49d26c07606"
+      },
+      {
+        "frame": 48,
+        "source_video_frame": 48,
+        "timestamp_seconds": 1.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0048.png",
+        "bytes": 1332474,
+        "sha256": "04218721d204a8887d5d560656af9376da32fb91ac1eda7266ef19f2a1927167"
+      },
+      {
+        "frame": 49,
+        "source_video_frame": 49,
+        "timestamp_seconds": 1.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0049.png",
+        "bytes": 1334394,
+        "sha256": "688d1e8977ad92398f3ef4b05b1ccbb1fcc07e7d5fe917de965613df3e0b72fe"
+      },
+      {
+        "frame": 50,
+        "source_video_frame": 50,
+        "timestamp_seconds": 1.6666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0050.png",
+        "bytes": 1275520,
+        "sha256": "1c2634adcd55da4fe7c1bdae9326b1af251164b900220d7ae25bf3bcddb04cda"
+      },
+      {
+        "frame": 51,
+        "source_video_frame": 51,
+        "timestamp_seconds": 1.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0051.png",
+        "bytes": 1281956,
+        "sha256": "5dfc99f68a0554fa44bb71937bb135fa05533312a415fd81c07e6f2a0f8063a8"
+      },
+      {
+        "frame": 52,
+        "source_video_frame": 52,
+        "timestamp_seconds": 1.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0052.png",
+        "bytes": 1279352,
+        "sha256": "1980a502dd202c791ee053228aea3ba93f2c16d9c6b1dac6e9f3183b89886459"
+      },
+      {
+        "frame": 53,
+        "source_video_frame": 53,
+        "timestamp_seconds": 1.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0053.png",
+        "bytes": 1296212,
+        "sha256": "a881b28e6c9c18ebe0ad9c03b14cb3e0ec9fccb4c0f511500951a154c1fde728"
+      },
+      {
+        "frame": 54,
+        "source_video_frame": 54,
+        "timestamp_seconds": 1.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0054.png",
+        "bytes": 1304967,
+        "sha256": "5a3509bd35372a1fd7ae7460dd6c99b441f3dac6347bf31415d7027a12c555c7"
+      },
+      {
+        "frame": 55,
+        "source_video_frame": 55,
+        "timestamp_seconds": 1.8333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0055.png",
+        "bytes": 1308791,
+        "sha256": "b59e9f6b0ef754c71a40a367a9758a9578eb62d0f3104be1a976f62fbf1082dd"
+      },
+      {
+        "frame": 56,
+        "source_video_frame": 56,
+        "timestamp_seconds": 1.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0056.png",
+        "bytes": 1311498,
+        "sha256": "63f9243e95204360a49acba139157b7f87fd500bf77d249fa5f70c2617d4eb2e"
+      },
+      {
+        "frame": 57,
+        "source_video_frame": 57,
+        "timestamp_seconds": 1.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0057.png",
+        "bytes": 1321118,
+        "sha256": "e8360260dcfdc87f133bb4fff57b0ed1b61d993912a933a2f776176e4432a57e"
+      },
+      {
+        "frame": 58,
+        "source_video_frame": 58,
+        "timestamp_seconds": 1.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0058.png",
+        "bytes": 1325793,
+        "sha256": "b55f35117131aa84a00e6de7af6fe2f6229da4c51a20fc3305cf3ecf6769f5bf"
+      },
+      {
+        "frame": 59,
+        "source_video_frame": 59,
+        "timestamp_seconds": 1.9666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0059.png",
+        "bytes": 1327777,
+        "sha256": "a107c913a1769c83f2a3ccd8446c0c6e38bc1ca7a78aa23a635c01208a27c196"
+      },
+      {
+        "frame": 60,
+        "source_video_frame": 60,
+        "timestamp_seconds": 2.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0060.png",
+        "bytes": 1325726,
+        "sha256": "e43d9ca5057151baed29a66bad7dd0a62324f1fef070b2b7c36e5bccf4e1e447"
+      },
+      {
+        "frame": 61,
+        "source_video_frame": 61,
+        "timestamp_seconds": 2.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0061.png",
+        "bytes": 1331116,
+        "sha256": "4f9b9826ee73661f2d22b779a8a0ffd1602ca7b4b4296283fc4b8aa85c4cda96"
+      },
+      {
+        "frame": 62,
+        "source_video_frame": 62,
+        "timestamp_seconds": 2.066666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0062.png",
+        "bytes": 1336207,
+        "sha256": "c36d87e2324d3631a5023b6975ab0c2d9a346cbea664c8c405fcec2a5855497d"
+      },
+      {
+        "frame": 63,
+        "source_video_frame": 63,
+        "timestamp_seconds": 2.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0063.png",
+        "bytes": 1336900,
+        "sha256": "2ab89da31fad8b79b53703019a285c1e9d6b7a09eb0e90444f641f125af577f6"
+      },
+      {
+        "frame": 64,
+        "source_video_frame": 64,
+        "timestamp_seconds": 2.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0064.png",
+        "bytes": 1335556,
+        "sha256": "24ebd34e592f1f00edc505ecdf61af889b5cdf9ca29fedb103bfa5b5df109918"
+      },
+      {
+        "frame": 65,
+        "source_video_frame": 65,
+        "timestamp_seconds": 2.1666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0065.png",
+        "bytes": 1276654,
+        "sha256": "9dbbdaa4f80b023f90072fc5ea817b6b3a7c3ab1d41ff572cb9b9ad73b874e7f"
+      },
+      {
+        "frame": 66,
+        "source_video_frame": 66,
+        "timestamp_seconds": 2.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0066.png",
+        "bytes": 1283410,
+        "sha256": "4107ae2b8680f394feb94864e61e4d004d4eae0279d9c8bdc7d66a3a6f7884c9"
+      },
+      {
+        "frame": 67,
+        "source_video_frame": 67,
+        "timestamp_seconds": 2.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0067.png",
+        "bytes": 1292098,
+        "sha256": "220f7b75187c1a374285660db5fb415fdfdaf4a90053371fd6d765b587eab18b"
+      },
+      {
+        "frame": 68,
+        "source_video_frame": 68,
+        "timestamp_seconds": 2.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0068.png",
+        "bytes": 1295081,
+        "sha256": "571bcb2361eee8d4271e9d39a35175666a6216b36f21f6b8fc3b1405379f8328"
+      },
+      {
+        "frame": 69,
+        "source_video_frame": 69,
+        "timestamp_seconds": 2.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0069.png",
+        "bytes": 1301783,
+        "sha256": "cadf25605cb4bb344d18e9af674a30fbac32a9c23320f5c79ee901023b16ddda"
+      },
+      {
+        "frame": 70,
+        "source_video_frame": 70,
+        "timestamp_seconds": 2.3333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0070.png",
+        "bytes": 1316610,
+        "sha256": "77a4afb3ab0bfdaee889111b3169b93ce253ee85edd5271519d03a7f111e1b78"
+      },
+      {
+        "frame": 71,
+        "source_video_frame": 71,
+        "timestamp_seconds": 2.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0071.png",
+        "bytes": 1316871,
+        "sha256": "61e5a5652772202337a18c98c251069fdeddcbf20155a106959b8db48524f756"
+      },
+      {
+        "frame": 72,
+        "source_video_frame": 72,
+        "timestamp_seconds": 2.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0072.png",
+        "bytes": 1318978,
+        "sha256": "7ae154a4ccb582ad99353f80b5d05f0dca7c458ca24ba912545c783d11724077"
+      },
+      {
+        "frame": 73,
+        "source_video_frame": 73,
+        "timestamp_seconds": 2.433333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0073.png",
+        "bytes": 1325196,
+        "sha256": "08ea72d33f8e8b77d659aac9c13a6b66d15522b321805b50110943735ca64e74"
+      },
+      {
+        "frame": 74,
+        "source_video_frame": 74,
+        "timestamp_seconds": 2.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0074.png",
+        "bytes": 1333071,
+        "sha256": "33f281b21fca13efdcb37bdfca4e09cc126abea3269b1bc4bb9c6f37554bbc14"
+      },
+      {
+        "frame": 75,
+        "source_video_frame": 75,
+        "timestamp_seconds": 2.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0075.png",
+        "bytes": 1330883,
+        "sha256": "3804cc381cab2c75b1772b728ebde91cb8fdc49dacbcd6469e62f7ca5949bacd"
+      },
+      {
+        "frame": 76,
+        "source_video_frame": 76,
+        "timestamp_seconds": 2.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0076.png",
+        "bytes": 1329664,
+        "sha256": "013532ff1fb3492853d99416371895cf9acb54d0068299cafbf9ac09fd875fb3"
+      },
+      {
+        "frame": 77,
+        "source_video_frame": 77,
+        "timestamp_seconds": 2.566666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0077.png",
+        "bytes": 1330562,
+        "sha256": "9fb6bd9bc85959f4242b0f0a1783bd78eb146a7a9f725e3b0a54fae07e8fd3e2"
+      },
+      {
+        "frame": 78,
+        "source_video_frame": 78,
+        "timestamp_seconds": 2.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0078.png",
+        "bytes": 1334974,
+        "sha256": "31bb78636a12348de64657fdd0022c735fd97c77bad4ae9c163386db199a68a7"
+      },
+      {
+        "frame": 79,
+        "source_video_frame": 79,
+        "timestamp_seconds": 2.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0079.png",
+        "bytes": 1330732,
+        "sha256": "27793c0534516da364d5f2a20b16accf2502d551e2531174e1d90ee1a78f80d5"
+      },
+      {
+        "frame": 80,
+        "source_video_frame": 80,
+        "timestamp_seconds": 2.6666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0080.png",
+        "bytes": 1265623,
+        "sha256": "6966f71a4d13d122f30c807bb02cf8b714cf4aa22cba43385b2982dbe49e783a"
+      },
+      {
+        "frame": 81,
+        "source_video_frame": 81,
+        "timestamp_seconds": 2.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0081.png",
+        "bytes": 1283821,
+        "sha256": "e96be4d16067f7d0efbe285207311adb1cc6061677c3249191931790599b3ee1"
+      },
+      {
+        "frame": 82,
+        "source_video_frame": 82,
+        "timestamp_seconds": 2.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0082.png",
+        "bytes": 1291302,
+        "sha256": "088ee39e6ea336eec5f6160603a5135ba97942a62b0ff24d3db1e9adce97d3a2"
+      },
+      {
+        "frame": 83,
+        "source_video_frame": 83,
+        "timestamp_seconds": 2.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0083.png",
+        "bytes": 1298672,
+        "sha256": "db43a59edbe8a968acf4f8d23b7f4270cb048a34b33a947d559a969403a47324"
+      },
+      {
+        "frame": 84,
+        "source_video_frame": 84,
+        "timestamp_seconds": 2.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0084.png",
+        "bytes": 1301507,
+        "sha256": "58f9de2537146c5a4e6f415c32a0407fd912f0bda3a3e2e7eab325e9c383173e"
+      },
+      {
+        "frame": 85,
+        "source_video_frame": 85,
+        "timestamp_seconds": 2.8333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0085.png",
+        "bytes": 1313332,
+        "sha256": "42960f9ec7c6f1c09891a6f94dea23e07860c004b3f9d996668682053cdbf58d"
+      },
+      {
+        "frame": 86,
+        "source_video_frame": 86,
+        "timestamp_seconds": 2.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0086.png",
+        "bytes": 1322430,
+        "sha256": "fdfc4fa99e4b2b18015d3a0717b6b0357cf2d57b4c8c3a3f51f54bdfadea83e7"
+      },
+      {
+        "frame": 87,
+        "source_video_frame": 87,
+        "timestamp_seconds": 2.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0087.png",
+        "bytes": 1325097,
+        "sha256": "ea4876b8733c949b01de97f94eaed430810ea2f6313ba0864fc754c419c02783"
+      },
+      {
+        "frame": 88,
+        "source_video_frame": 88,
+        "timestamp_seconds": 2.933333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0088.png",
+        "bytes": 1324402,
+        "sha256": "5041e813eb798a70615692bad99e02444219760e701e63283acdeb8f10cd87b4"
+      },
+      {
+        "frame": 89,
+        "source_video_frame": 89,
+        "timestamp_seconds": 2.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0089.png",
+        "bytes": 1330005,
+        "sha256": "101405fbb4f7833c4b734f73a42ae563ed227ccab33bf0559196b7402b17f5e0"
+      },
+      {
+        "frame": 90,
+        "source_video_frame": 90,
+        "timestamp_seconds": 3.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0090.png",
+        "bytes": 1336478,
+        "sha256": "5bef04a3c4ae436963ab2d1b20e4f443b9b1a3b455f94f4009b7d3ba5f448a4a"
+      },
+      {
+        "frame": 91,
+        "source_video_frame": 91,
+        "timestamp_seconds": 3.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0091.png",
+        "bytes": 1336580,
+        "sha256": "cd82aaaede19303ef9f397a234fa2108f8cf17f81042404e1b1cdcafcdb0522c"
+      },
+      {
+        "frame": 92,
+        "source_video_frame": 92,
+        "timestamp_seconds": 3.066666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0092.png",
+        "bytes": 1336330,
+        "sha256": "4f84f8e4e7952209e66a8106a369830b2f113d1f359c6ea7fd7f4583feb3cbee"
+      },
+      {
+        "frame": 93,
+        "source_video_frame": 93,
+        "timestamp_seconds": 3.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0093.png",
+        "bytes": 1343367,
+        "sha256": "5801f71d1798f0e364202a3ab95873abdd65b374c7e8672acb5a4baecaf42e43"
+      },
+      {
+        "frame": 94,
+        "source_video_frame": 94,
+        "timestamp_seconds": 3.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0094.png",
+        "bytes": 1343773,
+        "sha256": "c5af04ffb9edd776cdcbf4a4ff3bb22334fb6c881ea92ad0c594c5dfce95ec27"
+      },
+      {
+        "frame": 95,
+        "source_video_frame": 95,
+        "timestamp_seconds": 3.1666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0095.png",
+        "bytes": 1282507,
+        "sha256": "c4ee8c790ef619ced48ed5ed2bb8814ef101eb9ab524322de7fedd6250ca6661"
+      },
+      {
+        "frame": 96,
+        "source_video_frame": 96,
+        "timestamp_seconds": 3.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0096.png",
+        "bytes": 1282031,
+        "sha256": "33099c72054c3e242f263f960fc9e173fd216165b742d86899235e3667fcc171"
+      },
+      {
+        "frame": 97,
+        "source_video_frame": 97,
+        "timestamp_seconds": 3.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0097.png",
+        "bytes": 1297973,
+        "sha256": "e663db06580e849617135197cfc51114e1da0fb743fb57616f358d3bf15b615f"
+      },
+      {
+        "frame": 98,
+        "source_video_frame": 98,
+        "timestamp_seconds": 3.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0098.png",
+        "bytes": 1306641,
+        "sha256": "1122b06ba3732418e1b684c1e8ecfefa47bad53673d1afeb1e63ec38d5e40c9a"
+      },
+      {
+        "frame": 99,
+        "source_video_frame": 99,
+        "timestamp_seconds": 3.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0099.png",
+        "bytes": 1310437,
+        "sha256": "e2780a04a67aa9d761d17be62df0fcf6089bb4457c2bcd254766461f0a4ea98d"
+      },
+      {
+        "frame": 100,
+        "source_video_frame": 100,
+        "timestamp_seconds": 3.3333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0100.png",
+        "bytes": 1313987,
+        "sha256": "d14952f2960a16beab7ceec0ebe4c945b6e1dc95f23accdbce8aa746198218bb"
+      },
+      {
+        "frame": 101,
+        "source_video_frame": 101,
+        "timestamp_seconds": 3.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0101.png",
+        "bytes": 1323542,
+        "sha256": "6a97f0854da7f18822feef17b3842907f678c3a0d1e7aa81ec0c30ceb3bb872e"
+      },
+      {
+        "frame": 102,
+        "source_video_frame": 102,
+        "timestamp_seconds": 3.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0102.png",
+        "bytes": 1330067,
+        "sha256": "1337dad0ffc52d5b2c3da2bfece03d34e4adff2ee4012a3674d8f83608a77d67"
+      },
+      {
+        "frame": 103,
+        "source_video_frame": 103,
+        "timestamp_seconds": 3.433333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0103.png",
+        "bytes": 1334322,
+        "sha256": "524a1b08700c22d9961a74fc7213b313b3c6e27aa42b9c1ab38624099c552c4a"
+      },
+      {
+        "frame": 104,
+        "source_video_frame": 104,
+        "timestamp_seconds": 3.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0104.png",
+        "bytes": 1333986,
+        "sha256": "8905f097d9160bc141314eaf0d8f72532600dc89bef3be2fda6eace04fadefe5"
+      },
+      {
+        "frame": 105,
+        "source_video_frame": 105,
+        "timestamp_seconds": 3.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0105.png",
+        "bytes": 1337758,
+        "sha256": "9042d281fbe4af41d869aa0dec19c7ba0053bcb191e3ec55ba4b2e7848fa9b28"
+      },
+      {
+        "frame": 106,
+        "source_video_frame": 106,
+        "timestamp_seconds": 3.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0106.png",
+        "bytes": 1341894,
+        "sha256": "7c197b843cba5f99e0ea22bf78b5b107ecee63092fc55a38f42cf19b4c96792f"
+      },
+      {
+        "frame": 107,
+        "source_video_frame": 107,
+        "timestamp_seconds": 3.566666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0107.png",
+        "bytes": 1337847,
+        "sha256": "9aea71b2afda0b2428f8172b93f72dd577ebd4a5a0d93ab1fba48b9e2e5a28c6"
+      },
+      {
+        "frame": 108,
+        "source_video_frame": 108,
+        "timestamp_seconds": 3.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0108.png",
+        "bytes": 1341257,
+        "sha256": "b8cccfa90daab9cfc57c21f6711096a9d29b03a7ee6a26bd28d4afcb8ab0b6fd"
+      },
+      {
+        "frame": 109,
+        "source_video_frame": 109,
+        "timestamp_seconds": 3.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0109.png",
+        "bytes": 1339189,
+        "sha256": "8c8493d37dd3b9dada3517b711712c3ddfecb33049922f35d1488a83cf4dfb26"
+      },
+      {
+        "frame": 110,
+        "source_video_frame": 110,
+        "timestamp_seconds": 3.6666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0110.png",
+        "bytes": 1283934,
+        "sha256": "f6b410be53b9f06402edaca592cf5d060e5d4d52caee570e094cb6010050ae08"
+      },
+      {
+        "frame": 111,
+        "source_video_frame": 111,
+        "timestamp_seconds": 3.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0111.png",
+        "bytes": 1287940,
+        "sha256": "27c38f9a62a3aef600028c39e02e77753f77ac46825f0a2eb2968455453387de"
+      },
+      {
+        "frame": 112,
+        "source_video_frame": 112,
+        "timestamp_seconds": 3.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0112.png",
+        "bytes": 1287815,
+        "sha256": "f6b139e5af2064b61b99729a291ac2af7385a0c4bd50a64445ef20551f1e1813"
+      },
+      {
+        "frame": 113,
+        "source_video_frame": 113,
+        "timestamp_seconds": 3.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0113.png",
+        "bytes": 1303513,
+        "sha256": "7d8e3157f9d8c29d92379f762eb330f5177928e1ba9c7709add1c6726059724f"
+      },
+      {
+        "frame": 114,
+        "source_video_frame": 114,
+        "timestamp_seconds": 3.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0114.png",
+        "bytes": 1312937,
+        "sha256": "d24dd4ea9212ab58d0f4bd79a0146e0a07b3fe472198f820290bb150e69c2832"
+      },
+      {
+        "frame": 115,
+        "source_video_frame": 115,
+        "timestamp_seconds": 3.8333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0115.png",
+        "bytes": 1318245,
+        "sha256": "2be6f89384cda06cf25fc2cdeea03fde473373e323ea5f6509eccfcf34590762"
+      },
+      {
+        "frame": 116,
+        "source_video_frame": 116,
+        "timestamp_seconds": 3.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0116.png",
+        "bytes": 1319764,
+        "sha256": "1040ed7cd29f666f103df9a94b8c0928b6436f819d734495eec7521849b994b4"
+      },
+      {
+        "frame": 117,
+        "source_video_frame": 117,
+        "timestamp_seconds": 3.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0117.png",
+        "bytes": 1328806,
+        "sha256": "9d6f6d8af67ee0da6747e31688b38aa8dc1bbe0c61bbd74a0c074f4fd1295d38"
+      },
+      {
+        "frame": 118,
+        "source_video_frame": 118,
+        "timestamp_seconds": 3.933333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0118.png",
+        "bytes": 1334911,
+        "sha256": "ae7d451d9207a003cd9966a7edabcc3bf5333cb3e7f69d3fa8e67a6475e39638"
+      },
+      {
+        "frame": 119,
+        "source_video_frame": 119,
+        "timestamp_seconds": 3.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0119.png",
+        "bytes": 1335183,
+        "sha256": "53c52f4da93cfa9cfd88eb22b088fed42a44b01af5cb52b5497599f695433963"
+      },
+      {
+        "frame": 120,
+        "source_video_frame": 120,
+        "timestamp_seconds": 4.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0120.png",
+        "bytes": 1335695,
+        "sha256": "82f409a8fa2f39dbe7ca1e36115efff6d115186ad7e42b2d65a22395916ef83e"
+      },
+      {
+        "frame": 121,
+        "source_video_frame": 121,
+        "timestamp_seconds": 4.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0121.png",
+        "bytes": 1341932,
+        "sha256": "e3136b0b475dd781c945cebce240c1d18cebbdd6cdbbd01513c7ad71ffb6ed4c"
+      },
+      {
+        "frame": 122,
+        "source_video_frame": 122,
+        "timestamp_seconds": 4.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0122.png",
+        "bytes": 1345317,
+        "sha256": "a5e4b9873c024f24aa3861beef9445f044c102722b2a3dc49c0171dc439cace6"
+      },
+      {
+        "frame": 123,
+        "source_video_frame": 123,
+        "timestamp_seconds": 4.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0123.png",
+        "bytes": 1345956,
+        "sha256": "b358730290f2cb5804e0996ed927079286a439a7f52447ac4811d815abbd4b16"
+      },
+      {
+        "frame": 124,
+        "source_video_frame": 124,
+        "timestamp_seconds": 4.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0124.png",
+        "bytes": 1342872,
+        "sha256": "d4d1b1c24b7cbaed2c1f4c6f43f085b34a0d76a263de6e2732282303903512eb"
+      },
+      {
+        "frame": 125,
+        "source_video_frame": 125,
+        "timestamp_seconds": 4.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0125.png",
+        "bytes": 1285671,
+        "sha256": "96de27fb7b250661b7826c6f8bfec79062b02d8438cc30ab72f6d3bb7adc6f7a"
+      },
+      {
+        "frame": 126,
+        "source_video_frame": 126,
+        "timestamp_seconds": 4.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0126.png",
+        "bytes": 1293460,
+        "sha256": "75b150ab57d449f7904acb62c434dfcb7006a08e982bc4c85ea8092948e5653e"
+      },
+      {
+        "frame": 127,
+        "source_video_frame": 127,
+        "timestamp_seconds": 4.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0127.png",
+        "bytes": 1301753,
+        "sha256": "b37d475773c24b64d5242eb30fed1942fd9513d459c74e741e350fcc1f19bf85"
+      },
+      {
+        "frame": 128,
+        "source_video_frame": 128,
+        "timestamp_seconds": 4.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0128.png",
+        "bytes": 1298720,
+        "sha256": "786951093debb09a8673a289a75daaa0697109e036f22a94968d41bf434fc112"
+      },
+      {
+        "frame": 129,
+        "source_video_frame": 129,
+        "timestamp_seconds": 4.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0129.png",
+        "bytes": 1313241,
+        "sha256": "e7c39049f7dcfa92f9e629e31717ac2115079a892e0de655082bb32491dd7229"
+      },
+      {
+        "frame": 130,
+        "source_video_frame": 130,
+        "timestamp_seconds": 4.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0130.png",
+        "bytes": 1321803,
+        "sha256": "2ec17d71daf39d2bdd97500b7f807757f76ab66ea62df6c3299a0addc1848168"
+      },
+      {
+        "frame": 131,
+        "source_video_frame": 131,
+        "timestamp_seconds": 4.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0131.png",
+        "bytes": 1325167,
+        "sha256": "210d78c1dcaa71316ec2d480f2391b795d65c22389cbfb229789165cfc78248a"
+      },
+      {
+        "frame": 132,
+        "source_video_frame": 132,
+        "timestamp_seconds": 4.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0132.png",
+        "bytes": 1328657,
+        "sha256": "530cf32ff6db71f89e9f9c0d483ad7f177e0187968d3b77b7df1a42ab28da961"
+      },
+      {
+        "frame": 133,
+        "source_video_frame": 133,
+        "timestamp_seconds": 4.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0133.png",
+        "bytes": 1332791,
+        "sha256": "e75f978e97b6f31506e07a4cd4a96319dc8a9b726315d3335c6e7d58ffa557a9"
+      },
+      {
+        "frame": 134,
+        "source_video_frame": 134,
+        "timestamp_seconds": 4.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0134.png",
+        "bytes": 1341115,
+        "sha256": "87a859ee007850a7a95a0fd700551576fe3c9612213d69387a1443067360deb2"
+      },
+      {
+        "frame": 135,
+        "source_video_frame": 135,
+        "timestamp_seconds": 4.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0135.png",
+        "bytes": 1341990,
+        "sha256": "48049518ca85d06801821dcde3da596d257da180377280a8eab32e520a3e1856"
+      },
+      {
+        "frame": 136,
+        "source_video_frame": 136,
+        "timestamp_seconds": 4.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0136.png",
+        "bytes": 1340895,
+        "sha256": "fa9c8e314718d385526b10a967b2144b1e2b11986d231f429cd1d5c5919a3f11"
+      },
+      {
+        "frame": 137,
+        "source_video_frame": 137,
+        "timestamp_seconds": 4.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0137.png",
+        "bytes": 1341921,
+        "sha256": "d37df9a8e7d72c58e3c360adfb5e8b327d0b5a9b0d64416d899f4253c04e16a6"
+      },
+      {
+        "frame": 138,
+        "source_video_frame": 138,
+        "timestamp_seconds": 4.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0138.png",
+        "bytes": 1342691,
+        "sha256": "e669f39a67fd1bb91a54e2abd7f73743f64e1edfdbc161be0690c21c75029ea0"
+      },
+      {
+        "frame": 139,
+        "source_video_frame": 139,
+        "timestamp_seconds": 4.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0139.png",
+        "bytes": 1343176,
+        "sha256": "d6dbad3d301cecdc052167830f5e45fd45e05b93f282810c785331bc63d54edf"
+      },
+      {
+        "frame": 140,
+        "source_video_frame": 140,
+        "timestamp_seconds": 4.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0140.png",
+        "bytes": 1273035,
+        "sha256": "2f766293df579574468c5e7c8c31db8de84841045450b928bc3a5664a92eb829"
+      },
+      {
+        "frame": 141,
+        "source_video_frame": 141,
+        "timestamp_seconds": 4.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0141.png",
+        "bytes": 1284466,
+        "sha256": "7af255ac50858cf8702b8e6cdc0ef58f3c9401a0098826c08be4c340cca9e97e"
+      },
+      {
+        "frame": 142,
+        "source_video_frame": 142,
+        "timestamp_seconds": 4.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0142.png",
+        "bytes": 1297105,
+        "sha256": "4f58c75b83fa4c0b6d0f4ada75b6161db46a98ce66ad4897d25a6d20603627de"
+      },
+      {
+        "frame": 143,
+        "source_video_frame": 143,
+        "timestamp_seconds": 4.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0143.png",
+        "bytes": 1303156,
+        "sha256": "a0597db26246ef3270cc7e5fb14bd0e5810b3f49749b26876d6f721f9e3d1a71"
+      },
+      {
+        "frame": 144,
+        "source_video_frame": 144,
+        "timestamp_seconds": 4.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0144.png",
+        "bytes": 1306340,
+        "sha256": "3a322a74ffb8a614a2047c03e7ec1e621abd3623af40656aafba98ea4faa4616"
+      },
+      {
+        "frame": 145,
+        "source_video_frame": 145,
+        "timestamp_seconds": 4.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0145.png",
+        "bytes": 1317383,
+        "sha256": "0291820ee3cf462f7572a33e96f81c6ea3c12c1ed993e963741ee5e1c087f757"
+      },
+      {
+        "frame": 146,
+        "source_video_frame": 146,
+        "timestamp_seconds": 4.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0146.png",
+        "bytes": 1328240,
+        "sha256": "29e28b14e97b5a2041df950cc2ffae212fa7bf90016a6e4152d07a7c935cc39e"
+      },
+      {
+        "frame": 147,
+        "source_video_frame": 147,
+        "timestamp_seconds": 4.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0147.png",
+        "bytes": 1328391,
+        "sha256": "f289d4e9240d2e0df200bc2d77a2def8d585560324d66a9978f4c233efd8d324"
+      },
+      {
+        "frame": 148,
+        "source_video_frame": 148,
+        "timestamp_seconds": 4.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0148.png",
+        "bytes": 1330130,
+        "sha256": "5f641e1928820a5b515ee31feb96cb59e2166e872a892c4dea19f856793f1fa0"
+      },
+      {
+        "frame": 149,
+        "source_video_frame": 149,
+        "timestamp_seconds": 4.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0149.png",
+        "bytes": 1335544,
+        "sha256": "c2794dd4c460a8a76412b9136456c77898c8bf843d6a4f71039448feb4fbe446"
+      },
+      {
+        "frame": 150,
+        "source_video_frame": 150,
+        "timestamp_seconds": 5.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0150.png",
+        "bytes": 1341620,
+        "sha256": "97e53a1fd9378cb4251ad319778d6c44486ef0a71e82cdb3a868aabb7f876bd0"
+      },
+      {
+        "frame": 151,
+        "source_video_frame": 151,
+        "timestamp_seconds": 5.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0151.png",
+        "bytes": 1339568,
+        "sha256": "06f21b0ebecf03218dc3709d4f5235b43f711a96955687f6b8be6178e1f0a083"
+      },
+      {
+        "frame": 152,
+        "source_video_frame": 152,
+        "timestamp_seconds": 5.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0152.png",
+        "bytes": 1341809,
+        "sha256": "06e138749b9096687983540d93260e7cde8a7913c2027fd571997eb91223aa33"
+      },
+      {
+        "frame": 153,
+        "source_video_frame": 153,
+        "timestamp_seconds": 5.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0153.png",
+        "bytes": 1344146,
+        "sha256": "fd9c9dcf1e4c3331889426864f44e2abadbdef4c296aec0bad27986d47e5466c"
+      },
+      {
+        "frame": 154,
+        "source_video_frame": 154,
+        "timestamp_seconds": 5.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0154.png",
+        "bytes": 1346846,
+        "sha256": "62e587d0e5a5acdd09082cd08328a3572b3f47fbe28e1fd14a8bc4bcebc83e46"
+      },
+      {
+        "frame": 155,
+        "source_video_frame": 155,
+        "timestamp_seconds": 5.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0155.png",
+        "bytes": 1285737,
+        "sha256": "a209a7746cee0fd949a9caffcf12a03ca9667dad9207f4724a98379b07fb2ba8"
+      },
+      {
+        "frame": 156,
+        "source_video_frame": 156,
+        "timestamp_seconds": 5.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0156.png",
+        "bytes": 1285131,
+        "sha256": "b5b6e8a4c8d3aedb285524fc3c6cfcf5d180dc2e516e0de8f6499a5c66723b0d"
+      },
+      {
+        "frame": 157,
+        "source_video_frame": 157,
+        "timestamp_seconds": 5.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0157.png",
+        "bytes": 1301397,
+        "sha256": "2ae39334159ac359a847ed5d102f01c570ccde4b8eb62e9b23246f6fbbb86457"
+      },
+      {
+        "frame": 158,
+        "source_video_frame": 158,
+        "timestamp_seconds": 5.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0158.png",
+        "bytes": 1306868,
+        "sha256": "c9dd9a280597912e16673a146356e2faf454d379a357d8b88b929f4d2f053a01"
+      },
+      {
+        "frame": 159,
+        "source_video_frame": 159,
+        "timestamp_seconds": 5.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0159.png",
+        "bytes": 1313216,
+        "sha256": "b5a3004aad49c4a301c0a313286836a72f25ee9e2d55b3e64753da6ca352fb4f"
+      },
+      {
+        "frame": 160,
+        "source_video_frame": 160,
+        "timestamp_seconds": 5.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0160.png",
+        "bytes": 1317948,
+        "sha256": "c186cb8e7565a3b9d3f1aa15cdc142bd8800ad643e5e303ff374b388c6e3e9d8"
+      },
+      {
+        "frame": 161,
+        "source_video_frame": 161,
+        "timestamp_seconds": 5.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0161.png",
+        "bytes": 1326055,
+        "sha256": "005772da42af9f9e5d7727b546ca8d499379727e334a3da5e7e931c802233a14"
+      },
+      {
+        "frame": 162,
+        "source_video_frame": 162,
+        "timestamp_seconds": 5.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0162.png",
+        "bytes": 1333415,
+        "sha256": "d538a23df656ae3a4ccfd663673d9cdd207799f1c516e2948d14ac962813b240"
+      },
+      {
+        "frame": 163,
+        "source_video_frame": 163,
+        "timestamp_seconds": 5.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0163.png",
+        "bytes": 1335989,
+        "sha256": "58bcfabe4a001520ff924685a4a21daafa78a9ac68b7f343869a53b22494822c"
+      },
+      {
+        "frame": 164,
+        "source_video_frame": 164,
+        "timestamp_seconds": 5.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0164.png",
+        "bytes": 1331198,
+        "sha256": "58b66ed77504ae03d6a2fbbcf8f0c6a9577fc0d3ce35cb18fb64ef0819dccf0a"
+      },
+      {
+        "frame": 165,
+        "source_video_frame": 165,
+        "timestamp_seconds": 5.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0165.png",
+        "bytes": 1337133,
+        "sha256": "a2efc0ce8b5c8e132f073271888b7eff55672f6e10e0c06b292a3467e51d2ffd"
+      },
+      {
+        "frame": 166,
+        "source_video_frame": 166,
+        "timestamp_seconds": 5.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0166.png",
+        "bytes": 1343074,
+        "sha256": "5057fdd4a0dc931d3da875a9f9f323d72d12aef8712d6af987f5f402cb210a3b"
+      },
+      {
+        "frame": 167,
+        "source_video_frame": 167,
+        "timestamp_seconds": 5.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0167.png",
+        "bytes": 1345205,
+        "sha256": "4fc1c019a11c63dfe698cc88e182592660283cb60fd60baa37606c3f05273fff"
+      },
+      {
+        "frame": 168,
+        "source_video_frame": 168,
+        "timestamp_seconds": 5.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0168.png",
+        "bytes": 1341362,
+        "sha256": "4971ead1a911310a4caf6573a4b69b2cfeea516360f5b2ffdbf4937ccd3318ac"
+      },
+      {
+        "frame": 169,
+        "source_video_frame": 169,
+        "timestamp_seconds": 5.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0169.png",
+        "bytes": 1339176,
+        "sha256": "2ebd19e80754ef22056c441a27b51657989ad0d9de8aafed0f7c93ac34327179"
+      },
+      {
+        "frame": 170,
+        "source_video_frame": 170,
+        "timestamp_seconds": 5.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0170.png",
+        "bytes": 1285812,
+        "sha256": "3a0c9605e3413a7ed14bf1839c3ee4b3f9fa3ac634a6b02a95a509e238aeae68"
+      },
+      {
+        "frame": 171,
+        "source_video_frame": 171,
+        "timestamp_seconds": 5.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0171.png",
+        "bytes": 1288903,
+        "sha256": "f1e56d7660740e4a837e81b4171bc4308c294781b1c9fe62eecbc0e2c32d9808"
+      },
+      {
+        "frame": 172,
+        "source_video_frame": 172,
+        "timestamp_seconds": 5.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0172.png",
+        "bytes": 1288613,
+        "sha256": "f9966f22050067fc193db433771e331d9c98eeb5cc5d352fc24c39750ea0f8cf"
+      },
+      {
+        "frame": 173,
+        "source_video_frame": 173,
+        "timestamp_seconds": 5.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0173.png",
+        "bytes": 1303081,
+        "sha256": "3362e56f0ccff0a0a0b3031c6665456f3647f102fcd1372408f2b4551884604e"
+      },
+      {
+        "frame": 174,
+        "source_video_frame": 174,
+        "timestamp_seconds": 5.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0174.png",
+        "bytes": 1311431,
+        "sha256": "1201528fe9a9a00e0e3f71ac2c3f4ac8231c52f8f47222a22073e37d9d51296c"
+      },
+      {
+        "frame": 175,
+        "source_video_frame": 175,
+        "timestamp_seconds": 5.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0175.png",
+        "bytes": 1316577,
+        "sha256": "c015e68174e857dc25439763447c45dcf30523fe3e747ce865122fab35bad1b3"
+      },
+      {
+        "frame": 176,
+        "source_video_frame": 176,
+        "timestamp_seconds": 5.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0176.png",
+        "bytes": 1318712,
+        "sha256": "d6f25b34d6bfe18e5e85bcab73f28c4fd715f567c5b70c0e53b9803064c93dcc"
+      },
+      {
+        "frame": 177,
+        "source_video_frame": 177,
+        "timestamp_seconds": 5.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0177.png",
+        "bytes": 1326895,
+        "sha256": "988aa5b4f299a108ef915fcfa028571d1ef9f633a2cb64da5ce6e34deb19368b"
+      },
+      {
+        "frame": 178,
+        "source_video_frame": 178,
+        "timestamp_seconds": 5.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0178.png",
+        "bytes": 1330062,
+        "sha256": "90c9ab4f8c05d4f7ce288b113ff1387822a948e35d5ea25b13b6394227656deb"
+      },
+      {
+        "frame": 179,
+        "source_video_frame": 179,
+        "timestamp_seconds": 5.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0179.png",
+        "bytes": 1333742,
+        "sha256": "18556ceef773ade6aecfed13a9bbceebcc4d07c0931f36de28ac4ad30fc62df8"
+      },
+      {
+        "frame": 180,
+        "source_video_frame": 180,
+        "timestamp_seconds": 6.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0180.png",
+        "bytes": 1331039,
+        "sha256": "deeb8055adf2a3306ead6aec3ecab31911efccf57588b3118cc0a87fb9dae19d"
+      },
+      {
+        "frame": 181,
+        "source_video_frame": 181,
+        "timestamp_seconds": 6.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0181.png",
+        "bytes": 1333855,
+        "sha256": "0cb7c7c791b05c5f61c399b7d98dead0b46349710917029ce652a506fe1979bb"
+      },
+      {
+        "frame": 182,
+        "source_video_frame": 182,
+        "timestamp_seconds": 6.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0182.png",
+        "bytes": 1336641,
+        "sha256": "5f8cf84791f6def82dc028de23ea15bad7c7f4d0cc215ab2aca3cab2fe5c41a7"
+      },
+      {
+        "frame": 183,
+        "source_video_frame": 183,
+        "timestamp_seconds": 6.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0183.png",
+        "bytes": 1339428,
+        "sha256": "d383ff1feddfbc288abf4e3e50809d7deced31a41f53f3d179c91d852b48e7eb"
+      },
+      {
+        "frame": 184,
+        "source_video_frame": 184,
+        "timestamp_seconds": 6.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0184.png",
+        "bytes": 1337863,
+        "sha256": "9fc31eb535fe7344358b88e8361f3b1d5ba268db2074beeec14b50c9fd7ad2e8"
+      },
+      {
+        "frame": 185,
+        "source_video_frame": 185,
+        "timestamp_seconds": 6.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0185.png",
+        "bytes": 1282856,
+        "sha256": "da44d44d15d4796a7daf92dc4a18d8efc7500647b1b7c7f7713df7a11b9d3515"
+      },
+      {
+        "frame": 186,
+        "source_video_frame": 186,
+        "timestamp_seconds": 6.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0186.png",
+        "bytes": 1289958,
+        "sha256": "f8fbbb1defd1d8ee052f8474d70dfa8db79f13bd020b6cb408593d710da857c1"
+      },
+      {
+        "frame": 187,
+        "source_video_frame": 187,
+        "timestamp_seconds": 6.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0187.png",
+        "bytes": 1296449,
+        "sha256": "d520281766b0e4bd41751c1f414225d2fdb127349a2aacb3a7f39414261f90e1"
+      },
+      {
+        "frame": 188,
+        "source_video_frame": 188,
+        "timestamp_seconds": 6.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0188.png",
+        "bytes": 1302360,
+        "sha256": "46afdffe9c569b3a3f68f19c3a00fb9f2e498f9f4fd7a0803697b9446043c893"
+      },
+      {
+        "frame": 189,
+        "source_video_frame": 189,
+        "timestamp_seconds": 6.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0189.png",
+        "bytes": 1313986,
+        "sha256": "92350a7887c07af91e0d27cc7b6aa56bcf610caea5538e042c9a41a27755c0e4"
+      },
+      {
+        "frame": 190,
+        "source_video_frame": 190,
+        "timestamp_seconds": 6.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0190.png",
+        "bytes": 1321747,
+        "sha256": "a86a6095309a4a7f896b46f763a3e2854d4666e560aaefe60281cd95e13975c9"
+      },
+      {
+        "frame": 191,
+        "source_video_frame": 191,
+        "timestamp_seconds": 6.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0191.png",
+        "bytes": 1324834,
+        "sha256": "edf85028ac05b648dae4cd9dd21cfd5cd82843ff8de606ae4b09bfe0f8893a26"
+      },
+      {
+        "frame": 192,
+        "source_video_frame": 192,
+        "timestamp_seconds": 6.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0192.png",
+        "bytes": 1327405,
+        "sha256": "ed786fba37f3e01cf06635ab6077d0564a98c91f7513f27ef5e60a7b11ec9c89"
+      },
+      {
+        "frame": 193,
+        "source_video_frame": 193,
+        "timestamp_seconds": 6.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0193.png",
+        "bytes": 1335140,
+        "sha256": "98911e1d765ae2893b4a9ff806db418ca2faa70ecff4f1d906140f5c3b986f1d"
+      },
+      {
+        "frame": 194,
+        "source_video_frame": 194,
+        "timestamp_seconds": 6.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0194.png",
+        "bytes": 1342071,
+        "sha256": "fa1f75bb700ca80364d120ff9af27b4e5230f05d5e93fccd60fba4e3f358ee7e"
+      },
+      {
+        "frame": 195,
+        "source_video_frame": 195,
+        "timestamp_seconds": 6.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0195.png",
+        "bytes": 1340330,
+        "sha256": "db9783122ea85743669cfd3c5f317905f5fdfed47981a01201ad32040db3bccf"
+      },
+      {
+        "frame": 196,
+        "source_video_frame": 196,
+        "timestamp_seconds": 6.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0196.png",
+        "bytes": 1339251,
+        "sha256": "5dfe9756388a85a9046c060778501d72e77b2bab4bf0170deb6eb9fb72747f13"
+      },
+      {
+        "frame": 197,
+        "source_video_frame": 197,
+        "timestamp_seconds": 6.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0197.png",
+        "bytes": 1341212,
+        "sha256": "6ebf8b3b2e42aa950c1ca38fd2a57b20af3f790555031c159319628b8674769a"
+      },
+      {
+        "frame": 198,
+        "source_video_frame": 198,
+        "timestamp_seconds": 6.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0198.png",
+        "bytes": 1344595,
+        "sha256": "1228af033fbbe03181df97e07820773ff777472677f572dafba2ece2588e7a2c"
+      },
+      {
+        "frame": 199,
+        "source_video_frame": 199,
+        "timestamp_seconds": 6.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0199.png",
+        "bytes": 1341800,
+        "sha256": "b6ffd2015369b0a1732926650dd525f84bceb6943b517c8ca1a70fd742b76e3a"
+      },
+      {
+        "frame": 200,
+        "source_video_frame": 200,
+        "timestamp_seconds": 6.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0200.png",
+        "bytes": 1275385,
+        "sha256": "0130f1acdc7b74f5a80671533f5ffe50128e41bc06c46ad7a4189e7fc0c0d7c0"
+      },
+      {
+        "frame": 201,
+        "source_video_frame": 201,
+        "timestamp_seconds": 6.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0201.png",
+        "bytes": 1287974,
+        "sha256": "52f2b0fadd0f423c0021cb288a879d1a8a4eaf4b24b33f3bc938b5bf6c96c583"
+      },
+      {
+        "frame": 202,
+        "source_video_frame": 202,
+        "timestamp_seconds": 6.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0202.png",
+        "bytes": 1301272,
+        "sha256": "c7aae243417222189988887654daccb8f0d9bcce3a241d499f6fd2326b91e683"
+      },
+      {
+        "frame": 203,
+        "source_video_frame": 203,
+        "timestamp_seconds": 6.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0203.png",
+        "bytes": 1307698,
+        "sha256": "5ffb87022e9404620767e8e41fcb71def2c7857b0fcd690cb09a19be2e8fe5e3"
+      },
+      {
+        "frame": 204,
+        "source_video_frame": 204,
+        "timestamp_seconds": 6.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0204.png",
+        "bytes": 1311286,
+        "sha256": "dcaf027560df1d4f0b70023a656d78a04c6088dbaf0578d721eb5f937a863aa1"
+      },
+      {
+        "frame": 205,
+        "source_video_frame": 205,
+        "timestamp_seconds": 6.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0205.png",
+        "bytes": 1322632,
+        "sha256": "f83ff9ac4f338f2fae3c9d3d3b87893f02f767c802030a1ae44daf572e96da35"
+      },
+      {
+        "frame": 206,
+        "source_video_frame": 206,
+        "timestamp_seconds": 6.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0206.png",
+        "bytes": 1329961,
+        "sha256": "089e6a71776b81d14bdb83814a08dfe14408a790702a337ebd9c836ca6aefccf"
+      },
+      {
+        "frame": 207,
+        "source_video_frame": 207,
+        "timestamp_seconds": 6.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0207.png",
+        "bytes": 1331630,
+        "sha256": "a433a2aef9f70df4e43a31eb35bbb29c462b193d5cb94a4bc67109205f141d4e"
+      },
+      {
+        "frame": 208,
+        "source_video_frame": 208,
+        "timestamp_seconds": 6.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0208.png",
+        "bytes": 1334239,
+        "sha256": "6cd9e3230c23878151b530097770f664d9fa93ac8bd79be435a942d4c2d01324"
+      },
+      {
+        "frame": 209,
+        "source_video_frame": 209,
+        "timestamp_seconds": 6.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0209.png",
+        "bytes": 1334895,
+        "sha256": "0551577be06c2ef6fafad365892f051d05c8adcc2ba890243c490403edeaf1db"
+      },
+      {
+        "frame": 210,
+        "source_video_frame": 210,
+        "timestamp_seconds": 7.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0210.png",
+        "bytes": 1344474,
+        "sha256": "0406384e7435cc4dc840673219912f63c9e9804f4c339cf19563d8503ce48cb1"
+      },
+      {
+        "frame": 211,
+        "source_video_frame": 211,
+        "timestamp_seconds": 7.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0211.png",
+        "bytes": 1344189,
+        "sha256": "624308cab8762ee27b93c0688fddd64b75de60a494da95c4950be22cb1a9eb82"
+      },
+      {
+        "frame": 212,
+        "source_video_frame": 212,
+        "timestamp_seconds": 7.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0212.png",
+        "bytes": 1342802,
+        "sha256": "6b676e501f0a263ad5b19ee50c3a7ffb3580a9d717721e9b618004d4e274cdd0"
+      },
+      {
+        "frame": 213,
+        "source_video_frame": 213,
+        "timestamp_seconds": 7.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0213.png",
+        "bytes": 1344442,
+        "sha256": "957dc32ebbe3212729cdc0ab1d65a364850c3fd5d0741beed1b7deb65e927331"
+      },
+      {
+        "frame": 214,
+        "source_video_frame": 214,
+        "timestamp_seconds": 7.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0214.png",
+        "bytes": 1346071,
+        "sha256": "24719805099a1434a6a7de570d7931d148c9a213f412be6bc1d6e025c7c786e4"
+      },
+      {
+        "frame": 215,
+        "source_video_frame": 215,
+        "timestamp_seconds": 7.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0215.png",
+        "bytes": 1281037,
+        "sha256": "d915c7a9c4a07081824be69d172591fd33b7d9c8bb408d4d5f062aebd14d8d73"
+      },
+      {
+        "frame": 216,
+        "source_video_frame": 216,
+        "timestamp_seconds": 7.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0216.png",
+        "bytes": 1282796,
+        "sha256": "68b959e83e72d6c075c73ee89b78a4580e8c18a0eedd777feafd9cedb6815198"
+      },
+      {
+        "frame": 217,
+        "source_video_frame": 217,
+        "timestamp_seconds": 7.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0217.png",
+        "bytes": 1294438,
+        "sha256": "45518168817176bcade9f0871bd664b76407d699020cbfb88b4fac2c3bf95b14"
+      },
+      {
+        "frame": 218,
+        "source_video_frame": 218,
+        "timestamp_seconds": 7.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0218.png",
+        "bytes": 1303859,
+        "sha256": "a958ad2b6fa15de42ec4ac5dc01990d4aa35f0115aa764a16e1d7613cc4e3ac7"
+      },
+      {
+        "frame": 219,
+        "source_video_frame": 219,
+        "timestamp_seconds": 7.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0219.png",
+        "bytes": 1308373,
+        "sha256": "960def18472e839a19def662bfd2a1b6b7c8b7f43958ffbabb748609f68fe8c0"
+      },
+      {
+        "frame": 220,
+        "source_video_frame": 220,
+        "timestamp_seconds": 7.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0220.png",
+        "bytes": 1312773,
+        "sha256": "02304bf5664e78a2e556646cbc84904fb5ae6c5a0af424125f742ee44f6a5bcb"
+      },
+      {
+        "frame": 221,
+        "source_video_frame": 221,
+        "timestamp_seconds": 7.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0221.png",
+        "bytes": 1322407,
+        "sha256": "6cd9d3edc6944d8ce240f9412813155a49918e2f05bf672b2fe52cec8285afe6"
+      },
+      {
+        "frame": 222,
+        "source_video_frame": 222,
+        "timestamp_seconds": 7.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0222.png",
+        "bytes": 1329385,
+        "sha256": "b0fc50b8152e0057eb60aeb32efdc055e486a31057ef369fe9e7fbc830cf84f9"
+      },
+      {
+        "frame": 223,
+        "source_video_frame": 223,
+        "timestamp_seconds": 7.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0223.png",
+        "bytes": 1328196,
+        "sha256": "02d0cb0c49db62d9cfa40f969b2e099327751e3261d133ed6967fe5a1c18b0a5"
+      },
+      {
+        "frame": 224,
+        "source_video_frame": 224,
+        "timestamp_seconds": 7.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0224.png",
+        "bytes": 1333500,
+        "sha256": "9bdd4d63fd154c7ee4c027a6a9494de47859f3b2dd0f05e4c5f2006437447790"
+      },
+      {
+        "frame": 225,
+        "source_video_frame": 225,
+        "timestamp_seconds": 7.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0225.png",
+        "bytes": 1338175,
+        "sha256": "cfa4af2163611a3daeb0652fbcb899098f67e5a3a05b7d5e9f3b67f33d66a546"
+      },
+      {
+        "frame": 226,
+        "source_video_frame": 226,
+        "timestamp_seconds": 7.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0226.png",
+        "bytes": 1342656,
+        "sha256": "f67808afc777fb29cc6ca790d765d40dff140b5d348e7f6934de7f1cb25052fb"
+      },
+      {
+        "frame": 227,
+        "source_video_frame": 227,
+        "timestamp_seconds": 7.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0227.png",
+        "bytes": 1340635,
+        "sha256": "2228642cb8fe919cc60e846b34f469b68289f5e854e82db7b1db80c5253afa53"
+      },
+      {
+        "frame": 228,
+        "source_video_frame": 228,
+        "timestamp_seconds": 7.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0228.png",
+        "bytes": 1340969,
+        "sha256": "b75261a3f4b4af421a7049befcba9ff87f66c38c69072397a712e6b3843aba89"
+      },
+      {
+        "frame": 229,
+        "source_video_frame": 229,
+        "timestamp_seconds": 7.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0229.png",
+        "bytes": 1338424,
+        "sha256": "e10f6e6fccc6b945af3ed2ae3861292114d4211ee613fb8ab3cf45f2fd6a7ddc"
+      },
+      {
+        "frame": 230,
+        "source_video_frame": 230,
+        "timestamp_seconds": 7.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0230.png",
+        "bytes": 1281826,
+        "sha256": "6f4d3593733cb20d0fba8d0c2689555c81df185b2f08e7e01af4278fb8936dd4"
+      },
+      {
+        "frame": 231,
+        "source_video_frame": 231,
+        "timestamp_seconds": 7.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0231.png",
+        "bytes": 1282800,
+        "sha256": "9f1000e28b91c4ac004a8c0f0e7e94eda9de345566cccc7aee59bf8712506b41"
+      },
+      {
+        "frame": 232,
+        "source_video_frame": 232,
+        "timestamp_seconds": 7.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0232.png",
+        "bytes": 1292004,
+        "sha256": "98d4fe40aed26e4b68f759717a9155512a7d106f9214828b576f339622a765fa"
+      },
+      {
+        "frame": 233,
+        "source_video_frame": 233,
+        "timestamp_seconds": 7.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0233.png",
+        "bytes": 1298800,
+        "sha256": "1150f9f74a5d09d38c3b6cef49b2d3ab6b81a69152115b837666b609887fc95b"
+      },
+      {
+        "frame": 234,
+        "source_video_frame": 234,
+        "timestamp_seconds": 7.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0234.png",
+        "bytes": 1309417,
+        "sha256": "8a3ed96ab093370142c64cfd9731a1171a50c2b5e1bf215430b06c2f47ada9e7"
+      },
+      {
+        "frame": 235,
+        "source_video_frame": 235,
+        "timestamp_seconds": 7.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0235.png",
+        "bytes": 1317854,
+        "sha256": "f675d4ccdcc306d61ac426a6adf85ac3c35256b90f06f07c4036baee804a1ace"
+      },
+      {
+        "frame": 236,
+        "source_video_frame": 236,
+        "timestamp_seconds": 7.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0236.png",
+        "bytes": 1318428,
+        "sha256": "1980470b5b814206c7ea32ecf78eed3c594b03d884ce933415cb3d4272467100"
+      },
+      {
+        "frame": 237,
+        "source_video_frame": 237,
+        "timestamp_seconds": 7.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0237.png",
+        "bytes": 1325731,
+        "sha256": "008fa8b318536096aaf09bb6d4a9c74bbd4ad3fe4dd6367598af8153e2bcfdd7"
+      },
+      {
+        "frame": 238,
+        "source_video_frame": 238,
+        "timestamp_seconds": 7.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0238.png",
+        "bytes": 1333323,
+        "sha256": "10b51253cd0d6b742f5713de1219fd4a24f35a663772e0225345ea7407aaea23"
+      },
+      {
+        "frame": 239,
+        "source_video_frame": 239,
+        "timestamp_seconds": 7.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0239.png",
+        "bytes": 1332749,
+        "sha256": "bfc63912b2599e7b9acdaf678cb7adf6d3e3a2ec004817e8ca1dd2fea69648a7"
+      },
+      {
+        "frame": 240,
+        "source_video_frame": 240,
+        "timestamp_seconds": 8.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0240.png",
+        "bytes": 1333061,
+        "sha256": "4e07183b3ddb2edac49f39aa99c0d933080565f9de872ddf4a38cc44b98d807b"
+      },
+      {
+        "frame": 241,
+        "source_video_frame": 241,
+        "timestamp_seconds": 8.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0241.png",
+        "bytes": 1335781,
+        "sha256": "b22b3e0a25d0c3eaf78c906b4e849d9151fe836cdf9b582ea1b6aa79dfbd5d3e"
+      },
+      {
+        "frame": 242,
+        "source_video_frame": 242,
+        "timestamp_seconds": 8.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0242.png",
+        "bytes": 1346612,
+        "sha256": "72a499075cc900d8ec07bc52d0b8a9d454a98c98ca8dce143c642b4b8dfb14f6"
+      },
+      {
+        "frame": 243,
+        "source_video_frame": 243,
+        "timestamp_seconds": 8.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0243.png",
+        "bytes": 1340694,
+        "sha256": "d2718db74bd496c38805f1ffa559bbbf6bd9887280ce3d699cbea7a48ac70fe7"
+      },
+      {
+        "frame": 244,
+        "source_video_frame": 244,
+        "timestamp_seconds": 8.133333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0244.png",
+        "bytes": 1338463,
+        "sha256": "3b366c4f8a561a45a1b2bb58e3be1dbe99d98d4c2d8eb67279ada8004eaf86de"
+      },
+      {
+        "frame": 245,
+        "source_video_frame": 245,
+        "timestamp_seconds": 8.166666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0245.png",
+        "bytes": 1282487,
+        "sha256": "3e87ad4a81be1997e43200f95eddbe2f4e23675c9ed94fba8cf74f2d430e42ee"
+      },
+      {
+        "frame": 246,
+        "source_video_frame": 246,
+        "timestamp_seconds": 8.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0246.png",
+        "bytes": 1290782,
+        "sha256": "063ed2ba715f3218645359c990a474551b2f196efe3eef306621c2547b8c485e"
+      },
+      {
+        "frame": 247,
+        "source_video_frame": 247,
+        "timestamp_seconds": 8.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0247.png",
+        "bytes": 1298230,
+        "sha256": "0f9e0dec64d6f011828e303864457354ca76b3619263b2edff0a1656dcbea987"
+      },
+      {
+        "frame": 248,
+        "source_video_frame": 248,
+        "timestamp_seconds": 8.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0248.png",
+        "bytes": 1298163,
+        "sha256": "000a15c5dd06a8a92577911107823f97128d107e33c4a3b9a5a599890feba807"
+      },
+      {
+        "frame": 249,
+        "source_video_frame": 249,
+        "timestamp_seconds": 8.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0249.png",
+        "bytes": 1304229,
+        "sha256": "41b05d643d8ea9ff971387944fe8f924379eb8c671b4110bf45f4d0e8efa1a61"
+      },
+      {
+        "frame": 250,
+        "source_video_frame": 250,
+        "timestamp_seconds": 8.333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0250.png",
+        "bytes": 1291521,
+        "sha256": "fb1b78ce29a214c7d8ec96e7f73f41ed4e01d8ebc01b89664edb648f839fa380"
+      },
+      {
+        "frame": 251,
+        "source_video_frame": 251,
+        "timestamp_seconds": 8.366666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0251.png",
+        "bytes": 1301934,
+        "sha256": "cd8f57607e8370b6c2eb56ed25dc7735fb56993ae1c6ca3383e829b6b5262640"
+      },
+      {
+        "frame": 252,
+        "source_video_frame": 252,
+        "timestamp_seconds": 8.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0252.png",
+        "bytes": 1305306,
+        "sha256": "60850ecf277746ce725a30c2cf70d5fc4b6251bb78d50adb724bde896622a62b"
+      },
+      {
+        "frame": 253,
+        "source_video_frame": 253,
+        "timestamp_seconds": 8.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0253.png",
+        "bytes": 1307616,
+        "sha256": "b4b07994456f1c50d7308bcc157d485377762973f4343c609af2db63bed9621d"
+      },
+      {
+        "frame": 254,
+        "source_video_frame": 254,
+        "timestamp_seconds": 8.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0254.png",
+        "bytes": 1303038,
+        "sha256": "25b60676b491ee05c0687092bc54222e17830cba0c0fb0816b045cd352003ec1"
+      },
+      {
+        "frame": 255,
+        "source_video_frame": 255,
+        "timestamp_seconds": 8.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0255.png",
+        "bytes": 1318016,
+        "sha256": "cfc34e1b0dbbba41b8e3056dae0409f46210ee1570769e4b6dda040fddf58a5c"
+      },
+      {
+        "frame": 256,
+        "source_video_frame": 256,
+        "timestamp_seconds": 8.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0256.png",
+        "bytes": 1323112,
+        "sha256": "2541dc58c6b4e6c0b18c24f95487f3553bbcff00544d3b8eb1419651a31cb24e"
+      },
+      {
+        "frame": 257,
+        "source_video_frame": 257,
+        "timestamp_seconds": 8.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0257.png",
+        "bytes": 1324445,
+        "sha256": "ece4fe59790908d4bf5ce85419bc4afb9debb7bada84e9314389668940495448"
+      },
+      {
+        "frame": 258,
+        "source_video_frame": 258,
+        "timestamp_seconds": 8.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0258.png",
+        "bytes": 1317790,
+        "sha256": "7f1d4bfcadae8286aab534f1fc4c3cd7860bb4a02c82d874139e8b708c1fffb7"
+      },
+      {
+        "frame": 259,
+        "source_video_frame": 259,
+        "timestamp_seconds": 8.633333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0259.png",
+        "bytes": 1324736,
+        "sha256": "393ab48471c3afee953e5874cd0d4ff29c31560f093f670ab2689f1fb63e232f"
+      },
+      {
+        "frame": 260,
+        "source_video_frame": 260,
+        "timestamp_seconds": 8.666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0260.png",
+        "bytes": 1261246,
+        "sha256": "a97c20fd31badefb733c471412cd79dcc10a48d87d4edb3adce9e6b66c313ba1"
+      },
+      {
+        "frame": 261,
+        "source_video_frame": 261,
+        "timestamp_seconds": 8.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0261.png",
+        "bytes": 1267793,
+        "sha256": "d52dfe1598ba705028be802bd4aec45ff32911c727a08b80954fdf0003a15266"
+      },
+      {
+        "frame": 262,
+        "source_video_frame": 262,
+        "timestamp_seconds": 8.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0262.png",
+        "bytes": 1269420,
+        "sha256": "13bbac0d872fc7840640095d0f98a07494228d5cb3c1e59610e4ad21e390011a"
+      },
+      {
+        "frame": 263,
+        "source_video_frame": 263,
+        "timestamp_seconds": 8.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0263.png",
+        "bytes": 1286338,
+        "sha256": "b7b9889579b69f6a97f19d3bc525e6fbb3dba07f0025019d52eade320fc6d4a4"
+      },
+      {
+        "frame": 264,
+        "source_video_frame": 264,
+        "timestamp_seconds": 8.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0264.png",
+        "bytes": 1294436,
+        "sha256": "20086bcc011fb6557e9b05f25175e2083d6b5ee35aac888608695dd9cd42543d"
+      },
+      {
+        "frame": 265,
+        "source_video_frame": 265,
+        "timestamp_seconds": 8.833333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0265.png",
+        "bytes": 1301369,
+        "sha256": "c4997e74c2176c8ed52941184076295e1622604701f1d8391f995660e85a0a5e"
+      },
+      {
+        "frame": 266,
+        "source_video_frame": 266,
+        "timestamp_seconds": 8.866666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0266.png",
+        "bytes": 1299972,
+        "sha256": "f7e34ccc31e9d41b73d5b2a1c3f32b80028b6d5e0fc3ac68296f9659672c7dc2"
+      },
+      {
+        "frame": 267,
+        "source_video_frame": 267,
+        "timestamp_seconds": 8.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0267.png",
+        "bytes": 1315343,
+        "sha256": "a80fb65e1474fc632f66156bb5c9461728ba5a67fd8e624880518220ea60a51b"
+      },
+      {
+        "frame": 268,
+        "source_video_frame": 268,
+        "timestamp_seconds": 8.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0268.png",
+        "bytes": 1319058,
+        "sha256": "fbf5c0057864b7f57e1820c57e8b857d2ab39fcb17fa3c464102d128890919c6"
+      },
+      {
+        "frame": 269,
+        "source_video_frame": 269,
+        "timestamp_seconds": 8.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0269.png",
+        "bytes": 1318742,
+        "sha256": "b128e454be2d0c423669073b465ee5b4c02f42594c017cb7de66fff1215ff767"
+      },
+      {
+        "frame": 270,
+        "source_video_frame": 270,
+        "timestamp_seconds": 9.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0270.png",
+        "bytes": 1317873,
+        "sha256": "4144988a88da49f869a69ee0fe7c27edc87a7261eb7acb5726cc22f2b5ae8c01"
+      },
+      {
+        "frame": 271,
+        "source_video_frame": 271,
+        "timestamp_seconds": 9.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0271.png",
+        "bytes": 1325805,
+        "sha256": "58ce34406c7bce8afa45a778c4cc5a8bd4233a34f65cb68eeed1986ccdc29e40"
+      },
+      {
+        "frame": 272,
+        "source_video_frame": 272,
+        "timestamp_seconds": 9.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0272.png",
+        "bytes": 1328929,
+        "sha256": "f286fa9884a81610c8c4644b9ff3afdab1dbf5046c31d69e4f086b36b6b366ab"
+      },
+      {
+        "frame": 273,
+        "source_video_frame": 273,
+        "timestamp_seconds": 9.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0273.png",
+        "bytes": 1329734,
+        "sha256": "c3ec758557fd8b0215c4989005c9d7bc125a10573a33388433f7bdc7f1528581"
+      },
+      {
+        "frame": 274,
+        "source_video_frame": 274,
+        "timestamp_seconds": 9.133333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0274.png",
+        "bytes": 1325587,
+        "sha256": "e77c635e57368b1c001b1fd6206f764f01c76b4af3635180dcb8a661c3e2313f"
+      },
+      {
+        "frame": 275,
+        "source_video_frame": 275,
+        "timestamp_seconds": 9.166666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0275.png",
+        "bytes": 1258809,
+        "sha256": "c77f493d62b7619498f148a35362278a29c95099d47f53daa25a85583a679d88"
+      },
+      {
+        "frame": 276,
+        "source_video_frame": 276,
+        "timestamp_seconds": 9.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0276.png",
+        "bytes": 1271616,
+        "sha256": "e524dc286e11f9437acf0b0c9dc3f93e0e8d9bf2ac852b8ac5344854061b5161"
+      },
+      {
+        "frame": 277,
+        "source_video_frame": 277,
+        "timestamp_seconds": 9.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0277.png",
+        "bytes": 1280484,
+        "sha256": "bbc4d6f6cb4f98e9a7bde22decf4be3e137641daf95023b8b1991a5309632a65"
+      },
+      {
+        "frame": 278,
+        "source_video_frame": 278,
+        "timestamp_seconds": 9.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0278.png",
+        "bytes": 1279841,
+        "sha256": "333eb2b48f7b480fac4132576b95acaf9f0cdbcb87743e8ba01faff7f92f10af"
+      },
+      {
+        "frame": 279,
+        "source_video_frame": 279,
+        "timestamp_seconds": 9.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0279.png",
+        "bytes": 1291902,
+        "sha256": "51469dd71eefe766196bbab939a5f76294a34ba5fc43900248765af4624c3b7d"
+      },
+      {
+        "frame": 280,
+        "source_video_frame": 280,
+        "timestamp_seconds": 9.333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0280.png",
+        "bytes": 1306604,
+        "sha256": "87d8bf3e052caa473b81f036d6424ebb9ea2b4b33aabda560773fc3f6b494ded"
+      },
+      {
+        "frame": 281,
+        "source_video_frame": 281,
+        "timestamp_seconds": 9.366666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0281.png",
+        "bytes": 1308834,
+        "sha256": "84c56f6252a3129f5492b7f5d79c3c960f95b9e0ccf63accc2dd2af7cb61d994"
+      },
+      {
+        "frame": 282,
+        "source_video_frame": 282,
+        "timestamp_seconds": 9.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0282.png",
+        "bytes": 1308847,
+        "sha256": "e7bca848419152d1e421368d5eacecf38ca587d9d75b1d7e7b4ad469291e56f7"
+      },
+      {
+        "frame": 283,
+        "source_video_frame": 283,
+        "timestamp_seconds": 9.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0283.png",
+        "bytes": 1314272,
+        "sha256": "a7af57ecbfe870ca4f2d004a629f6503d53e4f46d3ed9462af443aeacce70d4c"
+      },
+      {
+        "frame": 284,
+        "source_video_frame": 284,
+        "timestamp_seconds": 9.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0284.png",
+        "bytes": 1321592,
+        "sha256": "d87961f38d93e7df46677e4d2d48e0bdc81249bc34c4338481dbb8fb027a36d8"
+      },
+      {
+        "frame": 285,
+        "source_video_frame": 285,
+        "timestamp_seconds": 9.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0285.png",
+        "bytes": 1318707,
+        "sha256": "914b9739d7bea96b5fb6fc7b73a98ab959cc785c0c29b287e3331b0e2c87f915"
+      },
+      {
+        "frame": 286,
+        "source_video_frame": 286,
+        "timestamp_seconds": 9.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0286.png",
+        "bytes": 1319922,
+        "sha256": "9a184a073031c23ce4c6f62d8f5187e660af50087fd66008f6029e87d69d894f"
+      },
+      {
+        "frame": 287,
+        "source_video_frame": 287,
+        "timestamp_seconds": 9.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0287.png",
+        "bytes": 1326304,
+        "sha256": "f285a6b055667689efea22b18ede20be745e1466e36b477f446b654e9277c1cd"
+      },
+      {
+        "frame": 288,
+        "source_video_frame": 288,
+        "timestamp_seconds": 9.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0288.png",
+        "bytes": 1329361,
+        "sha256": "0fb124563759922920d2813e0473902ab0d58c396292d0766ac12c5d85e4c4ae"
+      },
+      {
+        "frame": 289,
+        "source_video_frame": 289,
+        "timestamp_seconds": 9.633333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0289.png",
+        "bytes": 1327065,
+        "sha256": "f2e1381e35a274970814d8f68a4d1084c244a0c5c0dc47d7c146443c62211f54"
+      },
+      {
+        "frame": 290,
+        "source_video_frame": 290,
+        "timestamp_seconds": 9.666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0290.png",
+        "bytes": 1262496,
+        "sha256": "cbd77fce4ffeed9e8491f4981838f85eb70db681619000d68136103a0568b80a"
+      },
+      {
+        "frame": 291,
+        "source_video_frame": 291,
+        "timestamp_seconds": 9.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0291.png",
+        "bytes": 1276251,
+        "sha256": "cdf4d9dc9fc1e3706e8322434b15eb96e682bdb0a39a0d698422d305ec3ed374"
+      },
+      {
+        "frame": 292,
+        "source_video_frame": 292,
+        "timestamp_seconds": 9.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0292.png",
+        "bytes": 1286010,
+        "sha256": "88c7407b2a9d4ed58a3aa27090cd94f6df2c6e8b280ffbd1bb82d13d467cab12"
+      },
+      {
+        "frame": 293,
+        "source_video_frame": 293,
+        "timestamp_seconds": 9.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0293.png",
+        "bytes": 1288207,
+        "sha256": "b501df32d5c09f21f6e23dfcd3d7e83550d6c859ee1c13ba5b8b5eb84aa92ae9"
+      },
+      {
+        "frame": 294,
+        "source_video_frame": 294,
+        "timestamp_seconds": 9.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0294.png",
+        "bytes": 1292136,
+        "sha256": "9122c1870f96844480c4a6a769be5dae22d386ecf302f4fa75804e6d8be49154"
+      },
+      {
+        "frame": 295,
+        "source_video_frame": 295,
+        "timestamp_seconds": 9.833333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0295.png",
+        "bytes": 1307703,
+        "sha256": "fb9b1704733300b77a72aafa2f779fbeed0acb74c131ad065627c7da307ebdb3"
+      },
+      {
+        "frame": 296,
+        "source_video_frame": 296,
+        "timestamp_seconds": 9.866666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0296.png",
+        "bytes": 1312107,
+        "sha256": "14eafc07adc40c43039cdc6bce307bbab4022cbb30960c142ca3fbc80fbd0802"
+      },
+      {
+        "frame": 297,
+        "source_video_frame": 297,
+        "timestamp_seconds": 9.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0297.png",
+        "bytes": 1314701,
+        "sha256": "814846a8561e8e9300203092e3ea0708e069c50e0a70ae3d6533b722d845ebe0"
+      },
+      {
+        "frame": 298,
+        "source_video_frame": 298,
+        "timestamp_seconds": 9.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0298.png",
+        "bytes": 1310399,
+        "sha256": "80cd670bfa9a6c5520fc0bc15ce2403a11cab47bebc300d46b9fa6110ee71e13"
+      },
+      {
+        "frame": 299,
+        "source_video_frame": 299,
+        "timestamp_seconds": 9.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\cut_roasted_beef\\cam19\\0299.png",
+        "bytes": 1313145,
+        "sha256": "cf2559b658a3de8708c1808aa6a030fad8f8a9ae253ac73edefe68f777cf61dc"
+      }
+    ],
+    "dev": [
+      {
+        "frame": 0,
+        "source_video_frame": 0,
+        "timestamp_seconds": 0.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0000.png",
+        "bytes": 425822,
+        "sha256": "fff6ee66c52c7f673dd44b0e429b8086fda390f2f614ba0235db5214916efd23"
+      },
+      {
+        "frame": 1,
+        "source_video_frame": 1,
+        "timestamp_seconds": 0.03333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0001.png",
+        "bytes": 430360,
+        "sha256": "9091dc0dced3a7232d84192c4dac4114060b8a20982a6fe1109a2fc79dc3e67e"
+      },
+      {
+        "frame": 2,
+        "source_video_frame": 2,
+        "timestamp_seconds": 0.06666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0002.png",
+        "bytes": 431091,
+        "sha256": "435cada9261880cf60da350d17d5471f5afe288918154290180e03f06a87fae6"
+      },
+      {
+        "frame": 3,
+        "source_video_frame": 3,
+        "timestamp_seconds": 0.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0003.png",
+        "bytes": 431450,
+        "sha256": "ff15a3f6879ad5ae0be0e843eab89376f5186de9661b6d1d2f21458553dd4185"
+      },
+      {
+        "frame": 4,
+        "source_video_frame": 4,
+        "timestamp_seconds": 0.13333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0004.png",
+        "bytes": 429679,
+        "sha256": "91b9c3e6ec91c5e0692f823dedd2ff2d381b1dd55bd1331f11abd32b7ae5d31d"
+      },
+      {
+        "frame": 5,
+        "source_video_frame": 5,
+        "timestamp_seconds": 0.16666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0005.png",
+        "bytes": 420066,
+        "sha256": "c5bfcb49f11049afc7fa63953117720dbbbd81d5912d8b2d67d14631c8541db1"
+      },
+      {
+        "frame": 6,
+        "source_video_frame": 6,
+        "timestamp_seconds": 0.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0006.png",
+        "bytes": 424665,
+        "sha256": "f332443728db10ed3dad6cd8bb0180fefc6bd77be5d4b139296fafaec01d8bc8"
+      },
+      {
+        "frame": 7,
+        "source_video_frame": 7,
+        "timestamp_seconds": 0.23333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0007.png",
+        "bytes": 425879,
+        "sha256": "305996ec540a8af64cd6286c4509d5211ec78fc380e7ab5a7a7e9abfd4e5eee6"
+      },
+      {
+        "frame": 8,
+        "source_video_frame": 8,
+        "timestamp_seconds": 0.26666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0008.png",
+        "bytes": 424851,
+        "sha256": "8445b395ff3da9371875e7ce1ce233dadf6bd9d80878599185aa49cbadf7e1f2"
+      },
+      {
+        "frame": 9,
+        "source_video_frame": 9,
+        "timestamp_seconds": 0.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0009.png",
+        "bytes": 427508,
+        "sha256": "a5e8dbeb4f66281abc745613e9ef07c0d85bd2b81384b9d6632d885d6e63a311"
+      },
+      {
+        "frame": 10,
+        "source_video_frame": 10,
+        "timestamp_seconds": 0.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0010.png",
+        "bytes": 430781,
+        "sha256": "33b42bea065f13ec9af67fd39364159a293a9fc38ef5b449670ffce9b7e31026"
+      },
+      {
+        "frame": 11,
+        "source_video_frame": 11,
+        "timestamp_seconds": 0.36666666666666664,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0011.png",
+        "bytes": 430578,
+        "sha256": "0befe331f2492e6545d473a1feb3c2a42b5d3f02dca9fcba602eec9dfe76f303"
+      },
+      {
+        "frame": 12,
+        "source_video_frame": 12,
+        "timestamp_seconds": 0.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0012.png",
+        "bytes": 430926,
+        "sha256": "5b8ec0f61098cdeb3b6b92ad594fbcc400b50a8957ad33ce81eb82ed845eb486"
+      },
+      {
+        "frame": 13,
+        "source_video_frame": 13,
+        "timestamp_seconds": 0.43333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0013.png",
+        "bytes": 432177,
+        "sha256": "29e352f6e717a478755bcc18052f00c8c0ac714fa98de0cd84d11b0cac41c377"
+      },
+      {
+        "frame": 14,
+        "source_video_frame": 14,
+        "timestamp_seconds": 0.4666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0014.png",
+        "bytes": 433952,
+        "sha256": "72db1e9e0ec25c180e76b2dd30888fe16f1fd58b5ce79cd0f9906e6e9c719617"
+      },
+      {
+        "frame": 15,
+        "source_video_frame": 15,
+        "timestamp_seconds": 0.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0015.png",
+        "bytes": 434450,
+        "sha256": "616863932e6145aa47b5b3327d08a202755e6581296d74b3c58b5dbe9a449935"
+      },
+      {
+        "frame": 16,
+        "source_video_frame": 16,
+        "timestamp_seconds": 0.5333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0016.png",
+        "bytes": 433384,
+        "sha256": "be1cfb4f6512868e3bb884f5ff0f7cf4d05c43e9453e79ed5efea95971a450bd"
+      },
+      {
+        "frame": 17,
+        "source_video_frame": 17,
+        "timestamp_seconds": 0.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0017.png",
+        "bytes": 434418,
+        "sha256": "f8bccc460a91713321adf34354643a9827122e87f2b28c96452c5e0ff3168848"
+      },
+      {
+        "frame": 18,
+        "source_video_frame": 18,
+        "timestamp_seconds": 0.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0018.png",
+        "bytes": 435859,
+        "sha256": "dcd829e592f3e7c644d186ef3d40e06c7cfc6a68d98edfae8547cce8bdb2dfa4"
+      },
+      {
+        "frame": 19,
+        "source_video_frame": 19,
+        "timestamp_seconds": 0.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0019.png",
+        "bytes": 434634,
+        "sha256": "aac47f0d8d0d802bf0ff8f38c6bd6a44ae9672e682846184ec1ff39903290943"
+      },
+      {
+        "frame": 20,
+        "source_video_frame": 20,
+        "timestamp_seconds": 0.6666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0020.png",
+        "bytes": 419303,
+        "sha256": "ec83ffab2cc238200fc93bde9cf48422b368557ef10dcb87603a6afb99e5fa2b"
+      },
+      {
+        "frame": 21,
+        "source_video_frame": 21,
+        "timestamp_seconds": 0.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0021.png",
+        "bytes": 424893,
+        "sha256": "00ec36ece7eaca171510df09b7004621d902f8ddedaffb1960c18763dc9dcea8"
+      },
+      {
+        "frame": 22,
+        "source_video_frame": 22,
+        "timestamp_seconds": 0.7333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0022.png",
+        "bytes": 426931,
+        "sha256": "16112b7730f10a446d39f4ce4d83744cbd0ff3cfcd447193277dd12e241ff79e"
+      },
+      {
+        "frame": 23,
+        "source_video_frame": 23,
+        "timestamp_seconds": 0.7666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0023.png",
+        "bytes": 429133,
+        "sha256": "39662a1220afff935cd522e98e9a030250b3050de4e123e8bc05494eaf4efd4f"
+      },
+      {
+        "frame": 24,
+        "source_video_frame": 24,
+        "timestamp_seconds": 0.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0024.png",
+        "bytes": 428380,
+        "sha256": "774561f75e9a26c61119f8236ed4ab512a5b522d4b3a4171533ddba081ebefcd"
+      },
+      {
+        "frame": 25,
+        "source_video_frame": 25,
+        "timestamp_seconds": 0.8333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0025.png",
+        "bytes": 430501,
+        "sha256": "a4ea564fee836136744396c050b71e75e49d63a2de5b5bd23e979b9d2d574128"
+      },
+      {
+        "frame": 26,
+        "source_video_frame": 26,
+        "timestamp_seconds": 0.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0026.png",
+        "bytes": 431554,
+        "sha256": "ea4e6c564385dd6adf8db6f1e472be72f32d1a8e056a3074239995528e156ff2"
+      },
+      {
+        "frame": 27,
+        "source_video_frame": 27,
+        "timestamp_seconds": 0.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0027.png",
+        "bytes": 431701,
+        "sha256": "e721965492df2316868c719dff5b7a93becbc69dacfdaff66695ddf462f10941"
+      },
+      {
+        "frame": 28,
+        "source_video_frame": 28,
+        "timestamp_seconds": 0.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0028.png",
+        "bytes": 431100,
+        "sha256": "b62c5367192aa22d638130fa12c1f540c745991cd98751de28c473809125d918"
+      },
+      {
+        "frame": 29,
+        "source_video_frame": 29,
+        "timestamp_seconds": 0.9666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0029.png",
+        "bytes": 432603,
+        "sha256": "8a8436b18acdd936813a846e18020d0b8b67dfa9d6486233f820d04a96105395"
+      },
+      {
+        "frame": 30,
+        "source_video_frame": 30,
+        "timestamp_seconds": 1.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0030.png",
+        "bytes": 433767,
+        "sha256": "531096fce0c0cefb8e97c1dad1242d461478aad371f1147ec638aac4436a2214"
+      },
+      {
+        "frame": 31,
+        "source_video_frame": 31,
+        "timestamp_seconds": 1.0333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0031.png",
+        "bytes": 432946,
+        "sha256": "0c36a318763befc426e2ec500db5d500b1093f86b5575fa7e6a557b226ca17ae"
+      },
+      {
+        "frame": 32,
+        "source_video_frame": 32,
+        "timestamp_seconds": 1.0666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0032.png",
+        "bytes": 433173,
+        "sha256": "252d5a92dfe449e75f9c238aca7b2651a22142b0f742d8cc3dbb9ef40f843749"
+      },
+      {
+        "frame": 33,
+        "source_video_frame": 33,
+        "timestamp_seconds": 1.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0033.png",
+        "bytes": 434082,
+        "sha256": "626aa98bd4aaef9f703eb45d70912b3b9232128196ce8a99f7da812345a386ed"
+      },
+      {
+        "frame": 34,
+        "source_video_frame": 34,
+        "timestamp_seconds": 1.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0034.png",
+        "bytes": 434061,
+        "sha256": "0dc561d3dc2f962e26d8157619623608c0151a696402c274c415a9f8bccf28e7"
+      },
+      {
+        "frame": 35,
+        "source_video_frame": 35,
+        "timestamp_seconds": 1.1666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0035.png",
+        "bytes": 420229,
+        "sha256": "8b29577380f267e33c9c86229ee0d164a65cfef9e34b4405400a6c84ef62e621"
+      },
+      {
+        "frame": 36,
+        "source_video_frame": 36,
+        "timestamp_seconds": 1.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0036.png",
+        "bytes": 423152,
+        "sha256": "453dfc917a87cb44e6aab58edd1c134a54d7cc6fadec26763d9dd61f9145c511"
+      },
+      {
+        "frame": 37,
+        "source_video_frame": 37,
+        "timestamp_seconds": 1.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0037.png",
+        "bytes": 425985,
+        "sha256": "a522a0b968e69985c85d86ea7b13c21febbf2371c450dbff89358fb6e6f71647"
+      },
+      {
+        "frame": 38,
+        "source_video_frame": 38,
+        "timestamp_seconds": 1.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0038.png",
+        "bytes": 427944,
+        "sha256": "59acc350eefc9bbadf46f39cba7c9d0f1220dc38e18c799b5f20f9868c43159e"
+      },
+      {
+        "frame": 39,
+        "source_video_frame": 39,
+        "timestamp_seconds": 1.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0039.png",
+        "bytes": 428516,
+        "sha256": "ddf43b196aeaff69171edc52e45be0021c76395ceb1dd527fd544c3808d239d5"
+      },
+      {
+        "frame": 40,
+        "source_video_frame": 40,
+        "timestamp_seconds": 1.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0040.png",
+        "bytes": 429400,
+        "sha256": "fe1f2be602e301057deb343c5e8d9e83416089b1289b98fd1290c6af6c252cd3"
+      },
+      {
+        "frame": 41,
+        "source_video_frame": 41,
+        "timestamp_seconds": 1.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0041.png",
+        "bytes": 429894,
+        "sha256": "65a3ded8959deeceb6b0dba30e65ef773403f59b818d4caf8d4e016fae2faff5"
+      },
+      {
+        "frame": 42,
+        "source_video_frame": 42,
+        "timestamp_seconds": 1.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0042.png",
+        "bytes": 431874,
+        "sha256": "e36334b3787cb1f90dd397fb80ea6d55ff076babf6077e63896e34dda393a63c"
+      },
+      {
+        "frame": 43,
+        "source_video_frame": 43,
+        "timestamp_seconds": 1.4333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0043.png",
+        "bytes": 432112,
+        "sha256": "2c9067f817da5f2181311c61e1c9797b5f3c085b62d3bd4a317baf19fad00f7a"
+      },
+      {
+        "frame": 44,
+        "source_video_frame": 44,
+        "timestamp_seconds": 1.4666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0044.png",
+        "bytes": 432741,
+        "sha256": "e134a4b41fed84f516b925981da3607b87b313beb60bfefadb9d37b8b5b238ac"
+      },
+      {
+        "frame": 45,
+        "source_video_frame": 45,
+        "timestamp_seconds": 1.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0045.png",
+        "bytes": 432206,
+        "sha256": "f77fcef716757a7764650a42cd2d82cd96d2c2e132cdd843e79db1bb69cf6aff"
+      },
+      {
+        "frame": 46,
+        "source_video_frame": 46,
+        "timestamp_seconds": 1.5333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0046.png",
+        "bytes": 433412,
+        "sha256": "61067d59d4d25fc87a21a265ed31b96fe03cb218de235600e6f6253f094ee214"
+      },
+      {
+        "frame": 47,
+        "source_video_frame": 47,
+        "timestamp_seconds": 1.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0047.png",
+        "bytes": 433901,
+        "sha256": "0275ebcbf45e0803dbd8c3b0915a10b54383d37ef41a7fedf8cf33f19ba95cb8"
+      },
+      {
+        "frame": 48,
+        "source_video_frame": 48,
+        "timestamp_seconds": 1.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0048.png",
+        "bytes": 433672,
+        "sha256": "13f791dd50732f488ea8d73e48758997ffd73c97d562bc9fc227db91beb8ab8d"
+      },
+      {
+        "frame": 49,
+        "source_video_frame": 49,
+        "timestamp_seconds": 1.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0049.png",
+        "bytes": 433832,
+        "sha256": "17f05bd1a6f03d73ee0adf9d60a557ba3846930dc020d33e23f93ddd8e6ee953"
+      },
+      {
+        "frame": 50,
+        "source_video_frame": 50,
+        "timestamp_seconds": 1.6666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0050.png",
+        "bytes": 421776,
+        "sha256": "136e90d4d8428e2bb5e7aaa427a2e555d7f0a285930cc373748e71d5d62c5f55"
+      },
+      {
+        "frame": 51,
+        "source_video_frame": 51,
+        "timestamp_seconds": 1.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0051.png",
+        "bytes": 424811,
+        "sha256": "92b1524aff0f121586582abe268e73e48f0b76b2273b1c10c8289db4f8392ee4"
+      },
+      {
+        "frame": 52,
+        "source_video_frame": 52,
+        "timestamp_seconds": 1.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0052.png",
+        "bytes": 424230,
+        "sha256": "18de78de8f9ab8bd2b816f5e5a8d7061a3bdd36e5e6c089799d9b630543fc4b0"
+      },
+      {
+        "frame": 53,
+        "source_video_frame": 53,
+        "timestamp_seconds": 1.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0053.png",
+        "bytes": 427455,
+        "sha256": "c4880069318e4a0e2f08c402b3628d939336600769349404cc25205964ade17d"
+      },
+      {
+        "frame": 54,
+        "source_video_frame": 54,
+        "timestamp_seconds": 1.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0054.png",
+        "bytes": 429457,
+        "sha256": "c2013b46252b59939a3a42d03989bbd9f78fdb8f264f881a3650ff280e20b4c5"
+      },
+      {
+        "frame": 55,
+        "source_video_frame": 55,
+        "timestamp_seconds": 1.8333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0055.png",
+        "bytes": 429510,
+        "sha256": "36893cb8b742121347f5d734eed3dd4fafbd5d2c1034448a62c84579b741216d"
+      },
+      {
+        "frame": 56,
+        "source_video_frame": 56,
+        "timestamp_seconds": 1.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0056.png",
+        "bytes": 429903,
+        "sha256": "500360337e3bc62c87a2254f0c0292b70b6c15735c746624125e2acc2b639b09"
+      },
+      {
+        "frame": 57,
+        "source_video_frame": 57,
+        "timestamp_seconds": 1.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0057.png",
+        "bytes": 431804,
+        "sha256": "12bc748509fb57c1368b3feeafb7ec23b0aabd72f06ba3ed714700b6471a74d6"
+      },
+      {
+        "frame": 58,
+        "source_video_frame": 58,
+        "timestamp_seconds": 1.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0058.png",
+        "bytes": 432884,
+        "sha256": "6527056108e2b8bd6dcf8be390556f2bff289c5c73716c1b63f9d3d766d63288"
+      },
+      {
+        "frame": 59,
+        "source_video_frame": 59,
+        "timestamp_seconds": 1.9666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0059.png",
+        "bytes": 433096,
+        "sha256": "9099a78492ac3c188e125b86959ee78a56438f983af0739ab75f496a515f3e6e"
+      },
+      {
+        "frame": 60,
+        "source_video_frame": 60,
+        "timestamp_seconds": 2.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0060.png",
+        "bytes": 432798,
+        "sha256": "ce25e5d3117a6a940525bfe2f4cde233ae951863a07f88a7d343976f856e90d4"
+      },
+      {
+        "frame": 61,
+        "source_video_frame": 61,
+        "timestamp_seconds": 2.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0061.png",
+        "bytes": 433232,
+        "sha256": "a1b44c079e76f169c61f99485435e291a3765982eed74ae60da39addab548f4b"
+      },
+      {
+        "frame": 62,
+        "source_video_frame": 62,
+        "timestamp_seconds": 2.066666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0062.png",
+        "bytes": 434945,
+        "sha256": "b6dabf4428c906268840b12a53f084f738c3d306f7ec7ef0b7465e500c896ca4"
+      },
+      {
+        "frame": 63,
+        "source_video_frame": 63,
+        "timestamp_seconds": 2.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0063.png",
+        "bytes": 434625,
+        "sha256": "136ae8964276f96db779ce2468543e97978e657cf3b1996434656c430a91a442"
+      },
+      {
+        "frame": 64,
+        "source_video_frame": 64,
+        "timestamp_seconds": 2.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0064.png",
+        "bytes": 434446,
+        "sha256": "dbcd7deb64c4daf425d70c13a40a8d5e01354e2abc2be4c3fa29d2e7484b7060"
+      },
+      {
+        "frame": 65,
+        "source_video_frame": 65,
+        "timestamp_seconds": 2.1666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0065.png",
+        "bytes": 421567,
+        "sha256": "180ce4046aa7080fe8de40fc310fc3baf6b730ccad290093a6d6eb0d7b7f4fd3"
+      },
+      {
+        "frame": 66,
+        "source_video_frame": 66,
+        "timestamp_seconds": 2.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0066.png",
+        "bytes": 425785,
+        "sha256": "b9fa115c6a437d77f6eebb9e61ad9f198c0afd884e50c5ce660172a285d94566"
+      },
+      {
+        "frame": 67,
+        "source_video_frame": 67,
+        "timestamp_seconds": 2.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0067.png",
+        "bytes": 426154,
+        "sha256": "415cd91bdcdea9c462300b10f60d3b4e58c144c7ad185354272609ed75806d9f"
+      },
+      {
+        "frame": 68,
+        "source_video_frame": 68,
+        "timestamp_seconds": 2.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0068.png",
+        "bytes": 427417,
+        "sha256": "481bf966a7513514130e82c23f312e7a10e0143045df2ede801d123b169aba06"
+      },
+      {
+        "frame": 69,
+        "source_video_frame": 69,
+        "timestamp_seconds": 2.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0069.png",
+        "bytes": 427864,
+        "sha256": "edd4628c9cc16f0fb3ca7bb5cf2b532e5186348abaae27f28c5e2c4fdfc6b3ea"
+      },
+      {
+        "frame": 70,
+        "source_video_frame": 70,
+        "timestamp_seconds": 2.3333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0070.png",
+        "bytes": 432226,
+        "sha256": "d2820fd0d578b98b8626fa9706d25ddf56325bedd6da041622b8ccc9fdbbf8b1"
+      },
+      {
+        "frame": 71,
+        "source_video_frame": 71,
+        "timestamp_seconds": 2.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0071.png",
+        "bytes": 431326,
+        "sha256": "413368254fae45e6d14028bbebca87245c40a7b2fb333625c337a6218cd53075"
+      },
+      {
+        "frame": 72,
+        "source_video_frame": 72,
+        "timestamp_seconds": 2.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0072.png",
+        "bytes": 431783,
+        "sha256": "6eb5c91f87b7180ce9c307213545de0292e67dd4a6e8fc8ae61d80e8774f87f6"
+      },
+      {
+        "frame": 73,
+        "source_video_frame": 73,
+        "timestamp_seconds": 2.433333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0073.png",
+        "bytes": 432227,
+        "sha256": "1833c473b704f4c64ff8356f55b44546fc1c61d6ba22a7219b270b339ca5c1a7"
+      },
+      {
+        "frame": 74,
+        "source_video_frame": 74,
+        "timestamp_seconds": 2.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0074.png",
+        "bytes": 433840,
+        "sha256": "317d19cce991b9e95263cfd2b97a32486e32ffae8cda4c6165e9f97a0df03679"
+      },
+      {
+        "frame": 75,
+        "source_video_frame": 75,
+        "timestamp_seconds": 2.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0075.png",
+        "bytes": 433189,
+        "sha256": "796d9f954e68ae57346d2224b6525513eee0aff42317826661fb3122ea6af946"
+      },
+      {
+        "frame": 76,
+        "source_video_frame": 76,
+        "timestamp_seconds": 2.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0076.png",
+        "bytes": 432662,
+        "sha256": "acdf5cefafe1fa874d6cca1a19d1523de77b5147ca17a2343a441c95eeba08fc"
+      },
+      {
+        "frame": 77,
+        "source_video_frame": 77,
+        "timestamp_seconds": 2.566666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0077.png",
+        "bytes": 433174,
+        "sha256": "196d46aeca4426870137e4c7219944e25f9abf8c2bad85dc91295f45efdad920"
+      },
+      {
+        "frame": 78,
+        "source_video_frame": 78,
+        "timestamp_seconds": 2.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0078.png",
+        "bytes": 434484,
+        "sha256": "71986d3042f07d541bccc96f485d2057ce98b889d09982cf906eade47e78ca15"
+      },
+      {
+        "frame": 79,
+        "source_video_frame": 79,
+        "timestamp_seconds": 2.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0079.png",
+        "bytes": 432981,
+        "sha256": "3da00ea57bb9b0c4a9f359096ec93fcadad575734c314513601ac5ab7ed0584c"
+      },
+      {
+        "frame": 80,
+        "source_video_frame": 80,
+        "timestamp_seconds": 2.6666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0080.png",
+        "bytes": 417975,
+        "sha256": "52870f40b90849b5d3f28b7414318c2fb0bb51eb2a03e48b3126208e88c0a675"
+      },
+      {
+        "frame": 81,
+        "source_video_frame": 81,
+        "timestamp_seconds": 2.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0081.png",
+        "bytes": 424893,
+        "sha256": "132ec014dd44b41edcb6db020e29e26f223ec21b8a2918322dd6cbe172fbc064"
+      },
+      {
+        "frame": 82,
+        "source_video_frame": 82,
+        "timestamp_seconds": 2.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0082.png",
+        "bytes": 426849,
+        "sha256": "e24322831cd7eff76a76efe0fc664ab7de6cb761c274f8882e017032e285fbd3"
+      },
+      {
+        "frame": 83,
+        "source_video_frame": 83,
+        "timestamp_seconds": 2.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0083.png",
+        "bytes": 426786,
+        "sha256": "57218c736c6afe66e93a68171c3635d08f70ac661b335cc38a2ce56838300059"
+      },
+      {
+        "frame": 84,
+        "source_video_frame": 84,
+        "timestamp_seconds": 2.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0084.png",
+        "bytes": 427816,
+        "sha256": "30b7bb6f72ae0525598bb48272e920d2ff320f601e2d50e971b3eddeff0c15e5"
+      },
+      {
+        "frame": 85,
+        "source_video_frame": 85,
+        "timestamp_seconds": 2.8333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0085.png",
+        "bytes": 429694,
+        "sha256": "f11aea9d0e72d23741204f05cd27b834d18ea83519171e285dd4e4ac7dafbefb"
+      },
+      {
+        "frame": 86,
+        "source_video_frame": 86,
+        "timestamp_seconds": 2.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0086.png",
+        "bytes": 432228,
+        "sha256": "52957182c9dea4fb717fdb8c488b9e90627d56cc7c62e2da8309ed7e457d0342"
+      },
+      {
+        "frame": 87,
+        "source_video_frame": 87,
+        "timestamp_seconds": 2.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0087.png",
+        "bytes": 431545,
+        "sha256": "960e93903325d2450da55941f3ebcd2a9155552e260218b4e03ead3c9c5b16de"
+      },
+      {
+        "frame": 88,
+        "source_video_frame": 88,
+        "timestamp_seconds": 2.933333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0088.png",
+        "bytes": 431433,
+        "sha256": "f24b7262a56e5d2e7c13e6bb0d45280445909ace3f7538b7e56a16ea0098f3b0"
+      },
+      {
+        "frame": 89,
+        "source_video_frame": 89,
+        "timestamp_seconds": 2.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\cut_roasted_beef\\cam19\\0089.png",
+        "bytes": 431883,
+        "sha256": "c742dc6d1056d6c3e4b080772bac5ea3bf60e7cf0f01e54ef3edaac0699c8afb"
+      }
+    ]
+  },
+  "seconds": 42.471170800003165,
+  "status": "PASS",
+  "encoding": "OpenCV PNG compression=2; dev from final via INTER_AREA x0.5; every PNG fully decoded by Pillow"
+}

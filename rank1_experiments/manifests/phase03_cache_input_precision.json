@@ -1,0 +1,16 @@
+{
+  "coffee_martini": {
+    "flow_files": 720,
+    "input_path_flow_abs_max": 0.00646287202835083,
+    "sam_union_changed_pixels": 35,
+    "initial_motion_mask_changed_pixels": 35,
+    "old_cache_preserved": true
+  },
+  "cut_roasted_beef": {
+    "flow_files": 720,
+    "input_path_flow_abs_max": 0.0063664913177490234,
+    "sam_union_changed_pixels": 11,
+    "initial_motion_mask_changed_pixels": 7,
+    "old_cache_preserved": true
+  }
+}

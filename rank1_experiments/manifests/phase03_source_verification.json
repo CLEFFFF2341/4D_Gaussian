@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "pinned_commit": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+  "pristine_files": 3290,
+  "pristine_differences": [],
+  "baseline_loss_block_sha256": "990b9a3f665c8733799a10202b35090ad744acd73a952b1e98fcc6f182dcd9c4",
+  "check": "Full pinned author archive file hashes, plus original versus phase03 loss block."
+}

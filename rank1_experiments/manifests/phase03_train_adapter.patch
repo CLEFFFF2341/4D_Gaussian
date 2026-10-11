@@ -1,0 +1,309 @@
+--- train.py (phase02 working)
++++ train_phase03.py
+@@ -1,4 +1,5 @@
+ import os
++from pathlib import Path
+ import sys
+ import socket
+ import uuid
+@@ -30,6 +31,9 @@
+ enable_tqdm = True
+ enable_debug = False
+ 
++sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'scripts'))
++from phase03_hooks import (CachedTeachers, boundary_save, guard_training_rgb, configure_initial_cloud,
++                           load_boundary, restore_boundary, seed_all)
+ EPS = 1.0e-7
+ try:
+     from torch.utils.tensorboard import SummaryWriter
+@@ -60,6 +64,9 @@
+ def training(dataset: ModelParams, opt: OptimizationParams, pipe: PipelineParams, qp:QuantizeParams, testing_iterations: list, 
+              saving_iterations: list, checkpoint_iterations, checkpoint: str, load_init: bool, debug_from, args):
+ 
++    guard_training_rgb()
++    configure_initial_cloud(args)
++    resume = load_boundary(checkpoint)
+     wandb_enabled = WANDB_FOUND and dataset.use_wandb
+     tb_writer = prepare_output_and_logger(args)
+     generator = Random(dataset.seed)
+@@ -69,16 +76,14 @@
+ 
+     train_image_dataset = MultiViewVideoDataset(dataset.source_path, split='train', test_indices=dataset.test_indices,
+                                                 max_frames=dataset.max_frames, start_idx=dataset.start_idx, img_format=dataset.img_fmt, resolution=dataset.resolution)
+-    test_image_dataset = MultiViewVideoDataset(dataset.source_path, split='test', test_indices=dataset.test_indices, 
+-                                               max_frames=dataset.max_frames, start_idx=dataset.start_idx, 
+-                                               img_format=dataset.img_fmt, resolution=dataset.resolution)
++    test_image_dataset = Namespace(n_cams=0)
+ 
+     train_sampler = SequentialMultiviewSampler(train_image_dataset)
+     if test_image_dataset.n_cams > 0:
+         test_sampler = SequentialMultiviewSampler(test_image_dataset)
+ 
+     train_loader = iter(torch.utils.data.DataLoader(train_image_dataset, batch_size=train_image_dataset.n_cams, 
+-                                                    sampler=train_sampler, num_workers=4))
++                                                    sampler=train_sampler, num_workers=0))
+     if test_image_dataset.n_cams > 0:
+         test_loader = iter(torch.utils.data.DataLoader(test_image_dataset, batch_size=test_image_dataset.n_cams, 
+                                                         sampler=test_sampler, num_workers=4))
+@@ -92,15 +97,18 @@
+     print(f"training(): loading data for the first frame...")
+     tic = time.time()
+     train_data = next(train_loader)
++    if resume:
++        for _ in range(resume['frame'] - 1):
++            train_data = next(train_loader)
+     train_images, train_paths, train_mask_images = train_data
+     if test_image_dataset.n_cams > 0:
+         test_data = next(test_loader)
+         test_images, test_paths, test_mask_images = test_data
+-        test_image_data = {'image':test_images.cuda(),'path':test_paths,'frame_idx':0, 'mask': test_mask_images.cuda()}
++        test_image_data = {'image':test_images.cuda(),'path':test_paths,'frame_idx':0, 'mask': None}
+     else:
+         print('No test cameras found, disabling testing.')
+         test_images, test_paths = None, None
+-        test_image_data = {'image':None,'path':None,'frame_idx':0, 'mask': test_mask_images.cuda()}
++        test_image_data = {'image':None,'path':None,'frame_idx':0, 'mask': None}
+ 
+     train_image_data = {'image':train_images.cuda(),'path':train_paths,'frame_idx':0, 'mask': train_mask_images.cuda()}
+     
+@@ -147,11 +155,23 @@
+ 
+     frame_iters = np.array([opt.iterations]+[opt.opt_rest['epochs_rest']*n_cams]*(n_frames-1))
+     
+-    flow_model = get_flow_model(args.flow_model_ckpt, args.flow_config)
+-    sam2_predictor = get_sam2_model(args.sam2_checkpoint, args.sam2_model_cfg)
++    cached_teachers = CachedTeachers(args)
++    flow_model = None
++    sam2_predictor = None
++    global get_flow, get_sam2_mask
++    get_flow = cached_teachers.flow
++    get_sam2_mask = cached_teachers.sam
+     
+ 
+     start_frame_idx = 1
++    if resume:
++        start_frame_idx = restore_boundary(gaussians, train_cameras, resume, generator, args)
++        cached_teachers.step = resume['frame']
++        cached_teachers.index = resume['frame'] * len(cached_teachers.cameras)
++        cur_data = next(train_loader)
++        cur_train_images, cur_train_paths, cur_train_masks = cur_data[0].cuda(), cur_data[1], cur_data[2]
++        cur_frame_views = cur_train_images
++        del resume
+     training_metrics = []
+     net_elapsed_time = 0.0
+     net_iter_time = 0.0
+@@ -208,6 +228,8 @@
+             wandb.define_metric(frame_str+"/size", step_metric=iter_metric)
+             
+ 
++        frame_resource_start = time.perf_counter()
++        torch.cuda.reset_peak_memory_stats()
+         first_iter = 1
+         scene.model_path = os.path.join(args.model_path,'frames',str(dataset.start_idx + frame_idx).zfill(4))
+         
+@@ -311,7 +333,7 @@
+             for idx, camera in enumerate(train_cameras):
+                 if camera.uid  in dataset.flow_views: # and camera.uid != 1
+                     camera.optical_flow_sam2_mask = optical_flow_sam2_masks[sam_idx]
+-                    camera.optical_flow_sam2_mask_final = optical_flow_sam2_masks[sam_idx] + optical_flow_masks[sam_idx] 
++                    camera.optical_flow_sam2_mask_final = optical_flow_sam2_masks[sam_idx] 
+                     sam_idx += 1
+                 else:
+                     continue
+@@ -346,7 +368,7 @@
+                     torch.cuda.synchronize()
+                 frame_start = time.time()
+                 train_image_data = {'image':train_images,'path':train_paths, 'mask':train_masks}
+-                test_image_data = {'image':test_images,'path':test_paths, 'mask':test_masks}
++                test_image_data = {'image':test_images,'path':test_paths, 'mask':None}
+             
+                 # Update the images and paths for all cameras in the scene with new frame index
+                 scene.updateCameraImages(args, train_image_data, test_image_data, frame_idx, resolution_scales=[1.0])
+@@ -696,6 +718,9 @@
+             else: 
+                 scene.save_compressed(-1, qp)
+ 
++        boundary_save(args, gaussians, train_cameras, generator, frame_idx,
++                      frame_resource_start, opt.iterations, ema_loss_for_log)
++
+         # Update previous frame's attributes and latents for next frame's residual encoding
+         if frame_idx != n_frames:
+             # Used for residual encoding of next frame
+@@ -881,151 +906,16 @@
+ 
+     return tb_writer
+ 
+-def training_report(tb_writer, wandb_enabled, model_args, frame_idx, iteration, Ll1, loss, l1_loss, size, 
+-                    elapsed, is_test, scene : Scene, renderFunc, renderArgs, prev_report=None):
+-    if tb_writer:
+-        tb_writer.add_scalar('train_loss_patches/l1_loss', Ll1.item(), iteration)
+-        tb_writer.add_scalar('train_loss_patches/total_loss', loss.item(), iteration)
+-        tb_writer.add_scalar('elapsed', elapsed, iteration)
+-        tb_writer.add_scalar('size', size, iteration)
+-
+-    if wandb_enabled and frame_idx<=2:
+-        frame_str = f"{str(frame_idx).zfill(4)}"
+-        iter_metric = "iter_"+frame_str
+-        frame_str = "frame_"+frame_str
+-
+-        # Log iterwise metrics only for the first few frames
+-        if iteration % model_args.wandb_log_interval == 0:
+-
+-            wandb.log({frame_str+"/train_loss_patches/l1_loss": Ll1.item(), 
+-                       frame_str+"/train_loss_patches/total_loss": loss.item(), 
+-                       frame_str+"/num_points": scene.gaussians.get_xyz.shape[0],
+-                       frame_str+"/update_points": f"{torch.count_nonzero(scene.gaussians.mask_xyz)}",
+-                       frame_str+"/elapsed": elapsed,
+-                       frame_str+"/size": size,
+-                       iter_metric: iteration
+-                       })
+-        
+-    # Report test and samples of training set
+-    if is_test:
+-        torch.cuda.empty_cache()
+-        validation_configs = ({'name': 'test', 'cameras' : scene.getTestCameras()},
+-                              {'name': 'val', 'cameras': scene.getTrainCameras()[0:1]})
+-
+-        report = {}
+-        for config in validation_configs:
+-            metrics = {}
+-            if config['cameras'] and len(config['cameras']) > 0:
+-                l1_test = 0.0
+-                psnr_test = 0.0
+-                if model_args.log_images: 
+-                    os.makedirs(os.path.join(model_args.model_path,config['name'],"gt"),exist_ok=True)
+-                    os.makedirs(os.path.join(model_args.model_path,config['name'],"renders"),exist_ok=True)
+-                    os.makedirs(os.path.join(model_args.model_path,config['name'],"offset"),exist_ok=True)
+-                    os.makedirs(os.path.join(model_args.model_path,config['name'],"optical_flow_sam2_mask_final"),exist_ok=True)
+-                    os.makedirs(os.path.join(model_args.model_path,config['name'],"motion_label"),exist_ok=True)
+-                    os.makedirs(os.path.join(model_args.model_path,config['name'],"motions"),exist_ok=True)
+-
+-                for idx, viewpoint in enumerate(config['cameras']):
+-                    if frame_idx > 1 :
+-                        render_pkg = renderFunc(viewpoint, scene.gaussians, *renderArgs, motion=True, render_depth=True, render_motion_label=True, render_flow=True)
+-                        # offset_image: rasterised projection of pc.offset_3d (learned per-Gaussian 3D offset)
+-                        # motion_image: rasterised projection of pc._resi (actual frame-to-frame residual flow)
+-                        offset_image = render_pkg["flow_pred"]
+-                        motion_image = render_pkg["flow"]
+-
+-                    else:
+-                        render_pkg = renderFunc(viewpoint, scene.gaussians, *renderArgs, render_depth=True, render_motion_label=True)
+-                        offset_image = None
+-                        motion_image = None
+-
+-                    image = torch.clamp(render_pkg["render"], 0.0, 1.0)
+-                    gt_image = torch.clamp(viewpoint.original_image, 0.0, 1.0)
+-                    
+-                    if viewpoint.gt_depth is not None:
+-                        gt_depth=viewpoint.gt_depth.cpu().numpy()
+-                        
+-                    render_depth=render_pkg["depth"].cpu().numpy()
+-                    motion_label = render_pkg["rendered_motion"].squeeze(0).cpu().numpy()
+-                    
+-                    if tb_writer and (idx < 5):
+-                        tb_writer.add_images(config['name'] + "_view_{}/render".format(viewpoint.image_name), 
+-                                             image[None], global_step=iteration)
+-                        if prev_report is None: # First time logging
+-                            tb_writer.add_images(config['name'] + "_view_{}/ground_truth".format(viewpoint.image_name), 
+-                                                 gt_image[None], global_step=iteration)
+-                    if wandb_enabled and model_args.wandb_log_images and frame_idx <= 2:
+-                        if prev_report is None: # First time logging
+-                            wandb.log({frame_str+"/"+config['name'] + "_view_{}/ground_truth".format(viewpoint.image_name): 
+-                                       wandb.Image(gt_image[None].detach().cpu().numpy(), caption="ground_truth"),
+-                                       iter_metric: iteration}
+-                                    )
+-                        wandb.log({frame_str+"/"+config['name'] + "_view_{}/render".format(viewpoint.image_name): 
+-                                    wandb.Image(image[None].detach().cpu().numpy(), caption="render"),
+-                                    iter_metric: iteration}
+-                                    )
+-                    if model_args.log_images:
+-                        # Not logging GTs
+-                        os.makedirs(os.path.join(model_args.model_path,config['name'],"renders", 
+-                                                 camName_from_Path(viewpoint.image_path)),exist_ok=True)
+-                        os.makedirs(os.path.join(model_args.model_path,config['name'],"offset",
+-                                                camName_from_Path(viewpoint.image_path)),exist_ok=True)
+-                        os.makedirs(os.path.join(model_args.model_path,config['name'],"motion_label",
+-                                                camName_from_Path(viewpoint.image_path)),exist_ok=True)
+-                        os.makedirs(os.path.join(model_args.model_path,config['name'],"motions",
+-                                                camName_from_Path(viewpoint.image_path)),exist_ok=True)
+-                        
+-                        if prev_report is None:
+-                            os.makedirs(os.path.join(model_args.model_path,config['name'],"gt", 
+-                                                     camName_from_Path(viewpoint.image_path)),exist_ok=True)
+-
+-                        save_image(gt_image,os.path.join(model_args.model_path,config['name'],"gt", 
+-                                                      camName_from_Path(viewpoint.image_path),str(model_args.start_idx+frame_idx).zfill(4)+".png"))
+-
+-                        save_image(image,os.path.join(model_args.model_path,config['name'],"renders", 
+-                                                      camName_from_Path(viewpoint.image_path),str(model_args.start_idx+frame_idx).zfill(4)+".png"))
+-
+-                        write_depth(os.path.join(model_args.model_path,config['name'],"motion_label", 
+-                                                       camName_from_Path(viewpoint.image_path),str(model_args.start_idx+frame_idx).zfill(4)+".png"), motion_label)
+-                        if motion_image is not None:
+-                            motion_image = flow_tensor_to_image(motion_image)
+-                            save_motion(motion_image, os.path.join(model_args.model_path, config['name'], "motions",
+-                                                                   camName_from_Path(viewpoint.image_path), str(model_args.start_idx+frame_idx).zfill(4)+".png"))
+-
+-                        if offset_image is not None:
+-                            offset_image = flow_tensor_to_image(offset_image)
+-                            save_motion(offset_image, os.path.join(model_args.model_path, config['name'], "offset",
+-                                                                   camName_from_Path(viewpoint.image_path), str(model_args.start_idx+frame_idx).zfill(4)+".png"))
+- 
+-                    l1_test += l1_loss(image, gt_image).mean().double()
+-                    psnr_test += psnr(image, gt_image).mean().double()
+-
+-                psnr_test /= len(config['cameras'])
+-                l1_test /= len(config['cameras'])          
+-                if tb_writer:
+-                    tb_writer.add_scalar(config['name'] + '/loss_viewpoint - l1_loss', l1_test, iteration)
+-                    tb_writer.add_scalar(config['name'] + '/loss_viewpoint - psnr', psnr_test, iteration)
+-                metrics['l1'] = l1_test
+-                metrics['psnr'] = psnr_test
+-                report[config['name']] = metrics
+-
+-                if wandb_enabled and frame_idx <= 2:
+-                    wandb.log({frame_str+"/"+config["name"]+"/loss_viewpoint/l1_loss": l1_test, 
+-                               frame_str+"/"+config["name"]+"/loss_viewpoint/psnr": psnr_test,
+-                               iter_metric: iteration})
+-
+-        report['iteration'] = iteration
+-        if tb_writer:
+-            #tb_writer.add_histogram("scene/opacity_histogram", scene.gaussians.get_opacity, iteration)
+-            tb_writer.add_scalar('total_points', scene.gaussians.get_xyz.shape[0], iteration)
+-        torch.cuda.empty_cache()
+-        return report
+-    else:
++def training_report(tb_writer, wandb_enabled, model_args, frame_idx, iteration, Ll1, loss,
++                    l1_loss, size, elapsed, is_test, scene, renderFunc, renderArgs, prev_report=None):
++    if not is_test:
+         return None
+-
+-
+-
+-    
++    with torch.no_grad():
++        camera = scene.getTrainCameras()[0]
++        image = renderFunc(camera, scene.gaussians, *renderArgs)['render'].clamp(0, 1)
++        return {'val': {'psnr': psnr(image, camera.original_image).mean().double(),
++                        'l1': l1_loss(image, camera.original_image).mean().double()},
++                'iteration': iteration}
+ 
+ if __name__ == "__main__":
+ 
+@@ -1061,6 +951,8 @@
+     parser.add_argument("--start_checkpoint", type=str, default = None)
+     parser.add_argument("--load_init", action='store_true', default=False)
+     parser.add_argument('--use_xyz_legacy', action='store_true', default=False, help='If set, use legacy xyz decoding in GaussianModel (_xyz_legacy) to reproduce paper numbers. To save compressed pkl\'s, leave unset or set to False. Default: False (use _xyz_fixed).')
++    parser.add_argument('--stop_after_frame', type=int, default=0)
++    parser.add_argument('--phase03_initial_cloud', type=str, default='')
+     args = parser.parse_args(sys.argv[1:])
+     # args.save_iterations.append(args.iterations)
+     
+@@ -1071,6 +963,7 @@
+ 
+     # Initialize system state (RNG)
+     safe_state(args.quiet)
++    seed_all(args.seed)
+ 
+     lp_args = lp.extract(args)
+     pp_args = pp.extract(args)

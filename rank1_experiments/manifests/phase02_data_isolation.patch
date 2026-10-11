@@ -1,0 +1,73 @@
+--- a/scene/dataset_readers.py
++++ b/scene/dataset_readers.py
+@@ -442,15 +442,22 @@
+     
+     downsample = resolution
+     #image = Image.open(os.path.join(datadir,'cam00','images','0000.png'))
+-    if "dynerf" in datadir:
++    meta_path = os.path.join(datadir, 'dataset_meta.json')
++    if os.path.exists(meta_path):
++        with open(meta_path, 'r', encoding='utf-8') as f:
++            meta = json.load(f)
++        if meta['role'] == 'train' and list(test_indices):
++            raise ValueError('Isolated training root requires test_indices=[]; original test RGB lives in a separate root.')
++        image_wh = tuple(int(x / downsample) for x in meta['size_wh'])
++    elif "dynerf" in datadir:
+         image = Image.open(os.path.join(datadir,'cam00','0000.png'))
+-    if "meetroom" in datadir:
++    elif "meetroom" in datadir:
+         image = Image.open(os.path.join(datadir,'cam_0','0.png'))
+-        
+-    image_wh = (
+-        int(image.width / downsample),
+-        int(image.height / downsample),
+-    )  
++    if not os.path.exists(meta_path):
++        image_wh = (
++            int(image.width / downsample),
++            int(image.height / downsample),
++        )
+ 
+     cam_infos, video_cam_infos = readCamerasFromPoseBounds(os.path.join(datadir, "poses_bounds.npy"), image_wh, N_video_views=N_video_views)
+     #cam_infos, video_cam_infos = readCamerasFromPoseBounds(os.path.join(datadir, "poses_bounds_multipleview.npy"), image_wh, N_video_views=N_video_views)
+@@ -524,4 +531,4 @@
+     "Dynerf" : readDynerfInfo,
+     "Immersive": readImmersiveSceneInfo,
+     "Panoptic": readPanopticInfo
+-}+}
+--- a/utils/loader_utils.py
++++ b/utils/loader_utils.py
+@@ -27,8 +27,19 @@
+         verbose=False,
+         resolution=1
+     ):
+-        videos = glob.glob(os.path.join(datadir, "cam*"))
++        videos = [p for p in glob.glob(os.path.join(datadir, "cam*")) if os.path.isdir(p)]
+         videos = sorted(videos)
++        meta_path = os.path.join(datadir, 'dataset_meta.json')
++        if os.path.exists(meta_path):
++            with open(meta_path, 'r', encoding='utf-8') as f:
++                protocol_meta = json.load(f)
++            actual_cameras = [os.path.basename(p) for p in videos]
++            if actual_cameras != protocol_meta['cameras']:
++                raise ValueError('Camera directory order does not match frozen protocol metadata.')
++            if split == 'train' and protocol_meta['role'] != 'train':
++                raise ValueError('Training loader cannot read a held-out root.')
++            if protocol_meta['role'] == 'train' and list(test_indices):
++                raise ValueError('Isolated training root requires test_indices=[].')
+         self.n_cams = 0
+         self.n_frames = None
+         self.image_transform = transforms.ToTensor()
+@@ -38,7 +49,6 @@
+         self.mask_paths = []
+         # For Google Immersive some cameras might not exist in models.json, remove them
+         if os.path.exists(os.path.join(datadir,"models.json")):
+-            import json 
+             with open(os.path.join(datadir, "models.json"), "r") as f:
+                 meta = json.load(f)
+             camera_names_meta = [camera['name'] for camera in meta]
+@@ -210,4 +220,4 @@
+         return iter(list(range(self.frame_idx, self.n_cams*self.n_frames, self.n_frames)))
+     
+     def __len__(self):
+-        return self.n_cams+        return self.n_cams

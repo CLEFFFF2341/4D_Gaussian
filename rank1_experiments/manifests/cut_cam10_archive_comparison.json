@@ -1,0 +1,9 @@
+{
+  "local_path": "E:\\4DGS\\data\\cut_roasted_beef\\cam10.mp4",
+  "recovered_path": "E:\\4D_Gaussian\\rank1_experiments\\data_recovery\\cut_roasted_beef\\cam10.mp4",
+  "archive": "E:\\4DGS\\downloads\\cut_roasted_beef-data-complete.zip",
+  "archive_member": "cut_roasted_beef/cam10.mp4",
+  "archive_member_sha256": "6bd30af808503c453d2e8436e1c29c9d639ae8271f31292dc1b6d6573a65312d",
+  "local_sha256": "6bd30af808503c453d2e8436e1c29c9d639ae8271f31292dc1b6d6573a65312d",
+  "same": true
+}

@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-10-10T23:09:50.229518+08:00",
+  "last_audit_run_ended_at": "2026-10-10T23:09:50.229518+08:00",
+  "start_time": "2026-10-10T22:33:30+08:00",
+  "timezone": "Asia/Shanghai",
+  "audit_elapsed_seconds": 2180.229518,
+  "scope": "Phase 01: environment/source audit plus existing-dataset inventory",
+  "phase": "01",
+  "status": "PARTIAL",
+  "source_sha": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+  "patch_sha": "372324a93039820c07a9ab40cae52b52b1dc669ca1d71ec4430d689691c8b4c0",
+  "manifests": {
+    "source_lock.json": "54e3a7db6fe4a6b4d3a32fef8536859ff2465444cb540e139aab6fc6d0773e40",
+    "environment.json": "265c7dc55e93dfde7d94f936ff9e71bf2dcdde0f955746ce1ee9ce1ff73de458",
+    "dataset_inventory.json": "5cf03d3b16f5f0dc61c0a10348f7f3300c8d7571f536412295af0da0edb4835d",
+    "camera_mapping_audit.json": "f674d3ca55ee3f8d83ba2836efc40afdc09c76cf3cd48ad9aa0e86051b020200",
+    "resolved_config.json": "7d8ebf8c7caaff7db0eb3a7e9cfa6feb0d12317e0f5b45dcc3371fd8902df66d",
+    "teacher_dependencies.json": "43ca6542864f9f1da0f9d0a9a5948aa587ebe9571488e3581328584e9f3bea66",
+    "native_probe_pristine.json": "41c7f5ba3c26a005a031cc5d57460e1bf683c18394219553caaa1edc00acc31e",
+    "native_probe_mask_stride_8.json": "1187d7ff90cd5f6fd243a24325874b4cdc6f01c47b03955ff5574271a2ef799c"
+  },
+  "completed": [
+    "Pinned source archive and all original file hashes",
+    "GPU tensor smoke",
+    "Native rasterizer build and tiny forward/backward",
+    "Mask-stride bug reproduction and isolated correction regression",
+    "Native flow scale diagnostic",
+    "Upstream argument parsing",
+    "Actual camera UID mapping",
+    "Geometry-property CPU gradient probe",
+    "Teacher imports and SAM2 config composition",
+    "Six-scene inventory and two-scene decoding audit",
+    "Save/restore/UID and evaluation source audit"
+  ],
+  "unmet": [
+    "Official Python3.10/PyTorch2.5.1/CUDA12.1 isolated environment",
+    "All required custom operators and pretrained teachers exercised in that environment",
+    "End-to-end training/render/evaluation/resume correctness",
+    "Prepared dataset, initialization provenance and reprojection"
+  ],
+  "continue_gate_passed": false,
+  "phase02": "NOT_STARTED",
+  "phase03": "NOT_STARTED",
+  "training_results": null,
+  "next_actions": [
+    "Recover pinned dependency acquisition without changing the old environment",
+    "Validate all native operators and pretrained SEA-RAFT/SAM2 calls",
+    "Prepare dedicated dynerf data tree with directories only and zero-padded PNGs",
+    "Resolve source-grid/projection/offset issues under common controls",
+    "Add full restartable checkpoint and UID design before any complete baseline run"
+  ],
+  "recovery_prompt": "E:\\4D_Gaussian\\rank1_experiments\\RESUME_PROMPT.txt"
+}

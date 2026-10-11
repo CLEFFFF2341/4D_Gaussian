@@ -1,0 +1,128 @@
+{
+  "updated_at": "2026-10-11T00:02:54.348831+08:00",
+  "os": "Windows-10-10.0.26200-SP0",
+  "gpu": "RTX 4090 24GB",
+  "official_target": {
+    "python": "3.10.18",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "cuda": "12.1"
+  },
+  "official_environment_status": "CREATED_AND_MINIMUM_CALLS_VERIFIED",
+  "environment_path": "E:\\4D_Gaussian\\rank1_experiments\\envs\\morgs-cu121",
+  "python": "3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)]",
+  "system_site_packages": false,
+  "toolkit": {
+    "path": "E:\\4D_Gaussian\\rank1_experiments\\envs\\morgs-cu121",
+    "nvcc": "12.1.105",
+    "architecture": "sm_89",
+    "msvc": "VS2019 14.29"
+  },
+  "dependency_evidence": [
+    "conda_package_lock.json",
+    "conda_official_packages.json",
+    "pip_official_freeze.txt",
+    "native_wheel_lock.json"
+  ],
+  "teachers": {
+    "pretrained_raft": true,
+    "pretrained_sam2": true,
+    "sam2_cuda": true
+  },
+  "native_operators": {
+    "simple_knn": true,
+    "torch_cluster": true,
+    "diff_rasterizer": true,
+    "gradient_rasterizer": true,
+    "torchac": true
+  },
+  "source_variant": "Local mask-stride and Windows separator corrections; not an unmodified author benchmark",
+  "smoke_model": true,
+  "smoke_evaluation": true,
+  "full_scene_training": false,
+  "model_training_peak_memory": null,
+  "model_training_seconds": null,
+  "teacher_smoke_resources": {
+    "raft": {
+      "status": "PASS",
+      "eval_mode": true,
+      "no_grad": true,
+      "checkpoint_sha256": "d306e7d75428bf943f7c6f163c05df60c9a808964e757c3d26c29b539a4a9bac",
+      "calls": [
+        {
+          "direction": "0->1",
+          "shape": [
+            1,
+            2,
+            507,
+            676
+          ],
+          "abs_mean": 0.03236164152622223,
+          "abs_max": 1.440509557723999
+        },
+        {
+          "direction": "1->0",
+          "shape": [
+            1,
+            2,
+            507,
+            676
+          ],
+          "abs_mean": 0.032847411930561066,
+          "abs_max": 1.3545559644699097
+        }
+      ],
+      "identity_mean_epe_pixels": 0.007379428017884493,
+      "input_range": "[0,1], matching vendored MoRGS call path; no preprocessing correction",
+      "caveat": "Finite outputs and strict weights establish execution, not flow quality or cache agreement.",
+      "torch": "2.5.1",
+      "cuda": "12.1",
+      "python": "3.10.18",
+      "seconds": 4.002315599998838,
+      "peak_allocated": 162221568,
+      "peak_reserved": 186646528,
+      "camera": "coffee_martini/cam02",
+      "frame_ids": [
+        0,
+        1
+      ],
+      "official_environment": true
+    },
+    "sam": {
+      "status": "PASS",
+      "connected_components_cuda": true,
+      "component_areas": [
+        4,
+        6
+      ],
+      "init_state3": true,
+      "mask_prompt": true,
+      "propagated_frames": 2,
+      "eval_mode": true,
+      "coverage": [
+        0.059501297771930695,
+        0.059463366866111755
+      ],
+      "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+      "precision": "float32; TF32 enabled by upstream helper",
+      "caveat": "Execution health only; the synthetic rectangle is not a motion teacher mask.",
+      "torch": "2.5.1",
+      "cuda": "12.1",
+      "python": "3.10.18",
+      "seconds": 4.519487599998683,
+      "peak_allocated": 1659312128,
+      "peak_reserved": 1962934272,
+      "camera": "coffee_martini/cam02",
+      "frame_ids": [
+        0,
+        1
+      ],
+      "official_environment": true
+    }
+  },
+  "preserved": [
+    "Original data and Ex4DGS environment",
+    "Pristine pinned source"
+  ],
+  "memory_caveat": "Tiny and teacher smoke peaks do not establish full-sequence training capacity; external WDDM load remains separate."
+}

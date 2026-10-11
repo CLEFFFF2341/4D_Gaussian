@@ -1,0 +1,3163 @@
+{
+  "scene": "coffee_martini",
+  "camera": "cam16",
+  "pose_row": 14,
+  "video": "E:\\4DGS\\data\\coffee_martini\\cam16.mp4",
+  "video_sha256": "696fccec78b0ac9850875b945aa9e3f6a6e41f7c6af6a96e276222d0ac0834b2",
+  "command": [
+    "E:\\4D_Gaussian\\rank1_experiments\\sources\\ffmpeg-0.6.0\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-nostdin",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-xerror",
+    "-threads",
+    "1",
+    "-i",
+    "E:\\4DGS\\data\\coffee_martini\\cam16.mp4",
+    "-filter_threads",
+    "1",
+    "-vf",
+    "scale=1352:1014:flags=area",
+    "-frames:v",
+    "300",
+    "-fps_mode",
+    "passthrough",
+    "-pix_fmt",
+    "bgr24",
+    "-threads",
+    "1",
+    "-f",
+    "rawvideo",
+    "pipe:1"
+  ],
+  "frames": {
+    "final": [
+      {
+        "frame": 0,
+        "source_video_frame": 0,
+        "timestamp_seconds": 0.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0000.png",
+        "bytes": 1492967,
+        "sha256": "9e93da823ed1d8d78a9eba2bc284ca27afdf8f40bc79cb9cd7f6e8b9de30a369"
+      },
+      {
+        "frame": 1,
+        "source_video_frame": 1,
+        "timestamp_seconds": 0.03333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0001.png",
+        "bytes": 1524219,
+        "sha256": "184584934de14ce91f3c665252237f739f8a0f16498ea22e3898f669f2b561f8"
+      },
+      {
+        "frame": 2,
+        "source_video_frame": 2,
+        "timestamp_seconds": 0.06666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0002.png",
+        "bytes": 1528244,
+        "sha256": "0084a50bdf0ee0f8b29629c076c9c0a0d4cc62633aefd2e19d2aa72d9582340b"
+      },
+      {
+        "frame": 3,
+        "source_video_frame": 3,
+        "timestamp_seconds": 0.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0003.png",
+        "bytes": 1534909,
+        "sha256": "b6d41528270210676145e05181d7d096e3190145956f82aca50daf0213fb344e"
+      },
+      {
+        "frame": 4,
+        "source_video_frame": 4,
+        "timestamp_seconds": 0.13333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0004.png",
+        "bytes": 1527023,
+        "sha256": "8f10a823e78a7ed1024990b90f1e62ed3820c2a191c11523df52ac61249126e5"
+      },
+      {
+        "frame": 5,
+        "source_video_frame": 5,
+        "timestamp_seconds": 0.16666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0005.png",
+        "bytes": 1539894,
+        "sha256": "7f82a97e9ef0b675fd3fbb3972ab8598f17458019c3b4dfcd93de177979a2fa6"
+      },
+      {
+        "frame": 6,
+        "source_video_frame": 6,
+        "timestamp_seconds": 0.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0006.png",
+        "bytes": 1543993,
+        "sha256": "7ab9e1777c92179593b255f40397f87f788a52fdaa704b2343b8f3177836b6f3"
+      },
+      {
+        "frame": 7,
+        "source_video_frame": 7,
+        "timestamp_seconds": 0.23333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0007.png",
+        "bytes": 1542623,
+        "sha256": "a5dddefdac9c13375c789b9bf14ef4273538b604a0985d86e9e830feb4c8a47f"
+      },
+      {
+        "frame": 8,
+        "source_video_frame": 8,
+        "timestamp_seconds": 0.26666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0008.png",
+        "bytes": 1540554,
+        "sha256": "64ee5784f75a5a8e658f46930b346939c75fd9e68a9293efbebd1810ea83571b"
+      },
+      {
+        "frame": 9,
+        "source_video_frame": 9,
+        "timestamp_seconds": 0.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0009.png",
+        "bytes": 1540446,
+        "sha256": "31c826ccb3a275d27224f4dc19ce1ed8c4bdb6bb9bf432907a645c2f5ded66e3"
+      },
+      {
+        "frame": 10,
+        "source_video_frame": 10,
+        "timestamp_seconds": 0.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0010.png",
+        "bytes": 1504919,
+        "sha256": "a9d9ea7809f985e41444d9b5f98c12e17bec8da8ea109ffaa952e849a6ab0288"
+      },
+      {
+        "frame": 11,
+        "source_video_frame": 11,
+        "timestamp_seconds": 0.36666666666666664,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0011.png",
+        "bytes": 1504735,
+        "sha256": "db508acd8f64a2a041d6832153207751397ebd7138966a091eaa25b49bb95a20"
+      },
+      {
+        "frame": 12,
+        "source_video_frame": 12,
+        "timestamp_seconds": 0.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0012.png",
+        "bytes": 1505136,
+        "sha256": "10d9b811a3c81e71557f9bd4f748157574e3f8b00e9f58f516d4b03c00886815"
+      },
+      {
+        "frame": 13,
+        "source_video_frame": 13,
+        "timestamp_seconds": 0.43333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0013.png",
+        "bytes": 1515197,
+        "sha256": "300355e100028034fc745ea1147648da032f4d015ba3505b86b69507d23b7251"
+      },
+      {
+        "frame": 14,
+        "source_video_frame": 14,
+        "timestamp_seconds": 0.4666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0014.png",
+        "bytes": 1522200,
+        "sha256": "ec581b8a75629dba3a90afc328964edab37a390234e94cb8cc9271cb00580b69"
+      },
+      {
+        "frame": 15,
+        "source_video_frame": 15,
+        "timestamp_seconds": 0.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0015.png",
+        "bytes": 1527245,
+        "sha256": "37fa3a20de9e3f39479c9c28b41d965ab6ed293f9ded45b8f16cc89e5bc8282c"
+      },
+      {
+        "frame": 16,
+        "source_video_frame": 16,
+        "timestamp_seconds": 0.5333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0016.png",
+        "bytes": 1528343,
+        "sha256": "2d68d7203fb4d06face4e0874aea69c0176d72a08306ff4441c6ba237857c95d"
+      },
+      {
+        "frame": 17,
+        "source_video_frame": 17,
+        "timestamp_seconds": 0.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0017.png",
+        "bytes": 1537366,
+        "sha256": "96493dd170a256025e1527422dcb6a23cb52e24c68279ef3c0cd7fe58e192f66"
+      },
+      {
+        "frame": 18,
+        "source_video_frame": 18,
+        "timestamp_seconds": 0.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0018.png",
+        "bytes": 1541417,
+        "sha256": "9a954749a0cf9f247c634bf816bd14cef4630799017a4bdf9d9cd0e32eed2020"
+      },
+      {
+        "frame": 19,
+        "source_video_frame": 19,
+        "timestamp_seconds": 0.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0019.png",
+        "bytes": 1542998,
+        "sha256": "14d949f5b5b47de3e82e9b63ff25ab2f785b3e43bfd2c7060c23a3b0c8a3f712"
+      },
+      {
+        "frame": 20,
+        "source_video_frame": 20,
+        "timestamp_seconds": 0.6666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0020.png",
+        "bytes": 1543368,
+        "sha256": "7609ab05569623ddc535f62f6945c6a8a097effc71ed774a84d8096e056ee9b4"
+      },
+      {
+        "frame": 21,
+        "source_video_frame": 21,
+        "timestamp_seconds": 0.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0021.png",
+        "bytes": 1550756,
+        "sha256": "57430b2b266fb1c28a1fdbf70791cc19116b69f6744da48ca02e63d797c2b1ab"
+      },
+      {
+        "frame": 22,
+        "source_video_frame": 22,
+        "timestamp_seconds": 0.7333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0022.png",
+        "bytes": 1553211,
+        "sha256": "57cff06c132069ee585478642d005896d698e4a05049609a58ae02fbc85e1183"
+      },
+      {
+        "frame": 23,
+        "source_video_frame": 23,
+        "timestamp_seconds": 0.7666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0023.png",
+        "bytes": 1551322,
+        "sha256": "73509ee55770477f2c133d6594a90c4243eec78f1cc6739166ec12c25c493415"
+      },
+      {
+        "frame": 24,
+        "source_video_frame": 24,
+        "timestamp_seconds": 0.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0024.png",
+        "bytes": 1549733,
+        "sha256": "43e8b9fc50c0a8f676a6b628fc65200320af199b3eceef0339eeb42907cb449f"
+      },
+      {
+        "frame": 25,
+        "source_video_frame": 25,
+        "timestamp_seconds": 0.8333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0025.png",
+        "bytes": 1512772,
+        "sha256": "8e89c956ec4e04fc83d182a9221fb57a9c39696496d5c93d04c269ecc09fddf3"
+      },
+      {
+        "frame": 26,
+        "source_video_frame": 26,
+        "timestamp_seconds": 0.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0026.png",
+        "bytes": 1517399,
+        "sha256": "d2473114be3a1cfee671bda5a3aaa976b8844801a7a716ef48e03212222c720a"
+      },
+      {
+        "frame": 27,
+        "source_video_frame": 27,
+        "timestamp_seconds": 0.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0027.png",
+        "bytes": 1520685,
+        "sha256": "404f23058e9e3ca71de6da7ee6ebf55dfbfec6964e84ca3eb1d568f39c34ed1d"
+      },
+      {
+        "frame": 28,
+        "source_video_frame": 28,
+        "timestamp_seconds": 0.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0028.png",
+        "bytes": 1522504,
+        "sha256": "8f14d1274301a4015f518a9087be3204046486f8b19d8ee54d8d12a27b496ec6"
+      },
+      {
+        "frame": 29,
+        "source_video_frame": 29,
+        "timestamp_seconds": 0.9666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0029.png",
+        "bytes": 1530093,
+        "sha256": "4a4d2c4d4ce93756afa0b7e77505d651d76553f7bf75497b066f8da3616cd38c"
+      },
+      {
+        "frame": 30,
+        "source_video_frame": 30,
+        "timestamp_seconds": 1.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0030.png",
+        "bytes": 1537839,
+        "sha256": "ed03242b4be1feb6dadaad74012cdc58da0ab75b98c8bf0a8ee169f5a1b76cc2"
+      },
+      {
+        "frame": 31,
+        "source_video_frame": 31,
+        "timestamp_seconds": 1.0333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0031.png",
+        "bytes": 1539335,
+        "sha256": "9eeeb53fcf8163379c85c40ceb32902d68980714d02ca718e8151f8b8e49f46c"
+      },
+      {
+        "frame": 32,
+        "source_video_frame": 32,
+        "timestamp_seconds": 1.0666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0032.png",
+        "bytes": 1540674,
+        "sha256": "d62e4354caff505924379facba03a1e38032d4fb551ba3d85bb410f1442cf5cc"
+      },
+      {
+        "frame": 33,
+        "source_video_frame": 33,
+        "timestamp_seconds": 1.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0033.png",
+        "bytes": 1545585,
+        "sha256": "7240b12d9e53bc90fa4407f42e20444cbf82b576a960bb32ac0caf60dbaead28"
+      },
+      {
+        "frame": 34,
+        "source_video_frame": 34,
+        "timestamp_seconds": 1.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0034.png",
+        "bytes": 1551504,
+        "sha256": "adb940b834cc28e1cada05f5568f92c524ccc4c47aeeb83914a9ae116c4627b0"
+      },
+      {
+        "frame": 35,
+        "source_video_frame": 35,
+        "timestamp_seconds": 1.1666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0035.png",
+        "bytes": 1551171,
+        "sha256": "7ae7c4d71e4eeaa7f61b0c2507317bea440f878ad5eb6348f56b746a9826138b"
+      },
+      {
+        "frame": 36,
+        "source_video_frame": 36,
+        "timestamp_seconds": 1.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0036.png",
+        "bytes": 1552515,
+        "sha256": "fc44c2f496402d7e680f94316c97614ed90d0219a4bc51f6a7e3d2046ecc84bf"
+      },
+      {
+        "frame": 37,
+        "source_video_frame": 37,
+        "timestamp_seconds": 1.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0037.png",
+        "bytes": 1553336,
+        "sha256": "2eacc8eab47d3f911e03b8774ebdcb0a64f787678832a0e4cff3bfd3e8128e74"
+      },
+      {
+        "frame": 38,
+        "source_video_frame": 38,
+        "timestamp_seconds": 1.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0038.png",
+        "bytes": 1558702,
+        "sha256": "b3cd0c85992b5d78396809e49caf5dc70e1936c927a0f7d11bd3b3475c5aa0ea"
+      },
+      {
+        "frame": 39,
+        "source_video_frame": 39,
+        "timestamp_seconds": 1.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0039.png",
+        "bytes": 1551618,
+        "sha256": "21faf15fc03d36e506312935a5a00905e0c4fc64d069edd704e4de3f5cde18e8"
+      },
+      {
+        "frame": 40,
+        "source_video_frame": 40,
+        "timestamp_seconds": 1.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0040.png",
+        "bytes": 1512203,
+        "sha256": "579438d434941e2f6a78a8a1f2ac993dced9deb132fc1eb3b61941fe282107d6"
+      },
+      {
+        "frame": 41,
+        "source_video_frame": 41,
+        "timestamp_seconds": 1.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0041.png",
+        "bytes": 1519855,
+        "sha256": "d19ed3cc5ba65516c41e474327e8dd8161d89a5194870b1621d1e395e7b25a34"
+      },
+      {
+        "frame": 42,
+        "source_video_frame": 42,
+        "timestamp_seconds": 1.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0042.png",
+        "bytes": 1524225,
+        "sha256": "de827886a9ba4687bbc0483a2cea4f5004f42a39cb92ce86ae10adec8e7443ee"
+      },
+      {
+        "frame": 43,
+        "source_video_frame": 43,
+        "timestamp_seconds": 1.4333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0043.png",
+        "bytes": 1527062,
+        "sha256": "6e79ea4edcc55583651cbdd1eacad530aafd3119e867a7897f2f0f0d85714a46"
+      },
+      {
+        "frame": 44,
+        "source_video_frame": 44,
+        "timestamp_seconds": 1.4666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0044.png",
+        "bytes": 1530742,
+        "sha256": "2f100ea61447278730678e156e0e8e974f1b5aeea257daf600543131768ce45c"
+      },
+      {
+        "frame": 45,
+        "source_video_frame": 45,
+        "timestamp_seconds": 1.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0045.png",
+        "bytes": 1537889,
+        "sha256": "cc35dd0aaecc80527a049e81b98701a690be0ae8f833cdfafca4f75a4b8f7959"
+      },
+      {
+        "frame": 46,
+        "source_video_frame": 46,
+        "timestamp_seconds": 1.5333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0046.png",
+        "bytes": 1545669,
+        "sha256": "7b692731bcec5046fe8a773e8df0d7dfe8cb3b138d8885d92f4118e69b088dfb"
+      },
+      {
+        "frame": 47,
+        "source_video_frame": 47,
+        "timestamp_seconds": 1.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0047.png",
+        "bytes": 1546006,
+        "sha256": "7f1c729b012173acdccf4bd5f910b27a609da25068aa30702851a40d26eee84b"
+      },
+      {
+        "frame": 48,
+        "source_video_frame": 48,
+        "timestamp_seconds": 1.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0048.png",
+        "bytes": 1545272,
+        "sha256": "3f7603940797fef5194fb855ce15f8b323990fa279190dfa339b5abd0b53a373"
+      },
+      {
+        "frame": 49,
+        "source_video_frame": 49,
+        "timestamp_seconds": 1.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0049.png",
+        "bytes": 1551056,
+        "sha256": "256019db463aaa5c3377784a3c2fc008ddeec7cafa89d30f59871f672fa7ccd5"
+      },
+      {
+        "frame": 50,
+        "source_video_frame": 50,
+        "timestamp_seconds": 1.6666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0050.png",
+        "bytes": 1555600,
+        "sha256": "3572c6d182448d911b54e08b72bdc5a1f2083cf706ecc736647c8da62b347a07"
+      },
+      {
+        "frame": 51,
+        "source_video_frame": 51,
+        "timestamp_seconds": 1.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0051.png",
+        "bytes": 1556383,
+        "sha256": "5968d48ffa13cd7cce28bbc87525dbcd5f448550d7cd8ca55260e959105ec6ce"
+      },
+      {
+        "frame": 52,
+        "source_video_frame": 52,
+        "timestamp_seconds": 1.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0052.png",
+        "bytes": 1556623,
+        "sha256": "22e1624d2c2ad0f47ac43e205f078e9bc2bb29ccb371f94537f933ce8e09dd8c"
+      },
+      {
+        "frame": 53,
+        "source_video_frame": 53,
+        "timestamp_seconds": 1.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0053.png",
+        "bytes": 1555271,
+        "sha256": "5d5a48a4ecd9838db2f0d8e60654abc9f78fd425e100fd2a282621ce986ce690"
+      },
+      {
+        "frame": 54,
+        "source_video_frame": 54,
+        "timestamp_seconds": 1.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0054.png",
+        "bytes": 1556203,
+        "sha256": "457dd5a2128f9a2ca5b06f6fc5a4d5112f51743004d1220dbb6e495b7a95de17"
+      },
+      {
+        "frame": 55,
+        "source_video_frame": 55,
+        "timestamp_seconds": 1.8333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0055.png",
+        "bytes": 1518773,
+        "sha256": "7d903ed54eeaede3587c4f3b875dcd9ec919ea31463c55a1d903b57d6039c287"
+      },
+      {
+        "frame": 56,
+        "source_video_frame": 56,
+        "timestamp_seconds": 1.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0056.png",
+        "bytes": 1517247,
+        "sha256": "7598ba15646bdfecc3b83e194812750c77d324fb2b064ab7c55da96717f5e54e"
+      },
+      {
+        "frame": 57,
+        "source_video_frame": 57,
+        "timestamp_seconds": 1.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0057.png",
+        "bytes": 1527149,
+        "sha256": "d06ffec302c41960a191a4ffd8f792f7cff566211286e9ff5843a787337a1a50"
+      },
+      {
+        "frame": 58,
+        "source_video_frame": 58,
+        "timestamp_seconds": 1.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0058.png",
+        "bytes": 1530856,
+        "sha256": "767b03c30e07d6a4ba826dd088d5c1e9f4c97c573d6bd8ec4dcd5cf24529383f"
+      },
+      {
+        "frame": 59,
+        "source_video_frame": 59,
+        "timestamp_seconds": 1.9666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0059.png",
+        "bytes": 1536862,
+        "sha256": "df9b33ce24af8b806dae23e5da4879ecfa373932b0ecd411e3df48a5657e70ff"
+      },
+      {
+        "frame": 60,
+        "source_video_frame": 60,
+        "timestamp_seconds": 2.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0060.png",
+        "bytes": 1538552,
+        "sha256": "5cef46a93c03f0f562f3a616b4ade02234afffa385cc24cb4c723db316f92f1b"
+      },
+      {
+        "frame": 61,
+        "source_video_frame": 61,
+        "timestamp_seconds": 2.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0061.png",
+        "bytes": 1545499,
+        "sha256": "56f01f3b9bd07d82aeb1cdd49a9cfe368c44338815844ca041b2623bf9a15c56"
+      },
+      {
+        "frame": 62,
+        "source_video_frame": 62,
+        "timestamp_seconds": 2.066666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0062.png",
+        "bytes": 1551606,
+        "sha256": "85d2717cdd3c0729e52f0595a9b94475ee1751eabc46036a6be1908c7e8fb815"
+      },
+      {
+        "frame": 63,
+        "source_video_frame": 63,
+        "timestamp_seconds": 2.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0063.png",
+        "bytes": 1553389,
+        "sha256": "cd357ac216f76c3c5adb0082bd8124ae19fffb5fef2235ee95ab6209870e2f25"
+      },
+      {
+        "frame": 64,
+        "source_video_frame": 64,
+        "timestamp_seconds": 2.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0064.png",
+        "bytes": 1552996,
+        "sha256": "76648bac89452556956f48ac6896695a240b2b183e4ec7361a9b9ecd808fa0f6"
+      },
+      {
+        "frame": 65,
+        "source_video_frame": 65,
+        "timestamp_seconds": 2.1666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0065.png",
+        "bytes": 1556656,
+        "sha256": "08afdd8383b0309deb372a2000f377b45c8ee7479f7c52a7612cbe1b4b6f26b7"
+      },
+      {
+        "frame": 66,
+        "source_video_frame": 66,
+        "timestamp_seconds": 2.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0066.png",
+        "bytes": 1560831,
+        "sha256": "85f907a638f6d665b57618ec0456a5b263a12e502a7ce9063dbc085dc2d4c902"
+      },
+      {
+        "frame": 67,
+        "source_video_frame": 67,
+        "timestamp_seconds": 2.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0067.png",
+        "bytes": 1559611,
+        "sha256": "0868e390b0840bfd9ab482330e8040a3fb7fe3f77f1327ff35246dd292107fff"
+      },
+      {
+        "frame": 68,
+        "source_video_frame": 68,
+        "timestamp_seconds": 2.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0068.png",
+        "bytes": 1559895,
+        "sha256": "3b9c7bb1e67d39924970069f9356cebbb64e165582ae92c3466af10d62fb1a35"
+      },
+      {
+        "frame": 69,
+        "source_video_frame": 69,
+        "timestamp_seconds": 2.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0069.png",
+        "bytes": 1553768,
+        "sha256": "acca77137da5ff1f6ca2c36de6de06c2a3f95f1ce39c5f1d910367d32c9360ae"
+      },
+      {
+        "frame": 70,
+        "source_video_frame": 70,
+        "timestamp_seconds": 2.3333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0070.png",
+        "bytes": 1522304,
+        "sha256": "c419593a6d16f4d12ac6c626a5d963c58180db73a461d48dd435f9a4eaa2a306"
+      },
+      {
+        "frame": 71,
+        "source_video_frame": 71,
+        "timestamp_seconds": 2.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0071.png",
+        "bytes": 1522007,
+        "sha256": "acd9c4cbe64954f19dd6257cc4a0ef3ab7fbd3e125aeec7ae917fdd0b6fb2dbe"
+      },
+      {
+        "frame": 72,
+        "source_video_frame": 72,
+        "timestamp_seconds": 2.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0072.png",
+        "bytes": 1525139,
+        "sha256": "46a3ff53e592e32bd8a12f6b36e8fb37b8a284fc285a29eb2f98e8f24de76432"
+      },
+      {
+        "frame": 73,
+        "source_video_frame": 73,
+        "timestamp_seconds": 2.433333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0073.png",
+        "bytes": 1532712,
+        "sha256": "978eb910dc2c2d948eb6ac2cd278d36d9220e5a2498774f1db5ccad403150919"
+      },
+      {
+        "frame": 74,
+        "source_video_frame": 74,
+        "timestamp_seconds": 2.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0074.png",
+        "bytes": 1541342,
+        "sha256": "52a63777ffd866aa7378a1bacc09e7c03629f29f539711a52746e96e6f10f602"
+      },
+      {
+        "frame": 75,
+        "source_video_frame": 75,
+        "timestamp_seconds": 2.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0075.png",
+        "bytes": 1544556,
+        "sha256": "ecac7e3d24a1244035bdf296ae85e938e7dd6cdd308b9c478aa8df463558a17f"
+      },
+      {
+        "frame": 76,
+        "source_video_frame": 76,
+        "timestamp_seconds": 2.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0076.png",
+        "bytes": 1546190,
+        "sha256": "ce74a51d692e335a12ab70fb0dd0df732fece78f45548a4f0c45b78ac0cfe99a"
+      },
+      {
+        "frame": 77,
+        "source_video_frame": 77,
+        "timestamp_seconds": 2.566666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0077.png",
+        "bytes": 1550256,
+        "sha256": "5df09781ccc697f73c273dbcfa87b0d7209eac3c65cc7cca68cbc9f56d799959"
+      },
+      {
+        "frame": 78,
+        "source_video_frame": 78,
+        "timestamp_seconds": 2.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0078.png",
+        "bytes": 1556307,
+        "sha256": "3c713c9f9b1578e288a558f632a1687e96f79cf5327bf63531dc5dda91b5ac64"
+      },
+      {
+        "frame": 79,
+        "source_video_frame": 79,
+        "timestamp_seconds": 2.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0079.png",
+        "bytes": 1556537,
+        "sha256": "81d68d893f142e06419dd0c38b24f6a78de9ccb0460c7475735788cb8ec361c8"
+      },
+      {
+        "frame": 80,
+        "source_video_frame": 80,
+        "timestamp_seconds": 2.6666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0080.png",
+        "bytes": 1558278,
+        "sha256": "8748b8f71873eab26b8d3f50ac9fd9112181673ad797fd7d737ad88152812dd4"
+      },
+      {
+        "frame": 81,
+        "source_video_frame": 81,
+        "timestamp_seconds": 2.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0081.png",
+        "bytes": 1561874,
+        "sha256": "94cfaa66059a3198882aa8025624f545a0905ce252d5255b96d09b70ab2fc12a"
+      },
+      {
+        "frame": 82,
+        "source_video_frame": 82,
+        "timestamp_seconds": 2.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0082.png",
+        "bytes": 1565243,
+        "sha256": "a7175d6705651764b65fce3c2513452c96f59f2bd22cb5b47377dfc8255cb1e5"
+      },
+      {
+        "frame": 83,
+        "source_video_frame": 83,
+        "timestamp_seconds": 2.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0083.png",
+        "bytes": 1562103,
+        "sha256": "0c712eab65ebe13018c7dbc12af52ea3abafb9e43a51a76820518063daf86055"
+      },
+      {
+        "frame": 84,
+        "source_video_frame": 84,
+        "timestamp_seconds": 2.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0084.png",
+        "bytes": 1560644,
+        "sha256": "0f1384683dab799397906bc27d4dc79a5ddc0eee8901b1c4a07a8b60a1669bcf"
+      },
+      {
+        "frame": 85,
+        "source_video_frame": 85,
+        "timestamp_seconds": 2.8333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0085.png",
+        "bytes": 1523881,
+        "sha256": "20966777e18a839f5f613926eb6b70e0115df7ba1fa79513b728cd6f4661dde2"
+      },
+      {
+        "frame": 86,
+        "source_video_frame": 86,
+        "timestamp_seconds": 2.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0086.png",
+        "bytes": 1529862,
+        "sha256": "1e7068e7921744f69e4b61519e679b0eb383f31200e97fcb6b1cec599f7d9eb8"
+      },
+      {
+        "frame": 87,
+        "source_video_frame": 87,
+        "timestamp_seconds": 2.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0087.png",
+        "bytes": 1532415,
+        "sha256": "32863277c4affd5ff74b1ec9adbc57437d90393063efe4aa718856995e688d48"
+      },
+      {
+        "frame": 88,
+        "source_video_frame": 88,
+        "timestamp_seconds": 2.933333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0088.png",
+        "bytes": 1532585,
+        "sha256": "0b301049d97f78f270f22cf29e7dbf19c0ce2d48e90ba43432bf7fe66af57d0e"
+      },
+      {
+        "frame": 89,
+        "source_video_frame": 89,
+        "timestamp_seconds": 2.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0089.png",
+        "bytes": 1540553,
+        "sha256": "2c456bc147051fdf100a3a533aa405b46673bdec3f424f06a2dd4d22d598ee42"
+      },
+      {
+        "frame": 90,
+        "source_video_frame": 90,
+        "timestamp_seconds": 3.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0090.png",
+        "bytes": 1546065,
+        "sha256": "8ac725661010d18a032c10a38658272ed34d0b87e0f86606a0e77c6020ccc0c2"
+      },
+      {
+        "frame": 91,
+        "source_video_frame": 91,
+        "timestamp_seconds": 3.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0091.png",
+        "bytes": 1550378,
+        "sha256": "157440afa68fd5612dd961249934aa56abc9a40ddef381bfc425e79c831c2984"
+      },
+      {
+        "frame": 92,
+        "source_video_frame": 92,
+        "timestamp_seconds": 3.066666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0092.png",
+        "bytes": 1552254,
+        "sha256": "3b6121ecac4e58997a7ab1c545ec537e940a7d42ad77b0952445a0081692d0e4"
+      },
+      {
+        "frame": 93,
+        "source_video_frame": 93,
+        "timestamp_seconds": 3.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0093.png",
+        "bytes": 1557159,
+        "sha256": "64686cce36eb37862cd954907e7865da23484ea0884a777db0cc291d36861f90"
+      },
+      {
+        "frame": 94,
+        "source_video_frame": 94,
+        "timestamp_seconds": 3.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0094.png",
+        "bytes": 1561756,
+        "sha256": "88f40751b0337ce23166f7ee934b27791dcd7558243ce95da314d347e2b85009"
+      },
+      {
+        "frame": 95,
+        "source_video_frame": 95,
+        "timestamp_seconds": 3.1666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0095.png",
+        "bytes": 1561473,
+        "sha256": "bdca396776d6aa47d5ec432e9f3fa5a0982e7ac47904fccc568740201fe75d09"
+      },
+      {
+        "frame": 96,
+        "source_video_frame": 96,
+        "timestamp_seconds": 3.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0096.png",
+        "bytes": 1563958,
+        "sha256": "5746c916c980cc36d414c9b0a1e5bcc14fd6fabafbdfcfda3f78964943f0ac46"
+      },
+      {
+        "frame": 97,
+        "source_video_frame": 97,
+        "timestamp_seconds": 3.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0097.png",
+        "bytes": 1566624,
+        "sha256": "91e7d7c59c11a085c15f43e0235101c54ae2e83c9104e5be166105aa18077898"
+      },
+      {
+        "frame": 98,
+        "source_video_frame": 98,
+        "timestamp_seconds": 3.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0098.png",
+        "bytes": 1568854,
+        "sha256": "f6850c51040a03d004816285bc74cdb0853ad3db77268db5bc77f68d2b97efd9"
+      },
+      {
+        "frame": 99,
+        "source_video_frame": 99,
+        "timestamp_seconds": 3.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0099.png",
+        "bytes": 1559860,
+        "sha256": "de99bacee5dc4e2d8af8d8f565f94659dd46eb9aaa650f2e56cd7c3d6759f78f"
+      },
+      {
+        "frame": 100,
+        "source_video_frame": 100,
+        "timestamp_seconds": 3.3333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0100.png",
+        "bytes": 1542652,
+        "sha256": "b9862ac6f80cdea479798f33b0cd3d825a5c9a557f095817c69385651bbcd080"
+      },
+      {
+        "frame": 101,
+        "source_video_frame": 101,
+        "timestamp_seconds": 3.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0101.png",
+        "bytes": 1539440,
+        "sha256": "d0e25bcf64c2be126fafe2c54b0d0cb669ce0e3986a42a3f2c403b4177271de9"
+      },
+      {
+        "frame": 102,
+        "source_video_frame": 102,
+        "timestamp_seconds": 3.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0102.png",
+        "bytes": 1541816,
+        "sha256": "f15a40ff957ad42d0a275b8ef953691439bf5773b9786a570a4e09f5ce41b972"
+      },
+      {
+        "frame": 103,
+        "source_video_frame": 103,
+        "timestamp_seconds": 3.433333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0103.png",
+        "bytes": 1541297,
+        "sha256": "b1a6ebd5faca48d6684d7a6f8bece1e0d1f599fd48977184c56628d3bc9054c1"
+      },
+      {
+        "frame": 104,
+        "source_video_frame": 104,
+        "timestamp_seconds": 3.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0104.png",
+        "bytes": 1543314,
+        "sha256": "efcfe8773f10553a442e17c290e79feba61ba4cbeefddad2c2532b3a8821255f"
+      },
+      {
+        "frame": 105,
+        "source_video_frame": 105,
+        "timestamp_seconds": 3.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0105.png",
+        "bytes": 1548738,
+        "sha256": "555027b8d0e1687ff242dea64cc047cdb1cb6941d7b55bf7ef997b4bb6a8ad13"
+      },
+      {
+        "frame": 106,
+        "source_video_frame": 106,
+        "timestamp_seconds": 3.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0106.png",
+        "bytes": 1556281,
+        "sha256": "ee10051e365a9aee494956c4d3a2dc0a0d974cc6baea62c3ae3f3f407fd06a10"
+      },
+      {
+        "frame": 107,
+        "source_video_frame": 107,
+        "timestamp_seconds": 3.566666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0107.png",
+        "bytes": 1557358,
+        "sha256": "b4c0c8a10e1a989ca298f6cd5601ad1214acbd533c6517695b484661b1f1f036"
+      },
+      {
+        "frame": 108,
+        "source_video_frame": 108,
+        "timestamp_seconds": 3.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0108.png",
+        "bytes": 1559473,
+        "sha256": "ccda9684a5efa900bf73abdaa47334a918d3d08a724860e7c7e929978d42875f"
+      },
+      {
+        "frame": 109,
+        "source_video_frame": 109,
+        "timestamp_seconds": 3.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0109.png",
+        "bytes": 1562288,
+        "sha256": "0062cc62c5459e29fc9debd05b8cd859480f9ecd02d6d3d17c4514e791e4b3e0"
+      },
+      {
+        "frame": 110,
+        "source_video_frame": 110,
+        "timestamp_seconds": 3.6666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0110.png",
+        "bytes": 1564117,
+        "sha256": "79b520c55516135829c96cf96b2fdbac21a9d29c8c2dec41174951b98f8447bf"
+      },
+      {
+        "frame": 111,
+        "source_video_frame": 111,
+        "timestamp_seconds": 3.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0111.png",
+        "bytes": 1564973,
+        "sha256": "b72e19d2d0e8a7e1d9022ae47991597ffb08d75c817aaed9a04eec22dd190ee5"
+      },
+      {
+        "frame": 112,
+        "source_video_frame": 112,
+        "timestamp_seconds": 3.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0112.png",
+        "bytes": 1566080,
+        "sha256": "f8ade9c67a2388758b91f7bec6ac86b0b5136fb20faf4438393203db492e3b13"
+      },
+      {
+        "frame": 113,
+        "source_video_frame": 113,
+        "timestamp_seconds": 3.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0113.png",
+        "bytes": 1564397,
+        "sha256": "999c5506efc124300588b9cef2725d740e5c987e10bb14b76033b8af317ea8ca"
+      },
+      {
+        "frame": 114,
+        "source_video_frame": 114,
+        "timestamp_seconds": 3.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0114.png",
+        "bytes": 1564726,
+        "sha256": "7b93c498e4d3d5e34db04a7c2a60b9af4ece0c29beabe353a60f2b5458d748ed"
+      },
+      {
+        "frame": 115,
+        "source_video_frame": 115,
+        "timestamp_seconds": 3.8333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0115.png",
+        "bytes": 1523501,
+        "sha256": "802322c9a43dfb87f63f1e35b4d92d0d7e5bbf95d75916e201990630393e6f0d"
+      },
+      {
+        "frame": 116,
+        "source_video_frame": 116,
+        "timestamp_seconds": 3.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0116.png",
+        "bytes": 1523890,
+        "sha256": "fc8aee3bbc48c9eac7d10a3c9bf4a1db60fcefef9cc952de8b991530c68f6c25"
+      },
+      {
+        "frame": 117,
+        "source_video_frame": 117,
+        "timestamp_seconds": 3.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0117.png",
+        "bytes": 1537074,
+        "sha256": "568c8feb1100b853e3720e7737680d9e8393be4115f1c73a04d17642e1156f88"
+      },
+      {
+        "frame": 118,
+        "source_video_frame": 118,
+        "timestamp_seconds": 3.933333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0118.png",
+        "bytes": 1541377,
+        "sha256": "248cb7eb17d01b05d1607baf03a9ce005ca10f45b074945890cbcd33de1eacbc"
+      },
+      {
+        "frame": 119,
+        "source_video_frame": 119,
+        "timestamp_seconds": 3.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0119.png",
+        "bytes": 1544348,
+        "sha256": "cd14168f013a15e14f09bafe74eb036a21f5bc6a666510c5c8b6cb97d82c18e4"
+      },
+      {
+        "frame": 120,
+        "source_video_frame": 120,
+        "timestamp_seconds": 4.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0120.png",
+        "bytes": 1546604,
+        "sha256": "bb91a3cd3b89c50b26a55a35aa2d7dfbbddc35183674d40f17c1ede93e4cb262"
+      },
+      {
+        "frame": 121,
+        "source_video_frame": 121,
+        "timestamp_seconds": 4.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0121.png",
+        "bytes": 1552504,
+        "sha256": "e596811ddca1fb53d46d01555a89360d194319afb147e54ec581bf3243e067b7"
+      },
+      {
+        "frame": 122,
+        "source_video_frame": 122,
+        "timestamp_seconds": 4.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0122.png",
+        "bytes": 1557070,
+        "sha256": "b94e8c40fc52f411c3517c931576473cd0e51f92c5fb831176eef0aefa094077"
+      },
+      {
+        "frame": 123,
+        "source_video_frame": 123,
+        "timestamp_seconds": 4.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0123.png",
+        "bytes": 1559359,
+        "sha256": "ac27f4b14e425157a23c9166c4c4b439eabb395279ef10967a782583453d1b2b"
+      },
+      {
+        "frame": 124,
+        "source_video_frame": 124,
+        "timestamp_seconds": 4.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0124.png",
+        "bytes": 1559928,
+        "sha256": "316a8d010fe258691eade0baf485ccf39be1369100baa95334f61540f48b9344"
+      },
+      {
+        "frame": 125,
+        "source_video_frame": 125,
+        "timestamp_seconds": 4.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0125.png",
+        "bytes": 1560154,
+        "sha256": "f58634a8c5b3815bb64dfb479385fded063d189590593361193bf8738ffc035d"
+      },
+      {
+        "frame": 126,
+        "source_video_frame": 126,
+        "timestamp_seconds": 4.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0126.png",
+        "bytes": 1565463,
+        "sha256": "376d6584fab1626988f4853e8f1ad0131ee6263b64c29642ee42b1a26af5c99e"
+      },
+      {
+        "frame": 127,
+        "source_video_frame": 127,
+        "timestamp_seconds": 4.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0127.png",
+        "bytes": 1563473,
+        "sha256": "a5e4f094df3de50c5aec648704d33c93e1ae1ba08e416a77b2eb6e6af8596c19"
+      },
+      {
+        "frame": 128,
+        "source_video_frame": 128,
+        "timestamp_seconds": 4.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0128.png",
+        "bytes": 1564460,
+        "sha256": "073e33e40bd72a654a92fbb9cf39f1d58de804610e2b5210255627a0ddd26340"
+      },
+      {
+        "frame": 129,
+        "source_video_frame": 129,
+        "timestamp_seconds": 4.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0129.png",
+        "bytes": 1560137,
+        "sha256": "5a91625b576a646b23c908d9977f11ccd74d1d371ef13c55367e9087abe78ef1"
+      },
+      {
+        "frame": 130,
+        "source_video_frame": 130,
+        "timestamp_seconds": 4.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0130.png",
+        "bytes": 1547087,
+        "sha256": "ebd349af617e3c1e675188aa1ad82a37b0da0a7ce37e7f887b8365abfded19ea"
+      },
+      {
+        "frame": 131,
+        "source_video_frame": 131,
+        "timestamp_seconds": 4.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0131.png",
+        "bytes": 1539842,
+        "sha256": "f01a6ee550efb117b04f0264ec66c0ac08c49d68ff7a1059a13a84d7a6ac1640"
+      },
+      {
+        "frame": 132,
+        "source_video_frame": 132,
+        "timestamp_seconds": 4.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0132.png",
+        "bytes": 1539638,
+        "sha256": "f7b7a552559680f1522c2c86e35b9b5b5fc1b4b8085f44a8279734cc636ec876"
+      },
+      {
+        "frame": 133,
+        "source_video_frame": 133,
+        "timestamp_seconds": 4.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0133.png",
+        "bytes": 1543159,
+        "sha256": "b3aa1f56b05715174eb4f6f92c4ea572335f0e8ec3663c8f4ac3c0d8f75c29b4"
+      },
+      {
+        "frame": 134,
+        "source_video_frame": 134,
+        "timestamp_seconds": 4.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0134.png",
+        "bytes": 1548738,
+        "sha256": "8c7a02bd6b709914242dc943f69da4b8b00daf546dfbabf7a6d05ef7b33f666e"
+      },
+      {
+        "frame": 135,
+        "source_video_frame": 135,
+        "timestamp_seconds": 4.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0135.png",
+        "bytes": 1548189,
+        "sha256": "579bd90539a76df606bf0b40cadff79210fd2129978f511ce8134274157a6b0d"
+      },
+      {
+        "frame": 136,
+        "source_video_frame": 136,
+        "timestamp_seconds": 4.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0136.png",
+        "bytes": 1548850,
+        "sha256": "70970f1177a60b5239a1e673a147a6fe283370f2c27ecce82888c22e765cca2a"
+      },
+      {
+        "frame": 137,
+        "source_video_frame": 137,
+        "timestamp_seconds": 4.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0137.png",
+        "bytes": 1553225,
+        "sha256": "6b540e774eeb6810fb42b0e51798d6b0f8b4b8dfb8ede4ca95521585f847df66"
+      },
+      {
+        "frame": 138,
+        "source_video_frame": 138,
+        "timestamp_seconds": 4.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0138.png",
+        "bytes": 1560730,
+        "sha256": "f38d829f6551f031885d004fd1b8fb9f0652f34d66146e1ad9dec30e5b6ba6b7"
+      },
+      {
+        "frame": 139,
+        "source_video_frame": 139,
+        "timestamp_seconds": 4.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0139.png",
+        "bytes": 1558671,
+        "sha256": "d36fc12f4f77317489fd59828714b152c521c3a53a390d87c09588d1957ec689"
+      },
+      {
+        "frame": 140,
+        "source_video_frame": 140,
+        "timestamp_seconds": 4.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0140.png",
+        "bytes": 1561842,
+        "sha256": "78947ae5c46e31e548e773bc6cccd9203e50971ff00cc4be561b9bbe5994198a"
+      },
+      {
+        "frame": 141,
+        "source_video_frame": 141,
+        "timestamp_seconds": 4.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0141.png",
+        "bytes": 1564974,
+        "sha256": "79841d56cf5d77ee1e66cb04c2c6e135b995bf3d8ace21a45e5747e18a7d1283"
+      },
+      {
+        "frame": 142,
+        "source_video_frame": 142,
+        "timestamp_seconds": 4.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0142.png",
+        "bytes": 1567578,
+        "sha256": "99ba18c08455428bd1ae27fbdf2cd24916eddbedfd0ab0d7ced21947fc721a13"
+      },
+      {
+        "frame": 143,
+        "source_video_frame": 143,
+        "timestamp_seconds": 4.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0143.png",
+        "bytes": 1566199,
+        "sha256": "72ae5276bffdd6083aec9a7ad09a7bef9bead520bb02d88957b3e32025fc64b9"
+      },
+      {
+        "frame": 144,
+        "source_video_frame": 144,
+        "timestamp_seconds": 4.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0144.png",
+        "bytes": 1564625,
+        "sha256": "5a05efc7561491452a341493b0b7a051655b001c1ea4247d0427552f65bd05c3"
+      },
+      {
+        "frame": 145,
+        "source_video_frame": 145,
+        "timestamp_seconds": 4.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0145.png",
+        "bytes": 1526251,
+        "sha256": "5c228ec867a666074f36642cd31651b1a03dd534bd7f3d6f88892dab5a161f47"
+      },
+      {
+        "frame": 146,
+        "source_video_frame": 146,
+        "timestamp_seconds": 4.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0146.png",
+        "bytes": 1529999,
+        "sha256": "61a0891a77cf65a66fc15ef67a544b488e98671fbe17d4a8744adc0e119fe3ea"
+      },
+      {
+        "frame": 147,
+        "source_video_frame": 147,
+        "timestamp_seconds": 4.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0147.png",
+        "bytes": 1532556,
+        "sha256": "5466545d53867bad1a68a3cd8351de5f630537687d41e11b8a01f0feabe580c7"
+      },
+      {
+        "frame": 148,
+        "source_video_frame": 148,
+        "timestamp_seconds": 4.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0148.png",
+        "bytes": 1533637,
+        "sha256": "1f04b50a420474bb2b07dd3aa0255127465ee09a9e78e1774bc8727860883d3f"
+      },
+      {
+        "frame": 149,
+        "source_video_frame": 149,
+        "timestamp_seconds": 4.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0149.png",
+        "bytes": 1539328,
+        "sha256": "48091eef0d63316e2d14db7528fe1f7a342dc2cf0bc7a8c4a514ee0ed2ec6cdc"
+      },
+      {
+        "frame": 150,
+        "source_video_frame": 150,
+        "timestamp_seconds": 5.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0150.png",
+        "bytes": 1545619,
+        "sha256": "fdfa1ee2f9daca5e517276af0d28c3c3ada152f21db6c21515cc015fd753b0e2"
+      },
+      {
+        "frame": 151,
+        "source_video_frame": 151,
+        "timestamp_seconds": 5.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0151.png",
+        "bytes": 1546610,
+        "sha256": "c940028f03b786ffd55b0831287b110902dae2a8333682bde19abf34deb6bc49"
+      },
+      {
+        "frame": 152,
+        "source_video_frame": 152,
+        "timestamp_seconds": 5.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0152.png",
+        "bytes": 1549305,
+        "sha256": "53f59d7a6f8a4c2f9e3c70048a09c0ab7d90dd8965021a4212f852b370285889"
+      },
+      {
+        "frame": 153,
+        "source_video_frame": 153,
+        "timestamp_seconds": 5.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0153.png",
+        "bytes": 1554166,
+        "sha256": "cb6cb1ed482c7f9e3c2f54281e3da57a19bb9ea6e201202094d093894aa632fb"
+      },
+      {
+        "frame": 154,
+        "source_video_frame": 154,
+        "timestamp_seconds": 5.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0154.png",
+        "bytes": 1558207,
+        "sha256": "7a1cfb9fdcfe999d27871193cb8370cb546c97b73a63f71e2e1d7b488b0b7e61"
+      },
+      {
+        "frame": 155,
+        "source_video_frame": 155,
+        "timestamp_seconds": 5.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0155.png",
+        "bytes": 1557877,
+        "sha256": "ff3402b263b33c12e48e7b554e9554d47f20da58934115ce3c8ea56af716c3cd"
+      },
+      {
+        "frame": 156,
+        "source_video_frame": 156,
+        "timestamp_seconds": 5.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0156.png",
+        "bytes": 1560416,
+        "sha256": "ecb6cb57754392b8c6d78369cf9721358e109eed349f3e888b0fce9194314158"
+      },
+      {
+        "frame": 157,
+        "source_video_frame": 157,
+        "timestamp_seconds": 5.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0157.png",
+        "bytes": 1564238,
+        "sha256": "a59a45ff2424b5f7dbdc890b45f00ad114c5e06b3825a4e542045146acfe96b2"
+      },
+      {
+        "frame": 158,
+        "source_video_frame": 158,
+        "timestamp_seconds": 5.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0158.png",
+        "bytes": 1568277,
+        "sha256": "3bc2e38f27bc3c2ece7dad0d329071d7987e52c00d6e1b1327e0feb6e897bc91"
+      },
+      {
+        "frame": 159,
+        "source_video_frame": 159,
+        "timestamp_seconds": 5.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0159.png",
+        "bytes": 1560312,
+        "sha256": "f5b7c70a00b66bdb8a79a1d104fcd28be90478cbcacf5e19d2f24cbc37053e3b"
+      },
+      {
+        "frame": 160,
+        "source_video_frame": 160,
+        "timestamp_seconds": 5.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0160.png",
+        "bytes": 1534932,
+        "sha256": "407204344006e338486fe1da9994e52734ee4233704dd510e1ee7125c52f6a2e"
+      },
+      {
+        "frame": 161,
+        "source_video_frame": 161,
+        "timestamp_seconds": 5.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0161.png",
+        "bytes": 1534228,
+        "sha256": "9aa0fd44d7a25aecd2d6a8d8137af2b68b0a22a311cff7cf9f1295227c21b571"
+      },
+      {
+        "frame": 162,
+        "source_video_frame": 162,
+        "timestamp_seconds": 5.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0162.png",
+        "bytes": 1538499,
+        "sha256": "241f8c3251bf406ba4f8c9a88d57dedce997bdb041c88e4b0c2b92f03df051e3"
+      },
+      {
+        "frame": 163,
+        "source_video_frame": 163,
+        "timestamp_seconds": 5.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0163.png",
+        "bytes": 1537298,
+        "sha256": "cc98ae94a498d72a60c9326bf3e1b1d238a3336312b834dc2333c90914c0eb2c"
+      },
+      {
+        "frame": 164,
+        "source_video_frame": 164,
+        "timestamp_seconds": 5.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0164.png",
+        "bytes": 1541227,
+        "sha256": "81258b17261e977dacc600dd3383abf6a26598906e7e458e6819569642268b82"
+      },
+      {
+        "frame": 165,
+        "source_video_frame": 165,
+        "timestamp_seconds": 5.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0165.png",
+        "bytes": 1547578,
+        "sha256": "e1c849839cc04eb400fa3bd799d9e76844477f6eff0a48b1741700b038aaeb2c"
+      },
+      {
+        "frame": 166,
+        "source_video_frame": 166,
+        "timestamp_seconds": 5.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0166.png",
+        "bytes": 1556275,
+        "sha256": "90140fbe45c12c21a13deedccd66105632455779a7f5839a2de60fbb235fa89c"
+      },
+      {
+        "frame": 167,
+        "source_video_frame": 167,
+        "timestamp_seconds": 5.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0167.png",
+        "bytes": 1555358,
+        "sha256": "a8c0b2ca7f7e058899a5a6804f12546a30969d31f730bbf77b34ad2a99ac1a23"
+      },
+      {
+        "frame": 168,
+        "source_video_frame": 168,
+        "timestamp_seconds": 5.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0168.png",
+        "bytes": 1558576,
+        "sha256": "a3f55ad800b635acac4f60a1e613248333811bac47b5f4716e08df225cbcd970"
+      },
+      {
+        "frame": 169,
+        "source_video_frame": 169,
+        "timestamp_seconds": 5.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0169.png",
+        "bytes": 1562320,
+        "sha256": "2442af142bed6f1857565caa277d6dccf63482ed556fe5e69251ddf9a5d5e4dd"
+      },
+      {
+        "frame": 170,
+        "source_video_frame": 170,
+        "timestamp_seconds": 5.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0170.png",
+        "bytes": 1566950,
+        "sha256": "a173314f26a4e2f272ee51429ec06f240150fdba687becb4123fc94e91b1a149"
+      },
+      {
+        "frame": 171,
+        "source_video_frame": 171,
+        "timestamp_seconds": 5.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0171.png",
+        "bytes": 1566878,
+        "sha256": "fadbf3de24e7dcf337f19f3ecd9811c710815e6486c890381d105013eb9e0040"
+      },
+      {
+        "frame": 172,
+        "source_video_frame": 172,
+        "timestamp_seconds": 5.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0172.png",
+        "bytes": 1568518,
+        "sha256": "428e6d30fb68d65fdf431eb4ca4a9b84664e00efa6a299c8a4396626ae280111"
+      },
+      {
+        "frame": 173,
+        "source_video_frame": 173,
+        "timestamp_seconds": 5.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0173.png",
+        "bytes": 1567541,
+        "sha256": "8d6a393d033fa6768150d300062ae1ee0de63d10cd649a7cdf3210851e8f2e8e"
+      },
+      {
+        "frame": 174,
+        "source_video_frame": 174,
+        "timestamp_seconds": 5.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0174.png",
+        "bytes": 1565260,
+        "sha256": "2eeec774d3d9744a1068e5a56d9d435f5bcf047e33cc2c64006436c186994df1"
+      },
+      {
+        "frame": 175,
+        "source_video_frame": 175,
+        "timestamp_seconds": 5.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0175.png",
+        "bytes": 1511316,
+        "sha256": "38c00f6a08e1c7df32c361b166964f927ac026dfeee5248438eb3c2cb1c37542"
+      },
+      {
+        "frame": 176,
+        "source_video_frame": 176,
+        "timestamp_seconds": 5.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0176.png",
+        "bytes": 1516571,
+        "sha256": "5a2f90271052a8c082a70bbfa198b8aeaa075dbe281517edd7fa043c61ab6638"
+      },
+      {
+        "frame": 177,
+        "source_video_frame": 177,
+        "timestamp_seconds": 5.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0177.png",
+        "bytes": 1528683,
+        "sha256": "699c64f13b3f13192371b18d3a4e19fef72899006229fe5665eff7de2276ff07"
+      },
+      {
+        "frame": 178,
+        "source_video_frame": 178,
+        "timestamp_seconds": 5.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0178.png",
+        "bytes": 1536892,
+        "sha256": "5784ba74bd917fd0d71988549b373cd837d274be388c6c147ea8b5920868eff8"
+      },
+      {
+        "frame": 179,
+        "source_video_frame": 179,
+        "timestamp_seconds": 5.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0179.png",
+        "bytes": 1540734,
+        "sha256": "0fe529cc97e30d6262bbd30e4d12b2a452ccc3f60d1f7cb4bdd7badcdaf6a364"
+      },
+      {
+        "frame": 180,
+        "source_video_frame": 180,
+        "timestamp_seconds": 6.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0180.png",
+        "bytes": 1543833,
+        "sha256": "65e0c2af69c3a09c7d71935dffbe990719a8537fc695a402ad313f66a67d2dca"
+      },
+      {
+        "frame": 181,
+        "source_video_frame": 181,
+        "timestamp_seconds": 6.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0181.png",
+        "bytes": 1550268,
+        "sha256": "4d763a06e587d8372024ca4726b45154d556c1b7c153fa7e00514edf7bec6328"
+      },
+      {
+        "frame": 182,
+        "source_video_frame": 182,
+        "timestamp_seconds": 6.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0182.png",
+        "bytes": 1557543,
+        "sha256": "f3003bc908245e69f7297ed93ef0f4b8a4132cd4ade6c144e9c8abc4e2b185cf"
+      },
+      {
+        "frame": 183,
+        "source_video_frame": 183,
+        "timestamp_seconds": 6.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0183.png",
+        "bytes": 1558023,
+        "sha256": "c6f8396c8b2a72e21d88f1ad0191a2e702f624100ceb93dd8bd00c62ff0a72e4"
+      },
+      {
+        "frame": 184,
+        "source_video_frame": 184,
+        "timestamp_seconds": 6.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0184.png",
+        "bytes": 1557394,
+        "sha256": "809660d67ac571de7024091b0a73003da83bf29f0a3d363e805531a670e7f6b2"
+      },
+      {
+        "frame": 185,
+        "source_video_frame": 185,
+        "timestamp_seconds": 6.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0185.png",
+        "bytes": 1561035,
+        "sha256": "a384304babfb7eda077e1ea1f52534eb56e4a1b210898468218e5ec54e452128"
+      },
+      {
+        "frame": 186,
+        "source_video_frame": 186,
+        "timestamp_seconds": 6.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0186.png",
+        "bytes": 1565446,
+        "sha256": "454d797d1e61545ed40c717fa5b9d47cdc21d7792d02bf509afe1986b44bba39"
+      },
+      {
+        "frame": 187,
+        "source_video_frame": 187,
+        "timestamp_seconds": 6.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0187.png",
+        "bytes": 1563367,
+        "sha256": "aa8e928e707e211e6d2a14f8560ebc89c56397efe81a1a9bcf1313adfe5ccdf9"
+      },
+      {
+        "frame": 188,
+        "source_video_frame": 188,
+        "timestamp_seconds": 6.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0188.png",
+        "bytes": 1566120,
+        "sha256": "16cbb866659fa8132d8f7d8c101515b559e9a7f48cf434db8037cc23ae7bed18"
+      },
+      {
+        "frame": 189,
+        "source_video_frame": 189,
+        "timestamp_seconds": 6.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0189.png",
+        "bytes": 1559499,
+        "sha256": "b62b1f3534ffb3cd67b20edcde3c17c3ade94240c17a4850a65f6b289a6d543b"
+      },
+      {
+        "frame": 190,
+        "source_video_frame": 190,
+        "timestamp_seconds": 6.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0190.png",
+        "bytes": 1528089,
+        "sha256": "d7c315a3209bc8ba0a4b531a70a83ab63ebd5f6df26ec1fa9a1fcddb276c13a7"
+      },
+      {
+        "frame": 191,
+        "source_video_frame": 191,
+        "timestamp_seconds": 6.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0191.png",
+        "bytes": 1527098,
+        "sha256": "ec482e4e3cf35a5c94100e7ae2a9ec1980d1c4da771380e73b1ca08495c49d4a"
+      },
+      {
+        "frame": 192,
+        "source_video_frame": 192,
+        "timestamp_seconds": 6.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0192.png",
+        "bytes": 1528073,
+        "sha256": "e413e046e56205d5c61fd1531f136ea7f192d82efce4d4fa4e62b4b71ea03be9"
+      },
+      {
+        "frame": 193,
+        "source_video_frame": 193,
+        "timestamp_seconds": 6.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0193.png",
+        "bytes": 1537838,
+        "sha256": "969f39a74cc8d72de216f6d49967d69d0b288e7d16131257e552c341eace6b90"
+      },
+      {
+        "frame": 194,
+        "source_video_frame": 194,
+        "timestamp_seconds": 6.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0194.png",
+        "bytes": 1546015,
+        "sha256": "464c0ab008ba7b3568391e68ce787113c39aa4a2677f9eaddc168198776d796f"
+      },
+      {
+        "frame": 195,
+        "source_video_frame": 195,
+        "timestamp_seconds": 6.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0195.png",
+        "bytes": 1544188,
+        "sha256": "7a4780ee9116a88cbb58eb034ad2f82626ae0a82ddea3bd3a1f885ec77e25e2e"
+      },
+      {
+        "frame": 196,
+        "source_video_frame": 196,
+        "timestamp_seconds": 6.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0196.png",
+        "bytes": 1548673,
+        "sha256": "fda3d0f53471874b67bc74f00870f6713b51e145a14015720a883c3856421173"
+      },
+      {
+        "frame": 197,
+        "source_video_frame": 197,
+        "timestamp_seconds": 6.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0197.png",
+        "bytes": 1553565,
+        "sha256": "63d5f8e73b48e5f301f552de2d85809026ad8c2f33e9dda3b50cb89fc7fa1dba"
+      },
+      {
+        "frame": 198,
+        "source_video_frame": 198,
+        "timestamp_seconds": 6.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0198.png",
+        "bytes": 1558841,
+        "sha256": "0089e3c5d5d589b49d4bebbee814cab814770ca2740270df781336a488ca3a51"
+      },
+      {
+        "frame": 199,
+        "source_video_frame": 199,
+        "timestamp_seconds": 6.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0199.png",
+        "bytes": 1557532,
+        "sha256": "891e7f9efa3e12f3d79ad2d193ccbba9b2c50d1164237be90f42350dcd09d405"
+      },
+      {
+        "frame": 200,
+        "source_video_frame": 200,
+        "timestamp_seconds": 6.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0200.png",
+        "bytes": 1560266,
+        "sha256": "4917932f000de2a01cbd0687e811d750c3727fa1280a4045d5c6760e5fdaa9d0"
+      },
+      {
+        "frame": 201,
+        "source_video_frame": 201,
+        "timestamp_seconds": 6.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0201.png",
+        "bytes": 1560640,
+        "sha256": "1b29d3e88607ff9fabd0deb6a24659edcffa8a40e43db982433263f5d13e983b"
+      },
+      {
+        "frame": 202,
+        "source_video_frame": 202,
+        "timestamp_seconds": 6.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0202.png",
+        "bytes": 1565522,
+        "sha256": "382ac9dc3317e41e55722ffcc59cd8ca80d040b2c21719f35c620d6827866cb0"
+      },
+      {
+        "frame": 203,
+        "source_video_frame": 203,
+        "timestamp_seconds": 6.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0203.png",
+        "bytes": 1564909,
+        "sha256": "fbb127243f7c189ee7817327eadb6c5df9bbfdad21e384b1dd209548a41954bf"
+      },
+      {
+        "frame": 204,
+        "source_video_frame": 204,
+        "timestamp_seconds": 6.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0204.png",
+        "bytes": 1562632,
+        "sha256": "fa28ce4e3526dea592eb970afeb7054f1b131ead3317c1fdf784ce470f3e6b0f"
+      },
+      {
+        "frame": 205,
+        "source_video_frame": 205,
+        "timestamp_seconds": 6.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0205.png",
+        "bytes": 1525093,
+        "sha256": "bdee7d8ccdcddedeaab76428da9da71534e89579f06fc555e6fd5668d3375e37"
+      },
+      {
+        "frame": 206,
+        "source_video_frame": 206,
+        "timestamp_seconds": 6.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0206.png",
+        "bytes": 1528942,
+        "sha256": "f0655821ec7163285d713cbcf63437511f9a0d921ec9aa9637f2397dffb4a874"
+      },
+      {
+        "frame": 207,
+        "source_video_frame": 207,
+        "timestamp_seconds": 6.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0207.png",
+        "bytes": 1532325,
+        "sha256": "c9a9156262e771e58a26a831be0681c49d49c53a752659a99b400bdd27f07232"
+      },
+      {
+        "frame": 208,
+        "source_video_frame": 208,
+        "timestamp_seconds": 6.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0208.png",
+        "bytes": 1530816,
+        "sha256": "e8e673ee353e6fbdf15b25dbbc732b496f5d3fe397d1484a065c8ce46ad9a3b4"
+      },
+      {
+        "frame": 209,
+        "source_video_frame": 209,
+        "timestamp_seconds": 6.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0209.png",
+        "bytes": 1543087,
+        "sha256": "96b8f60dde9e8e51a9ef336d62847fb3b07962ae3cf976a292001dbbc179a09f"
+      },
+      {
+        "frame": 210,
+        "source_video_frame": 210,
+        "timestamp_seconds": 7.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0210.png",
+        "bytes": 1548413,
+        "sha256": "f437d101eac4c41a5ee508a9096ad1b1d767ac40435d2d1201655d7725c3f87a"
+      },
+      {
+        "frame": 211,
+        "source_video_frame": 211,
+        "timestamp_seconds": 7.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0211.png",
+        "bytes": 1552176,
+        "sha256": "96b84c811d4f3293c47f978453ff96e064d32f204af1c640fa386c1c3ef3d73d"
+      },
+      {
+        "frame": 212,
+        "source_video_frame": 212,
+        "timestamp_seconds": 7.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0212.png",
+        "bytes": 1553348,
+        "sha256": "44cc79458e0c95faa73b9436e1fbd597b252abc66f585942be04763c83a643c5"
+      },
+      {
+        "frame": 213,
+        "source_video_frame": 213,
+        "timestamp_seconds": 7.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0213.png",
+        "bytes": 1558432,
+        "sha256": "6a2aba76e185ed4e3f29970b10b158f2e86b70b635367f8bdc5ff01c6f66febd"
+      },
+      {
+        "frame": 214,
+        "source_video_frame": 214,
+        "timestamp_seconds": 7.133333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0214.png",
+        "bytes": 1563160,
+        "sha256": "297ffdb8517fb3117667ffe8728e9718e5ec81b2090f600781712a9c2c43b796"
+      },
+      {
+        "frame": 215,
+        "source_video_frame": 215,
+        "timestamp_seconds": 7.166666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0215.png",
+        "bytes": 1560721,
+        "sha256": "b9534c59fbf09ab57ca0d1a50ad4469023587dc87af668612358226d2c19aa93"
+      },
+      {
+        "frame": 216,
+        "source_video_frame": 216,
+        "timestamp_seconds": 7.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0216.png",
+        "bytes": 1560931,
+        "sha256": "79fbf2210864564518b08638246b885c6ee740bf2b33feca6d345a93dddec40e"
+      },
+      {
+        "frame": 217,
+        "source_video_frame": 217,
+        "timestamp_seconds": 7.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0217.png",
+        "bytes": 1566103,
+        "sha256": "4a18870f02e649e479fc2988820765212d1154802950af3898461f39724f53a8"
+      },
+      {
+        "frame": 218,
+        "source_video_frame": 218,
+        "timestamp_seconds": 7.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0218.png",
+        "bytes": 1568907,
+        "sha256": "36a4ea8ec445b4e0875cef5805da4ee600e6133d0d107f342b3266f23bfe806e"
+      },
+      {
+        "frame": 219,
+        "source_video_frame": 219,
+        "timestamp_seconds": 7.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0219.png",
+        "bytes": 1563997,
+        "sha256": "b59d11f9a82f49c31feb136492b6fae0a6686433f9a0f4f981b65fc293ff793d"
+      },
+      {
+        "frame": 220,
+        "source_video_frame": 220,
+        "timestamp_seconds": 7.333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0220.png",
+        "bytes": 1522228,
+        "sha256": "eabfba750b7335b9cdef76461f7e63a9b589cde062e4c92a6e16e01db149f7b4"
+      },
+      {
+        "frame": 221,
+        "source_video_frame": 221,
+        "timestamp_seconds": 7.366666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0221.png",
+        "bytes": 1529398,
+        "sha256": "2e524932acbf091594458f67d881d37950516622243419cc5b3c069b1c488a1d"
+      },
+      {
+        "frame": 222,
+        "source_video_frame": 222,
+        "timestamp_seconds": 7.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0222.png",
+        "bytes": 1536111,
+        "sha256": "e405ac59192983d3b69754a5b37609c6c79305f5178bc08cb561418ffc8bbb14"
+      },
+      {
+        "frame": 223,
+        "source_video_frame": 223,
+        "timestamp_seconds": 7.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0223.png",
+        "bytes": 1538088,
+        "sha256": "404599a6dfd8d9c7a3909855f263e01f89af4bbe4f0e39ff16438648f0afdd5f"
+      },
+      {
+        "frame": 224,
+        "source_video_frame": 224,
+        "timestamp_seconds": 7.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0224.png",
+        "bytes": 1541259,
+        "sha256": "22d9966af2355ba570a570d5e4690e80c1dbbf27a99e017bfab751590c006e3e"
+      },
+      {
+        "frame": 225,
+        "source_video_frame": 225,
+        "timestamp_seconds": 7.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0225.png",
+        "bytes": 1549160,
+        "sha256": "21775b87363a8b499712a93884c27f402e12079eb6066ca448ff4206ec78978c"
+      },
+      {
+        "frame": 226,
+        "source_video_frame": 226,
+        "timestamp_seconds": 7.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0226.png",
+        "bytes": 1553370,
+        "sha256": "8c72c2f177a11f8198c7d845b11da6765feb0def707a2cf24d60fd919bb19d46"
+      },
+      {
+        "frame": 227,
+        "source_video_frame": 227,
+        "timestamp_seconds": 7.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0227.png",
+        "bytes": 1554409,
+        "sha256": "eda722b48a733a530e00870d10f36bbe4c4682234a8243bbeba923acb57fe418"
+      },
+      {
+        "frame": 228,
+        "source_video_frame": 228,
+        "timestamp_seconds": 7.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0228.png",
+        "bytes": 1555905,
+        "sha256": "ddb1abe57338c29d6710daf7106dfed2dfa8aa4005532379a8550f5f5fcf7d41"
+      },
+      {
+        "frame": 229,
+        "source_video_frame": 229,
+        "timestamp_seconds": 7.633333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0229.png",
+        "bytes": 1557506,
+        "sha256": "abda617b929fbec6295c00231bc420f36395d5e790d1119818db6beb673fa8bd"
+      },
+      {
+        "frame": 230,
+        "source_video_frame": 230,
+        "timestamp_seconds": 7.666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0230.png",
+        "bytes": 1564812,
+        "sha256": "026393d507ea1981529f2a953ad65d65e3fb00cfef1244d518a0f166a2ddb0c8"
+      },
+      {
+        "frame": 231,
+        "source_video_frame": 231,
+        "timestamp_seconds": 7.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0231.png",
+        "bytes": 1562929,
+        "sha256": "eea1dfcfcd8a53dad90bf415b32d06395a6fac80ce35e75fde7cc83c25d3827d"
+      },
+      {
+        "frame": 232,
+        "source_video_frame": 232,
+        "timestamp_seconds": 7.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0232.png",
+        "bytes": 1566465,
+        "sha256": "a0260ff571eb298708839363864e0ea680f99d8dd5cf31f08d9efa1919f3b175"
+      },
+      {
+        "frame": 233,
+        "source_video_frame": 233,
+        "timestamp_seconds": 7.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0233.png",
+        "bytes": 1567945,
+        "sha256": "ad663fd62f478abe8509657c1bda8eee4697a573bc94118a19537a1baf40b303"
+      },
+      {
+        "frame": 234,
+        "source_video_frame": 234,
+        "timestamp_seconds": 7.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0234.png",
+        "bytes": 1570232,
+        "sha256": "9123b82db91a95a75d7cb7429a47c9379bdc4f05838a5ebae7ed994dd80c5e53"
+      },
+      {
+        "frame": 235,
+        "source_video_frame": 235,
+        "timestamp_seconds": 7.833333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0235.png",
+        "bytes": 1527203,
+        "sha256": "d4a10e05af38b144d435a0a614e911cdd1c342d944c6b5ee1461cd0972a30cab"
+      },
+      {
+        "frame": 236,
+        "source_video_frame": 236,
+        "timestamp_seconds": 7.866666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0236.png",
+        "bytes": 1528676,
+        "sha256": "df28ba07d709f054a85c13be2e035df2bd46125546399027f55468cd468283cd"
+      },
+      {
+        "frame": 237,
+        "source_video_frame": 237,
+        "timestamp_seconds": 7.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0237.png",
+        "bytes": 1537935,
+        "sha256": "b15333ceda51e71c26a94dc421414f5488c1f4a4e051c5246fa744e5de7bb641"
+      },
+      {
+        "frame": 238,
+        "source_video_frame": 238,
+        "timestamp_seconds": 7.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0238.png",
+        "bytes": 1544753,
+        "sha256": "de9c4a0e56721945578dc810aea033343145a9347b4f39d747013bd0e4f3c9dd"
+      },
+      {
+        "frame": 239,
+        "source_video_frame": 239,
+        "timestamp_seconds": 7.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0239.png",
+        "bytes": 1542912,
+        "sha256": "1ea3237b3ebca19c013237d0b7bf70d352b06b8f740ed4e66f8fcc7a53ea3481"
+      },
+      {
+        "frame": 240,
+        "source_video_frame": 240,
+        "timestamp_seconds": 8.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0240.png",
+        "bytes": 1545919,
+        "sha256": "06563314b4cee5d8abcd0739b7477acc89b0f4094b8ad8b2a73bcfc29f4dbe94"
+      },
+      {
+        "frame": 241,
+        "source_video_frame": 241,
+        "timestamp_seconds": 8.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0241.png",
+        "bytes": 1553134,
+        "sha256": "f2c5b4efcd10c06ad755a48578c43fb1c4eaeec1cb082af5cf5baaf105cffeb5"
+      },
+      {
+        "frame": 242,
+        "source_video_frame": 242,
+        "timestamp_seconds": 8.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0242.png",
+        "bytes": 1559066,
+        "sha256": "3f54c6fc69056026a1372e46a07be53716a469e541719ffd4503beb724da5bf5"
+      },
+      {
+        "frame": 243,
+        "source_video_frame": 243,
+        "timestamp_seconds": 8.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0243.png",
+        "bytes": 1561382,
+        "sha256": "a7de164d63efa162a459fc21ac7b0c8528284ab47e7e1e3c005a7e696b458343"
+      },
+      {
+        "frame": 244,
+        "source_video_frame": 244,
+        "timestamp_seconds": 8.133333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0244.png",
+        "bytes": 1560102,
+        "sha256": "d2869d9cda25851e5d234954987074903fa54baa5125d28656ca31044ddb43ec"
+      },
+      {
+        "frame": 245,
+        "source_video_frame": 245,
+        "timestamp_seconds": 8.166666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0245.png",
+        "bytes": 1561848,
+        "sha256": "cc1d4ce2a3bfaff5b28cd1ad5ebe76225969a9ef43f0899819a9a762a8a09a07"
+      },
+      {
+        "frame": 246,
+        "source_video_frame": 246,
+        "timestamp_seconds": 8.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0246.png",
+        "bytes": 1568297,
+        "sha256": "3ec561de64db58abae5e7453804d96bd7274ed8f817021816aa82013470b177a"
+      },
+      {
+        "frame": 247,
+        "source_video_frame": 247,
+        "timestamp_seconds": 8.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0247.png",
+        "bytes": 1568006,
+        "sha256": "5e025cde1f371224072420264f928c5c39f17637c1f81824aed7fc0e5b4e86a4"
+      },
+      {
+        "frame": 248,
+        "source_video_frame": 248,
+        "timestamp_seconds": 8.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0248.png",
+        "bytes": 1568775,
+        "sha256": "f41c7001cc1769e64cda240ac131b3f983812cc62bf24ebc0445925e14217b89"
+      },
+      {
+        "frame": 249,
+        "source_video_frame": 249,
+        "timestamp_seconds": 8.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0249.png",
+        "bytes": 1559090,
+        "sha256": "7cda9779fdb19a7803099f6331021688d371bead660e8740891b7d18db19c083"
+      },
+      {
+        "frame": 250,
+        "source_video_frame": 250,
+        "timestamp_seconds": 8.333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0250.png",
+        "bytes": 1529365,
+        "sha256": "1a0e8cb6de2889b13ffb01eb347f8af3e1749a487b4c9daf91a95b005195b3c0"
+      },
+      {
+        "frame": 251,
+        "source_video_frame": 251,
+        "timestamp_seconds": 8.366666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0251.png",
+        "bytes": 1529686,
+        "sha256": "07d55830ac3012f86e325944c4557d9e37fa521b2e919c7f4084a70017ba5c6b"
+      },
+      {
+        "frame": 252,
+        "source_video_frame": 252,
+        "timestamp_seconds": 8.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0252.png",
+        "bytes": 1527621,
+        "sha256": "0e3a5fa1c95049dafe0f6d83b46588c13a3fdeba1bc56d806f00e72fd5bd5936"
+      },
+      {
+        "frame": 253,
+        "source_video_frame": 253,
+        "timestamp_seconds": 8.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0253.png",
+        "bytes": 1528967,
+        "sha256": "d578e6e3c0f3ebc50078f01b3c2d195beb38bc95ddfb159c4905bf88ddc94fc2"
+      },
+      {
+        "frame": 254,
+        "source_video_frame": 254,
+        "timestamp_seconds": 8.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0254.png",
+        "bytes": 1520641,
+        "sha256": "32f837526280f1a3ce5ed2117bead6b6d4c4b387b7f59305ef6fe76e72901cde"
+      },
+      {
+        "frame": 255,
+        "source_video_frame": 255,
+        "timestamp_seconds": 8.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0255.png",
+        "bytes": 1538083,
+        "sha256": "67ff08317f7c5ff85a680293d8724e41bc03948b27eac909bb1ed780aab771c9"
+      },
+      {
+        "frame": 256,
+        "source_video_frame": 256,
+        "timestamp_seconds": 8.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0256.png",
+        "bytes": 1543845,
+        "sha256": "d50de58b81d07ca007ed82fb497488187a4063c9cc4104156fd2abe37c6e4a91"
+      },
+      {
+        "frame": 257,
+        "source_video_frame": 257,
+        "timestamp_seconds": 8.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0257.png",
+        "bytes": 1543432,
+        "sha256": "6e9148588f366bd4d09be7a0d76c55e4c1758a24d844bf83da6d35150e587847"
+      },
+      {
+        "frame": 258,
+        "source_video_frame": 258,
+        "timestamp_seconds": 8.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0258.png",
+        "bytes": 1541984,
+        "sha256": "ffcf8d71f0462659f00a6770da807c33b5b9b9598e62c539261ff0fb9e0272a4"
+      },
+      {
+        "frame": 259,
+        "source_video_frame": 259,
+        "timestamp_seconds": 8.633333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0259.png",
+        "bytes": 1549663,
+        "sha256": "861d6cd8a0f8a99c68c7dee95b8a12118652582a4c9faba6d6790be7ebe96bd2"
+      },
+      {
+        "frame": 260,
+        "source_video_frame": 260,
+        "timestamp_seconds": 8.666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0260.png",
+        "bytes": 1554344,
+        "sha256": "5818b8056c648bb6903a7d276f0113478c1b46114c7abee13f77160dfe57c8e8"
+      },
+      {
+        "frame": 261,
+        "source_video_frame": 261,
+        "timestamp_seconds": 8.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0261.png",
+        "bytes": 1554007,
+        "sha256": "c80e8e9093a517c306e308910f3d3467d3d1c2e2a74a2a3b2356741d683fd0ec"
+      },
+      {
+        "frame": 262,
+        "source_video_frame": 262,
+        "timestamp_seconds": 8.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0262.png",
+        "bytes": 1554347,
+        "sha256": "8901b7ec6a949cdd7cc02d1d693b0fe12380508b9d7f138214625fccd86019e6"
+      },
+      {
+        "frame": 263,
+        "source_video_frame": 263,
+        "timestamp_seconds": 8.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0263.png",
+        "bytes": 1556020,
+        "sha256": "f3bd0775d0d69da6945059f309de0768cef9c2ea5ab0faea53c1cdc9d6230fcf"
+      },
+      {
+        "frame": 264,
+        "source_video_frame": 264,
+        "timestamp_seconds": 8.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0264.png",
+        "bytes": 1554148,
+        "sha256": "5b4e5402840940995a15da7eb0323c7cb9d961d88b610f794e08faf29293358a"
+      },
+      {
+        "frame": 265,
+        "source_video_frame": 265,
+        "timestamp_seconds": 8.833333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0265.png",
+        "bytes": 1514143,
+        "sha256": "2f6861b83d6dcaf3e10e1dd5e1677bbcb031701d52790f297bd3743f218ca8eb"
+      },
+      {
+        "frame": 266,
+        "source_video_frame": 266,
+        "timestamp_seconds": 8.866666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0266.png",
+        "bytes": 1514727,
+        "sha256": "b1bd7e6e422d480e4370c5bde1f16f44df4f9332125673c24007a26c46eb8420"
+      },
+      {
+        "frame": 267,
+        "source_video_frame": 267,
+        "timestamp_seconds": 8.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0267.png",
+        "bytes": 1523594,
+        "sha256": "731ba0c082b0e207e4fae554ca75f5e62d02c3294d0315b3dd9e22e137cf5213"
+      },
+      {
+        "frame": 268,
+        "source_video_frame": 268,
+        "timestamp_seconds": 8.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0268.png",
+        "bytes": 1529475,
+        "sha256": "642b8ae7385380f8285fe8ed301c62721932aefdadc4c97b051ed019bd547861"
+      },
+      {
+        "frame": 269,
+        "source_video_frame": 269,
+        "timestamp_seconds": 8.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0269.png",
+        "bytes": 1535577,
+        "sha256": "09f5b3dc861922f87359400dca05f26f9b4994b55ecb8dabb8791c9bd294c9be"
+      },
+      {
+        "frame": 270,
+        "source_video_frame": 270,
+        "timestamp_seconds": 9.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0270.png",
+        "bytes": 1536190,
+        "sha256": "85e134e3871f737ae98648fcfdb275d14a440ae9bc31ecc6747ac96064371226"
+      },
+      {
+        "frame": 271,
+        "source_video_frame": 271,
+        "timestamp_seconds": 9.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0271.png",
+        "bytes": 1545021,
+        "sha256": "2d969559c7eb246185e65e2ca2baa1091cfab38890a6227847be7fefdf67aaa1"
+      },
+      {
+        "frame": 272,
+        "source_video_frame": 272,
+        "timestamp_seconds": 9.066666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0272.png",
+        "bytes": 1548824,
+        "sha256": "28d819d859cb9a79bea8342ba71536aa8e0883070337d45a02d21948f091ce26"
+      },
+      {
+        "frame": 273,
+        "source_video_frame": 273,
+        "timestamp_seconds": 9.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0273.png",
+        "bytes": 1551261,
+        "sha256": "1c64858bd3c5f2d9e77d783f31bfedbd42260582ac4f2735a6fb12e5078ec988"
+      },
+      {
+        "frame": 274,
+        "source_video_frame": 274,
+        "timestamp_seconds": 9.133333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0274.png",
+        "bytes": 1551703,
+        "sha256": "a6e500f29981d80a73d64eb61b39f321303552f814fbae066e40da82835f9e84"
+      },
+      {
+        "frame": 275,
+        "source_video_frame": 275,
+        "timestamp_seconds": 9.166666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0275.png",
+        "bytes": 1556512,
+        "sha256": "b9613d70c4b91d740f7c8e12ff49560f4656de78bb8824942c7164e910e6da1f"
+      },
+      {
+        "frame": 276,
+        "source_video_frame": 276,
+        "timestamp_seconds": 9.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0276.png",
+        "bytes": 1559946,
+        "sha256": "659216db020af07f8a9649a90a3c407f97657bf3d47fd521798850bcd40d591c"
+      },
+      {
+        "frame": 277,
+        "source_video_frame": 277,
+        "timestamp_seconds": 9.233333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0277.png",
+        "bytes": 1559933,
+        "sha256": "307c5096ace927cad70744d6b354c5f9b85d2028c3764b8f6da4fc6e87209fa1"
+      },
+      {
+        "frame": 278,
+        "source_video_frame": 278,
+        "timestamp_seconds": 9.266666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0278.png",
+        "bytes": 1560592,
+        "sha256": "cf41bbe015ab7a0e86a4de3d6731ea3bb7a7c10b9a9c8fd3beb8d2a8c5ea8669"
+      },
+      {
+        "frame": 279,
+        "source_video_frame": 279,
+        "timestamp_seconds": 9.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0279.png",
+        "bytes": 1554934,
+        "sha256": "3266e67f450eab1ad344abfe2b0971db182747f28cdcb3b6e22c79f5574e1174"
+      },
+      {
+        "frame": 280,
+        "source_video_frame": 280,
+        "timestamp_seconds": 9.333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0280.png",
+        "bytes": 1525067,
+        "sha256": "f21cdaf338d0d695884d68613437eb15b3162c1cbbe6a0a5ee4e8405108a7cd5"
+      },
+      {
+        "frame": 281,
+        "source_video_frame": 281,
+        "timestamp_seconds": 9.366666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0281.png",
+        "bytes": 1523013,
+        "sha256": "b3a1f2c71984b3e6e519a62ca22ea107c655d89e563c1d429f4b9c6a9e4f7f13"
+      },
+      {
+        "frame": 282,
+        "source_video_frame": 282,
+        "timestamp_seconds": 9.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0282.png",
+        "bytes": 1523446,
+        "sha256": "98bea6ae1be9ff431f9cea6b40788cdb6ca448536ea641b205e3fa70a82d5f53"
+      },
+      {
+        "frame": 283,
+        "source_video_frame": 283,
+        "timestamp_seconds": 9.433333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0283.png",
+        "bytes": 1533484,
+        "sha256": "7c7984c71efa370841bd38e6207835a3de014a32b3d9a04bccfffb817c84604b"
+      },
+      {
+        "frame": 284,
+        "source_video_frame": 284,
+        "timestamp_seconds": 9.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0284.png",
+        "bytes": 1540408,
+        "sha256": "d3f7ef2c87c47ac1846f087c730ce81549168f04414225ca57059c5c5e523aca"
+      },
+      {
+        "frame": 285,
+        "source_video_frame": 285,
+        "timestamp_seconds": 9.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0285.png",
+        "bytes": 1541743,
+        "sha256": "dc5fba8faa57826ef4a6e9ca39c99729f9f88c4fd4d6c63e14f1fa21441b064d"
+      },
+      {
+        "frame": 286,
+        "source_video_frame": 286,
+        "timestamp_seconds": 9.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0286.png",
+        "bytes": 1541881,
+        "sha256": "6472e0774d9fcd6b39dcfdd274f138ad7d6a43746ed0e177aa16de39433e4ed6"
+      },
+      {
+        "frame": 287,
+        "source_video_frame": 287,
+        "timestamp_seconds": 9.566666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0287.png",
+        "bytes": 1550069,
+        "sha256": "887e358194d80fd04acc144e1535d7183adfbd0a939a5c2d9342b50c628a7755"
+      },
+      {
+        "frame": 288,
+        "source_video_frame": 288,
+        "timestamp_seconds": 9.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0288.png",
+        "bytes": 1554160,
+        "sha256": "f9bc8c7ee91d58e6c7e724ffe9c43a40df3b5b0b493393ff269289df7111212f"
+      },
+      {
+        "frame": 289,
+        "source_video_frame": 289,
+        "timestamp_seconds": 9.633333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0289.png",
+        "bytes": 1555808,
+        "sha256": "6dc061034a2ac187c83f1291a0534b11c84c82694d316fb546e33cfddd9a4c30"
+      },
+      {
+        "frame": 290,
+        "source_video_frame": 290,
+        "timestamp_seconds": 9.666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0290.png",
+        "bytes": 1551871,
+        "sha256": "f2fcead705f2f40075192a0a7dd42df29657edd615ddd8f31cf80f872087c140"
+      },
+      {
+        "frame": 291,
+        "source_video_frame": 291,
+        "timestamp_seconds": 9.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0291.png",
+        "bytes": 1558379,
+        "sha256": "2d2cb1595bd38e63085b6c6a935e19c859ca155aac61736013b56a1ebeeb9171"
+      },
+      {
+        "frame": 292,
+        "source_video_frame": 292,
+        "timestamp_seconds": 9.733333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0292.png",
+        "bytes": 1565547,
+        "sha256": "ece405b29af72b8f641cc13f42e28350e4de89353f0b058c6bcd7604a06d6097"
+      },
+      {
+        "frame": 293,
+        "source_video_frame": 293,
+        "timestamp_seconds": 9.766666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0293.png",
+        "bytes": 1562701,
+        "sha256": "5c760dae6e7e716c38507f6ea74d295fdcf782a34d4829b52690e6e81af78f76"
+      },
+      {
+        "frame": 294,
+        "source_video_frame": 294,
+        "timestamp_seconds": 9.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0294.png",
+        "bytes": 1555239,
+        "sha256": "4c6b615962ca382dd16a5036ffca0b1beef0d228eb1bc68000995e26d5bc88de"
+      },
+      {
+        "frame": 295,
+        "source_video_frame": 295,
+        "timestamp_seconds": 9.833333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0295.png",
+        "bytes": 1523058,
+        "sha256": "e7fd378de060b7462bbc948f18cb295c3ca3cf346ea57129c2bd565d55af52af"
+      },
+      {
+        "frame": 296,
+        "source_video_frame": 296,
+        "timestamp_seconds": 9.866666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0296.png",
+        "bytes": 1525755,
+        "sha256": "69cc4bccdccef8c44f5ffb19a547b792d69a954b209e4af488c39de4f52094c1"
+      },
+      {
+        "frame": 297,
+        "source_video_frame": 297,
+        "timestamp_seconds": 9.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0297.png",
+        "bytes": 1527621,
+        "sha256": "d22a780078fa603c1a268b9fa76242c1398377ab571a68277b8bcbf0e1afb901"
+      },
+      {
+        "frame": 298,
+        "source_video_frame": 298,
+        "timestamp_seconds": 9.933333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0298.png",
+        "bytes": 1514848,
+        "sha256": "02fd4d00556bca112ec4fef815fd3db992cf73c043ffc2a2c5d875a02fc2948f"
+      },
+      {
+        "frame": 299,
+        "source_video_frame": 299,
+        "timestamp_seconds": 9.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0299.png",
+        "bytes": 1520429,
+        "sha256": "09c1d93bc57e01f4b0e01597933a5d857537e00ee40d7862cd8ce0c3857337f5"
+      }
+    ],
+    "dev": [
+      {
+        "frame": 0,
+        "source_video_frame": 0,
+        "timestamp_seconds": 0.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0000.png",
+        "bytes": 495913,
+        "sha256": "2d77022b069277b0908ad79e160de2cf5c6c7bca831b8ea6e8a54b18072ccd81"
+      },
+      {
+        "frame": 1,
+        "source_video_frame": 1,
+        "timestamp_seconds": 0.03333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0001.png",
+        "bytes": 497074,
+        "sha256": "faf2b54cf49f71fc5252e6670d406eddc13195978ffc91ff1b2d2e1714ef3f64"
+      },
+      {
+        "frame": 2,
+        "source_video_frame": 2,
+        "timestamp_seconds": 0.06666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0002.png",
+        "bytes": 497855,
+        "sha256": "08a5ec3afec175589a4c07489e632b518d1c801f26b37b8466bc5eacbcc9d008"
+      },
+      {
+        "frame": 3,
+        "source_video_frame": 3,
+        "timestamp_seconds": 0.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0003.png",
+        "bytes": 497912,
+        "sha256": "e3fb9e1adac608cceae3dac315f068fa169e136150be5dd7941817af336b8b31"
+      },
+      {
+        "frame": 4,
+        "source_video_frame": 4,
+        "timestamp_seconds": 0.13333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0004.png",
+        "bytes": 499565,
+        "sha256": "e6655f17e4b16aede4342f3a53122a903713ca18f7df540ca6c2bbf5e84a1e44"
+      },
+      {
+        "frame": 5,
+        "source_video_frame": 5,
+        "timestamp_seconds": 0.16666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0005.png",
+        "bytes": 497831,
+        "sha256": "267f0e5e5519aeb8fd94865d2e4e68aa9d813c25b2f1bd1c6f8d4309661ace9b"
+      },
+      {
+        "frame": 6,
+        "source_video_frame": 6,
+        "timestamp_seconds": 0.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0006.png",
+        "bytes": 498999,
+        "sha256": "0cb921d8b2a9be86e4ce8d011dd1efb5498766efff42c49c5819955293c1d095"
+      },
+      {
+        "frame": 7,
+        "source_video_frame": 7,
+        "timestamp_seconds": 0.23333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0007.png",
+        "bytes": 497675,
+        "sha256": "b764cfe1af4ac235eea2964a84d00def108f2e23be1ba1cd18727be183f2d046"
+      },
+      {
+        "frame": 8,
+        "source_video_frame": 8,
+        "timestamp_seconds": 0.26666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0008.png",
+        "bytes": 500217,
+        "sha256": "b140e747e06028c8fbd86e9b366add7ccaf3806879c5febbd5bde89fc2ce8756"
+      },
+      {
+        "frame": 9,
+        "source_video_frame": 9,
+        "timestamp_seconds": 0.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0009.png",
+        "bytes": 497337,
+        "sha256": "11ce84d1c406051c86b61d4abb7e0a5c8b604341173eb5be89a3b2255bd78cf8"
+      },
+      {
+        "frame": 10,
+        "source_video_frame": 10,
+        "timestamp_seconds": 0.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0010.png",
+        "bytes": 493167,
+        "sha256": "aea5d20598e900f648a16ba14be2e9b83a0fa92c5d2a21bdd06a5abd5c6020c1"
+      },
+      {
+        "frame": 11,
+        "source_video_frame": 11,
+        "timestamp_seconds": 0.36666666666666664,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0011.png",
+        "bytes": 493286,
+        "sha256": "e02eec2da456b765805fe19b004c026ff71b1a9c16966bb9e5930c4f2daa145e"
+      },
+      {
+        "frame": 12,
+        "source_video_frame": 12,
+        "timestamp_seconds": 0.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0012.png",
+        "bytes": 496923,
+        "sha256": "1645fe429ac7de293f9599a0cf18d9e6b57fe26a00531a1def701c46631493f2"
+      },
+      {
+        "frame": 13,
+        "source_video_frame": 13,
+        "timestamp_seconds": 0.43333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0013.png",
+        "bytes": 495451,
+        "sha256": "9cedf92f5e6aa313c245b83e2374080ca91f8215c3dec8f17e378e4094f314ea"
+      },
+      {
+        "frame": 14,
+        "source_video_frame": 14,
+        "timestamp_seconds": 0.4666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0014.png",
+        "bytes": 496829,
+        "sha256": "33a42e40890f8c2be25cf731fa173e0026ceedc8270a598e743fa409dd42d789"
+      },
+      {
+        "frame": 15,
+        "source_video_frame": 15,
+        "timestamp_seconds": 0.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0015.png",
+        "bytes": 496320,
+        "sha256": "54c2cd7e75a7b0d7c36b20dc01cfcebc1e5b6b00250e919a9e00a2b30c336f28"
+      },
+      {
+        "frame": 16,
+        "source_video_frame": 16,
+        "timestamp_seconds": 0.5333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0016.png",
+        "bytes": 498759,
+        "sha256": "6711b47e98ee873d59e5dd53946bc09dcac5f8d3084f5f1d4494fa2249575654"
+      },
+      {
+        "frame": 17,
+        "source_video_frame": 17,
+        "timestamp_seconds": 0.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0017.png",
+        "bytes": 497175,
+        "sha256": "725188f331c656c32982a8f432220320f01444cfcd3f6abc394fd0ebbe763e4d"
+      },
+      {
+        "frame": 18,
+        "source_video_frame": 18,
+        "timestamp_seconds": 0.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0018.png",
+        "bytes": 498480,
+        "sha256": "f276b002c145dab299536255467ccd014e5d358232888de860c74b5665bdfcdc"
+      },
+      {
+        "frame": 19,
+        "source_video_frame": 19,
+        "timestamp_seconds": 0.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0019.png",
+        "bytes": 497850,
+        "sha256": "3b656f9f6294d257b0ba061847fd10a079c928a4e759c4c0a05f5866b981f782"
+      },
+      {
+        "frame": 20,
+        "source_video_frame": 20,
+        "timestamp_seconds": 0.6666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0020.png",
+        "bytes": 500572,
+        "sha256": "96ea1b3a0ac8281040350a1f549a0caf9d0bdbadb9f34ea815491bab0942f4af"
+      },
+      {
+        "frame": 21,
+        "source_video_frame": 21,
+        "timestamp_seconds": 0.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0021.png",
+        "bytes": 498856,
+        "sha256": "d2f3148a24f88db036e50616ea924a9363711dfa8ea7217b9d6ce372fd7e6170"
+      },
+      {
+        "frame": 22,
+        "source_video_frame": 22,
+        "timestamp_seconds": 0.7333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0022.png",
+        "bytes": 500145,
+        "sha256": "4710bbad92ecd4a687563ec511e37263fe026f140a3a29c7cb0067acc1dd776c"
+      },
+      {
+        "frame": 23,
+        "source_video_frame": 23,
+        "timestamp_seconds": 0.7666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0023.png",
+        "bytes": 498711,
+        "sha256": "90c6c23dd9d157b8c89c89a3c763b2106fe019f02132135531d63979183b1543"
+      },
+      {
+        "frame": 24,
+        "source_video_frame": 24,
+        "timestamp_seconds": 0.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0024.png",
+        "bytes": 500062,
+        "sha256": "87a1ed8cca27dd572ffb890679709724686b2dd9ea42bbb7eff41c0ebc973e2a"
+      },
+      {
+        "frame": 25,
+        "source_video_frame": 25,
+        "timestamp_seconds": 0.8333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0025.png",
+        "bytes": 492757,
+        "sha256": "3016f252befeab3edd6981b5688ad6d048b9427b1064bbac514d567dd1f2d05e"
+      },
+      {
+        "frame": 26,
+        "source_video_frame": 26,
+        "timestamp_seconds": 0.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0026.png",
+        "bytes": 496730,
+        "sha256": "25826c0a3d071209b5b1782dbdb8af04914b7ac22f4d40c1a3d63db537ce76f0"
+      },
+      {
+        "frame": 27,
+        "source_video_frame": 27,
+        "timestamp_seconds": 0.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0027.png",
+        "bytes": 495910,
+        "sha256": "0ef65d0aa44ecd51070d217af74fee9e43921b86ce84a81f9b09b0023a13ca87"
+      },
+      {
+        "frame": 28,
+        "source_video_frame": 28,
+        "timestamp_seconds": 0.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0028.png",
+        "bytes": 499222,
+        "sha256": "9f53bafc496b9e7e8d67f5791899015d7cd46e641abe3b40e746c9d8d62365c4"
+      },
+      {
+        "frame": 29,
+        "source_video_frame": 29,
+        "timestamp_seconds": 0.9666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0029.png",
+        "bytes": 497247,
+        "sha256": "be98c11fe90a225c26c4898e1ef8c7c244c94165cb1532993dfeea3c048141f4"
+      },
+      {
+        "frame": 30,
+        "source_video_frame": 30,
+        "timestamp_seconds": 1.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0030.png",
+        "bytes": 498710,
+        "sha256": "62673a98095ba7c3499140f8a842cee69d17d2b814a1e238abdc916f324b86b3"
+      },
+      {
+        "frame": 31,
+        "source_video_frame": 31,
+        "timestamp_seconds": 1.0333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0031.png",
+        "bytes": 497114,
+        "sha256": "dede467e4550da2afb68f3a94079b0ce4b3acd58cc20e10fec0f9517f33722de"
+      },
+      {
+        "frame": 32,
+        "source_video_frame": 32,
+        "timestamp_seconds": 1.0666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0032.png",
+        "bytes": 499895,
+        "sha256": "6a391bc33d8c5e2b1ab28fded06c8f3f0b17fd3bbe09b4a39174ace9dabcdbde"
+      },
+      {
+        "frame": 33,
+        "source_video_frame": 33,
+        "timestamp_seconds": 1.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0033.png",
+        "bytes": 498133,
+        "sha256": "60984bda391f5e8f5815cc31d56aa58bfb96875fb487bae6add026b8b45d0ac4"
+      },
+      {
+        "frame": 34,
+        "source_video_frame": 34,
+        "timestamp_seconds": 1.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0034.png",
+        "bytes": 500113,
+        "sha256": "5e2c80f352e31909f48893b75f23f75d1d300769ebfe539ce27d87635c64bee9"
+      },
+      {
+        "frame": 35,
+        "source_video_frame": 35,
+        "timestamp_seconds": 1.1666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0035.png",
+        "bytes": 499173,
+        "sha256": "5e225f7f1b823711830e6196149c9461365c5a24dfa9045be7a962eda078e0b7"
+      },
+      {
+        "frame": 36,
+        "source_video_frame": 36,
+        "timestamp_seconds": 1.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0036.png",
+        "bytes": 501422,
+        "sha256": "e750d30a11a4ff50377e88d655403c7c04a3f1b9185130cedb63c8076a1920c7"
+      },
+      {
+        "frame": 37,
+        "source_video_frame": 37,
+        "timestamp_seconds": 1.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0037.png",
+        "bytes": 498608,
+        "sha256": "f56ca819135c4fbc8f393eb7a7e2cdd6f855057f07625784d79fd169c1bddbf4"
+      },
+      {
+        "frame": 38,
+        "source_video_frame": 38,
+        "timestamp_seconds": 1.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0038.png",
+        "bytes": 500329,
+        "sha256": "8a5b8000c370bdfe9ac618173da8a1ecfe818065bac675fef918235bc57e0a0e"
+      },
+      {
+        "frame": 39,
+        "source_video_frame": 39,
+        "timestamp_seconds": 1.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0039.png",
+        "bytes": 498664,
+        "sha256": "7c71415899f9706753375d4338d1db41d3d34ab45db7936a56e51d9fd929d84b"
+      },
+      {
+        "frame": 40,
+        "source_video_frame": 40,
+        "timestamp_seconds": 1.3333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0040.png",
+        "bytes": 495597,
+        "sha256": "3f7792d38131bda8fb81a72bf32d55f5507b80a90426ff9c12e81d53a0f3028e"
+      },
+      {
+        "frame": 41,
+        "source_video_frame": 41,
+        "timestamp_seconds": 1.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0041.png",
+        "bytes": 495223,
+        "sha256": "72e5266c659f3aa3f6d891497094bb89240ad98c469fa1ff026891233a54d4a0"
+      },
+      {
+        "frame": 42,
+        "source_video_frame": 42,
+        "timestamp_seconds": 1.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0042.png",
+        "bytes": 496836,
+        "sha256": "b1ebb91e67f09b9efe6e2e910b714666d352cbe372c5b017ba3805f76d47ca25"
+      },
+      {
+        "frame": 43,
+        "source_video_frame": 43,
+        "timestamp_seconds": 1.4333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0043.png",
+        "bytes": 495478,
+        "sha256": "c650b2cb8d9fe62b79e73070bb40abf15db706787905b2096a24f48f97efbf3c"
+      },
+      {
+        "frame": 44,
+        "source_video_frame": 44,
+        "timestamp_seconds": 1.4666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0044.png",
+        "bytes": 499153,
+        "sha256": "f7e6ec71888e791f14ee2c54bf98b1a5170a53ba63ffb4f88f40d3813b070df3"
+      },
+      {
+        "frame": 45,
+        "source_video_frame": 45,
+        "timestamp_seconds": 1.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0045.png",
+        "bytes": 497063,
+        "sha256": "22a633650d178a74bfa4092148afb17cda03aaeb6b236f383e90fb28849b7ed5"
+      },
+      {
+        "frame": 46,
+        "source_video_frame": 46,
+        "timestamp_seconds": 1.5333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0046.png",
+        "bytes": 499418,
+        "sha256": "58c09f687979dbd869c02d0c70bd30e8c505076b9996b4efc61b9606425296cf"
+      },
+      {
+        "frame": 47,
+        "source_video_frame": 47,
+        "timestamp_seconds": 1.5666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0047.png",
+        "bytes": 498329,
+        "sha256": "f4e717c089cc4e3dc1be89dcae2fbddaf6173277e415662c7447689172ed9def"
+      },
+      {
+        "frame": 48,
+        "source_video_frame": 48,
+        "timestamp_seconds": 1.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0048.png",
+        "bytes": 500304,
+        "sha256": "d9a0e28e9a33a4ab17068c93462473773639034dd65b24d2974ab4abbcc8f481"
+      },
+      {
+        "frame": 49,
+        "source_video_frame": 49,
+        "timestamp_seconds": 1.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0049.png",
+        "bytes": 499110,
+        "sha256": "d7cb86dfd97f0926b478cd6b13f0490f2a81e74bd97541e7e504c09909bba6be"
+      },
+      {
+        "frame": 50,
+        "source_video_frame": 50,
+        "timestamp_seconds": 1.6666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0050.png",
+        "bytes": 499806,
+        "sha256": "84727b34787bcf36cb1da0db949838538fbcd3450452aa9e22a3770d793c01ee"
+      },
+      {
+        "frame": 51,
+        "source_video_frame": 51,
+        "timestamp_seconds": 1.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0051.png",
+        "bytes": 499539,
+        "sha256": "c9a87b3e0e706a6d373e71dc2eee6c3afba93f5cdda64ee836472e6e9962e534"
+      },
+      {
+        "frame": 52,
+        "source_video_frame": 52,
+        "timestamp_seconds": 1.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0052.png",
+        "bytes": 501656,
+        "sha256": "9c3b370c48741676c655030327bdcb4a1af70b4735632c7bae3e778d48633230"
+      },
+      {
+        "frame": 53,
+        "source_video_frame": 53,
+        "timestamp_seconds": 1.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0053.png",
+        "bytes": 498313,
+        "sha256": "c3b1a9582fa5542aea842fe65668723e529f412580880268027b658e177186d7"
+      },
+      {
+        "frame": 54,
+        "source_video_frame": 54,
+        "timestamp_seconds": 1.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0054.png",
+        "bytes": 499745,
+        "sha256": "1088b9a207738f025d3810a9553c0a62cf7286c585af4a340d2ad00e0e97b56c"
+      },
+      {
+        "frame": 55,
+        "source_video_frame": 55,
+        "timestamp_seconds": 1.8333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0055.png",
+        "bytes": 493274,
+        "sha256": "ef1c0f587617ab0e67dc8deb6f8db42f4b1b5039339405dd2db2f6762f82221a"
+      },
+      {
+        "frame": 56,
+        "source_video_frame": 56,
+        "timestamp_seconds": 1.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0056.png",
+        "bytes": 497402,
+        "sha256": "39e7695dbea7e4c1d7d1c01fd2a8abea67a9f4fd36d39aa3aeda6413e390cd5d"
+      },
+      {
+        "frame": 57,
+        "source_video_frame": 57,
+        "timestamp_seconds": 1.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0057.png",
+        "bytes": 496461,
+        "sha256": "1d3c1a71efa14d321ac750f62693644303280cc5f46fd4eff9c6f46039d2834f"
+      },
+      {
+        "frame": 58,
+        "source_video_frame": 58,
+        "timestamp_seconds": 1.9333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0058.png",
+        "bytes": 497952,
+        "sha256": "88ae29e1155c957e1dc62a506dfb0ede1cd8926e502ab9d91cb4a7209e3c0caa"
+      },
+      {
+        "frame": 59,
+        "source_video_frame": 59,
+        "timestamp_seconds": 1.9666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0059.png",
+        "bytes": 497701,
+        "sha256": "e870468109ae256956ac4bb05dac96845106dba0fd6b308ec8d007a74a9a37b3"
+      },
+      {
+        "frame": 60,
+        "source_video_frame": 60,
+        "timestamp_seconds": 2.0,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0060.png",
+        "bytes": 500281,
+        "sha256": "60a87f70ceb297c7770fa8845f24514ac71c31af728454a969ae7dbe9a379103"
+      },
+      {
+        "frame": 61,
+        "source_video_frame": 61,
+        "timestamp_seconds": 2.033333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0061.png",
+        "bytes": 498416,
+        "sha256": "dc712813f6d34d2a42500e5ed13f189ce51874b9848b4affce2c97d2bf9fe1e8"
+      },
+      {
+        "frame": 62,
+        "source_video_frame": 62,
+        "timestamp_seconds": 2.066666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0062.png",
+        "bytes": 500256,
+        "sha256": "ee4e8c2fb752388577e26dd66a1eb4d00064654cfa0668c0ee80ee0b835ac1fe"
+      },
+      {
+        "frame": 63,
+        "source_video_frame": 63,
+        "timestamp_seconds": 2.1,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0063.png",
+        "bytes": 499449,
+        "sha256": "0699e98f6fc224ad57a89f4e6514b971b96f2ab37bfcc839f43e04336426e81a"
+      },
+      {
+        "frame": 64,
+        "source_video_frame": 64,
+        "timestamp_seconds": 2.1333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0064.png",
+        "bytes": 501036,
+        "sha256": "32c7a4733871304000ff6ad2acb324a2d0bf03f8b4e2866b75b2e4463d2b3719"
+      },
+      {
+        "frame": 65,
+        "source_video_frame": 65,
+        "timestamp_seconds": 2.1666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0065.png",
+        "bytes": 499239,
+        "sha256": "2a6210c4b7c6585b92efcc429c1bd5f0cf55e77badd5df81df5e65d26adee025"
+      },
+      {
+        "frame": 66,
+        "source_video_frame": 66,
+        "timestamp_seconds": 2.2,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0066.png",
+        "bytes": 500967,
+        "sha256": "f5dc2518acf5ccfccb671957c5c0b34635fe51f6eb5a8cb033f8f914f21ff827"
+      },
+      {
+        "frame": 67,
+        "source_video_frame": 67,
+        "timestamp_seconds": 2.2333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0067.png",
+        "bytes": 499717,
+        "sha256": "3a7e2400636363879f23b7cc311dbc2c8bc47affabe5f0e98265e11b0c272ec9"
+      },
+      {
+        "frame": 68,
+        "source_video_frame": 68,
+        "timestamp_seconds": 2.2666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0068.png",
+        "bytes": 502223,
+        "sha256": "0f7ba56b8a03fc9577531ff047b1e3a3a2592ae7bd42c7b6dd167dce52ec35a6"
+      },
+      {
+        "frame": 69,
+        "source_video_frame": 69,
+        "timestamp_seconds": 2.3,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0069.png",
+        "bytes": 498332,
+        "sha256": "f41993339de18e479c6abe94c8c9e45231f48a79ece243a8e135a7f35b12c16b"
+      },
+      {
+        "frame": 70,
+        "source_video_frame": 70,
+        "timestamp_seconds": 2.3333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0070.png",
+        "bytes": 494733,
+        "sha256": "f4731c713b19f298aa35a728a510fadd196ec762169873d697a93927bfcf1e0c"
+      },
+      {
+        "frame": 71,
+        "source_video_frame": 71,
+        "timestamp_seconds": 2.3666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0071.png",
+        "bytes": 495277,
+        "sha256": "7d548d579632d18dcd268ac953a1c12ce17568ffe5668918fa0106a4d94f66dd"
+      },
+      {
+        "frame": 72,
+        "source_video_frame": 72,
+        "timestamp_seconds": 2.4,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0072.png",
+        "bytes": 498720,
+        "sha256": "6837f74f23f15fb755c534d0ea00177912003a5a93d986cbf18c1f95b43184ed"
+      },
+      {
+        "frame": 73,
+        "source_video_frame": 73,
+        "timestamp_seconds": 2.433333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0073.png",
+        "bytes": 497290,
+        "sha256": "0d91fe053583308ad9f45d3bf0789798bd7c466a485f02873393e303d7b01fc1"
+      },
+      {
+        "frame": 74,
+        "source_video_frame": 74,
+        "timestamp_seconds": 2.466666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0074.png",
+        "bytes": 499048,
+        "sha256": "e8e6810ed3a1bc8e3ea8c227ffb06efa8458286376e5260879aa1ccd8a092f24"
+      },
+      {
+        "frame": 75,
+        "source_video_frame": 75,
+        "timestamp_seconds": 2.5,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0075.png",
+        "bytes": 498496,
+        "sha256": "4a45d91cd5fc24abd705d4c2eef34539ee1e273314baabaadb955ead3e53bda3"
+      },
+      {
+        "frame": 76,
+        "source_video_frame": 76,
+        "timestamp_seconds": 2.533333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0076.png",
+        "bytes": 500964,
+        "sha256": "f2014673d14f52f290320f848165707d075069044bcff7ea016316874439269d"
+      },
+      {
+        "frame": 77,
+        "source_video_frame": 77,
+        "timestamp_seconds": 2.566666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0077.png",
+        "bytes": 499198,
+        "sha256": "ec0d0f2ea02f47e9d58bf40e50488b2cecc9f073dd199645fdc2a98d4a4d8c87"
+      },
+      {
+        "frame": 78,
+        "source_video_frame": 78,
+        "timestamp_seconds": 2.6,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0078.png",
+        "bytes": 501349,
+        "sha256": "ce3f152c009014fabe090575bbf7f09b38e76e520afa30d7709863879592ac19"
+      },
+      {
+        "frame": 79,
+        "source_video_frame": 79,
+        "timestamp_seconds": 2.6333333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0079.png",
+        "bytes": 499929,
+        "sha256": "47f7df41b34ba67b9bf2e19f6913a8127d64ab58f96647af17d513d133cbdc9d"
+      },
+      {
+        "frame": 80,
+        "source_video_frame": 80,
+        "timestamp_seconds": 2.6666666666666665,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0080.png",
+        "bytes": 502716,
+        "sha256": "2510a408c143ce09f91ce2c9339f24228f3aebf6ec8b4e2513600e295535580c"
+      },
+      {
+        "frame": 81,
+        "source_video_frame": 81,
+        "timestamp_seconds": 2.7,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0081.png",
+        "bytes": 500297,
+        "sha256": "2b09526bcc597856dd80c75e047b88df501249b7b11d9d8b3f0094cb6b5cba32"
+      },
+      {
+        "frame": 82,
+        "source_video_frame": 82,
+        "timestamp_seconds": 2.7333333333333334,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0082.png",
+        "bytes": 501570,
+        "sha256": "ee18874165051e5a502fdde742cc17d5e057bb54cb703550a19eac08ef82335b"
+      },
+      {
+        "frame": 83,
+        "source_video_frame": 83,
+        "timestamp_seconds": 2.7666666666666666,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0083.png",
+        "bytes": 499804,
+        "sha256": "e3ffe59543075e6a9cc883f455ad1951704d6b43dc8ac004a0b4d7ca96d876c5"
+      },
+      {
+        "frame": 84,
+        "source_video_frame": 84,
+        "timestamp_seconds": 2.8,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0084.png",
+        "bytes": 501413,
+        "sha256": "a6d40b9078f87178d353c927ae31aac257ebcfad6c13aab8bff8e754efa972fd"
+      },
+      {
+        "frame": 85,
+        "source_video_frame": 85,
+        "timestamp_seconds": 2.8333333333333335,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0085.png",
+        "bytes": 493638,
+        "sha256": "707e85f8301d55a6adef1eb88013c14c89fadf53e7e8ed5e6d79e8682a31b532"
+      },
+      {
+        "frame": 86,
+        "source_video_frame": 86,
+        "timestamp_seconds": 2.8666666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0086.png",
+        "bytes": 498183,
+        "sha256": "73020f8b05e7b8cd566d6c354ee10a7933de741cb7df27d46d59e0ef45552ccf"
+      },
+      {
+        "frame": 87,
+        "source_video_frame": 87,
+        "timestamp_seconds": 2.9,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0087.png",
+        "bytes": 497190,
+        "sha256": "7187efc6f5367b8c66c2e2ae9d272980d8b66add2222945fec0d07e068c5d882"
+      },
+      {
+        "frame": 88,
+        "source_video_frame": 88,
+        "timestamp_seconds": 2.933333333333333,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0088.png",
+        "bytes": 499218,
+        "sha256": "8fea0460b0568eb233db56d7a549346e7ef69cef2b035be3c92faf143f95aba6"
+      },
+      {
+        "frame": 89,
+        "source_video_frame": 89,
+        "timestamp_seconds": 2.966666666666667,
+        "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\dev\\train\\coffee_martini\\cam16\\0089.png",
+        "bytes": 497826,
+        "sha256": "5e61c16918ea4792f99b5d971e2474d4acd1d4b38a94d915d089da086f89697c"
+      }
+    ]
+  },
+  "seconds": 47.8675058000008,
+  "status": "PASS",
+  "encoding": "OpenCV PNG compression=2; dev from final via INTER_AREA x0.5; every PNG fully decoded by Pillow"
+}

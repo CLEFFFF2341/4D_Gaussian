@@ -1,0 +1,783 @@
+{
+  "packages": [
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-nvcc-12.1.105-0.tar.bz2",
+      "filename": "cuda-nvcc-12.1.105-0.tar.bz2",
+      "bytes": 58020360,
+      "sha256": "dd4759fe237b4d12dce921230131bd97785c62f02ef833137d23c15fdddf1ccc",
+      "expected_sha256": "dd4759fe237b4d12dce921230131bd97785c62f02ef833137d23c15fdddf1ccc"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/blas-1.0-mkl.conda",
+      "filename": "blas-1.0-mkl.conda",
+      "bytes": 6364,
+      "sha256": "b289fbee56e55bedc51cc333bacd32b3632a116d9d60d1176740b035dbaf44a2",
+      "expected_sha256": "b289fbee56e55bedc51cc333bacd32b3632a116d9d60d1176740b035dbaf44a2"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/ca-certificates-2026.9.25-haa95532_0.conda",
+      "filename": "ca-certificates-2026.9.25-haa95532_0.conda",
+      "bytes": 109499,
+      "sha256": "89619f08409846ae563761b35d05b38b41a6a6f5ba8bdc161573ceb125aaa7d3",
+      "expected_sha256": "89619f08409846ae563761b35d05b38b41a6a6f5ba8bdc161573ceb125aaa7d3"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-cccl-12.1.109-0.tar.bz2",
+      "filename": "cuda-cccl-12.1.109-0.tar.bz2",
+      "bytes": 1269408,
+      "sha256": "4157cc784d4aef4189913ae65273df4e917da8ca056d1d9fd477b4487d1972c1",
+      "expected_sha256": "4157cc784d4aef4189913ae65273df4e917da8ca056d1d9fd477b4487d1972c1"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-cudart-12.1.105-0.tar.bz2",
+      "filename": "cuda-cudart-12.1.105-0.tar.bz2",
+      "bytes": 987484,
+      "sha256": "76430a7d185b2980702266042bd5af6b8e934f28e22f9c1a2d290812fbc1bc25",
+      "expected_sha256": "76430a7d185b2980702266042bd5af6b8e934f28e22f9c1a2d290812fbc1bc25"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-cupti-12.1.105-0.tar.bz2",
+      "filename": "cuda-cupti-12.1.105-0.tar.bz2",
+      "bytes": 12208761,
+      "sha256": "ac7d2e0470a6534d81c6ae23d216912e4ccaa750d4158eed742383f0eb1442f5",
+      "expected_sha256": "ac7d2e0470a6534d81c6ae23d216912e4ccaa750d4158eed742383f0eb1442f5"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-nvrtc-12.1.105-0.tar.bz2",
+      "filename": "cuda-nvrtc-12.1.105-0.tar.bz2",
+      "bytes": 76729751,
+      "sha256": "30c9a6303c80b72c7a16d8c35b7f63378cff6b17453ac5a690361f6310ba69a3",
+      "expected_sha256": "30c9a6303c80b72c7a16d8c35b7f63378cff6b17453ac5a690361f6310ba69a3"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-nvtx-12.1.105-0.tar.bz2",
+      "filename": "cuda-nvtx-12.1.105-0.tar.bz2",
+      "bytes": 41794,
+      "sha256": "172f0117677bb99baf8e1360c1ad8913d2b17fa11cde2ab81c627ddebac50538",
+      "expected_sha256": "172f0117677bb99baf8e1360c1ad8913d2b17fa11cde2ab81c627ddebac50538"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/noarch/cuda-version-13.3-hcbadf70_4.conda",
+      "filename": "cuda-version-13.3-hcbadf70_4.conda",
+      "bytes": 22237,
+      "sha256": "21766f4ff8d288337b5d5dee70282a51ba27c96dfda88d0d479b31d0f1625568",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcublas-12.1.0.26-0.tar.bz2",
+      "filename": "libcublas-12.1.0.26-0.tar.bz2",
+      "bytes": 39775,
+      "sha256": "79dda4a6227bcd2c50cee447aa39b5be8d6451be6607bc20e265c7d271464f92",
+      "expected_sha256": "79dda4a6227bcd2c50cee447aa39b5be8d6451be6607bc20e265c7d271464f92"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcufft-11.0.2.4-0.tar.bz2",
+      "filename": "libcufft-11.0.2.4-0.tar.bz2",
+      "bytes": 5944,
+      "sha256": "38164059ede3560f6491a424665bed9c6f3f446c9db4b0036ef28069ef48dcb0",
+      "expected_sha256": "38164059ede3560f6491a424665bed9c6f3f446c9db4b0036ef28069ef48dcb0"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcusolver-11.4.4.55-0.tar.bz2",
+      "filename": "libcusolver-11.4.4.55-0.tar.bz2",
+      "bytes": 30340,
+      "sha256": "7a84eb9b785dc2ecaaab4aa1b9eacaef9d52d955055079f81ffc8af9142ee9ab",
+      "expected_sha256": "7a84eb9b785dc2ecaaab4aa1b9eacaef9d52d955055079f81ffc8af9142ee9ab"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcusparse-12.0.2.55-0.tar.bz2",
+      "filename": "libcusparse-12.0.2.55-0.tar.bz2",
+      "bytes": 12659,
+      "sha256": "13013a59b1d9b6c1cdeb7cc3c8766875c64dc4799c281d217476ffdaf38193ab",
+      "expected_sha256": "13013a59b1d9b6c1cdeb7cc3c8766875c64dc4799c281d217476ffdaf38193ab"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libnpp-12.0.2.50-0.tar.bz2",
+      "filename": "libnpp-12.0.2.50-0.tar.bz2",
+      "bytes": 312620,
+      "sha256": "ebea6c93d2a31c3516507651cf63e295c7e99561b1d7a6c3a2cbb049b23542a0",
+      "expected_sha256": "ebea6c93d2a31c3516507651cf63e295c7e99561b1d7a6c3a2cbb049b23542a0"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libnvjitlink-12.1.105-0.tar.bz2",
+      "filename": "libnvjitlink-12.1.105-0.tar.bz2",
+      "bytes": 70602454,
+      "sha256": "5f36301f850daf71fc1e37b49e3ba8ae164a7de5fe808171954f135cc8b0c7e1",
+      "expected_sha256": "5f36301f850daf71fc1e37b49e3ba8ae164a7de5fe808171954f135cc8b0c7e1"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libnvjpeg-12.1.1.14-0.tar.bz2",
+      "filename": "libnvjpeg-12.1.1.14-0.tar.bz2",
+      "bytes": 4819,
+      "sha256": "a170efce680edff337f12c34fe32d30bf9dfea6c64c2e7513eacdface8e44032",
+      "expected_sha256": "a170efce680edff337f12c34fe32d30bf9dfea6c64c2e7513eacdface8e44032"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/opencl-headers-2026.05.29-hd7fb8db_0.conda",
+      "filename": "opencl-headers-2026.05.29-hd7fb8db_0.conda",
+      "bytes": 55411,
+      "sha256": "fd45299bd4d9750e924097efd65b5226c6186859b37c459b39cf3d17fd9ba66f",
+      "expected_sha256": "fd45299bd4d9750e924097efd65b5226c6186859b37c459b39cf3d17fd9ba66f"
+    },
+    {
+      "url": "https://conda.anaconda.org/pytorch/noarch/pytorch-mutex-1.0-cuda.tar.bz2",
+      "filename": "pytorch-mutex-1.0-cuda.tar.bz2",
+      "bytes": 2906,
+      "sha256": "c16316183f51b74ca5eee4dcb8631052f328c0bbf244176734a0b7d390b81ee3",
+      "expected_sha256": "c16316183f51b74ca5eee4dcb8631052f328c0bbf244176734a0b7d390b81ee3"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/noarch/tzdata-2026c-he532380_0.conda",
+      "filename": "tzdata-2026c-he532380_0.conda",
+      "bytes": 119652,
+      "sha256": "52adc4b0a9cce2ffb8ad319d54b7c940ae7961f7caf7ce6851eec4b3f542c368",
+      "expected_sha256": "52adc4b0a9cce2ffb8ad319d54b7c940ae7961f7caf7ce6851eec4b3f542c368"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/ucrt-10.0.22621.0-haa95532_0.conda",
+      "filename": "ucrt-10.0.22621.0-haa95532_0.conda",
+      "bytes": 634816,
+      "sha256": "9dfca4fb23f20e62a48b9c52e2fdf4d0d34bb31eb6a930c2195fcd10651b3cc3",
+      "expected_sha256": "9dfca4fb23f20e62a48b9c52e2fdf4d0d34bb31eb6a930c2195fcd10651b3cc3"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-cudart-dev-12.1.105-0.tar.bz2",
+      "filename": "cuda-cudart-dev-12.1.105-0.tar.bz2",
+      "bytes": 561887,
+      "sha256": "8df70e408c0f6792709d7e2161ab0f7c9d0bc9f06cae0091416114e5ba81645a",
+      "expected_sha256": "8df70e408c0f6792709d7e2161ab0f7c9d0bc9f06cae0091416114e5ba81645a"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-nvrtc-dev-12.1.105-0.tar.bz2",
+      "filename": "cuda-nvrtc-dev-12.1.105-0.tar.bz2",
+      "bytes": 17286403,
+      "sha256": "7e871f1addf3fdb9d0b3b72b2e569b34126b3a96ec8193a35f87a7a7a0fb2176",
+      "expected_sha256": "7e871f1addf3fdb9d0b3b72b2e569b34126b3a96ec8193a35f87a7a7a0fb2176"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcublas-dev-12.1.0.26-0.tar.bz2",
+      "filename": "libcublas-dev-12.1.0.26-0.tar.bz2",
+      "bytes": 365167141,
+      "sha256": "a18e37c2bd16474e9b0806aa5552db25536a8f56d911ca738e1bb7b014dc968d",
+      "expected_sha256": "a18e37c2bd16474e9b0806aa5552db25536a8f56d911ca738e1bb7b014dc968d"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcufft-dev-11.0.2.4-0.tar.bz2",
+      "filename": "libcufft-dev-11.0.2.4-0.tar.bz2",
+      "bytes": 107532979,
+      "sha256": "85154710f7a0da0cbdfbd7f1a06c4af72f98aebe61e3c0fa9e689b9d24981786",
+      "expected_sha256": "85154710f7a0da0cbdfbd7f1a06c4af72f98aebe61e3c0fa9e689b9d24981786"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcusolver-dev-11.4.4.55-0.tar.bz2",
+      "filename": "libcusolver-dev-11.4.4.55-0.tar.bz2",
+      "bytes": 100379129,
+      "sha256": "25d07c25caa4247a9b06f80760caac553d6746f1d79e82df3f4fc1a667978e90",
+      "expected_sha256": "25d07c25caa4247a9b06f80760caac553d6746f1d79e82df3f4fc1a667978e90"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcusparse-dev-12.0.2.55-0.tar.bz2",
+      "filename": "libcusparse-dev-12.0.2.55-0.tar.bz2",
+      "bytes": 170432700,
+      "sha256": "2bda05db5ced35dd2877bbb55e90ea186ed2886d8cfdbc3d1f7542278211b255",
+      "expected_sha256": "2bda05db5ced35dd2877bbb55e90ea186ed2886d8cfdbc3d1f7542278211b255"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libnpp-dev-12.0.2.50-0.tar.bz2",
+      "filename": "libnpp-dev-12.0.2.50-0.tar.bz2",
+      "bytes": 142227817,
+      "sha256": "d75ef160b101440b5488bb028efbb9d6a99cc4b96c370e1ed79fc65c5fd3742c",
+      "expected_sha256": "d75ef160b101440b5488bb028efbb9d6a99cc4b96c370e1ed79fc65c5fd3742c"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libnvjitlink-dev-12.1.105-0.tar.bz2",
+      "filename": "libnvjitlink-dev-12.1.105-0.tar.bz2",
+      "bytes": 14448601,
+      "sha256": "fc4c7db8f01bea092b6427c62ad38070827b40c8e14cd573928d41c9be725459",
+      "expected_sha256": "fc4c7db8f01bea092b6427c62ad38070827b40c8e14cd573928d41c9be725459"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libnvjpeg-dev-12.1.1.14-0.tar.bz2",
+      "filename": "libnvjpeg-dev-12.1.1.14-0.tar.bz2",
+      "bytes": 2539554,
+      "sha256": "bd8ede1faa096b2721bc1b10f116c2fbcc347e341f9a1b0dbe317b5c373bfdee",
+      "expected_sha256": "bd8ede1faa096b2721bc1b10f116c2fbcc347e341f9a1b0dbe317b5c373bfdee"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/vc14_runtime-14.44.35208-h4927774_12.conda",
+      "filename": "vc14_runtime-14.44.35208-h4927774_12.conda",
+      "bytes": 679595,
+      "sha256": "492ba65a50d99120e047469057f5eaddd3043cf17a18761653d1b3ae5d9d6c84",
+      "expected_sha256": "492ba65a50d99120e047469057f5eaddd3043cf17a18761653d1b3ae5d9d6c84"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-profiler-api-13.3.27-hc611c73_0.conda",
+      "filename": "cuda-profiler-api-13.3.27-hc611c73_0.conda",
+      "bytes": 20777,
+      "sha256": "787207588af966b653de9ac741065e34d88b5034ed1f0f407cd7f8cb42d53b61",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/vs2015_runtime-14.44.35208-ha6b5a95_12.conda",
+      "filename": "vs2015_runtime-14.44.35208-ha6b5a95_12.conda",
+      "bytes": 16841,
+      "sha256": "5b484a4b7df0133f60fd9e12dcf1926f868eaa34a2c3ddad8475169a1a99d9fa",
+      "expected_sha256": "5b484a4b7df0133f60fd9e12dcf1926f868eaa34a2c3ddad8475169a1a99d9fa"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/vc-14.42-haa95532_5.conda",
+      "filename": "vc-14.42-haa95532_5.conda",
+      "bytes": 11088,
+      "sha256": "457b5b07b27909a08365c58eec3d1d4febda3fc7a2d8a39bcf8913a90fe42025",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/aom-3.14.0-h1653897_0.conda",
+      "filename": "aom-3.14.0-h1653897_0.conda",
+      "bytes": 2028277,
+      "sha256": "178e85ee8e5484d72da8d9c625b85502382a76dac658efe2ba76cb3593dc3ccc",
+      "expected_sha256": "178e85ee8e5484d72da8d9c625b85502382a76dac658efe2ba76cb3593dc3ccc"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/bzip2-1.0.8-h2bbff1b_6.conda",
+      "filename": "bzip2-1.0.8-h2bbff1b_6.conda",
+      "bytes": 91870,
+      "sha256": "4e30c9bfd4501555b0859c863e95ea044290babf3bf190b9d4fb38b06cf15c3c",
+      "expected_sha256": "4e30c9bfd4501555b0859c863e95ea044290babf3bf190b9d4fb38b06cf15c3c"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/dav1d-1.5.3-h4375697_1.conda",
+      "filename": "dav1d-1.5.3-h4375697_1.conda",
+      "bytes": 643185,
+      "sha256": "d9a3d9610528b9c748789f0f73cd4fbc97c5df4793609eab8bb13a74cd1d4984",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/freeglut-3.8.0-hfcef157_0.conda",
+      "filename": "freeglut-3.8.0-hfcef157_0.conda",
+      "bytes": 119479,
+      "sha256": "b3a557287c83187020b4adb1b199549adf2fcd133706172423106c6cf5458077",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/getopt-win32-1.0-h1c6eee0_0.conda",
+      "filename": "getopt-win32-1.0-h1c6eee0_0.conda",
+      "bytes": 27967,
+      "sha256": "2b06988b32ffed02a64ca1cffabfed39cedef8f05473f61ced3ccb76b13046cd",
+      "expected_sha256": "2b06988b32ffed02a64ca1cffabfed39cedef8f05473f61ced3ccb76b13046cd"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/gmp-6.3.0-he664a35_1.conda",
+      "filename": "gmp-6.3.0-he664a35_1.conda",
+      "bytes": 310103,
+      "sha256": "5491601956a6fc4c37ba67ed8ed8c023b3ea290c3c6455d1e785d67183326316",
+      "expected_sha256": "5491601956a6fc4c37ba67ed8ed8c023b3ea290c3c6455d1e785d67183326316"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2023.1.0-h59b6b97_46320.conda",
+      "filename": "intel-openmp-2023.1.0-h59b6b97_46320.conda",
+      "bytes": 2826403,
+      "sha256": "44bc9235c43ae6ad02bb2a5c06fe860a9efefdd4747ad72b21e32b76917bf1d5",
+      "expected_sha256": "44bc9235c43ae6ad02bb2a5c06fe860a9efefdd4747ad72b21e32b76917bf1d5"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/khronos-opencl-icd-loader-2026.05.29-h175169e_0.conda",
+      "filename": "khronos-opencl-icd-loader-2026.05.29-h175169e_0.conda",
+      "bytes": 63064,
+      "sha256": "a6ae2876549c535a3833cd090f62782e5f1aa607b0a669f97612c082f803ce5a",
+      "expected_sha256": "a6ae2876549c535a3833cd090f62782e5f1aa607b0a669f97612c082f803ce5a"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/lerc-4.1.0-hd7fb8db_2.conda",
+      "filename": "lerc-4.1.0-hd7fb8db_2.conda",
+      "bytes": 190037,
+      "sha256": "87c693b042d6aad4cc76dca3da121ff2ea32e96cb6583e1ec1244869bcffb400",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcurand-10.4.3.29-hd7d98ca_0.conda",
+      "filename": "libcurand-10.4.3.29-hd7d98ca_0.conda",
+      "bytes": 46152675,
+      "sha256": "e4a882aa1bf3d5fd9709c12efbca340c8808cf50c5b526936f869ac8ae553c84",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libdeflate-1.22-h5bf469e_0.conda",
+      "filename": "libdeflate-1.22-h5bf469e_0.conda",
+      "bytes": 184434,
+      "sha256": "0666c311a83ddba585a93ee84da060f814e738bdac18533eaa315b4af4df69dc",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libexpat-2.9.0-hd7fb8db_0.conda",
+      "filename": "libexpat-2.9.0-hd7fb8db_0.conda",
+      "bytes": 132862,
+      "sha256": "d8f38e6ce4244a16a88e138e85b41ead0634d1633e696afcea0f098bf2ad6c5e",
+      "expected_sha256": "d8f38e6ce4244a16a88e138e85b41ead0634d1633e696afcea0f098bf2ad6c5e"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libffi-3.4.8-h42d73b9_3.conda",
+      "filename": "libffi-3.4.8-h42d73b9_3.conda",
+      "bytes": 120818,
+      "sha256": "52fa61549a14619aa53c0ae875f6d969fd97c92edffce64bfd7277e2557a726e",
+      "expected_sha256": "52fa61549a14619aa53c0ae875f6d969fd97c92edffce64bfd7277e2557a726e"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libjpeg-turbo-3.1.3-h02ab6af_0.conda",
+      "filename": "libjpeg-turbo-3.1.3-h02ab6af_0.conda",
+      "bytes": 857867,
+      "sha256": "9a2035766c9676bf758f838845eace7c6bdac9a33df0c8b68bceadc0ad0e0e32",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libopenjpeg-2.5.4-h1c6eee0_2.conda",
+      "filename": "libopenjpeg-2.5.4-h1c6eee0_2.conda",
+      "bytes": 190625,
+      "sha256": "96fe328681b1d20110694e1f1ee6ccacc66d83cf3dca2b4dcbba379110c6dd6e",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libuv-1.52.1-hd0d7782_0.conda",
+      "filename": "libuv-1.52.1-hd0d7782_0.conda",
+      "bytes": 305515,
+      "sha256": "44b598d6d30ddefc5871bc9a994eb0d450559ba95756c8628eeaa917235912d9",
+      "expected_sha256": "44b598d6d30ddefc5871bc9a994eb0d450559ba95756c8628eeaa917235912d9"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libwebp-base-1.6.0-hbf3958f_0.conda",
+      "filename": "libwebp-base-1.6.0-hbf3958f_0.conda",
+      "bytes": 286081,
+      "sha256": "84fa8061f0dbf3ec512beda59c3c090187543e67c654662e37577a10ef812934",
+      "expected_sha256": "84fa8061f0dbf3ec512beda59c3c090187543e67c654662e37577a10ef812934"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libzlib-1.3.2-h1c6eee0_0.conda",
+      "filename": "libzlib-1.3.2-h1c6eee0_0.conda",
+      "bytes": 64908,
+      "sha256": "ee9ff49405717b96ec8d9b586beaaf96b741ffc4d37df6623f1d599ab8bdbb14",
+      "expected_sha256": "ee9ff49405717b96ec8d9b586beaaf96b741ffc4d37df6623f1d599ab8bdbb14"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/lz4-c-1.9.4-h1c6eee0_5.conda",
+      "filename": "lz4-c-1.9.4-h1c6eee0_5.conda",
+      "bytes": 131602,
+      "sha256": "90ce16a742f607e090e7c96bd42f6a0e0217c42dab961b023d127069a4b70bfa",
+      "expected_sha256": "90ce16a742f607e090e7c96bd42f6a0e0217c42dab961b023d127069a4b70bfa"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/openssl-3.5.6-hbb43b14_0.conda",
+      "filename": "openssl-3.5.6-hbb43b14_0.conda",
+      "bytes": 9344164,
+      "sha256": "28f7619d504c79edf0b00035d1001b9a07ba079e60440db55563fe373d82ec73",
+      "expected_sha256": "28f7619d504c79edf0b00035d1001b9a07ba079e60440db55563fe373d82ec73"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.53.4-hee5a0db_0.conda",
+      "filename": "sqlite-3.53.4-hee5a0db_0.conda",
+      "bytes": 968847,
+      "sha256": "8adb7b42e99594567e5789c33813b90cc7669183d6760836150ce8a23a7d3813",
+      "expected_sha256": "8adb7b42e99594567e5789c33813b90cc7669183d6760836150ce8a23a7d3813"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/tbb-2021.8.0-h59b6b97_0.conda",
+      "filename": "tbb-2021.8.0-h59b6b97_0.conda",
+      "bytes": 152854,
+      "sha256": "3856c9fc5fc42c10d8a765e3277c3739bfcf009713f2aca33c025f7645bb9d89",
+      "expected_sha256": "3856c9fc5fc42c10d8a765e3277c3739bfcf009713f2aca33c025f7645bb9d89"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/xz-5.8.4-hb851c79_0.conda",
+      "filename": "xz-5.8.4-hb851c79_0.conda",
+      "bytes": 273475,
+      "sha256": "786d5df4b6f0097eeef2c07c642119a80b8b97ed062fd956707d2810bd15428a",
+      "expected_sha256": "786d5df4b6f0097eeef2c07c642119a80b8b97ed062fd956707d2810bd15428a"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/yaml-0.2.5-h6b1b717_1.conda",
+      "filename": "yaml-0.2.5-h6b1b717_1.conda",
+      "bytes": 70115,
+      "sha256": "25d818d3508c9424a857c22fe89b9d26941c1d610922adde230fea45d567dbe1",
+      "expected_sha256": "25d818d3508c9424a857c22fe89b9d26941c1d610922adde230fea45d567dbe1"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-opencl-13.3.27-hd7d98ca_0.conda",
+      "filename": "cuda-opencl-13.3.27-hd7d98ca_0.conda",
+      "bytes": 18380,
+      "sha256": "917ec65f20e2c71f721b98391a08b4bd33c7986ab4691606162f7788f149f261",
+      "expected_sha256": "917ec65f20e2c71f721b98391a08b4bd33c7986ab4691606162f7788f149f261"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/expat-2.9.0-hd7fb8db_0.conda",
+      "filename": "expat-2.9.0-hd7fb8db_0.conda",
+      "bytes": 32832,
+      "sha256": "f4d5fd599f9b93cebb25afb43f598ab9a8af48a72a910ef2a33620ee47818199",
+      "expected_sha256": "f4d5fd599f9b93cebb25afb43f598ab9a8af48a72a910ef2a33620ee47818199"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/giflib-6.1.3-h355e6a8_1.conda",
+      "filename": "giflib-6.1.3-h355e6a8_1.conda",
+      "bytes": 80768,
+      "sha256": "3489a710e873c46adc09f02f6153b81dd6b3287f6a9d2c2c4a2992ec960235a4",
+      "expected_sha256": "3489a710e873c46adc09f02f6153b81dd6b3287f6a9d2c2c4a2992ec960235a4"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libavif-1.4.2-h1a73fbf_0.conda",
+      "filename": "libavif-1.4.2-h1a73fbf_0.conda",
+      "bytes": 149940,
+      "sha256": "bf80663b1d643734095e40359ede2797ec83d6e1bef40e23c3ef878bf55ca5fb",
+      "expected_sha256": "bf80663b1d643734095e40359ede2797ec83d6e1bef40e23c3ef878bf55ca5fb"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/libcurand-dev-10.4.3.29-hd7d98ca_0.conda",
+      "filename": "libcurand-dev-10.4.3.29-hd7d98ca_0.conda",
+      "bytes": 246678,
+      "sha256": "836de366c9d8e207869d8ff69618196614928daa9efe905e72304a1245377fd6",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libpng-1.6.56-h2854ad3_0.conda",
+      "filename": "libpng-1.6.56-h2854ad3_0.conda",
+      "bytes": 245222,
+      "sha256": "2e312c63244cb54410ce0f356120ed40778cd6fc59769535a74de52b66f2be3d",
+      "expected_sha256": "2e312c63244cb54410ce0f356120ed40778cd6fc59769535a74de52b66f2be3d"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl-2023.1.0-h6b88ed4_46358.conda",
+      "filename": "mkl-2023.1.0-h6b88ed4_46358.conda",
+      "bytes": 163440210,
+      "sha256": "2b06da1ae1ed81d9a798395604c7653365e2b197a078fde6fd47dc6218b730bb",
+      "expected_sha256": "2b06da1ae1ed81d9a798395604c7653365e2b197a078fde6fd47dc6218b730bb"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/mpfr-4.2.1-haf916eb_1.conda",
+      "filename": "mpfr-4.2.1-haf916eb_1.conda",
+      "bytes": 248361,
+      "sha256": "27fd1c625bad0ceae4d6cbdf1b986d82a05d5125fb0170a8f46b051370ff3203",
+      "expected_sha256": "27fd1c625bad0ceae4d6cbdf1b986d82a05d5125fb0170a8f46b051370ff3203"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/zlib-1.3.2-h1c6eee0_0.conda",
+      "filename": "zlib-1.3.2-h1c6eee0_0.conda",
+      "bytes": 847370,
+      "sha256": "538f7c9b5ed6fa388c51bd499c736fd474826bcd7f2908456e9d2050b486e476",
+      "expected_sha256": "538f7c9b5ed6fa388c51bd499c736fd474826bcd7f2908456e9d2050b486e476"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/zstd-1.5.7-h56299aa_0.conda",
+      "filename": "zstd-1.5.7-h56299aa_0.conda",
+      "bytes": 660146,
+      "sha256": "c822ed29c20166934ef9c9e29b863bc382b2c3c602ac1f3a62e9af2c0495a74c",
+      "expected_sha256": "c822ed29c20166934ef9c9e29b863bc382b2c3c602ac1f3a62e9af2c0495a74c"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-libraries-12.1.0-0.tar.bz2",
+      "filename": "cuda-libraries-12.1.0-0.tar.bz2",
+      "bytes": 1477,
+      "sha256": "08c9334a777061a0eec598c0cfc7c2fede2310df1a31c3d49cd98247e17e4f27",
+      "expected_sha256": "08c9334a777061a0eec598c0cfc7c2fede2310df1a31c3d49cd98247e17e4f27"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-opencl-dev-13.3.27-hd7d98ca_0.conda",
+      "filename": "cuda-opencl-dev-13.3.27-hd7d98ca_0.conda",
+      "bytes": 101672,
+      "sha256": "269835a818029f4dbeb9931d58ce22b7a789f1ee720b87301e30fd07b684bf8b",
+      "expected_sha256": "269835a818029f4dbeb9931d58ce22b7a789f1ee720b87301e30fd07b684bf8b"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/freetype-2.14.3-he7b5929_0.conda",
+      "filename": "freetype-2.14.3-he7b5929_0.conda",
+      "bytes": 526652,
+      "sha256": "6bb2f2d32418ee9ef1dc1f296b776ae04cf3585f79603c8864997950dd60685e",
+      "expected_sha256": "6bb2f2d32418ee9ef1dc1f296b776ae04cf3585f79603c8864997950dd60685e"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libtiff-4.7.2-h37aaaa1_0.conda",
+      "filename": "libtiff-4.7.2-h37aaaa1_0.conda",
+      "bytes": 1038660,
+      "sha256": "813761ebe06a1bf00a60030ed7108558082330cacd3ac5ad556c9d8d410e0e61",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/mpc-1.3.1-h827c3e9_0.conda",
+      "filename": "mpc-1.3.1-h827c3e9_0.conda",
+      "bytes": 86792,
+      "sha256": "e2967f5cf464a67c7c771a3ca1a85f54f6026ec8b66a30e1c10158f10e3ff2bf",
+      "expected_sha256": "e2967f5cf464a67c7c771a3ca1a85f54f6026ec8b66a30e1c10158f10e3ff2bf"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/tk-8.6.15-hf199647_0.conda",
+      "filename": "tk-8.6.15-hf199647_0.conda",
+      "bytes": 3700492,
+      "sha256": "2f7e9d06b513bcabce6d9ae195e45ccf94fd249edfefc591a5430a9f6f92a7fa",
+      "expected_sha256": "2f7e9d06b513bcabce6d9ae195e45ccf94fd249edfefc591a5430a9f6f92a7fa"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-libraries-dev-12.1.0-0.tar.bz2",
+      "filename": "cuda-libraries-dev-12.1.0-0.tar.bz2",
+      "bytes": 1514,
+      "sha256": "26539f80f268ef822747eb7d036947938502bb215915fb4dc49a0b38764cda17",
+      "expected_sha256": "26539f80f268ef822747eb7d036947938502bb215915fb4dc49a0b38764cda17"
+    },
+    {
+      "url": "https://conda.anaconda.org/nvidia/win-64/cuda-runtime-12.1.0-0.tar.bz2",
+      "filename": "cuda-runtime-12.1.0-0.tar.bz2",
+      "bytes": 1392,
+      "sha256": "4cf8924c9717f364cf25a903abd7f281fe84146c2d4f342647614878aa3cac4e",
+      "expected_sha256": "4cf8924c9717f364cf25a903abd7f281fe84146c2d4f342647614878aa3cac4e"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/lcms2-2.19.1-h5da84a9_1.conda",
+      "filename": "lcms2-2.19.1-h5da84a9_1.conda",
+      "bytes": 536164,
+      "sha256": "fabde33712b6bd6cb7cff54c3254515b31393663251149cfa7cde87c31d19fcf",
+      "expected_sha256": null
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/libwebp-1.6.0-hdf170a2_2.conda",
+      "filename": "libwebp-1.6.0-hdf170a2_2.conda",
+      "bytes": 83898,
+      "sha256": "0f46419bb7cb44991a58b561ce21442c53e773ae98fb01b285939d59c17a46a3",
+      "expected_sha256": "0f46419bb7cb44991a58b561ce21442c53e773ae98fb01b285939d59c17a46a3"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/python-3.10.18-h981015d_0.conda",
+      "filename": "python-3.10.18-h981015d_0.conda",
+      "bytes": 16983376,
+      "sha256": "83f21659e9a52d3e668196b04ab1217308d6c6160a03ca99fff0597f82cee8df",
+      "expected_sha256": "83f21659e9a52d3e668196b04ab1217308d6c6160a03ca99fff0597f82cee8df"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/certifi-2026.7.22-py310haa95532_0.conda",
+      "filename": "certifi-2026.7.22-py310haa95532_0.conda",
+      "bytes": 137837,
+      "sha256": "06935b87dc126a40a66b3b1f91f2c01fe1da5f2222429dc6bf4293829f1bf120",
+      "expected_sha256": "06935b87dc126a40a66b3b1f91f2c01fe1da5f2222429dc6bf4293829f1bf120"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/charset-normalizer-3.4.7-py310haa95532_0.conda",
+      "filename": "charset-normalizer-3.4.7-py310haa95532_0.conda",
+      "bytes": 144198,
+      "sha256": "3bb4bd50503d6cfce9f5a6f2422f7fc5901fd76fe5d0d25090e3ef3879799e8e",
+      "expected_sha256": "3bb4bd50503d6cfce9f5a6f2422f7fc5901fd76fe5d0d25090e3ef3879799e8e"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/filelock-4.0.12-py310haa95532_0.conda",
+      "filename": "filelock-4.0.12-py310haa95532_0.conda",
+      "bytes": 165742,
+      "sha256": "efc2657fe5415b2d469b3a24ff3ef9a45cbd15897942ff8e035b017460685ecb",
+      "expected_sha256": "efc2657fe5415b2d469b3a24ff3ef9a45cbd15897942ff8e035b017460685ecb"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/gmpy2-2.3.1-py310h922e254_0.conda",
+      "filename": "gmpy2-2.3.1-py310h922e254_0.conda",
+      "bytes": 227712,
+      "sha256": "e88db86e646f7e40c8617317f3e0ebbdec494f52a72b78ee34aa1fea37ce9701",
+      "expected_sha256": "e88db86e646f7e40c8617317f3e0ebbdec494f52a72b78ee34aa1fea37ce9701"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/idna-3.20-py310haa95532_0.conda",
+      "filename": "idna-3.20-py310haa95532_0.conda",
+      "bytes": 227767,
+      "sha256": "b07c8b6ed1419b8692a49c0d67c74e384d9a021c7e6fcc8f99cf44250589e5cb",
+      "expected_sha256": "b07c8b6ed1419b8692a49c0d67c74e384d9a021c7e6fcc8f99cf44250589e5cb"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/markupsafe-3.0.3-py310h1c6eee0_0.conda",
+      "filename": "markupsafe-3.0.3-py310h1c6eee0_0.conda",
+      "bytes": 37046,
+      "sha256": "d123aec7f101e68ece41ecfd3535e90ad576c0832178751ab3b2276091ba2e13",
+      "expected_sha256": "d123aec7f101e68ece41ecfd3535e90ad576c0832178751ab3b2276091ba2e13"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl-service-2.4.0-py310h827c3e9_2.conda",
+      "filename": "mkl-service-2.4.0-py310h827c3e9_2.conda",
+      "bytes": 68020,
+      "sha256": "390b06f52579b4b8e1ee3520ebdedb560d8a6bc95a66586b20d9f32ba2a71326",
+      "expected_sha256": "390b06f52579b4b8e1ee3520ebdedb560d8a6bc95a66586b20d9f32ba2a71326"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/mpmath-1.3.0-py310haa95532_0.conda",
+      "filename": "mpmath-1.3.0-py310haa95532_0.conda",
+      "bytes": 854484,
+      "sha256": "c44f984c466d36e4d308cad5af2d5aff2060c6518e1a3d64fbdf3cfb17733e63",
+      "expected_sha256": "c44f984c466d36e4d308cad5af2d5aff2060c6518e1a3d64fbdf3cfb17733e63"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/networkx-3.4.2-py310haa95532_0.conda",
+      "filename": "networkx-3.4.2-py310haa95532_0.conda",
+      "bytes": 2670752,
+      "sha256": "083d1ae3b948bd77422f16047bf955a75278608d3d2272c861e6c45772790a36",
+      "expected_sha256": "083d1ae3b948bd77422f16047bf955a75278608d3d2272c861e6c45772790a36"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/packaging-26.3-py310haa95532_0.conda",
+      "filename": "packaging-26.3-py310haa95532_0.conda",
+      "bytes": 333755,
+      "sha256": "cad50285e64f26f640715c2e885e44ca70d6bba31968d88c6060b2be6ca1ca2a",
+      "expected_sha256": "cad50285e64f26f640715c2e885e44ca70d6bba31968d88c6060b2be6ca1ca2a"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/pillow-12.3.0-py310hbb6c998_0.conda",
+      "filename": "pillow-12.3.0-py310hbb6c998_0.conda",
+      "bytes": 820068,
+      "sha256": "fff5729fef6c640e8629a43be0dc5e7d14acf37d70fd30a2738379ec6679a0a1",
+      "expected_sha256": "fff5729fef6c640e8629a43be0dc5e7d14acf37d70fd30a2738379ec6679a0a1"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/pycparser-3.0-py310haa95532_0.conda",
+      "filename": "pycparser-3.0-py310haa95532_0.conda",
+      "bytes": 115798,
+      "sha256": "63e28156d85c2cf7788a209398f5b9363d4f264ac4f8a4a416f94f96d9be6f94",
+      "expected_sha256": "63e28156d85c2cf7788a209398f5b9363d4f264ac4f8a4a416f94f96d9be6f94"
+    },
+    {
+      "url": "https://conda.anaconda.org/pytorch/win-64/pytorch-cuda-12.1-hde6ce7c_6.tar.bz2",
+      "filename": "pytorch-cuda-12.1-hde6ce7c_6.tar.bz2",
+      "bytes": 7247,
+      "sha256": "0b783c1cb706d1da8f88ff99f53102cf4179ba74e4a112c373479ae5d63d8570",
+      "expected_sha256": "0b783c1cb706d1da8f88ff99f53102cf4179ba74e4a112c373479ae5d63d8570"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/pyyaml-6.0.3-py310hb9a58be_0.conda",
+      "filename": "pyyaml-6.0.3-py310hb9a58be_0.conda",
+      "bytes": 208281,
+      "sha256": "2adf510b069c3bdaa1dde8055e68e08ada549657b410162232e1982d5cf829a5",
+      "expected_sha256": "2adf510b069c3bdaa1dde8055e68e08ada549657b410162232e1982d5cf829a5"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/setuptools-84.0.0-py310haa95532_0.conda",
+      "filename": "setuptools-84.0.0-py310haa95532_0.conda",
+      "bytes": 991196,
+      "sha256": "7255ff4c7a27681c1a338861690523788c85e556207f8bd5e8b3f8d185a4b5b4",
+      "expected_sha256": "7255ff4c7a27681c1a338861690523788c85e556207f8bd5e8b3f8d185a4b5b4"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/typing_extensions-4.16.0-py310haa95532_0.conda",
+      "filename": "typing_extensions-4.16.0-py310haa95532_0.conda",
+      "bytes": 80831,
+      "sha256": "ce014141f0e665a99c6aa194ef3183ca452fd18aa6f2578f2b4abfbbe7e24963",
+      "expected_sha256": "ce014141f0e665a99c6aa194ef3183ca452fd18aa6f2578f2b4abfbbe7e24963"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/win_inet_pton-1.1.0-py310haa95532_1.conda",
+      "filename": "win_inet_pton-1.1.0-py310haa95532_1.conda",
+      "bytes": 9293,
+      "sha256": "84eefc693a3a83336b7a5eb29afa3c8babfd0157da639f9f65f702d6d0319d5c",
+      "expected_sha256": "84eefc693a3a83336b7a5eb29afa3c8babfd0157da639f9f65f702d6d0319d5c"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/cffi-2.1.1-py310h1c6eee0_0.conda",
+      "filename": "cffi-2.1.1-py310h1c6eee0_0.conda",
+      "bytes": 266866,
+      "sha256": "db6e6611f59d4191b417204a2e5ef06007b1d25f0b5b75f83868a4c09d6e4d85",
+      "expected_sha256": "db6e6611f59d4191b417204a2e5ef06007b1d25f0b5b75f83868a4c09d6e4d85"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/jinja2-3.1.6-py310haa95532_1.conda",
+      "filename": "jinja2-3.1.6-py310haa95532_1.conda",
+      "bytes": 272600,
+      "sha256": "5e7e347495c15668fec474346698ac1056988a2a1a27c7cd56e8ff4389cd1fa9",
+      "expected_sha256": "5e7e347495c15668fec474346698ac1056988a2a1a27c7cd56e8ff4389cd1fa9"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-base-1.26.4-py310h65a83cf_0.conda",
+      "filename": "numpy-base-1.26.4-py310h65a83cf_0.conda",
+      "bytes": 8996155,
+      "sha256": "9f63e1a2b611152c9635d5cd75414a3eb2e2edbb3b048f0d456889cc75f4de06",
+      "expected_sha256": "9f63e1a2b611152c9635d5cd75414a3eb2e2edbb3b048f0d456889cc75f4de06"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/pysocks-1.7.1-py310haa95532_2.conda",
+      "filename": "pysocks-1.7.1-py310haa95532_2.conda",
+      "bytes": 30231,
+      "sha256": "521227951fb739a4d2b8913da2fdc354d8c56606bd1ee51460c1a71e074d34bc",
+      "expected_sha256": "521227951fb739a4d2b8913da2fdc354d8c56606bd1ee51460c1a71e074d34bc"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/sympy-1.14.0-py310haa95532_1.conda",
+      "filename": "sympy-1.14.0-py310haa95532_1.conda",
+      "bytes": 11128869,
+      "sha256": "7611bf9e3880d742ef8d738af141ed3bb03d929b927878dc8be0aa53324ccc0e",
+      "expected_sha256": "7611bf9e3880d742ef8d738af141ed3bb03d929b927878dc8be0aa53324ccc0e"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/wheel-0.47.0-py310haa95532_0.conda",
+      "filename": "wheel-0.47.0-py310haa95532_0.conda",
+      "bytes": 82575,
+      "sha256": "2212c5de66bcc5d10b4da0f4886cef3b23e7f38112c8d2f7c9a82d04052718ff",
+      "expected_sha256": "2212c5de66bcc5d10b4da0f4886cef3b23e7f38112c8d2f7c9a82d04052718ff"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/brotlicffi-1.2.0.1-py310hd7fb8db_0.conda",
+      "filename": "brotlicffi-1.2.0.1-py310hd7fb8db_0.conda",
+      "bytes": 356096,
+      "sha256": "da0cd0c4a2bdf649fb38b92b374c89924299f999c6db68e885eac553bed4cb8f",
+      "expected_sha256": "da0cd0c4a2bdf649fb38b92b374c89924299f999c6db68e885eac553bed4cb8f"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/noarch/pip-25.2-pyhc872135_1.conda",
+      "filename": "pip-25.2-pyhc872135_1.conda",
+      "bytes": 1176094,
+      "sha256": "6128642d289e2c2ccd4fb4ec474cb3e465ce0c2bc995b306ffc3296f82eb1dec",
+      "expected_sha256": "6128642d289e2c2ccd4fb4ec474cb3e465ce0c2bc995b306ffc3296f82eb1dec"
+    },
+    {
+      "url": "https://conda.anaconda.org/pytorch/win-64/pytorch-2.5.1-py3.10_cuda12.1_cudnn9_0.tar.bz2",
+      "filename": "pytorch-2.5.1-py3.10_cuda12.1_cudnn9_0.tar.bz2",
+      "bytes": 1294051938,
+      "sha256": "f7b3f6898fe40caccd191bdd1ec14a1536f2ce5804f51400fc1f6c44f4e34c66",
+      "expected_sha256": "f7b3f6898fe40caccd191bdd1ec14a1536f2ce5804f51400fc1f6c44f4e34c66"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/urllib3-2.8.0-py310haa95532_1.conda",
+      "filename": "urllib3-2.8.0-py310haa95532_1.conda",
+      "bytes": 320322,
+      "sha256": "4173427072406e86d68c62782a15d739e2f9494276fa0d31ee7ba4d681af6c4c",
+      "expected_sha256": "4173427072406e86d68c62782a15d739e2f9494276fa0d31ee7ba4d681af6c4c"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/requests-2.34.2-py310haa95532_1.conda",
+      "filename": "requests-2.34.2-py310haa95532_1.conda",
+      "bytes": 164063,
+      "sha256": "7dfd3094cd95b67ac88e8ed58d39d09ab32689b1e091e52a8186b75db98115c1",
+      "expected_sha256": "7dfd3094cd95b67ac88e8ed58d39d09ab32689b1e091e52a8186b75db98115c1"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl_fft-1.3.11-py310h827c3e9_0.conda",
+      "filename": "mkl_fft-1.3.11-py310h827c3e9_0.conda",
+      "bytes": 171807,
+      "sha256": "a765ef2789a11906fbb215d37437eda93e71d8ba4ed5c688a2bbd49902421d45",
+      "expected_sha256": "a765ef2789a11906fbb215d37437eda93e71d8ba4ed5c688a2bbd49902421d45"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/mkl_random-1.2.8-py310hc64d2fc_0.conda",
+      "filename": "mkl_random-1.2.8-py310hc64d2fc_0.conda",
+      "bytes": 263344,
+      "sha256": "5c58221198e5e4902845be13de80ac4964d8b966d59aeec7772876888296a7c3",
+      "expected_sha256": "5c58221198e5e4902845be13de80ac4964d8b966d59aeec7772876888296a7c3"
+    },
+    {
+      "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-1.26.4-py310h055cbcc_0.conda",
+      "filename": "numpy-1.26.4-py310h055cbcc_0.conda",
+      "bytes": 11613,
+      "sha256": "f49255e2d1eb8e3a96676ee56f5637e90fc8f927549dbe00988dd7ee8cc322f5",
+      "expected_sha256": "f49255e2d1eb8e3a96676ee56f5637e90fc8f927549dbe00988dd7ee8cc322f5"
+    },
+    {
+      "url": "https://conda.anaconda.org/pytorch/win-64/torchaudio-2.5.1-py310_cu121.tar.bz2",
+      "filename": "torchaudio-2.5.1-py310_cu121.tar.bz2",
+      "bytes": 7413220,
+      "sha256": "85ab34cbecc296bd6a951a9614fdf89de1249a46db7bad7121899fdad609e6d6",
+      "expected_sha256": "85ab34cbecc296bd6a951a9614fdf89de1249a46db7bad7121899fdad609e6d6"
+    },
+    {
+      "url": "https://conda.anaconda.org/pytorch/win-64/torchvision-0.20.1-py310_cu121.tar.bz2",
+      "filename": "torchvision-0.20.1-py310_cu121.tar.bz2",
+      "bytes": 8045207,
+      "sha256": "3820b4f99320dc8c378843586fdee1e65db339175d60584b92bda286466a03e7",
+      "expected_sha256": "3820b4f99320dc8c378843586fdee1e65db339175d60584b92bda286466a03e7"
+    }
+  ],
+  "local_recovery": true,
+  "acquisition_note": "Original URLs retained; local explicit paths avoid failed remote cache lookup."
+}

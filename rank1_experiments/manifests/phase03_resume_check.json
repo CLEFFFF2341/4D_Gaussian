@@ -1,0 +1,96 @@
+{
+  "snapshot_checks": [
+    {
+      "frame": 1,
+      "render_abs_max": 0.0,
+      "latent_optimizer_parameter_identity": "PASS",
+      "offset_optimizer_parameter_identity": null,
+      "offset_note": "Author prune_points slices offset instead of assigning optimizer replacement; preserved in B0 reference."
+    },
+    {
+      "frame": 2,
+      "render_abs_max": 0.0,
+      "latent_optimizer_parameter_identity": "PASS",
+      "offset_optimizer_parameter_identity": false,
+      "offset_note": "Author prune_points slices offset instead of assigning optimizer replacement; preserved in B0 reference."
+    },
+    {
+      "frame": 5,
+      "render_abs_max": 0.0,
+      "latent_optimizer_parameter_identity": "PASS",
+      "offset_optimizer_parameter_identity": false,
+      "offset_note": "Author prune_points slices offset instead of assigning optimizer replacement; preserved in B0 reference."
+    },
+    {
+      "frame": 10,
+      "render_abs_max": 0.0,
+      "latent_optimizer_parameter_identity": "PASS",
+      "offset_optimizer_parameter_identity": false,
+      "offset_note": "Author prune_points slices offset instead of assigning optimizer replacement; preserved in B0 reference."
+    }
+  ],
+  "resume_attribute_abs_max": {
+    "xyz": null,
+    "f_dc": null,
+    "f_rest": null,
+    "sc": null,
+    "rot": null,
+    "op": null,
+    "flow": null,
+    "motion_label": null
+  },
+  "cuda_repeat_attribute_abs_max": {
+    "xyz": null,
+    "f_dc": null,
+    "f_rest": null,
+    "sc": null,
+    "rot": null,
+    "op": null,
+    "flow": null,
+    "motion_label": null
+  },
+  "point_counts": [
+    335060,
+    335062,
+    335060
+  ],
+  "point_count_tolerance": 16,
+  "render_comparisons": [
+    {
+      "camera": "cam02",
+      "resume_rgb_mae": 0.00254451809450984,
+      "repeat_rgb_mae": 0.0024751629680395126,
+      "tolerance": 0.004950325936079025,
+      "resume_rgb_abs_max": 0.5644224882125854
+    },
+    {
+      "camera": "cam06",
+      "resume_rgb_mae": 0.0020403475500643253,
+      "repeat_rgb_mae": 0.0020162153523415327,
+      "tolerance": 0.004032430704683065,
+      "resume_rgb_abs_max": 0.4755166172981262
+    },
+    {
+      "camera": "cam10",
+      "resume_rgb_mae": 0.002190026920288801,
+      "repeat_rgb_mae": 0.0021845344454050064,
+      "tolerance": 0.004369068890810013,
+      "resume_rgb_abs_max": 0.3034433126449585
+    },
+    {
+      "camera": "cam16",
+      "resume_rgb_mae": 0.0020222077146172523,
+      "repeat_rgb_mae": 0.002008020645007491,
+      "tolerance": 0.004016041290014982,
+      "resume_rgb_abs_max": 0.37964195013046265
+    }
+  ],
+  "topology_note": "Repeat-run variability affects threshold densification; compare rendered fields when topology differs. Root cause not isolated.",
+  "resume_check": "PASS",
+  "status": "PASS",
+  "continuous_run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\smoke\\coffee_martini\\continuous_loader_exact",
+  "resumed_run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\smoke\\coffee_martini\\resumed_loader_exact",
+  "repeat_run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\smoke\\coffee_martini\\repeat_loader_exact",
+  "provenance_log": "E:\\4D_Gaussian\\rank1_experiments\\logs\\phase03_exact_resume_check_20261011_015831.log",
+  "provenance_note": "Execution record supplies path metadata; numerical check not rerun."
+}

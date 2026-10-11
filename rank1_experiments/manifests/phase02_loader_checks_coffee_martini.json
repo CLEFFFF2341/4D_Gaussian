@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "scene": "coffee_martini",
+      "protocol": "dev",
+      "cameras": 16,
+      "frames": 90,
+      "rgb_open_count": 33,
+      "all_rgb_opens_train_only": true,
+      "point_cloud_points": 7167,
+      "default_test_index_rejected": true,
+      "held_out_training_root_rejected": true,
+      "actual_morgs_vs_calibration_projection_abs_max_pixels": 5.244573628715443e-06,
+      "flow_cameras": [
+        "cam02",
+        "cam06",
+        "cam10",
+        "cam16"
+      ],
+      "flow_runtime_indices": [
+        0,
+        3,
+        7,
+        12
+      ]
+    },
+    {
+      "scene": "coffee_martini",
+      "protocol": "final",
+      "cameras": 17,
+      "frames": 300,
+      "rgb_open_count": 35,
+      "all_rgb_opens_train_only": true,
+      "point_cloud_points": 7570,
+      "default_test_index_rejected": true,
+      "held_out_training_root_rejected": true,
+      "actual_morgs_vs_calibration_projection_abs_max_pixels": 1.0489147257430886e-05,
+      "flow_cameras": [
+        "cam02",
+        "cam06",
+        "cam10",
+        "cam16"
+      ],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ]
+    }
+  ]
+}

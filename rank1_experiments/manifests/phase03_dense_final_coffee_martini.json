@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "protocol": "final",
+  "scene": "coffee_martini",
+  "raw_dense_points": 297011,
+  "initialization_points": 39614,
+  "cloud": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply",
+  "sha256": "f4b3d8cd57fc59e28a54129f5ce26c3292c443c7bc4f81ba927bcd25556c96cc",
+  "accessed_rgb": [
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam01\\0000.png",
+      "sha256": "985819505008d38c8c77d89d9ce2ac96b5aa0ee554fca696a8bfbb09ac8b5dcc"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam02\\0000.png",
+      "sha256": "69d3c73e26e16641694a26c5ab61dd0737726bb72fe9eabd61020bac9866f42d"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam04\\0000.png",
+      "sha256": "9c29003413d86b1963674f8dea4eb263741ffa8cbafcacedc977497dcc077f7c"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam05\\0000.png",
+      "sha256": "be1bd8c5b07a8d20bf93a9439e3f5631f1eba7bf1188594e8c33d01dada9478b"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam06\\0000.png",
+      "sha256": "9635b3e6d5d4a03cea4abffed6479568b637ee889264127468c9a358e28740c7"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam07\\0000.png",
+      "sha256": "a0514dcf55241e6b9376a404c198a921d6e56ba5e8ccb42253fc080d8ae747a5"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam08\\0000.png",
+      "sha256": "b59ecd740c7abccb48f2b9f023140c72b5047989c44b229fa7405048cbc254bf"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam09\\0000.png",
+      "sha256": "7d6a662a4f94c81b34bdc3c11d9571b2ed5a372d3f7edca68d155316b3fba0b5"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam10\\0000.png",
+      "sha256": "700df9c8bd1241cd1caae5bb8d0d39330c844e889749c0f4d65d91fc5a46e57a"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam11\\0000.png",
+      "sha256": "c8a54af0cd981a31592ecaf4a080dc3aa11ba3c7ec25e5ea0b4eecc5d9e883e2"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam12\\0000.png",
+      "sha256": "54318b4f9e512925ec9cb84c2ee01ee6693b97741292b01390fece548625d90b"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam13\\0000.png",
+      "sha256": "fb6db73463347384c486a709215adf5971cf9c5e5e2983a6c6f8685b67acdb3a"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam14\\0000.png",
+      "sha256": "88034c6773b79d3a112ae8bb80ceca9bc498c7803d6e58fcbc9f3565fa8634b2"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0000.png",
+      "sha256": "9e93da823ed1d8d78a9eba2bc284ca27afdf8f40bc79cb9cd7f6e8b9de30a369"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam18\\0000.png",
+      "sha256": "007ffddbbfe82d5374c5e52f21cbc40ee355352068b893472e5b7a69b8a966de"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam19\\0000.png",
+      "sha256": "71d07ab291c2f229eb8db77ab4057ea8d7d5aa8a7609e60bd707599387b2e70b"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam20\\0000.png",
+      "sha256": "df0cb74819cc044123c492ebeb2195f51c22439b21d7416f20721ba60f902f54"
+    }
+  ],
+  "public_poses": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\poses_bounds.npy",
+  "seconds": 391.6212400000004,
+  "commands": [
+    [
+      "E:\\4D_Gaussian\\rank1_experiments\\tools\\colmap38\\COLMAP-3.8-windows-cuda\\bin\\colmap.exe",
+      "point_triangulator",
+      "--database_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\database.db",
+      "--image_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\images",
+      "--input_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\known",
+      "--output_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\sparse"
+    ],
+    [
+      "E:\\4D_Gaussian\\rank1_experiments\\tools\\colmap38\\COLMAP-3.8-windows-cuda\\bin\\colmap.exe",
+      "patch_match_stereo",
+      "--workspace_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\dense",
+      "--workspace_format",
+      "COLMAP",
+      "--PatchMatchStereo.geom_consistency",
+      "true",
+      "--PatchMatchStereo.gpu_index",
+      "0"
+    ],
+    [
+      "E:\\4D_Gaussian\\rank1_experiments\\tools\\colmap38\\COLMAP-3.8-windows-cuda\\bin\\colmap.exe",
+      "stereo_fusion",
+      "--workspace_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\dense",
+      "--workspace_format",
+      "COLMAP",
+      "--input_type",
+      "geometric",
+      "--output_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\dense\\fused.ply",
+      "--StereoFusion.num_threads",
+      "8"
+    ]
+  ],
+  "author_reference": "hustvl/4DGaussians multipleviewprogress.sh",
+  "geometry_reused": true,
+  "prior_geometry_commands": [
+    [
+      "E:\\4D_Gaussian\\rank1_experiments\\tools\\colmap38\\COLMAP-3.8-windows-cuda\\bin\\colmap.exe",
+      "point_triangulator",
+      "--database_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\database.db",
+      "--image_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\images",
+      "--input_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\known",
+      "--output_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\sparse"
+    ],
+    [
+      "E:\\4D_Gaussian\\rank1_experiments\\tools\\colmap38\\COLMAP-3.8-windows-cuda\\bin\\colmap.exe",
+      "image_undistorter",
+      "--image_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\images",
+      "--input_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\sparse",
+      "--output_path",
+      "E:\\4D_Gaussian\\rank1_experiments\\initialization\\colmap_dense\\final\\coffee_martini\\dense",
+      "--output_type",
+      "COLMAP"
+    ]
+  ],
+  "differences": [
+    "Frozen public poses + point_triangulator replace mapper/re-estimated LLFF poses.",
+    "NumPy voxel averaging replaces Open3D voxel implementation; same iterative .02,+.01 up to40000 policy.",
+    "Training views only; cam01 included only in formal."
+  ]
+}

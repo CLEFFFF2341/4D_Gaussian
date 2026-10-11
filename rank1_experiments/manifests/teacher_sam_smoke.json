@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "connected_components_cuda": true,
+  "component_areas": [
+    4,
+    6
+  ],
+  "init_state3": true,
+  "mask_prompt": true,
+  "propagated_frames": 2,
+  "eval_mode": true,
+  "coverage": [
+    0.059501297771930695,
+    0.059463366866111755
+  ],
+  "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+  "precision": "float32; TF32 enabled by upstream helper",
+  "caveat": "Execution health only; the synthetic rectangle is not a motion teacher mask.",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "python": "3.10.18",
+  "seconds": 4.519487599998683,
+  "peak_allocated": 1659312128,
+  "peak_reserved": 1962934272,
+  "camera": "coffee_martini/cam02",
+  "frame_ids": [
+    0,
+    1
+  ],
+  "official_environment": true
+}

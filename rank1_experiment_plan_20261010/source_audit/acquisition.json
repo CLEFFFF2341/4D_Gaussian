@@ -1,0 +1,81 @@
+{
+  "repository": "LeeWonJoon9868/MoRGS",
+  "commit": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+  "records": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/README.md",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "path": "train.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/train.py",
+      "sha256": "d4d7657e70fcf1eb87ff7aaabb291fb8caa175b99a9e3aeb715fcd0c71dc73ca",
+      "bytes": 54994,
+      "status": "retrieved"
+    },
+    {
+      "path": "configs/dynerf.yaml",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/configs/dynerf.yaml",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "path": "arguments/__init__.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/arguments/__init__.py",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "path": "gaussian_renderer/__init__.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/gaussian_renderer/__init__.py",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "path": "scene/gaussian_model.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/scene/gaussian_model.py",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "path": "scene/utils.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/scene/utils.py",
+      "sha256": "298a074f865395d2d61e1eaed10b051c3af67ed09d69e01a0deefaac9b793fb2",
+      "bytes": 22955,
+      "status": "retrieved"
+    },
+    {
+      "path": "utils/loader_utils.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/utils/loader_utils.py",
+      "sha256": "59279f64cfd6241ca0355c8b2fee13406aa4d85e6909b55501333f959229f16a",
+      "bytes": 9098,
+      "status": "retrieved"
+    },
+    {
+      "path": "scene/dataset_readers.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/scene/dataset_readers.py",
+      "sha256": "84c7f3995ab7f79baacf9ef2a30fc318ba2d67f1b442d40e3a98b5ff087a7157",
+      "bytes": 21156,
+      "status": "retrieved"
+    },
+    {
+      "path": "metrics_video.py",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/metrics_video.py",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "path": ".gitmodules",
+      "url": "https://raw.githubusercontent.com/LeeWonJoon9868/MoRGS/5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902/.gitmodules",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "path": "tree.json",
+      "status": "failed",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    }
+  ]
+}

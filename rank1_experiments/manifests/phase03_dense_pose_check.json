@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "cameras": 17,
+  "errors": [
+    {
+      "camera": "cam01",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam02",
+      "rotation_abs_max": 2.220446049250313e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam04",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam05",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam06",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam07",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam08",
+      "rotation_abs_max": 2.220446049250313e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam09",
+      "rotation_abs_max": 2.220446049250313e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam10",
+      "rotation_abs_max": 2.220446049250313e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam11",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam12",
+      "rotation_abs_max": 6.938893903907228e-18,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam13",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam14",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam16",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam18",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam19",
+      "rotation_abs_max": 2.220446049250313e-16,
+      "translation_abs_max": 0.0
+    },
+    {
+      "camera": "cam20",
+      "rotation_abs_max": 1.1102230246251565e-16,
+      "translation_abs_max": 0.0
+    }
+  ],
+  "intrinsics": [
+    {
+      "id": 1,
+      "model": "PINHOLE",
+      "width": 1352,
+      "height": 1014,
+      "params": [
+        730.3771702081667,
+        730.3771702081667,
+        675.5,
+        506.5
+      ]
+    }
+  ]
+}

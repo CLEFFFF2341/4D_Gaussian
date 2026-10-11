@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "training_step": 2,
+  "records": [
+    {
+      "camera": "cam02",
+      "flow_abs_max": 0.0,
+      "heatmap_abs_max": 0.0,
+      "sam_union_changed_pixels": 0
+    },
+    {
+      "camera": "cam06",
+      "flow_abs_max": 0.0,
+      "heatmap_abs_max": 0.0,
+      "sam_union_changed_pixels": 0
+    },
+    {
+      "camera": "cam10",
+      "flow_abs_max": 0.0,
+      "heatmap_abs_max": 0.0,
+      "sam_union_changed_pixels": 0
+    },
+    {
+      "camera": "cam16",
+      "flow_abs_max": 0.0,
+      "heatmap_abs_max": 0.0,
+      "sam_union_changed_pixels": 0
+    }
+  ],
+  "loss_abs_error": 0.0,
+  "xyz_gradient_abs_max": 6.51925802230835e-09,
+  "teacher_inference_rng_unchanged": true,
+  "teacher_constructor_rng_and_tf32_preserved": true,
+  "shared_mask_applied": false
+}

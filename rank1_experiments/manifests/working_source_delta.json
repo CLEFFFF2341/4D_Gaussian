@@ -1,0 +1,300 @@
+{
+  "source_commit": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+  "modified_source_files": [
+    {
+      "path": "scene/cameras.py",
+      "pristine_sha256": "f10271df3f4a127ae345adc8204af40ba8df0966fa61bd27dbfa75f71a9b0868",
+      "working_sha256": "5f87d1d37c027233fb7e19a569cb306311356535fee8bc1a4cacf40a56e496e1"
+    },
+    {
+      "path": "submodules/gaussian-rasterization-grad/cuda_rasterizer/backward.cu",
+      "pristine_sha256": "de6a2b3128d3433922f6f95eaed2b2c37f2a700d117a5be917cfb4411211199a",
+      "working_sha256": "a8eadb2d1668f014c4b71b6debfc36e45f1c12e257152dfc8e0d4202f6704636"
+    }
+  ],
+  "regenerated_archive_artifacts": [
+    {
+      "path": "RAFT/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "ec43e92fc2c7c6556bd2be90ebcbfc4bd90aa8ed12edabd6a753cb5bdbd3dd1a",
+      "working_sha256": "14e713125c23692978ac5867b5abbaf939b7c057a88671eff1c85f715ffa37ec"
+    },
+    {
+      "path": "RAFT/__pycache__/custom.cpython-310.pyc",
+      "pristine_sha256": "84912aafb13cf88067303fa49100433d6dbf6b57bf9118548c51435058ca7cbd",
+      "working_sha256": "618a5b1780b236222c222e7c1099ea23e4070c635eb8db6a988611b9a8585f19"
+    },
+    {
+      "path": "RAFT/config/__pycache__/parser.cpython-310.pyc",
+      "pristine_sha256": "000edc0c280a2b5f09ff71bd141b6648922d7a52314684054ea4837602516493",
+      "working_sha256": "e07c010e0bf64257a76efa64bb3709e9635b0804fff73668337e70f7d4e1df76"
+    },
+    {
+      "path": "RAFT/core/__pycache__/corr.cpython-310.pyc",
+      "pristine_sha256": "45c83fabb8d928646f10952c87970c16d17ce66efc43aa261074ba88bfd2220e",
+      "working_sha256": "4312c83a478098bd706ee3fbb7f63285d55ea1d84b0ad48038aa78324a16c276"
+    },
+    {
+      "path": "RAFT/core/__pycache__/extractor.cpython-310.pyc",
+      "pristine_sha256": "beef4826c26ed0c8d1879b2949377c5600fc011d8b5acd078ffc7e210aad10f3",
+      "working_sha256": "580da31bcfa1059936788ad8d5a541452fd17d6d9ce4238263043bcda893c0ac"
+    },
+    {
+      "path": "RAFT/core/__pycache__/layer.cpython-310.pyc",
+      "pristine_sha256": "ab0d3e2fef0ec3c2d851a57a46a41fce8a67fd09fe45793fe05747321606a717",
+      "working_sha256": "8ba11fcffd76c84def19994cf5999d4bca6d624feb26f2a39cc3e1ae96851333"
+    },
+    {
+      "path": "RAFT/core/__pycache__/raft.cpython-310.pyc",
+      "pristine_sha256": "d5e63bae2bc2e61af966d75c0e80e1129eb4407382792fe211a74ee8266543fb",
+      "working_sha256": "c4004351dfff7f3b3dc80c99746b7ebc3d7105f78730beef070b3f7fff9c0cb6"
+    },
+    {
+      "path": "RAFT/core/__pycache__/update.cpython-310.pyc",
+      "pristine_sha256": "30f78b680fefb146547eb045c05505ecbcfcbd8541929f20399f6bf7719dac6c",
+      "working_sha256": "3af33ac077f16e6c45bd2d0242cefd15ac566585016595b960b6ab9b6688d99a"
+    },
+    {
+      "path": "RAFT/core/utils/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "017d36e3394fdf0e4436b219882312c6b2a81861013d80891c5a4369a76bf234",
+      "working_sha256": "299f117c75f7fdb9d0a740bd0ceee92b58411222444ba68a73147671b494a679"
+    },
+    {
+      "path": "RAFT/core/utils/__pycache__/flow_viz.cpython-310.pyc",
+      "pristine_sha256": "e50ebd0b508f3ecef7cc81384ecfb7bcebea60ae60071eb78f2d6ef51ef5fb90",
+      "working_sha256": "c7da5996e932fb7059a8cb1df1e2231dbbcfcec114a01b8b2f044c7e813ccc15"
+    },
+    {
+      "path": "RAFT/core/utils/__pycache__/utils.cpython-310.pyc",
+      "pristine_sha256": "31c10c5d6d290765bd3ee414fd03d0381b782dc1192f03627ffeb6a603712783",
+      "working_sha256": "7a2c09a669d1b28b86482e3491c026798bd205494997c1c9786c4ff1b4024c7f"
+    },
+    {
+      "path": "arguments/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "e314015356e2441126c20e75f96e72cad2a48b9af4bd0232472909e6ec4b221e",
+      "working_sha256": "18078352b6ec5ddf3716992cb8b8a73130ff4a0d353b2616034e98f217a89a27"
+    },
+    {
+      "path": "gaussian_renderer/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "2a212ba43cfc63a21d92d5828379dbe21883be2f4a1221bacae2f1e133d7e61b",
+      "working_sha256": "3d0f8366694c68f110ca05b68d38a751eaad18502e7ba23d26487fcc734d408b"
+    },
+    {
+      "path": "lpipsPyTorch/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "839e8886f1a97b71bbf8c1eed8868f96a4f3245ba1735d7e599ce58f9f6d0987",
+      "working_sha256": "223e4d2d7527d10820d440ad17be2b859f4c6dd662eb0c22c8ae4e44af6f9b3c"
+    },
+    {
+      "path": "lpipsPyTorch/modules/__pycache__/lpips.cpython-310.pyc",
+      "pristine_sha256": "0d6bfff1e2cdad765b8e5cba06b7af152d542c52c4ce0e8341d9a3aecdc70626",
+      "working_sha256": "1ed8321f2149a87dff0e633002ad070cfb57ed7d0dfed4f89de043f33b9c7df7"
+    },
+    {
+      "path": "lpipsPyTorch/modules/__pycache__/networks.cpython-310.pyc",
+      "pristine_sha256": "ebf8c01db415ff089fc3636ef31c2ca8c53c7a6021cb4def0bf60830c81122cb",
+      "working_sha256": "7fb57c2f9a078b786cf73c92ac271fffc063c28dc14c53fa136321585c67ffb1"
+    },
+    {
+      "path": "lpipsPyTorch/modules/__pycache__/utils.cpython-310.pyc",
+      "pristine_sha256": "f9c0dd5ab26260f54f65737438bef9a7d4444d3691eb3a2947d1635c87477c56",
+      "working_sha256": "2dc770cc529fcf13f92999a91b2df57ce8428ef66d4e057838c33511ef8b8044"
+    },
+    {
+      "path": "sam2/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "f29368ed7315e382fe6a3344001025efcb825fc1d21778e713d169ea0345a0c5",
+      "working_sha256": "039231a9aec6923b0f186c0865f48fd64e9d36261fbb7613cd13e2fc672a3be1"
+    },
+    {
+      "path": "sam2/__pycache__/build_sam.cpython-310.pyc",
+      "pristine_sha256": "2dc36e776c8d5add55c05ccdf6d79939445a90231a37bca02a5b14745302aa45",
+      "working_sha256": "17ce9413518a4fb76c718828b1d880ed0c07f75ef5acb121de11a1cfab1fd70d"
+    },
+    {
+      "path": "sam2/__pycache__/sam2_video_predictor.cpython-310.pyc",
+      "pristine_sha256": "eb9a4660c579e15a46aed46b982d24fe4e05cabe692936f041b7e261224cd51a",
+      "working_sha256": "cbd212f652f33c33822906bf32af824299a834d3f68567c4bcdb4fd2fe1b626d"
+    },
+    {
+      "path": "sam2/modeling/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "b9c0b822eccc83d8ab1ba671812c749454efd5d077f61daa14c3493e736ca7db",
+      "working_sha256": "d59d62c10848d10e8ce43eb54db057a1ae98912216db2d00353bb8cecbac077a"
+    },
+    {
+      "path": "sam2/modeling/__pycache__/memory_attention.cpython-310.pyc",
+      "pristine_sha256": "a45a8aa1b9c70b2f39eb82c74cc1daf14dfa614aebd37562555cf67cdd36985e",
+      "working_sha256": "2ff9b309fc79a5df721ce825b8c3cfe61e328ddd9eee314848d3637763657915"
+    },
+    {
+      "path": "sam2/modeling/__pycache__/memory_encoder.cpython-310.pyc",
+      "pristine_sha256": "2384740f8d0758996d8d79dd1a3ab56335120cdeb4b0c73cfd20e1a99d3bd69f",
+      "working_sha256": "730e85acdd68ed62a97cbaf60299f07bb9d38a95e618841c582b1002010de9cb"
+    },
+    {
+      "path": "sam2/modeling/__pycache__/position_encoding.cpython-310.pyc",
+      "pristine_sha256": "d230f9203a69aeb000eca69d761115b142d0bc59d11b6ffb1bb724429eb93225",
+      "working_sha256": "e29578f620241080449630c73a37960c6035af06ed13e517228791031fcc0654"
+    },
+    {
+      "path": "sam2/modeling/__pycache__/sam2_base.cpython-310.pyc",
+      "pristine_sha256": "aee26ccb3983a70b3f30776e381b8827216315b49af9a37e6cc5ce2adfbaf3c3",
+      "working_sha256": "0b7abe34a69b3d5d465fa5027350434261c618a2f72335be0561b44aa231cab6"
+    },
+    {
+      "path": "sam2/modeling/__pycache__/sam2_utils.cpython-310.pyc",
+      "pristine_sha256": "63283bd19c58ea398f0c3a658954956b714dfb76051ad82a4b35c18ff53471b1",
+      "working_sha256": "42b30bec05780597e44fce527f5f746ff742ee6e9fff4259a7b46dfaed1f939b"
+    },
+    {
+      "path": "sam2/modeling/backbones/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "f75f0518467813cb4502f8cee8509cd8d5c27f123d5a10b7e73b6e33cf25cd73",
+      "working_sha256": "06a11ca3cf235b7fbb4c2094e9972d63c40b629ca34047ef3aefccc073c66fe4"
+    },
+    {
+      "path": "sam2/modeling/backbones/__pycache__/hieradet.cpython-310.pyc",
+      "pristine_sha256": "76a37f23e50f74ffe0e2e0cd3d7cbd03d80b728124e08a4af34d256170b5707e",
+      "working_sha256": "72be4df4ca6b2a21268bc7562f1c6744afbe91eec512c0bae2d6aa782b73f266"
+    },
+    {
+      "path": "sam2/modeling/backbones/__pycache__/image_encoder.cpython-310.pyc",
+      "pristine_sha256": "ba5565e5b9dc2bf198b8e0d22b1ef00b9ad58203341c0cca25ef83d2cc29925d",
+      "working_sha256": "5309328000efcdea481e40b176f0c421b2e656461690fd4a5a303da814790dfc"
+    },
+    {
+      "path": "sam2/modeling/backbones/__pycache__/utils.cpython-310.pyc",
+      "pristine_sha256": "f9f7b2752c8267d1b8bc3f10c6d74201f4028a171b09c0d96be8f23412af0e29",
+      "working_sha256": "5b4dcee37bd89ac9cb49159f2e4cc4b7a41e68b445c19f41ac5384e541bfccf5"
+    },
+    {
+      "path": "sam2/modeling/sam/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "0e6277527ce31742b42318453c432460b859ee3628cf6ae9b4ed029d916ab8f0",
+      "working_sha256": "2d8259b7c954426e1b840d1ad7884292c235558d05a2f264790f6b7f0c50c70b"
+    },
+    {
+      "path": "sam2/modeling/sam/__pycache__/mask_decoder.cpython-310.pyc",
+      "pristine_sha256": "64c604729c7ba83f7bac42b46cd938af0e35ac52f9e5743744ae9d36c1abb82b",
+      "working_sha256": "32321dfbe3ae60cd358732e6890a7c61c6e40930e0ecc249d85c2cfbc576463d"
+    },
+    {
+      "path": "sam2/modeling/sam/__pycache__/prompt_encoder.cpython-310.pyc",
+      "pristine_sha256": "2cd6f5edddff4f5680e278abbf0afc7c88462773286bf84410f98207a7c93a7a",
+      "working_sha256": "4639645fd1b1827cf050672250639e6ec83ac3318731d68bdb4bc9ddfbf5f3f7"
+    },
+    {
+      "path": "sam2/modeling/sam/__pycache__/transformer.cpython-310.pyc",
+      "pristine_sha256": "0ea36aa57f7aa1f939e393fabbddbadcd6698d3d2b87c39584e3e250fc68c6ea",
+      "working_sha256": "48fabded6dd0a1a12b48e77ca81af4209e8e31e86783bed9e114f5ac5e2eadd0"
+    },
+    {
+      "path": "sam2/utils/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "b0562206768e3e3b65057bb5e233295c8e7c7d06ca20ab10e37cdf133f27ab11",
+      "working_sha256": "8c18969891e5168ee0d5652e527eebaa876e93b1053c8f26b830651ac53c8f33"
+    },
+    {
+      "path": "sam2/utils/__pycache__/misc.cpython-310.pyc",
+      "pristine_sha256": "0f55e1089c0ca5272b993e01d8626c765da56dfe5ff3a2f96a49194a38260202",
+      "working_sha256": "c9260516d141a4ff1ddffe6d6188a08c98ea8f2fbd242a75a215ac226d83a541"
+    },
+    {
+      "path": "scene/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "7d804246d7970801325ea85edd2ae7fef0378d5ecce260e262f505a73c618205",
+      "working_sha256": "eae25e999ff10b2f49d8bf37daf10b76f16785682bd5ea84c44956011d9b9145"
+    },
+    {
+      "path": "scene/__pycache__/cameras.cpython-310.pyc",
+      "pristine_sha256": "2f05a8a443478246ba9cd5fdf09ac3bff271579d18ab121f32cc67cd116be369",
+      "working_sha256": "bfb0c9e4bc1ee57a98dbb1f331e2a3f86e4a9b1ac796ac59eb163abb6a551a8c"
+    },
+    {
+      "path": "scene/__pycache__/colmap_loader.cpython-310.pyc",
+      "pristine_sha256": "f3e7035accec8d918965019fff5a0ffde9bf55d03ca88aa24ac41190e9f88993",
+      "working_sha256": "ba5d5926b8707880982198adb99e2a977e29c7b6ae3b3c1839431d9e2af3b326"
+    },
+    {
+      "path": "scene/__pycache__/dataset_readers.cpython-310.pyc",
+      "pristine_sha256": "3d911888321b0961bae1b6ea9113932fc9501e9c5865e0c453d3ee299ed1138f",
+      "working_sha256": "49576d81107899284b91d5324ab2d5365fcd8cbcb3c3eb7a52acc337ff085178"
+    },
+    {
+      "path": "scene/__pycache__/decoders.cpython-310.pyc",
+      "pristine_sha256": "dcabd884320f26bd7a88ab9e85dd9c205bb7d6c06a4ca10fdab898d5a0e9506a",
+      "working_sha256": "f6e40f9fcb10cf41af103e38cafb5f2ae69447f5825395ff430f2cf82bd6dcd9"
+    },
+    {
+      "path": "scene/__pycache__/gaussian_model.cpython-310.pyc",
+      "pristine_sha256": "ccdefa69cf25e05cc440d9e7e3ab1e3a307ddf2f19ca3689bb6e6f23db6e2073",
+      "working_sha256": "ef052cd760715dc17c3bceedc45c72004cb9f716568f3e0036a824b46820e237"
+    },
+    {
+      "path": "scene/__pycache__/utils.cpython-310.pyc",
+      "pristine_sha256": "55137e5a72a825b9b5553860dff2e4c18b73830a1ba38c9188845bdac75fc729",
+      "working_sha256": "1e8b52906f485bec4bc2a85f83bc5519266a1cb25d2067deb3508c9083b99087"
+    },
+    {
+      "path": "submodules/simple-knn/simple_knn.egg-info/PKG-INFO",
+      "pristine_sha256": "a1abf9d680439f96307cd507672188d055864a91aa8ff010754893538649529a",
+      "working_sha256": "c6be82e036be4c0a4d785f1daa04888e434f04e4b1ce5f973b8a4994db3683c4"
+    },
+    {
+      "path": "utils/__pycache__/__init__.cpython-310.pyc",
+      "pristine_sha256": "6021bc134dc5fdc2c130ec7164c6ac3ee98a17b0b4a57ecca303d3e5add0b2f3",
+      "working_sha256": "f67e691f0d786e5c4f213d34088324231df0788a72bd8ffd99d63c922a0eb065"
+    },
+    {
+      "path": "utils/__pycache__/bitEstimator.cpython-310.pyc",
+      "pristine_sha256": "7fb4a281efc5d9319d623c7e3ee2fc884eb5a347fcd14ee0a5d970080cf7d29c",
+      "working_sha256": "6c253341e9d0d5fbadffb8e6bb6b87a6cc92ce54769a079cc0bf67baf7487245"
+    },
+    {
+      "path": "utils/__pycache__/camera_utils.cpython-310.pyc",
+      "pristine_sha256": "4422bdf0247c74581178a0b8468e1ca335b64c493dbf60cb6551f5f119b1ffe9",
+      "working_sha256": "e2628eb24101cef7737bc4dc3ffebdb433e224380958fb14c443aa3aa103a061"
+    },
+    {
+      "path": "utils/__pycache__/compress_utils.cpython-310.pyc",
+      "pristine_sha256": "2a00ffe20c1f502059a4ac82f41e8b90a97590a52b2cae3d75f03f020f7be639",
+      "working_sha256": "2a7448f3d6f01154d878a616928140a9a3617c652a194f243187d019979d0fb7"
+    },
+    {
+      "path": "utils/__pycache__/general_utils.cpython-310.pyc",
+      "pristine_sha256": "1ec738346bb330e115927d70c90bb312947b3ec4b18321b7d0392101bc43c730",
+      "working_sha256": "7df6e24230b83962e6e010de7e78687a366f1f12d27bdf7c7f70d22ec8f3a815"
+    },
+    {
+      "path": "utils/__pycache__/graphics_utils.cpython-310.pyc",
+      "pristine_sha256": "3bb3b59ae3dd3a5339f50be35333bdebf1b5a4237c5ae81207e17313a1a78652",
+      "working_sha256": "5244afc376ab6df092c26ce8a5c838fb0a493bda5d50ba453869ce07cf57c4a7"
+    },
+    {
+      "path": "utils/__pycache__/image_utils.cpython-310.pyc",
+      "pristine_sha256": "d55cd89b1336cc7d2179d424067170aacf6f3912c99370c7943469a99c2898b8",
+      "working_sha256": "b3e039dad71f4b538028995407d4845980c754aaeb9fe333637693758269a6a4"
+    },
+    {
+      "path": "utils/__pycache__/loader_utils.cpython-310.pyc",
+      "pristine_sha256": "a3b938affb5273d7fddffcfcac1e0ee396e37cf70a94734e6836595928bfb879",
+      "working_sha256": "861445d53f6572101fb35c1a64d3097d4c90bc6f4f7dcb3497752f6122556647"
+    },
+    {
+      "path": "utils/__pycache__/loss_utils.cpython-310.pyc",
+      "pristine_sha256": "4ff043ea08e0346084baa55bf5dc50200379bb7bc1c47305a6e8b742ec0ed6c5",
+      "working_sha256": "d1051cb9379cd5e86fe12d31aa7226755343d109b47cd5abacda448eaf9aaec6"
+    },
+    {
+      "path": "utils/__pycache__/pose_utils.cpython-310.pyc",
+      "pristine_sha256": "a09d54cd762016cd26c062eee2fa6d5a0d6514e986ccfa640f197fbf71725f9f",
+      "working_sha256": "9fa15e8098dd3f10f625a35fa514d9cab5c10d5fb0d9414a36e0530c47e72dd4"
+    },
+    {
+      "path": "utils/__pycache__/sh_utils.cpython-310.pyc",
+      "pristine_sha256": "32bd0eff2850e193cc397b8857cabef8c514a031daa83203f64fcff89c101a9a",
+      "working_sha256": "39c8b88518b5c9ef0368ed32547782bb09022f7fb2730ad44f42edbb730fed69"
+    },
+    {
+      "path": "utils/__pycache__/system_utils.cpython-310.pyc",
+      "pristine_sha256": "88b7f0f280e8f7ab0e8468056f3f486aea67fd64fcacfe36113d40918cb7f62f",
+      "working_sha256": "6fd891d2d3ad5541ea39f2fc0e09b34dd6d346506e2d4ed9dc82c0a24aed422f"
+    }
+  ],
+  "added_sam2_extension_source_commit": "f882beb157546530a7e66a5f72ef1da4f74593d7",
+  "sam2_cuda_source_sha256": "926c277e24f40609622bb4ce49912838d1c799e63edcccc1c75e65e701acd497",
+  "sam2_binary_sha256": "15ca06969aa4bf565a71a2b780531b5a856a3c1c7849b224447d89350aa7aaa9"
+}

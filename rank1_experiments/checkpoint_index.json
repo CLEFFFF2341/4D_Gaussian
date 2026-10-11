@@ -1,0 +1,538 @@
+{
+  "format": "phase03_frame_boundary_v1",
+  "recovery": "Use the exact per-checkpoint resume_command; completed boundaries are for rendering. Resuming an earlier checkpoint will overwrite later frame artifacts in the selected output.",
+  "initialization_reuse": "For a new method, fork into a separate output and retain/copy the initial prefix artifacts and resource provenance. Never write method updates into the frozen B0 output. Initial state is frame_0001.pt of the same backbone/protocol/seed.",
+  "boundary_only": true,
+  "checkpoints": [
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+      "frame": 1,
+      "bytes": 175363187,
+      "sha256": "c4aa766c7dff391ddfa1256caf6b08c5ae08eada9699adfa13eb1b462c1ef716",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0002.pt",
+      "frame": 2,
+      "bytes": 420483250,
+      "sha256": "ece0a1514288d3df997ae0b3018d9ff1209a4ff1c0cb2a6c3fde40ca194b6f5d",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0002.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0005.pt",
+      "frame": 5,
+      "bytes": 433884134,
+      "sha256": "ce51ebd8a8fc6166eac6797d19f371c81e368862671a3c00492c65e5ed552da3",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0005.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0010.pt",
+      "frame": 10,
+      "bytes": 433892326,
+      "sha256": "614bcde3f718c6b9177952976cae12d58fa61f44d2ff1326190397627f0e5b79",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0010.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0030.pt",
+      "frame": 30,
+      "bytes": 433899366,
+      "sha256": "e3c5cbbfe8fabbc6ca032842e4de6ad94e4093224b709cf462f2b742e650e847",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0030.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0060.pt",
+      "frame": 60,
+      "bytes": 433906470,
+      "sha256": "ae624d1f50dd3048132d63efae78fbd16055e679ade406d20cbf77b08d3995b4",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0060.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0090.pt",
+      "frame": 90,
+      "bytes": 433912614,
+      "sha256": "b6880acd5767b5b5dfcd9adcb323ec8008fe9ab6d0976884095292fedb3844fc",
+      "resume_command": null,
+      "complete_boundary": true
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\latest.pt",
+      "frame": 90,
+      "bytes": 433911226,
+      "sha256": "3713fd95f7e395dfe55714cdff35d53956b152780f7c83ec9e81e84a0f73edd8",
+      "resume_command": null,
+      "complete_boundary": true
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+      "frame": 1,
+      "bytes": 148080633,
+      "sha256": "5569987eb45fcd670fd0898d10ec605b4e42cc0b573899b3dd8f89fb4aca016b",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_cut_roasted_beef.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0002.pt",
+      "frame": 2,
+      "bytes": 296795706,
+      "sha256": "6813f2271c1f97c2ce97180df6fecdec7a03f440cd3af99cba42cdfea7f57c4a",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_cut_roasted_beef.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0002.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0005.pt",
+      "frame": 5,
+      "bytes": 304972590,
+      "sha256": "49b9fab539b1e4e23b396ba981e433ec6a509a3459c3db554b802caff7f3d84a",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_cut_roasted_beef.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0005.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0010.pt",
+      "frame": 10,
+      "bytes": 305012718,
+      "sha256": "6a79a147fb2674e42097ec43fd5bbc656e2d1cad32ddcc196ab84afb82fe2f21",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_cut_roasted_beef.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0010.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0030.pt",
+      "frame": 30,
+      "bytes": 305023918,
+      "sha256": "382a153bd994116807e4464b089fe1256b8093facfb61b8998b71b1bae039811",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_cut_roasted_beef.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0030.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0060.pt",
+      "frame": 60,
+      "bytes": 305046254,
+      "sha256": "ed234d7b6fabebc2e4f086de9ffc3801b513d4c34c0a3f52bb0fa31b71222389",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\dev_cut_roasted_beef.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0060.pt"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0090.pt",
+      "frame": 90,
+      "bytes": 305055982,
+      "sha256": "678ec6101e8126306688c57cceff85bddb87d3dec3a7699021a32bbb36f2e29e",
+      "resume_command": null,
+      "complete_boundary": true
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\latest.pt",
+      "frame": 90,
+      "bytes": 305055290,
+      "sha256": "25559d0fb5bbf61ca628de4e1c4d8e6187fc3235082c9cf974fde39e64b88373",
+      "resume_command": null,
+      "complete_boundary": true
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0001.pt",
+      "frame": 1,
+      "bytes": 492901110,
+      "sha256": "82d78471369c7bff1f559e5d7958d4d885a5f46bd1cb5169c3a7e22b7eaf24b1",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0001.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0002.pt",
+      "frame": 2,
+      "bytes": 863306230,
+      "sha256": "b5bd142e18e8f2bc2fdf2cdb11685e99e804e44223f7e39f9266cb77db116070",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0002.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0005.pt",
+      "frame": 5,
+      "bytes": 883551530,
+      "sha256": "81ad3d7a6981bb2655de029dbabe3f797489e30083d55af62e557cfdba2f6a76",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0005.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0010.pt",
+      "frame": 10,
+      "bytes": 883551338,
+      "sha256": "7f6608347e6e1a5ed555d05d9339ca336b9acd8a74945c6785c99fcab59d0260",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0010.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0030.pt",
+      "frame": 30,
+      "bytes": 883553642,
+      "sha256": "184dbcd689cc3bbbea03a694dad50bcfcb3b6eda129ea47d2803b3c3b139edf2",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0030.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0060.pt",
+      "frame": 60,
+      "bytes": 883562474,
+      "sha256": "5770ec3dd6d198870f3f1a5befff1df2764137c5b99c3a68aab25e5585b75784",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0060.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0090.pt",
+      "frame": 90,
+      "bytes": 883569578,
+      "sha256": "900e2404b823eb60d86ab3fd920b123a52c859dbda3d322671d0a60a1b2ca19b",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0090.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0120.pt",
+      "frame": 120,
+      "bytes": 883579754,
+      "sha256": "a2e43d8e7db8e74f7c174285c7056a09a794a7d829ec740af3b893e5da0e98fd",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0120.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0150.pt",
+      "frame": 150,
+      "bytes": 883625066,
+      "sha256": "35dedb590ae371b236a8ba6fa0b96bdc05eddd8ed3dde2e08f72b8da0e6f0dfe",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0150.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0180.pt",
+      "frame": 180,
+      "bytes": 883669482,
+      "sha256": "bc6e7721f817bd55324fe71f1a1743956a6844e4f2fbea12984e45f4a44e934b",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0180.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0210.pt",
+      "frame": 210,
+      "bytes": 883708010,
+      "sha256": "5a49b0abfa285c75532f83898c8787f847fc51c2ddd31f3afdb4ec59f2f6802b",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0210.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0240.pt",
+      "frame": 240,
+      "bytes": 883717674,
+      "sha256": "25080f76613a32f21b15e09a7a977d53971994e2bcc278e0614625962baa275e",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0240.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0270.pt",
+      "frame": 270,
+      "bytes": 883819114,
+      "sha256": "7397b5c16a905af24c785f0732da7958d1ba381693e543b894572f18bd1c9d67",
+      "resume_command": [
+        "E:\\4D_Gaussian\\rank1_experiments\\scripts\\run_official.cmd",
+        "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\train_phase03.py",
+        "--config",
+        "E:\\4D_Gaussian\\rank1_experiments\\configs\\phase03\\final_coffee_martini.yaml",
+        "-m",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+        "--start_checkpoint",
+        "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0270.pt",
+        "--phase03_initial_cloud",
+        "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_dense_phase03.ply"
+      ],
+      "complete_boundary": false
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0300.pt",
+      "frame": 300,
+      "bytes": 883875690,
+      "sha256": "4e3cd380fef7889518d979d0cccba0e50ae83dfb2753e8920041672e03642dd4",
+      "resume_command": null,
+      "complete_boundary": true
+    },
+    {
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\latest.pt",
+      "frame": 300,
+      "bytes": 883874298,
+      "sha256": "8b91ee44a79fab9441828d2a0972059ee22080d590ff347a8d47754677b575ca",
+      "resume_command": null,
+      "complete_boundary": true
+    }
+  ]
+}

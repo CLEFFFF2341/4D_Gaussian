@@ -1,0 +1,79 @@
+{
+  "weights": [
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\weights\\sea_raft_model.safetensors",
+      "bytes": 78778760,
+      "sha256": "cb8cfbf14c5e0f6734b64add383708b7ff68cc6089a0007c67165d4761346102"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\weights\\Tartan-C-T-TSKH-spring540x960-M.pth",
+      "bytes": 78883818,
+      "sha256": "d306e7d75428bf943f7c6f163c05df60c9a808964e757c3d26c29b539a4a9bac"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\weights\\sam2.1_hiera_large.pt",
+      "bytes": 898083611,
+      "sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\weights\\resnet34-b627a593.pth",
+      "bytes": 87319819,
+      "sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\cache\\torch\\hub\\checkpoints\\vgg16-397923af.pth",
+      "bytes": 553433881,
+      "sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\cache\\torch\\hub\\checkpoints\\vgg.pth",
+      "bytes": 7289,
+      "sha256": "a78928a0af1e5f0fcb1f3b9e8f8c3a2a5a3de244d830ad5c1feddc79b8432868"
+    }
+  ],
+  "raft_conversion": {
+    "status": "PASS",
+    "parameter_keys": 472,
+    "original_safetensors_keys": 452,
+    "shared_module_aliases": {
+      "cnet.layer2.0.downsample.1.weight": "cnet.layer2.0.bn3.weight",
+      "cnet.layer2.0.downsample.1.bias": "cnet.layer2.0.bn3.bias",
+      "cnet.layer2.0.downsample.1.running_mean": "cnet.layer2.0.bn3.running_mean",
+      "cnet.layer2.0.downsample.1.running_var": "cnet.layer2.0.bn3.running_var",
+      "cnet.layer2.0.downsample.1.num_batches_tracked": "cnet.layer2.0.bn3.num_batches_tracked",
+      "cnet.layer3.0.downsample.1.weight": "cnet.layer3.0.bn3.weight",
+      "cnet.layer3.0.downsample.1.bias": "cnet.layer3.0.bn3.bias",
+      "cnet.layer3.0.downsample.1.running_mean": "cnet.layer3.0.bn3.running_mean",
+      "cnet.layer3.0.downsample.1.running_var": "cnet.layer3.0.bn3.running_var",
+      "cnet.layer3.0.downsample.1.num_batches_tracked": "cnet.layer3.0.bn3.num_batches_tracked",
+      "fnet.layer2.0.downsample.1.weight": "fnet.layer2.0.bn3.weight",
+      "fnet.layer2.0.downsample.1.bias": "fnet.layer2.0.bn3.bias",
+      "fnet.layer2.0.downsample.1.running_mean": "fnet.layer2.0.bn3.running_mean",
+      "fnet.layer2.0.downsample.1.running_var": "fnet.layer2.0.bn3.running_var",
+      "fnet.layer2.0.downsample.1.num_batches_tracked": "fnet.layer2.0.bn3.num_batches_tracked",
+      "fnet.layer3.0.downsample.1.weight": "fnet.layer3.0.bn3.weight",
+      "fnet.layer3.0.downsample.1.bias": "fnet.layer3.0.bn3.bias",
+      "fnet.layer3.0.downsample.1.running_mean": "fnet.layer3.0.bn3.running_mean",
+      "fnet.layer3.0.downsample.1.running_var": "fnet.layer3.0.bn3.running_var",
+      "fnet.layer3.0.downsample.1.num_batches_tracked": "fnet.layer3.0.bn3.num_batches_tracked"
+    },
+    "tensors_bitwise_preserved": true,
+    "strict_load": true,
+    "safetensors_sha256": "cb8cfbf14c5e0f6734b64add383708b7ff68cc6089a0007c67165d4761346102",
+    "pth_sha256": "d306e7d75428bf943f7c6f163c05df60c9a808964e757c3d26c29b539a4a9bac",
+    "hf_repository": "MemorySlices/Tartan-C-T-TSKH-spring540x960-M",
+    "hf_revision": "eb97ef34ba5d856c3fa2cdcd073150c057ac8b69",
+    "torch": "2.5.1",
+    "cuda": "12.1",
+    "python": "3.10.18",
+    "seconds": 1.8556274000002304,
+    "peak_allocated": 0,
+    "peak_reserved": 0,
+    "camera": "coffee_martini/cam02",
+    "frame_ids": [
+      0,
+      1
+    ],
+    "official_environment": true
+  }
+}

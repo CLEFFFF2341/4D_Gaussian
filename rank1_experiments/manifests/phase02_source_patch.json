@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "patch": "E:\\4D_Gaussian\\rank1_experiments\\manifests\\phase02_data_isolation.patch",
+  "patch_sha256": "4811105ee6defb0f71c21918556dcca9f994695112b26bbfbb5c0e7962ea3960",
+  "files": [
+    {
+      "path": "scene/dataset_readers.py",
+      "original_sha256": "84c7f3995ab7f79baacf9ef2a30fc318ba2d67f1b442d40e3a98b5ff087a7157",
+      "working_sha256": "067aaad89b2bafebee30da75086461a3d2558fb19af2b7cda9209e500cced26a"
+    },
+    {
+      "path": "utils/loader_utils.py",
+      "original_sha256": "59279f64cfd6241ca0355c8b2fee13406aa4d85e6909b55501333f959229f16a",
+      "working_sha256": "8f39932ca838c22bc9b62cc4890355d0b3fa093e144bee91723c869caa3ee751"
+    }
+  ],
+  "purpose": "Read dimensions from metadata, enforce train/test roots and directory ordering; default author roots remain supported.",
+  "research_loss_changes": false,
+  "phase01_patches_retained": true
+}

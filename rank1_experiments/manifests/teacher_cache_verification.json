@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "flow_cache_files": 1440,
+  "sam_cache_files": 88,
+  "online_flow_samples": 24,
+  "b0_cache_roundtrip_abs_max": 0.0,
+  "online_flow_repeat_abs_max": 0.0,
+  "sam_repeat_changed_pixels": {
+    "coffee_martini": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "cut_roasted_beef": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "fp16_abs_max": 0.0019516944885253906,
+  "fp16_mean_epe": 4.856050366599776e-06,
+  "shared_mask_coverage_min": 0.9698977470397949,
+  "shared_mask_coverage_mean": 0.9957617973701821,
+  "shared_mask_coverage_max": 0.9991392493247986,
+  "b0_sam_union_coverage_mean": 0.0020582606461258283,
+  "b0_schedule_replay": [
+    {
+      "scene": "coffee_martini",
+      "camera": "cam02",
+      "steps": 90,
+      "status": "PASS"
+    },
+    {
+      "scene": "coffee_martini",
+      "camera": "cam06",
+      "steps": 90,
+      "status": "PASS"
+    },
+    {
+      "scene": "coffee_martini",
+      "camera": "cam10",
+      "steps": 90,
+      "status": "PASS"
+    },
+    {
+      "scene": "coffee_martini",
+      "camera": "cam16",
+      "steps": 90,
+      "status": "PASS"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "camera": "cam02",
+      "steps": 90,
+      "status": "PASS"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "camera": "cam06",
+      "steps": 90,
+      "status": "PASS"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "camera": "cam10",
+      "steps": 90,
+      "status": "PASS"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "camera": "cam15",
+      "steps": 90,
+      "status": "PASS"
+    }
+  ],
+  "b0_schedule_steps_verified": 720,
+  "teacher_processes_for_replay": 0,
+  "precision_acceptance": "FP16 maximum <0.05 dev pixels; mean EPE <0.001 dev pixels; B0 stays lossless FP32"
+}

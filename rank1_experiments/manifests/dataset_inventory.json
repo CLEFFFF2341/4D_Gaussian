@@ -1,0 +1,4659 @@
+{
+  "time": "2026-10-10T22:38:21.757655+08:00",
+  "mode": "headers_and_three_frame_decode_per_camera",
+  "full_decode": false,
+  "reprojection_verified": false,
+  "scenes": [
+    {
+      "scene": "coffee_martini",
+      "path": "E:\\4DGS\\data\\coffee_martini",
+      "poses_shape": [
+        18,
+        17
+      ],
+      "poses_finite": true,
+      "poses_sha256": "b82479fe530b6bf6792c718276aa69bd499a5ee777491eb5da66121c4247cf50",
+      "cameras": [
+        {
+          "camera": "cam00",
+          "sorted_pose_row": 0,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam00.mp4",
+          "bytes": 66440149,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam01",
+          "sorted_pose_row": 1,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam01.mp4",
+          "bytes": 59725476,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam02",
+          "sorted_pose_row": 2,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam02.mp4",
+          "bytes": 59810180,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam04",
+          "sorted_pose_row": 3,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam04.mp4",
+          "bytes": 58411275,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam05",
+          "sorted_pose_row": 4,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam05.mp4",
+          "bytes": 67993877,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam06",
+          "sorted_pose_row": 5,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam06.mp4",
+          "bytes": 64468940,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam07",
+          "sorted_pose_row": 6,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam07.mp4",
+          "bytes": 65966169,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam08",
+          "sorted_pose_row": 7,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam08.mp4",
+          "bytes": 67273848,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam09",
+          "sorted_pose_row": 8,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam09.mp4",
+          "bytes": 69510351,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam10",
+          "sorted_pose_row": 9,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam10.mp4",
+          "bytes": 72716695,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam11",
+          "sorted_pose_row": 10,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam11.mp4",
+          "bytes": 64580877,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam12",
+          "sorted_pose_row": 11,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam12.mp4",
+          "bytes": 64179390,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam13",
+          "sorted_pose_row": 12,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam13.mp4",
+          "bytes": 69948001,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam14",
+          "sorted_pose_row": 13,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam14.mp4",
+          "bytes": 68533433,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam16",
+          "sorted_pose_row": 14,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam16.mp4",
+          "bytes": 62278247,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam18",
+          "sorted_pose_row": 15,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam18.mp4",
+          "bytes": 64744211,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam19",
+          "sorted_pose_row": 16,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam19.mp4",
+          "bytes": 68999496,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam20",
+          "sorted_pose_row": 17,
+          "path": "E:\\4DGS\\data\\coffee_martini\\cam20.mp4",
+          "bytes": 70605905,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        }
+      ],
+      "camera_pose_count_match": true,
+      "morgs_points_present": false,
+      "sparse_present": false
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "path": "E:\\4DGS\\data\\cut_roasted_beef",
+      "poses_shape": [
+        20,
+        17
+      ],
+      "poses_finite": true,
+      "poses_sha256": "2095f5efb598ddbc019dbac1386b4670b68a90da2ea57c2868b97b3a593da7f9",
+      "cameras": [
+        {
+          "camera": "cam00",
+          "sorted_pose_row": 0,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam00.mp4",
+          "bytes": 56108481,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam01",
+          "sorted_pose_row": 1,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam01.mp4",
+          "bytes": 65414312,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam02",
+          "sorted_pose_row": 2,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam02.mp4",
+          "bytes": 63140991,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam03",
+          "sorted_pose_row": 3,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam03.mp4",
+          "bytes": 62357762,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam05",
+          "sorted_pose_row": 4,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam05.mp4",
+          "bytes": 59011445,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam06",
+          "sorted_pose_row": 5,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam06.mp4",
+          "bytes": 55678176,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam07",
+          "sorted_pose_row": 6,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam07.mp4",
+          "bytes": 54944916,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam08",
+          "sorted_pose_row": 7,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam08.mp4",
+          "bytes": 59071585,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam09",
+          "sorted_pose_row": 8,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam09.mp4",
+          "bytes": 54923979,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam10",
+          "sorted_pose_row": 9,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam10.mp4",
+          "bytes": 58838138,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam11",
+          "sorted_pose_row": 10,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam11.mp4",
+          "bytes": 55698443,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam12",
+          "sorted_pose_row": 11,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam12.mp4",
+          "bytes": 54983818,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam13",
+          "sorted_pose_row": 12,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam13.mp4",
+          "bytes": 54756392,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam14",
+          "sorted_pose_row": 13,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam14.mp4",
+          "bytes": 54622324,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam15",
+          "sorted_pose_row": 14,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam15.mp4",
+          "bytes": 54956221,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam16",
+          "sorted_pose_row": 15,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam16.mp4",
+          "bytes": 54147214,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam17",
+          "sorted_pose_row": 16,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam17.mp4",
+          "bytes": 55472298,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam18",
+          "sorted_pose_row": 17,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam18.mp4",
+          "bytes": 53818092,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam19",
+          "sorted_pose_row": 18,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam19.mp4",
+          "bytes": 57607976,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam20",
+          "sorted_pose_row": 19,
+          "path": "E:\\4DGS\\data\\cut_roasted_beef\\cam20.mp4",
+          "bytes": 57724316,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        }
+      ],
+      "camera_pose_count_match": true,
+      "morgs_points_present": false,
+      "sparse_present": false
+    },
+    {
+      "scene": "cook_spinach",
+      "path": "E:\\4DGS\\data\\cook_spinach",
+      "poses_shape": [
+        21,
+        17
+      ],
+      "poses_finite": true,
+      "poses_sha256": "5479315fff3c896cab42dc322b3ba89c96d56b8ad83284482cefea61ff2b1309",
+      "cameras": [
+        {
+          "camera": "cam00",
+          "sorted_pose_row": 0,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam00.mp4",
+          "bytes": 56689276,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam01",
+          "sorted_pose_row": 1,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam01.mp4",
+          "bytes": 65330315,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam02",
+          "sorted_pose_row": 2,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam02.mp4",
+          "bytes": 63389105,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam03",
+          "sorted_pose_row": 3,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam03.mp4",
+          "bytes": 62781236,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam04",
+          "sorted_pose_row": 4,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam04.mp4",
+          "bytes": 59337663,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam05",
+          "sorted_pose_row": 5,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam05.mp4",
+          "bytes": 59446911,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam06",
+          "sorted_pose_row": 6,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam06.mp4",
+          "bytes": 56512430,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam07",
+          "sorted_pose_row": 7,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam07.mp4",
+          "bytes": 55761917,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam08",
+          "sorted_pose_row": 8,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam08.mp4",
+          "bytes": 59955647,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam09",
+          "sorted_pose_row": 9,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam09.mp4",
+          "bytes": 55352108,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam10",
+          "sorted_pose_row": 10,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam10.mp4",
+          "bytes": 60092269,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam11",
+          "sorted_pose_row": 11,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam11.mp4",
+          "bytes": 56223674,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam12",
+          "sorted_pose_row": 12,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam12.mp4",
+          "bytes": 55417117,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam13",
+          "sorted_pose_row": 13,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam13.mp4",
+          "bytes": 54944742,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam14",
+          "sorted_pose_row": 14,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam14.mp4",
+          "bytes": 54745571,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam15",
+          "sorted_pose_row": 15,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam15.mp4",
+          "bytes": 55049563,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam16",
+          "sorted_pose_row": 16,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam16.mp4",
+          "bytes": 54510343,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam17",
+          "sorted_pose_row": 17,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam17.mp4",
+          "bytes": 55914459,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam18",
+          "sorted_pose_row": 18,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam18.mp4",
+          "bytes": 54573275,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam19",
+          "sorted_pose_row": 19,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam19.mp4",
+          "bytes": 57909288,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam20",
+          "sorted_pose_row": 20,
+          "path": "E:\\4DGS\\data\\cook_spinach\\cam20.mp4",
+          "bytes": 58360426,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        }
+      ],
+      "camera_pose_count_match": true,
+      "morgs_points_present": false,
+      "sparse_present": false
+    },
+    {
+      "scene": "flame_salmon_1",
+      "path": "E:\\4DGS\\data\\flame_salmon_1",
+      "poses_shape": [
+        19,
+        17
+      ],
+      "poses_finite": true,
+      "poses_sha256": "30fd43f876301eb44238b4fce458c06b04f8fdcbb9ccbf05c93749dcf87b7225",
+      "cameras": [
+        {
+          "camera": "cam00",
+          "sorted_pose_row": 0,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam00.mp4",
+          "bytes": 266162379,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam01",
+          "sorted_pose_row": 1,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam01.mp4",
+          "bytes": 231758648,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam02",
+          "sorted_pose_row": 2,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam02.mp4",
+          "bytes": 232152521,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam04",
+          "sorted_pose_row": 3,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam04.mp4",
+          "bytes": 229256329,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam05",
+          "sorted_pose_row": 4,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam05.mp4",
+          "bytes": 276269187,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam06",
+          "sorted_pose_row": 5,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam06.mp4",
+          "bytes": 267164687,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam07",
+          "sorted_pose_row": 6,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam07.mp4",
+          "bytes": 269933588,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam08",
+          "sorted_pose_row": 7,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam08.mp4",
+          "bytes": 276102702,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam09",
+          "sorted_pose_row": 8,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam09.mp4",
+          "bytes": 281521563,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam10",
+          "sorted_pose_row": 9,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam10.mp4",
+          "bytes": 293163971,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam11",
+          "sorted_pose_row": 10,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam11.mp4",
+          "bytes": 256763455,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam12",
+          "sorted_pose_row": 11,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam12.mp4",
+          "bytes": 248881559,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam13",
+          "sorted_pose_row": 12,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam13.mp4",
+          "bytes": 271905198,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam14",
+          "sorted_pose_row": 13,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam14.mp4",
+          "bytes": 267237362,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam15",
+          "sorted_pose_row": 14,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam15.mp4",
+          "bytes": 253728876,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam16",
+          "sorted_pose_row": 15,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam16.mp4",
+          "bytes": 249068281,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam18",
+          "sorted_pose_row": 16,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam18.mp4",
+          "bytes": 263294280,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam19",
+          "sorted_pose_row": 17,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam19.mp4",
+          "bytes": 275265301,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam20",
+          "sorted_pose_row": 18,
+          "path": "E:\\4DGS\\data\\flame_salmon_1\\cam20.mp4",
+          "bytes": 281270297,
+          "opened": true,
+          "frames": 1200,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        }
+      ],
+      "camera_pose_count_match": true,
+      "morgs_points_present": false,
+      "sparse_present": false
+    },
+    {
+      "scene": "flame_steak",
+      "path": "E:\\4DGS\\data\\flame_steak",
+      "poses_shape": [
+        21,
+        17
+      ],
+      "poses_finite": true,
+      "poses_sha256": "42e7e6d8d44f27f6ee3fb2b472ee0051a73c3a3387003ccd453c80567bb766a8",
+      "cameras": [
+        {
+          "camera": "cam00",
+          "sorted_pose_row": 0,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam00.mp4",
+          "bytes": 56378456,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam01",
+          "sorted_pose_row": 1,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam01.mp4",
+          "bytes": 65853120,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam02",
+          "sorted_pose_row": 2,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam02.mp4",
+          "bytes": 63624317,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam03",
+          "sorted_pose_row": 3,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam03.mp4",
+          "bytes": 63192741,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam04",
+          "sorted_pose_row": 4,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam04.mp4",
+          "bytes": 58250266,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam05",
+          "sorted_pose_row": 5,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam05.mp4",
+          "bytes": 55759325,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam06",
+          "sorted_pose_row": 6,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam06.mp4",
+          "bytes": 55716836,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam07",
+          "sorted_pose_row": 7,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam07.mp4",
+          "bytes": 55275032,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam08",
+          "sorted_pose_row": 8,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam08.mp4",
+          "bytes": 58293200,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam09",
+          "sorted_pose_row": 9,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam09.mp4",
+          "bytes": 55915493,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam10",
+          "sorted_pose_row": 10,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam10.mp4",
+          "bytes": 59136209,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam11",
+          "sorted_pose_row": 11,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam11.mp4",
+          "bytes": 56337985,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam12",
+          "sorted_pose_row": 12,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam12.mp4",
+          "bytes": 56245431,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam13",
+          "sorted_pose_row": 13,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam13.mp4",
+          "bytes": 54094482,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam14",
+          "sorted_pose_row": 14,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam14.mp4",
+          "bytes": 54955086,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam15",
+          "sorted_pose_row": 15,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam15.mp4",
+          "bytes": 55228926,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam16",
+          "sorted_pose_row": 16,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam16.mp4",
+          "bytes": 54999989,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam17",
+          "sorted_pose_row": 17,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam17.mp4",
+          "bytes": 56494436,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam18",
+          "sorted_pose_row": 18,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam18.mp4",
+          "bytes": 54845537,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam19",
+          "sorted_pose_row": 19,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam19.mp4",
+          "bytes": 55519703,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam20",
+          "sorted_pose_row": 20,
+          "path": "E:\\4DGS\\data\\flame_steak\\cam20.mp4",
+          "bytes": 53326597,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        }
+      ],
+      "camera_pose_count_match": true,
+      "morgs_points_present": false,
+      "sparse_present": false
+    },
+    {
+      "scene": "sear_steak",
+      "path": "E:\\4DGS\\data\\sear_steak",
+      "poses_shape": [
+        21,
+        17
+      ],
+      "poses_finite": true,
+      "poses_sha256": "e436726227fbdcab1095aa326b98cfc32be5da535a9137b9ed157e9a1640e465",
+      "cameras": [
+        {
+          "camera": "cam00",
+          "sorted_pose_row": 0,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam00.mp4",
+          "bytes": 56141308,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam01",
+          "sorted_pose_row": 1,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam01.mp4",
+          "bytes": 65350976,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam02",
+          "sorted_pose_row": 2,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam02.mp4",
+          "bytes": 62816638,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam03",
+          "sorted_pose_row": 3,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam03.mp4",
+          "bytes": 62755064,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam04",
+          "sorted_pose_row": 4,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam04.mp4",
+          "bytes": 57896042,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam05",
+          "sorted_pose_row": 5,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam05.mp4",
+          "bytes": 55562941,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam06",
+          "sorted_pose_row": 6,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam06.mp4",
+          "bytes": 55288059,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam07",
+          "sorted_pose_row": 7,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam07.mp4",
+          "bytes": 54469403,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam08",
+          "sorted_pose_row": 8,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam08.mp4",
+          "bytes": 58181829,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam09",
+          "sorted_pose_row": 9,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam09.mp4",
+          "bytes": 55562785,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam10",
+          "sorted_pose_row": 10,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam10.mp4",
+          "bytes": 58132117,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam11",
+          "sorted_pose_row": 11,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam11.mp4",
+          "bytes": 55454303,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam12",
+          "sorted_pose_row": 12,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam12.mp4",
+          "bytes": 55317535,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam13",
+          "sorted_pose_row": 13,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam13.mp4",
+          "bytes": 53741529,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam14",
+          "sorted_pose_row": 14,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam14.mp4",
+          "bytes": 54693384,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam15",
+          "sorted_pose_row": 15,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam15.mp4",
+          "bytes": 54758680,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam16",
+          "sorted_pose_row": 16,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam16.mp4",
+          "bytes": 54360476,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam17",
+          "sorted_pose_row": 17,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam17.mp4",
+          "bytes": 55879759,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam18",
+          "sorted_pose_row": 18,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam18.mp4",
+          "bytes": 54343560,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam19",
+          "sorted_pose_row": 19,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam19.mp4",
+          "bytes": 54932906,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        },
+        {
+          "camera": "cam20",
+          "sorted_pose_row": 20,
+          "path": "E:\\4DGS\\data\\sear_steak\\cam20.mp4",
+          "bytes": 52759230,
+          "opened": true,
+          "frames": 300,
+          "width": 2704,
+          "height": 2028,
+          "fps": 30.0,
+          "sampled_frames": {
+            "0": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "89": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            },
+            "299": {
+              "decoded": true,
+              "shape": [
+                2028,
+                2704,
+                3
+              ]
+            }
+          },
+          "existing_images": 0
+        }
+      ],
+      "camera_pose_count_match": true,
+      "morgs_points_present": false,
+      "sparse_present": false
+    }
+  ],
+  "meet_room_local_candidates": []
+}

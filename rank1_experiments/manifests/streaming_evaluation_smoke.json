@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "max_per_frame_errors": {
+    "PSNR": 0.0,
+    "SSIM": 0.0,
+    "LPIPS": 0.0
+  },
+  "synthetic_fixture": true,
+  "baseline_results": false,
+  "metadata": {
+    "adapter": "Local streaming image evaluation; upstream metric definitions unchanged",
+    "model_path": "E:\\4D_Gaussian\\rank1_experiments\\smoke\\metrics_contract",
+    "cameras": 1,
+    "frames": 2,
+    "seconds": 0.8957650000011199,
+    "peak_allocated": 87048192,
+    "peak_reserved": 92274688
+  }
+}

@@ -1,0 +1,44 @@
+--- phase02_teacher_cache.py
++++ phase03_teacher_dev.py
+@@ -15,12 +15,12 @@
+ WORK=ROOT/'working/MoRGS';sys.path.insert(0,str(WORK))
+ CKPT=ROOT/'weights/Tartan-C-T-TSKH-spring540x960-M.pth'
+ CFG=WORK/'RAFT/config/eval/spring-M.json'
+-CACHE=ROOT/'cache/teachers/dev'
++CACHE=ROOT/'cache/teachers/dev_phase03'
+ def image(scene,cam,frame):
+     assert cam in FLOW[scene] and cam not in ['cam00','cam01']
+     p=ROOT/f'data/dynerf/dev/train/{scene}/{cam}/{frame:04d}.png'
+     a=np.asarray(Image.open(p).convert('RGB')).copy()
+-    return torch.from_numpy(a).permute(2,0,1).float().cuda()/255
++    return torch.from_numpy(a).permute(2,0,1).float().div(255).cuda()
+ def pair_path(scene,cam,a,b):return CACHE/f'{scene}/{cam}/{a:04d}_{b:04d}.npz'
+ def fb_mask(f,b):
+     _,_,h,w=f.shape
+@@ -38,7 +38,7 @@
+     return dict(scene=scene,camera=cam,source_frame=a,target_frame=b,shape_hw=[507,676],
+       flow_units='destination pixel displacement on source image grid; x right/y down',
+       reference_wh=[1352,1014],checkpoint_sha256=sha(CKPT),config_sha256=sha(CFG),
+-      code_sha256=sha(WORK/'scene/utils.py'),input_range='RGB float32 [0,1], upstream MoRGS behavior',
++      code_sha256=sha(WORK/'scene/utils.py'),input_range='RGB uint8 converted to float32 /255 on CPU, then CUDA; exact training ToTensor path',
+       b0_precision='float32 lossless',shared_precision='float16',
+       shared_change='y*=507/506 after upstream odd-height resize; input normalization unchanged',
+       b0_valid_mask='all pixels; shared_valid must NEVER be applied to original B0 loss',
+@@ -48,7 +48,7 @@
+     from scene.utils import get_flow_model,get_flow
+     torch.backends.cuda.matmul.allow_tf32=True;torch.backends.cudnn.allow_tf32=True
+     model=get_flow_model(str(CKPT),str(CFG));assert not model.training
+-    manifest_path=ROOT/'manifests/teacher_manifest.json'
++    manifest_path=ROOT/'manifests/phase03_teacher_dev.json'
+     record=dict(status='IN_PROGRESS',protocol='dev90',models=dict(raft=str(CKPT),raft_sha256=sha(CKPT),
+        raft_config=str(CFG),config_sha256=sha(CFG),sam2=str(ROOT/'weights/sam2.1_hiera_large.pt'),
+        sam2_sha256=sha(ROOT/'weights/sam2.1_hiera_large.pt')),flow_records=[],sam_records=[],
+@@ -100,7 +100,7 @@
+                   raft_gpu_unloaded=True);save(manifest_path,record)
+ def sam():
+     from scene.utils import get_sam2_model,get_sam2_mask
+-    manifest_path=ROOT/'manifests/teacher_manifest.json';record=json.loads(manifest_path.read_text(encoding='utf-8'))
++    manifest_path=ROOT/'manifests/phase03_teacher_dev.json';record=json.loads(manifest_path.read_text(encoding='utf-8'))
+     assert record['raft_status']=='PASS'
+     predictor=get_sam2_model(str(ROOT/'weights/sam2.1_hiera_large.pt'),'configs/sam2.1/sam2.1_hiera_l.yaml')
+     assert not predictor.training

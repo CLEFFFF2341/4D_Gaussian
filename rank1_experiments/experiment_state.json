@@ -1,0 +1,385 @@
+{
+  "updated_at": "2026-10-11T03:22:31.251478+08:00",
+  "last_audit_run_ended_at": "2026-10-11T00:02:54.348831+08:00",
+  "start_time": "2026-10-10T22:33:30+08:00",
+  "timezone": "Asia/Shanghai",
+  "scope": "Phase03 B0 compatibility: loader-exact caches, isolated evaluation, resume, dev90 x2, formal dense300; paper-number reproduction separately bounded",
+  "phase": "03",
+  "status": "PASS",
+  "source_sha": "5c62ae88b8fb2e3d4213329dd1ec3a61c66f8902",
+  "patch_sha": "372324a93039820c07a9ab40cae52b52b1dc669ca1d71ec4430d689691c8b4c0",
+  "manifests": {
+    "source_lock.json": "54e3a7db6fe4a6b4d3a32fef8536859ff2465444cb540e139aab6fc6d0773e40",
+    "environment.json": "808467ccee95499a90302dfe4160c58e6c1c080f047c5cbc5f22455ae53d5add",
+    "teacher_dependencies.json": "bcd307cd03b75d6a010a28c93bb2ac0b332c5e65f11f702cf1dfcc58ddc00227",
+    "weight_lock.json": "5712c7a7019ecc5ca754a1b0f063db0c0a2cd67ae89d5dd784777496694aa2c3",
+    "working_source_delta.json": "20cdb7ff9753d9a0e391402866cf626f43f74550ab1b2c9aa02e8718686790e4",
+    "conda_package_lock.json": "24fdee7347c0841789ae13ee2e54dbf2b8167f8bf4b9467f5e6618f7d900705b",
+    "native_wheel_lock.json": "4af750a98e3785526dca683c9b6ebe6a3040d07f0db473af618c926e1e07b382",
+    "official_knn_smoke.json": "d8e0143bdf41dde394464dd40fb4b007fa1de54e3feea1a1bd4fd44301090b5b",
+    "official_raster_smoke.json": "b1e1c6b789ca8148e3f98a93c2f0d8dda8e9872b8307709b5063b1cb2b36ebc3",
+    "official_codec_smoke.json": "127ec50af1e53ceecc7286834e1e4f47a32eb0a5eb9c588f0cf7f50bd0df16a1",
+    "official_model_smoke.json": "121bae310ecfd5616cdad86273b6cb2bc3acf50c017de03a0be49c88496ef6b0",
+    "teacher_convert_smoke.json": "b3c9348c6caa65d63af65bd819db8ad1b00f4ef8e8dbc696e2049f44a2bdc35d",
+    "teacher_raft_smoke.json": "9e34be343f26521f936b5e278f8f7be77489d2cdebd926dca4201c1c294dec47",
+    "teacher_sam_smoke.json": "53ffcf8f3b96896163177aee9b28805b3c23a21c7f54e43d437d3a920d9548a1",
+    "streaming_evaluation_smoke.json": "199223845498fc698dcb6be040b06de11d8a8fdb7dfe318bf69be5fb35df7f92",
+    "windows_camera_paths_test.json": "29a73f76b52e950a2e4bfb8f929d24d5a670070f8616682a2bcf4a7c21151e9b",
+    "native_probe_official_mask_stride_8.json": "1f181c98ef0e6d13b5e535f59ba141892a4a5d023cccae44801418ac70a994a5",
+    "dataset_manifest.json": "3444c0d2c3084b3b41ca72e8a6801a3062399fde9c61d658071bb9802e4c757f",
+    "splits_dev.json": "bccbd2812b2d849708d8c155b4c0f8263721af49b47ecd40b9a850c54ecbefcd",
+    "splits_final.json": "73a9abfa9126beaa007a8dad794a55b8cdfc4ef9fcd7269b7fd13097de35017d",
+    "teacher_manifest.json": "09715d4ddbb630337e726f0832870535ecff3672c23c0c21350b1dcb6e70ea9b",
+    "teacher_cache_verification.json": "be92e0a80bb95a0b1664607ee0b4453f4591057f19972f115c48deabf7fc6f00",
+    "phase02_loader_checks.json": "eb58c128eae349aecdcfd5c3a5d9ec1a50e520bb8ee7b63648c9df0df2b04b63",
+    "phase02_numerical_checks.json": "6e4001a03acaeeb7ddf2d5385241ec14770b4da37302dfb0597e94a25e541bdb",
+    "video_timestamp_audit.json": "2e1476d7a3fc1232a6defaff7bbee7f432b9a0915ed934e65d5cec46ac3644a9",
+    "meetroom_manifest.json": "1fb467ed1d8940fed319b89257e3b8d976d522fdb3efcf28c10ccea348b19695",
+    "phase02_source_patch.json": "251513eb3b576732324b900b1b0cf7a1b97ca97ad34c6a4e18d04b305c7b4edc",
+    "phase02_artifact_lock.json": "e97e0e9eb548224fd29272d45ed765e3f093e84848bb935cb1916ec609b8df9b",
+    "phase03_artifact_lock.json": "b57fc005e68b8c18ed697640deea91a7b45e9432c69aa1df99e2d0bce7654d40",
+    "phase03_cache_input_precision.json": "55527380e6a8a97ddd245f6058dedbc1fef83c5bfd990ae979bc1c688be65691",
+    "phase03_cache_metadata_check.json": "bdf71a986362630d8ee7d35da825f21a6415865e828bf88c879074311ba5ebd4",
+    "phase03_dense_final_coffee_martini.json": "523cc18a7bc3d62833ea55a0601b280f9409cb03c0e0d6d6567770b181215a72",
+    "phase03_dense_pose_check.json": "50182a6418e65e14c8613bdb9543061676e88ccc18e6e99b315a0b618eb00ec4",
+    "phase03_eval_selftest.json": "9a866d17214909565cf8df1932a95c89d3fddcaef7e7aafb1b50408ddd63418d",
+    "phase03_loss_preservation.json": "97878c6d4d9d070a7a0d8a95e7a86be6ee1e34d93d67e60f1bc3b4449da98cc0",
+    "phase03_resume_check.json": "5943b7c962eb2dac97397b8c9da34b5a6da453d0ceef11857b4a386e0c370d02",
+    "phase03_source_verification.json": "3abf63ed650fafdbe1d90f76045a6830a2a1e0f45ae5ea545ab5192595182c23",
+    "phase03_teacher_dev.json": "5ee8fe563518d56942f8904e49cb2f7499849abb8c203518e8493ab7aa2c749c",
+    "phase03_teacher_final.json": "7fa6f816d8b0f99ecbfea10a20dc3866353e046d3c80cb46ab2d681d20c8e015",
+    "phase03_teacher_training_equivalence.json": "0999d531a2afbc7ccc56a62fe3fed457a9a2376531e39679f5f1f2f22f1b1007",
+    "phase03_visual_qa.json": "2f068467f1e6d253c47e87d93428b1793f44c99ece659a7182fe9cca40b08c95"
+  },
+  "completed": [
+    "Pinned source archive and all original file hashes",
+    "GPU tensor smoke",
+    "Native rasterizer build and tiny forward/backward",
+    "Mask-stride bug reproduction and isolated correction regression",
+    "Native flow scale diagnostic",
+    "Upstream argument parsing",
+    "Actual camera UID mapping",
+    "Geometry-property CPU gradient probe",
+    "Teacher imports and SAM2 config composition",
+    "Six-scene inventory and two-scene decoding audit",
+    "Save/restore/UID and evaluation source audit",
+    "Pinned official core environment recovered offline",
+    "All native operators tested in target versions",
+    "Strict SEA-RAFT weight conversion and bidirectional inference",
+    "SAM2 checkpoint, CUDA postprocessing and two-frame propagation",
+    "Actual GaussianModel two-frame render/backward/optimizer smoke",
+    "Upstream metrics contract and equivalent streaming adapter"
+  ],
+  "unmet": [],
+  "continue_gate_passed": true,
+  "phase02": "PASS",
+  "phase03": "PASS",
+  "training_results": null,
+  "next_actions": [
+    "Execute phase 02 using the repaired environment and pinned teachers",
+    "Create separate dynerf data tree; freeze camera splits and original-ID teacher mapping",
+    "Verify initialization provenance and reprojection before phase 03"
+  ],
+  "recovery_prompt": "E:\\4D_Gaussian\\rank1_experiments\\RESUME_PROMPT.txt",
+  "baseline_reproduction_complete": false,
+  "recovery_first_logged_at": "2026-10-10T23:17:17.787718+08:00",
+  "official_environment": "E:\\4D_Gaussian\\rank1_experiments\\envs\\morgs-cu121",
+  "working_source": "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS",
+  "phase01_gate": {
+    "cuda": true,
+    "native_operators": true,
+    "pretrained_teachers": true,
+    "source_lock": true,
+    "configuration_and_training_entry": true,
+    "evaluation_entry": true
+  },
+  "future_validation": [
+    "End-to-end cached-vs-online B0 behavior after training adapter integration",
+    "Author dense initialization pipeline before any paper-number comparison",
+    "Source-grid/flow projection and offset controls",
+    "Densification identity and full checkpoint/resume",
+    "Full baseline quality, training memory/duration/FPS",
+    "Low upstream B0 motion-mask coverage and confidence activation",
+    "Formal 300-frame teacher caches",
+    "Meet Room video downloads/decode and image-level pose verification"
+  ],
+  "patches": {
+    "mask_stride_8.patch": "372324a93039820c07a9ab40cae52b52b1dc669ca1d71ec4430d689691c8b4c0",
+    "windows_camera_paths.patch": "b11ca00cf77c70da158857ffc1b43129bfb6b4acddc81e970ff3b3da0157a9f7",
+    "phase02_data_isolation.patch": "4811105ee6defb0f71c21918556dcca9f994695112b26bbfbb5c0e7962ea3960"
+  },
+  "initial_audit_elapsed_seconds": 2180.229518,
+  "audit_span_seconds": 5364.348831,
+  "phase02_started_at": "2026-10-11T00:33:04.863741+08:00",
+  "phase02_gate": {
+    "data_complete": true,
+    "camera_reprojection": true,
+    "teacher_cache": true,
+    "split_isolation": true
+  },
+  "phase01": "PASS",
+  "phase02_finished_at": "2026-10-11T01:12:02.305536+08:00",
+  "next_phase": "04",
+  "next_action": "Integrate isolated validation/evaluation and teacher replay; complete checkpoint/resume; then 10-frame strict-development B0 smoke.",
+  "phase02_protocol_differences": [
+    "Train-only sparse calibrated SIFT point cloud instead of author dense COLMAP pipeline",
+    "Physically isolated dev cam01 validation and final cam00 test RGB",
+    "Original B0 FP32 teacher labels separate from shared axis-resize/FB-mask FP16 labels"
+  ],
+  "phase02_report": "E:\\4D_Gaussian\\rank1_experiments\\reports\\phase02_data_audit.md",
+  "phase03_started": "2026-10-11T01:41:27.810011+08:00",
+  "baseline_execution_complete": true,
+  "phase03_runs": [
+    {
+      "protocol": "dev",
+      "scene": "coffee_martini",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact",
+      "expected_frames": 90,
+      "actual_frames": 90,
+      "training_complete": true,
+      "evaluation": {
+        "unified_fp32": {
+          "PSNR": 20.794368531968857,
+          "SSIM": 0.8201480031013488,
+          "LPIPS": 0.2796741545200348
+        },
+        "author_png8": {
+          "PSNR": 20.793711365593804,
+          "SSIM": 0.8194843365086449,
+          "LPIPS": 0.20755337609185112
+        },
+        "frames": 90,
+        "role": "validation",
+        "seconds": 13.13310079999792,
+        "rendering_fps": 575.72807205712,
+        "rendering_fps_definition": "one synchronized decoded-snapshot render per evaluated image; loading excluded",
+        "full_model_rendering_fps": 355.5996273359974,
+        "full_model_fps_definition": "original GaussianModel including decoders; 1 warmup +5 timed renders per retained checkpoint, loading excluded",
+        "full_model_snapshot_checks": [
+          {
+            "frame": 1,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 2,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 5,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 10,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 30,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 60,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 90,
+            "abs_max": 0.0
+          }
+        ],
+        "peak_allocated": 731885568,
+        "peak_reserved": 903872512
+      },
+      "contiguous_frames": true,
+      "evaluation_complete": true,
+      "training_and_save_seconds": 391.7476760000063,
+      "peak_allocated": 1283996160,
+      "peak_reserved": 1644167168,
+      "max_points": 335087,
+      "cpu_rss": 1778446336,
+      "initial_training_and_save_seconds": 94.21984230000089,
+      "shared_initial_checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\coffee_martini\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+      "shared_initial_saved_seconds_per_branch": 94.21984230000089,
+      "initial_reused_from": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\smoke\\coffee_martini\\continuous_loader_exact",
+      "disk_bytes": 8660497940,
+      "update_author_frame_seconds": 271.2400000000001,
+      "update_author_frame_seconds_definition": "Author synchronized frame timer; initial10000 excluded; includes phase03 checkpoint I/O and training-camera diagnostics, excludes offline teachers."
+    },
+    {
+      "protocol": "dev",
+      "scene": "cut_roasted_beef",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact",
+      "expected_frames": 90,
+      "actual_frames": 90,
+      "training_complete": true,
+      "evaluation": {
+        "unified_fp32": {
+          "PSNR": 21.924546432495116,
+          "SSIM": 0.8500790105925666,
+          "LPIPS": 0.259510514471266
+        },
+        "author_png8": {
+          "PSNR": 21.923670366075303,
+          "SSIM": 0.8492738558186426,
+          "LPIPS": 0.19078827765252854
+        },
+        "frames": 90,
+        "role": "validation",
+        "seconds": 11.401386500001536,
+        "rendering_fps": 613.7898110769337,
+        "rendering_fps_definition": "one synchronized decoded-snapshot render per evaluated image; loading excluded",
+        "full_model_rendering_fps": 425.3219687146458,
+        "full_model_fps_definition": "original GaussianModel including decoders; 1 warmup +5 timed renders per retained checkpoint, loading excluded",
+        "full_model_snapshot_checks": [
+          {
+            "frame": 1,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 2,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 5,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 10,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 30,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 60,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 90,
+            "abs_max": 0.0
+          }
+        ],
+        "peak_allocated": 639490560,
+        "peak_reserved": 836763648
+      },
+      "contiguous_frames": true,
+      "evaluation_complete": true,
+      "training_and_save_seconds": 443.7770782999869,
+      "peak_allocated": 1043277824,
+      "peak_reserved": 1319108608,
+      "max_points": 203403,
+      "cpu_rss": 1720508416,
+      "initial_training_and_save_seconds": 128.18540129999747,
+      "shared_initial_checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\dev\\cut_roasted_beef\\seed0_loader_exact\\checkpoints\\frame_0001.pt",
+      "shared_initial_saved_seconds_per_branch": 128.18540129999747,
+      "initial_reused_from": null,
+      "disk_bytes": 5595686534,
+      "update_author_frame_seconds": 285.52000000000004,
+      "update_author_frame_seconds_definition": "Author synchronized frame timer; initial10000 excluded; includes phase03 checkpoint I/O and training-camera diagnostics, excludes offline teachers."
+    },
+    {
+      "protocol": "final",
+      "scene": "coffee_martini",
+      "run": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense",
+      "expected_frames": 300,
+      "actual_frames": 300,
+      "training_complete": true,
+      "evaluation": {
+        "unified_fp32": {
+          "PSNR": 28.754487005869546,
+          "SSIM": 0.9158935538927714,
+          "LPIPS": 0.20831010306874911
+        },
+        "author_png8": {
+          "PSNR": 28.750339228312175,
+          "SSIM": 0.9150841714938481,
+          "LPIPS": 0.14579487030704816
+        },
+        "frames": 300,
+        "role": "test",
+        "seconds": 104.04648989999987,
+        "rendering_fps": 290.9178360620968,
+        "rendering_fps_definition": "one synchronized decoded-snapshot render per evaluated image; loading excluded",
+        "full_model_rendering_fps": 234.18020704467068,
+        "full_model_fps_definition": "original GaussianModel including decoders; 1 warmup +5 timed renders per retained checkpoint, loading excluded",
+        "full_model_snapshot_checks": [
+          {
+            "frame": 1,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 2,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 5,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 10,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 30,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 60,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 90,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 120,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 150,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 180,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 210,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 240,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 270,
+            "abs_max": 0.0
+          },
+          {
+            "frame": 300,
+            "abs_max": 0.0
+          }
+        ],
+        "peak_allocated": 2287531520,
+        "peak_reserved": 3284140032
+      },
+      "contiguous_frames": true,
+      "evaluation_complete": true,
+      "training_and_save_seconds": 2408.8003959000125,
+      "peak_allocated": 3317300736,
+      "peak_reserved": 4913627136,
+      "max_points": 506575,
+      "cpu_rss": 2266451968,
+      "initial_training_and_save_seconds": 270.7428583000001,
+      "shared_initial_checkpoint": "E:\\4D_Gaussian\\rank1_experiments\\runs\\B0\\final\\coffee_martini\\seed0_dense\\checkpoints\\frame_0001.pt",
+      "shared_initial_saved_seconds_per_branch": 270.7428583000001,
+      "initial_reused_from": null,
+      "disk_bytes": 40547352279,
+      "update_author_frame_seconds": 1933.1000000000001,
+      "update_author_frame_seconds_definition": "Author synchronized frame timer; initial10000 excluded; includes phase03 checkpoint I/O and training-camera diagnostics, excludes offline teachers."
+    }
+  ],
+  "baseline_quality_scope": "Execution/alignment verified; development sparse-init coverage and later cut quality decline remain limitations; paper numbers not reproduced.",
+  "phase03_finished": "2026-10-11T03:22:31.251478+08:00",
+  "active_artifact_lock": "manifests/phase03_artifact_lock.json",
+  "phase03_report": "reports/phase03_baseline.md"
+}

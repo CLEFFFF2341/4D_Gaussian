@@ -1,0 +1,735 @@
+{
+  "status": "PASS",
+  "scene": "coffee_martini",
+  "protocol": "final",
+  "points": 7570,
+  "voxel_world_units": 0.0034180407403915287,
+  "ply_path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\points3D_downsample2.ply",
+  "ply_sha256": "da8826344ad42765b6cf4959a354ba301688b7b1413e023c5f7e968eeae55309",
+  "initialization": "Calibrated sparse SIFT triangulation, not author dense COLMAP pipeline",
+  "accessed_rgb": [
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam01\\0000.png",
+      "sha256": "985819505008d38c8c77d89d9ce2ac96b5aa0ee554fca696a8bfbb09ac8b5dcc",
+      "frame": 0,
+      "camera": "cam01"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam02\\0000.png",
+      "sha256": "69d3c73e26e16641694a26c5ab61dd0737726bb72fe9eabd61020bac9866f42d",
+      "frame": 0,
+      "camera": "cam02"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam04\\0000.png",
+      "sha256": "9c29003413d86b1963674f8dea4eb263741ffa8cbafcacedc977497dcc077f7c",
+      "frame": 0,
+      "camera": "cam04"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam05\\0000.png",
+      "sha256": "be1bd8c5b07a8d20bf93a9439e3f5631f1eba7bf1188594e8c33d01dada9478b",
+      "frame": 0,
+      "camera": "cam05"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam06\\0000.png",
+      "sha256": "9635b3e6d5d4a03cea4abffed6479568b637ee889264127468c9a358e28740c7",
+      "frame": 0,
+      "camera": "cam06"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam07\\0000.png",
+      "sha256": "a0514dcf55241e6b9376a404c198a921d6e56ba5e8ccb42253fc080d8ae747a5",
+      "frame": 0,
+      "camera": "cam07"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam08\\0000.png",
+      "sha256": "b59ecd740c7abccb48f2b9f023140c72b5047989c44b229fa7405048cbc254bf",
+      "frame": 0,
+      "camera": "cam08"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam09\\0000.png",
+      "sha256": "7d6a662a4f94c81b34bdc3c11d9571b2ed5a372d3f7edca68d155316b3fba0b5",
+      "frame": 0,
+      "camera": "cam09"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam10\\0000.png",
+      "sha256": "700df9c8bd1241cd1caae5bb8d0d39330c844e889749c0f4d65d91fc5a46e57a",
+      "frame": 0,
+      "camera": "cam10"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam11\\0000.png",
+      "sha256": "c8a54af0cd981a31592ecaf4a080dc3aa11ba3c7ec25e5ea0b4eecc5d9e883e2",
+      "frame": 0,
+      "camera": "cam11"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam12\\0000.png",
+      "sha256": "54318b4f9e512925ec9cb84c2ee01ee6693b97741292b01390fece548625d90b",
+      "frame": 0,
+      "camera": "cam12"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam13\\0000.png",
+      "sha256": "fb6db73463347384c486a709215adf5971cf9c5e5e2983a6c6f8685b67acdb3a",
+      "frame": 0,
+      "camera": "cam13"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam14\\0000.png",
+      "sha256": "88034c6773b79d3a112ae8bb80ceca9bc498c7803d6e58fcbc9f3565fa8634b2",
+      "frame": 0,
+      "camera": "cam14"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam16\\0000.png",
+      "sha256": "9e93da823ed1d8d78a9eba2bc284ca27afdf8f40bc79cb9cd7f6e8b9de30a369",
+      "frame": 0,
+      "camera": "cam16"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam18\\0000.png",
+      "sha256": "007ffddbbfe82d5374c5e52f21cbc40ee355352068b893472e5b7a69b8a966de",
+      "frame": 0,
+      "camera": "cam18"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam19\\0000.png",
+      "sha256": "71d07ab291c2f229eb8db77ab4057ea8d7d5aa8a7609e60bd707599387b2e70b",
+      "frame": 0,
+      "camera": "cam19"
+    },
+    {
+      "path": "E:\\4D_Gaussian\\rank1_experiments\\data\\dynerf\\final\\train\\coffee_martini\\cam20\\0000.png",
+      "sha256": "df0cb74819cc044123c492ebeb2195f51c22439b21d7416f20721ba60f902f54",
+      "frame": 0,
+      "camera": "cam20"
+    }
+  ],
+  "public_calibration": "E:\\4DGS\\data\\coffee_martini\\poses_bounds.npy",
+  "test_rgb_accesses": 0,
+  "validation_rgb_accesses": "cam01 is training in final protocol",
+  "correct_epipolar_median_inlier_fraction": 0.7578125,
+  "wrong_row_control_median_inlier_fraction": 0.011494252873563218,
+  "coordinate_convention": "LLFF stored down/right/back -> CV right/down/front; w2c=R.T,-R.T*C",
+  "distortion": "No coefficients in poses_bounds; inherited release processing. No new undistortion applied.",
+  "b0_vs_half_pixel_principal_delta_dev_pixels": 0.125,
+  "pairs": [
+    {
+      "cameras": [
+        "cam01",
+        "cam02"
+      ],
+      "ratio_matches": 458,
+      "triangulated": 402,
+      "epipolar_median": 0.21550950560287474,
+      "wrong_row_epipolar_median": 4.71976620044207,
+      "correct_epipolar_inlier_fraction": 0.8973799126637555,
+      "wrong_epipolar_inlier_fraction": 0.10262008733624454,
+      "accepted_reprojection_median": 0.1322537922860347
+    },
+    {
+      "cameras": [
+        "cam01",
+        "cam04"
+      ],
+      "ratio_matches": 183,
+      "triangulated": 150,
+      "epipolar_median": 0.2429263900970569,
+      "wrong_row_epipolar_median": 3.153086373441725,
+      "correct_epipolar_inlier_fraction": 0.825136612021858,
+      "wrong_epipolar_inlier_fraction": 0.1366120218579235,
+      "accepted_reprojection_median": 0.12763105293224156
+    },
+    {
+      "cameras": [
+        "cam01",
+        "cam11"
+      ],
+      "ratio_matches": 130,
+      "triangulated": 74,
+      "epipolar_median": 0.9312809160868485,
+      "wrong_row_epipolar_median": 2.9402058467842602,
+      "correct_epipolar_inlier_fraction": 0.5769230769230769,
+      "wrong_epipolar_inlier_fraction": 0.15384615384615385,
+      "accepted_reprojection_median": 0.4151483322409699
+    },
+    {
+      "cameras": [
+        "cam01",
+        "cam12"
+      ],
+      "ratio_matches": 105,
+      "triangulated": 57,
+      "epipolar_median": 0.944484411296617,
+      "wrong_row_epipolar_median": 86.45311462231193,
+      "correct_epipolar_inlier_fraction": 0.5428571428571428,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.3266221598924862
+    },
+    {
+      "cameras": [
+        "cam01",
+        "cam13"
+      ],
+      "ratio_matches": 123,
+      "triangulated": 72,
+      "epipolar_median": 0.6579288197677272,
+      "wrong_row_epipolar_median": 14.434686258591224,
+      "correct_epipolar_inlier_fraction": 0.5853658536585366,
+      "wrong_epipolar_inlier_fraction": 0.008130081300813009,
+      "accepted_reprojection_median": 0.23838505442016703
+    },
+    {
+      "cameras": [
+        "cam02",
+        "cam04"
+      ],
+      "ratio_matches": 323,
+      "triangulated": 271,
+      "epipolar_median": 0.31653124719244896,
+      "wrong_row_epipolar_median": 4.992946522145686,
+      "correct_epipolar_inlier_fraction": 0.8421052631578947,
+      "wrong_epipolar_inlier_fraction": 0.03715170278637771,
+      "accepted_reprojection_median": 0.18149650216396834
+    },
+    {
+      "cameras": [
+        "cam02",
+        "cam05"
+      ],
+      "ratio_matches": 252,
+      "triangulated": 201,
+      "epipolar_median": 0.30739328579570646,
+      "wrong_row_epipolar_median": 6.368991006427113,
+      "correct_epipolar_inlier_fraction": 0.8015873015873016,
+      "wrong_epipolar_inlier_fraction": 0.047619047619047616,
+      "accepted_reprojection_median": 0.17330055156100926
+    },
+    {
+      "cameras": [
+        "cam02",
+        "cam11"
+      ],
+      "ratio_matches": 147,
+      "triangulated": 112,
+      "epipolar_median": 0.42531742953341733,
+      "wrong_row_epipolar_median": 27.99950119540688,
+      "correct_epipolar_inlier_fraction": 0.7619047619047619,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.2241170312345466
+    },
+    {
+      "cameras": [
+        "cam02",
+        "cam12"
+      ],
+      "ratio_matches": 120,
+      "triangulated": 88,
+      "epipolar_median": 0.537276811356169,
+      "wrong_row_epipolar_median": 123.79206132809159,
+      "correct_epipolar_inlier_fraction": 0.7333333333333333,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.3025305908447162
+    },
+    {
+      "cameras": [
+        "cam02",
+        "cam13"
+      ],
+      "ratio_matches": 162,
+      "triangulated": 112,
+      "epipolar_median": 0.43558887504610316,
+      "wrong_row_epipolar_median": 36.27035088975437,
+      "correct_epipolar_inlier_fraction": 0.691358024691358,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.17274611062767886
+    },
+    {
+      "cameras": [
+        "cam04",
+        "cam05"
+      ],
+      "ratio_matches": 560,
+      "triangulated": 504,
+      "epipolar_median": 0.16073578882315287,
+      "wrong_row_epipolar_median": 3.628876207227302,
+      "correct_epipolar_inlier_fraction": 0.9196428571428571,
+      "wrong_epipolar_inlier_fraction": 0.16607142857142856,
+      "accepted_reprojection_median": 0.1001991049341483
+    },
+    {
+      "cameras": [
+        "cam04",
+        "cam13"
+      ],
+      "ratio_matches": 218,
+      "triangulated": 158,
+      "epipolar_median": 0.42698607644597886,
+      "wrong_row_epipolar_median": 8.931435236465656,
+      "correct_epipolar_inlier_fraction": 0.7247706422018348,
+      "wrong_epipolar_inlier_fraction": 0.013761467889908258,
+      "accepted_reprojection_median": 0.1932941856311634
+    },
+    {
+      "cameras": [
+        "cam04",
+        "cam14"
+      ],
+      "ratio_matches": 256,
+      "triangulated": 205,
+      "epipolar_median": 0.37019074858903234,
+      "wrong_row_epipolar_median": 32.31731999680281,
+      "correct_epipolar_inlier_fraction": 0.8046875,
+      "wrong_epipolar_inlier_fraction": 0.00390625,
+      "accepted_reprojection_median": 0.21603641551071248
+    },
+    {
+      "cameras": [
+        "cam05",
+        "cam06"
+      ],
+      "ratio_matches": 261,
+      "triangulated": 205,
+      "epipolar_median": 0.25809093150265006,
+      "wrong_row_epipolar_median": 8.495361574997538,
+      "correct_epipolar_inlier_fraction": 0.8237547892720306,
+      "wrong_epipolar_inlier_fraction": 0.011494252873563218,
+      "accepted_reprojection_median": 0.12468213359033434
+    },
+    {
+      "cameras": [
+        "cam05",
+        "cam14"
+      ],
+      "ratio_matches": 242,
+      "triangulated": 209,
+      "epipolar_median": 0.22269100679888898,
+      "wrong_row_epipolar_median": 13.636415861279811,
+      "correct_epipolar_inlier_fraction": 0.8677685950413223,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.12068302102805822
+    },
+    {
+      "cameras": [
+        "cam05",
+        "cam16"
+      ],
+      "ratio_matches": 128,
+      "triangulated": 97,
+      "epipolar_median": 0.2702819347477424,
+      "wrong_row_epipolar_median": 7.588143307752436,
+      "correct_epipolar_inlier_fraction": 0.7578125,
+      "wrong_epipolar_inlier_fraction": 0.0390625,
+      "accepted_reprojection_median": 0.14056719331194267
+    },
+    {
+      "cameras": [
+        "cam06",
+        "cam07"
+      ],
+      "ratio_matches": 419,
+      "triangulated": 343,
+      "epipolar_median": 0.18175489376644993,
+      "wrong_row_epipolar_median": 2.234374610368313,
+      "correct_epipolar_inlier_fraction": 0.8949880668257757,
+      "wrong_epipolar_inlier_fraction": 0.3198090692124105,
+      "accepted_reprojection_median": 0.10968191414073485
+    },
+    {
+      "cameras": [
+        "cam06",
+        "cam08"
+      ],
+      "ratio_matches": 305,
+      "triangulated": 222,
+      "epipolar_median": 0.21669688897873796,
+      "wrong_row_epipolar_median": 8.298884602639788,
+      "correct_epipolar_inlier_fraction": 0.7868852459016393,
+      "wrong_epipolar_inlier_fraction": 0.006557377049180328,
+      "accepted_reprojection_median": 0.11382457300834724
+    },
+    {
+      "cameras": [
+        "cam06",
+        "cam09"
+      ],
+      "ratio_matches": 190,
+      "triangulated": 141,
+      "epipolar_median": 0.36287876304045846,
+      "wrong_row_epipolar_median": 9.303654977655224,
+      "correct_epipolar_inlier_fraction": 0.7473684210526316,
+      "wrong_epipolar_inlier_fraction": 0.015789473684210527,
+      "accepted_reprojection_median": 0.13938781787740756
+    },
+    {
+      "cameras": [
+        "cam06",
+        "cam16"
+      ],
+      "ratio_matches": 154,
+      "triangulated": 105,
+      "epipolar_median": 0.35367402901393746,
+      "wrong_row_epipolar_median": 18.050094332448417,
+      "correct_epipolar_inlier_fraction": 0.6883116883116883,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.1357761825175201
+    },
+    {
+      "cameras": [
+        "cam07",
+        "cam08"
+      ],
+      "ratio_matches": 453,
+      "triangulated": 353,
+      "epipolar_median": 0.19199366267996343,
+      "wrong_row_epipolar_median": 8.285815334260848,
+      "correct_epipolar_inlier_fraction": 0.8675496688741722,
+      "wrong_epipolar_inlier_fraction": 0.046357615894039736,
+      "accepted_reprojection_median": 0.10990652398342246
+    },
+    {
+      "cameras": [
+        "cam07",
+        "cam09"
+      ],
+      "ratio_matches": 231,
+      "triangulated": 180,
+      "epipolar_median": 0.20914474217746976,
+      "wrong_row_epipolar_median": 9.149439344554539,
+      "correct_epipolar_inlier_fraction": 0.8441558441558441,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.11675385555644292
+    },
+    {
+      "cameras": [
+        "cam07",
+        "cam10"
+      ],
+      "ratio_matches": 157,
+      "triangulated": 106,
+      "epipolar_median": 0.3136346703673327,
+      "wrong_row_epipolar_median": 42.873238894717986,
+      "correct_epipolar_inlier_fraction": 0.7133757961783439,
+      "wrong_epipolar_inlier_fraction": 0.012738853503184714,
+      "accepted_reprojection_median": 0.13726222298894408
+    },
+    {
+      "cameras": [
+        "cam07",
+        "cam16"
+      ],
+      "ratio_matches": 135,
+      "triangulated": 77,
+      "epipolar_median": 0.3794407387972019,
+      "wrong_row_epipolar_median": 23.837478748752012,
+      "correct_epipolar_inlier_fraction": 0.5777777777777777,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.10138388331303679
+    },
+    {
+      "cameras": [
+        "cam07",
+        "cam18"
+      ],
+      "ratio_matches": 195,
+      "triangulated": 114,
+      "epipolar_median": 0.3549514559791596,
+      "wrong_row_epipolar_median": 62.26841847923486,
+      "correct_epipolar_inlier_fraction": 0.6820512820512821,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.10642849463742066
+    },
+    {
+      "cameras": [
+        "cam08",
+        "cam09"
+      ],
+      "ratio_matches": 423,
+      "triangulated": 312,
+      "epipolar_median": 0.22616355090895668,
+      "wrong_row_epipolar_median": 1.5382955518476737,
+      "correct_epipolar_inlier_fraction": 0.8486997635933806,
+      "wrong_epipolar_inlier_fraction": 0.3262411347517731,
+      "accepted_reprojection_median": 0.10512065630943844
+    },
+    {
+      "cameras": [
+        "cam08",
+        "cam10"
+      ],
+      "ratio_matches": 230,
+      "triangulated": 169,
+      "epipolar_median": 0.2274222067202776,
+      "wrong_row_epipolar_median": 47.751619595816834,
+      "correct_epipolar_inlier_fraction": 0.8173913043478261,
+      "wrong_epipolar_inlier_fraction": 0.004347826086956522,
+      "accepted_reprojection_median": 0.09822559556682953
+    },
+    {
+      "cameras": [
+        "cam08",
+        "cam18"
+      ],
+      "ratio_matches": 202,
+      "triangulated": 116,
+      "epipolar_median": 0.2686144357782939,
+      "wrong_row_epipolar_median": 55.7320276555385,
+      "correct_epipolar_inlier_fraction": 0.7475247524752475,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.1112058815107777
+    },
+    {
+      "cameras": [
+        "cam08",
+        "cam19"
+      ],
+      "ratio_matches": 130,
+      "triangulated": 88,
+      "epipolar_median": 0.3335238654503171,
+      "wrong_row_epipolar_median": 10.403924222625584,
+      "correct_epipolar_inlier_fraction": 0.7307692307692307,
+      "wrong_epipolar_inlier_fraction": 0.015384615384615385,
+      "accepted_reprojection_median": 0.1656651312988021
+    },
+    {
+      "cameras": [
+        "cam08",
+        "cam20"
+      ],
+      "ratio_matches": 113,
+      "triangulated": 70,
+      "epipolar_median": 0.2894308446306648,
+      "wrong_row_epipolar_median": 43.535422647994004,
+      "correct_epipolar_inlier_fraction": 0.7079646017699115,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.08773163191561578
+    },
+    {
+      "cameras": [
+        "cam09",
+        "cam10"
+      ],
+      "ratio_matches": 417,
+      "triangulated": 305,
+      "epipolar_median": 0.26860322156821476,
+      "wrong_row_epipolar_median": 49.59327538229031,
+      "correct_epipolar_inlier_fraction": 0.8633093525179856,
+      "wrong_epipolar_inlier_fraction": 0.009592326139088728,
+      "accepted_reprojection_median": 0.11314213889635297
+    },
+    {
+      "cameras": [
+        "cam09",
+        "cam18"
+      ],
+      "ratio_matches": 141,
+      "triangulated": 80,
+      "epipolar_median": 0.48949842767380164,
+      "wrong_row_epipolar_median": 46.89380206795704,
+      "correct_epipolar_inlier_fraction": 0.6453900709219859,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.1125209318183207
+    },
+    {
+      "cameras": [
+        "cam09",
+        "cam19"
+      ],
+      "ratio_matches": 147,
+      "triangulated": 96,
+      "epipolar_median": 0.27175795592856233,
+      "wrong_row_epipolar_median": 8.151256722475814,
+      "correct_epipolar_inlier_fraction": 0.7687074829931972,
+      "wrong_epipolar_inlier_fraction": 0.013605442176870748,
+      "accepted_reprojection_median": 0.14380291902430284
+    },
+    {
+      "cameras": [
+        "cam09",
+        "cam20"
+      ],
+      "ratio_matches": 149,
+      "triangulated": 88,
+      "epipolar_median": 0.49742038489167995,
+      "wrong_row_epipolar_median": 24.572872528690368,
+      "correct_epipolar_inlier_fraction": 0.6308724832214765,
+      "wrong_epipolar_inlier_fraction": 0.013422818791946308,
+      "accepted_reprojection_median": 0.08440892386294865
+    },
+    {
+      "cameras": [
+        "cam10",
+        "cam19"
+      ],
+      "ratio_matches": 133,
+      "triangulated": 87,
+      "epipolar_median": 0.4373044483924434,
+      "wrong_row_epipolar_median": 18.15493262988628,
+      "correct_epipolar_inlier_fraction": 0.706766917293233,
+      "wrong_epipolar_inlier_fraction": 0.015037593984962405,
+      "accepted_reprojection_median": 0.19477675947106096
+    },
+    {
+      "cameras": [
+        "cam10",
+        "cam20"
+      ],
+      "ratio_matches": 160,
+      "triangulated": 83,
+      "epipolar_median": 0.3649821200058828,
+      "wrong_row_epipolar_median": 49.94389250242561,
+      "correct_epipolar_inlier_fraction": 0.6625,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.12780151839932824
+    },
+    {
+      "cameras": [
+        "cam11",
+        "cam12"
+      ],
+      "ratio_matches": 392,
+      "triangulated": 335,
+      "epipolar_median": 0.1647187488372333,
+      "wrong_row_epipolar_median": 10.897769445629109,
+      "correct_epipolar_inlier_fraction": 0.8698979591836735,
+      "wrong_epipolar_inlier_fraction": 0.04336734693877551,
+      "accepted_reprojection_median": 0.09449633283653638
+    },
+    {
+      "cameras": [
+        "cam11",
+        "cam13"
+      ],
+      "ratio_matches": 206,
+      "triangulated": 150,
+      "epipolar_median": 0.26177278576371854,
+      "wrong_row_epipolar_median": 37.38181602498152,
+      "correct_epipolar_inlier_fraction": 0.7281553398058253,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.09124090864841894
+    },
+    {
+      "cameras": [
+        "cam11",
+        "cam14"
+      ],
+      "ratio_matches": 176,
+      "triangulated": 138,
+      "epipolar_median": 0.1516978910081988,
+      "wrong_row_epipolar_median": 11.75162341425785,
+      "correct_epipolar_inlier_fraction": 0.7840909090909091,
+      "wrong_epipolar_inlier_fraction": 0.03409090909090909,
+      "accepted_reprojection_median": 0.06400927831935141
+    },
+    {
+      "cameras": [
+        "cam12",
+        "cam13"
+      ],
+      "ratio_matches": 184,
+      "triangulated": 122,
+      "epipolar_median": 0.3680837425073499,
+      "wrong_row_epipolar_median": 21.572776858654258,
+      "correct_epipolar_inlier_fraction": 0.6793478260869565,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.1420638203885103
+    },
+    {
+      "cameras": [
+        "cam12",
+        "cam14"
+      ],
+      "ratio_matches": 170,
+      "triangulated": 124,
+      "epipolar_median": 0.32120185575565274,
+      "wrong_row_epipolar_median": 10.87172137081084,
+      "correct_epipolar_inlier_fraction": 0.7294117647058823,
+      "wrong_epipolar_inlier_fraction": 0.03529411764705882,
+      "accepted_reprojection_median": 0.10501075413399522
+    },
+    {
+      "cameras": [
+        "cam13",
+        "cam14"
+      ],
+      "ratio_matches": 351,
+      "triangulated": 292,
+      "epipolar_median": 0.15795033481666318,
+      "wrong_row_epipolar_median": 29.26413378898819,
+      "correct_epipolar_inlier_fraction": 0.8518518518518519,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.09308369082070915
+    },
+    {
+      "cameras": [
+        "cam14",
+        "cam16"
+      ],
+      "ratio_matches": 248,
+      "triangulated": 200,
+      "epipolar_median": 0.21137349763653576,
+      "wrong_row_epipolar_median": 13.576153677474846,
+      "correct_epipolar_inlier_fraction": 0.8467741935483871,
+      "wrong_epipolar_inlier_fraction": 0.05241935483870968,
+      "accepted_reprojection_median": 0.11326390539061941
+    },
+    {
+      "cameras": [
+        "cam16",
+        "cam18"
+      ],
+      "ratio_matches": 243,
+      "triangulated": 184,
+      "epipolar_median": 0.20974612780032406,
+      "wrong_row_epipolar_median": 35.43643957360417,
+      "correct_epipolar_inlier_fraction": 0.8065843621399177,
+      "wrong_epipolar_inlier_fraction": 0.012345679012345678,
+      "accepted_reprojection_median": 0.11073932155149055
+    },
+    {
+      "cameras": [
+        "cam18",
+        "cam19"
+      ],
+      "ratio_matches": 261,
+      "triangulated": 158,
+      "epipolar_median": 0.3773566938931339,
+      "wrong_row_epipolar_median": 46.374836392401576,
+      "correct_epipolar_inlier_fraction": 0.6819923371647509,
+      "wrong_epipolar_inlier_fraction": 0.0,
+      "accepted_reprojection_median": 0.11465693844319184
+    },
+    {
+      "cameras": [
+        "cam18",
+        "cam20"
+      ],
+      "ratio_matches": 177,
+      "triangulated": 106,
+      "epipolar_median": 0.3690485761645704,
+      "wrong_row_epipolar_median": 19.123001528048047,
+      "correct_epipolar_inlier_fraction": 0.6610169491525424,
+      "wrong_epipolar_inlier_fraction": 0.02824858757062147,
+      "accepted_reprojection_median": 0.12698266247196266
+    },
+    {
+      "cameras": [
+        "cam19",
+        "cam20"
+      ],
+      "ratio_matches": 440,
+      "triangulated": 335,
+      "epipolar_median": 0.2073141939641467,
+      "wrong_row_epipolar_median": 48.601754295357125,
+      "correct_epipolar_inlier_fraction": 0.8409090909090909,
+      "wrong_epipolar_inlier_fraction": 0.004545454545454545,
+      "accepted_reprojection_median": 0.11239537315348572
+    }
+  ]
+}

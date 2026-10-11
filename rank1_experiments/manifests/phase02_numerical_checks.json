@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "known_translation": [
+    3,
+    2
+  ],
+  "fb_valid_pixels": 339865,
+  "inverse_translation_consistency": true,
+  "wrong_direction_rejected": true,
+  "non_square_component_scale": true,
+  "mask_grid": "source integer pixel centers, grid_sample align_corners=True",
+  "reference": "1352x1014",
+  "shared_mask_precision": "computed from unquantized FP32 flows, then cached as bool"
+}

@@ -1,0 +1,18 @@
+{
+  "rgb": "sRGB release PNG, RGB [0,1], full frame, no crop or resizing",
+  "render": "FP32 decoded Gaussian attributes, RGB clipped [0,1]",
+  "psnr": "-10 log10 mean RGB MSE; arithmetic mean of per-frame dB",
+  "author_psnr": "20 log10(255 / sqrt(mean((round(pred*255)-round(gt*255))^2)))",
+  "ssim": "MoRGS utils.loss_utils.ssim, 11x11 Gaussian sigma1.5, zero padding, C1=.01^2 C2=.03^2",
+  "unified_lpips": "vendored lpipsPyTorch VGG16 version0.1; explicit input RGB*2-1",
+  "author_lpips": "same vendored network, author metrics_video.py inputs [0,1]",
+  "namespaces": [
+    "unified_fp32",
+    "author_png8"
+  ],
+  "torch_version": "2.5.1",
+  "torchvision_version": "0.20.1",
+  "tf32_matmul": true,
+  "tf32_cudnn": true,
+  "selection": "No test-driven selection; validation cam01, final test cam00"
+}

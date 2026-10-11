@@ -1,0 +1,59 @@
+{
+  "mode": "upstream AST properties with identity decoder on CPU; no rasterizer",
+  "decoded": [
+    [
+      1.0,
+      0.0,
+      5.0
+    ]
+  ],
+  "offset": [
+    [
+      0.2,
+      0.0,
+      0.0
+    ]
+  ],
+  "confidence": [
+    [
+      0.5
+    ]
+  ],
+  "actual_rgb_xyz": [
+    [
+      0.6,
+      0.0,
+      5.0
+    ]
+  ],
+  "renderer_residual": [
+    [
+      0.5,
+      0.0,
+      0.0
+    ]
+  ],
+  "actual_rgb_displacement": [
+    [
+      0.6,
+      0.0,
+      0.0
+    ]
+  ],
+  "difference": [
+    [
+      0.09999999999999998,
+      0.0,
+      0.0
+    ]
+  ],
+  "rgb_offset_gradient": [
+    [
+      0.5,
+      0.5,
+      0.5
+    ]
+  ],
+  "residual_offset_gradient": null,
+  "note": "Residual ignores offset directly; native flow also depends on actual geometry, so full flow-loss offset gradient need not be zero."
+}

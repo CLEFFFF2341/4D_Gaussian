@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-10T22:35:21.213527+08:00",
+  "executable": "C:\\Users\\CLEFFFF\\anaconda3\\envs\\Ex4DGS\\python.exe",
+  "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.1.2",
+  "torch_cuda": "11.8",
+  "available": true,
+  "smoke_passed": true,
+  "nvidia_smi": "Sat Oct 10 22:35:21 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 616.92                 KMD Version: 616.92        CUDA UMD Version: 13.4     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 4090      WDDM  |   00000000:01:00.0  On |                  Off |\n|  0%   42C    P8             24W /  450W |    6433MiB /  24564MiB |     35%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            6244    C+G   ...8wekyb3d8bbwe\\M365Copilot.exe      N/A      |\n|    0   N/A  N/A            8068    C+G   ....0.4258.62\\msedgewebview2.exe      N/A      |\n|    0   N/A  N/A            8804    C+G   ...5n1h2txyewy\\TextInputHost.exe      N/A      |\n|    0   N/A  N/A           11712    C+G   C:\\Windows\\explorer.exe               N/A      |\n|    0   N/A  N/A           11828    C+G   ....0.4258.62\\msedgewebview2.exe      N/A      |\n|    0   N/A  N/A           11904    C+G   ...2txyewy\\CrossDeviceResume.exe      N/A      |\n|    0   N/A  N/A           13608    C+G   ..._cw5n1h2txyewy\\SearchHost.exe      N/A      |\n|    0   N/A  N/A           13616    C+G   ...y\\StartMenuExperienceHost.exe      N/A      |\n|    0   N/A  N/A           15328    C+G   ...xyewy\\ShellExperienceHost.exe      N/A      |\n|    0   N/A  N/A           15416    C+G   ....0.4258.62\\msedgewebview2.exe      N/A      |\n|    0   N/A  N/A           17484    C+G   ...em32\\ApplicationFrameHost.exe      N/A      |\n|    0   N/A  N/A           18996    C+G   ....0.4258.62\\msedgewebview2.exe      N/A      |\n|    0   N/A  N/A           20616    C+G   ...2p2nqsd0c76g0\\app\\ChatGPT.exe      N/A      |\n|    0   N/A  N/A           21280    C+G   ...Chrome\\Application\\chrome.exe      N/A      |\n|    0   N/A  N/A           23532    C+G   ...on\\RimWorld\\RimWorldWin64.exe      N/A      |\n|    0   N/A  N/A           24512    C+G   ...\\codex-computer-use-swift.exe      N/A      |\n|    0   N/A  N/A           25836    C+G   ...\\cef.win64\\steamwebhelper.exe      N/A      |\n|    0   N/A  N/A           30048    C+G   D:\\Tencent\\QQ.exe                     N/A      |\n|    0   N/A  N/A           31820    C+G   ...ntrolPanel\\SystemSettings.exe      N/A      |\n|    0   N/A  N/A           32796    C+G   ...indows\\System32\\ShellHost.exe      N/A      |\n+-----------------------------------------------------------------------------------------+\n",
+  "device": "NVIDIA GeForce RTX 4090",
+  "cpu_error": 2.9802322387695312e-08,
+  "peak_allocated": 99328,
+  "peak_reserved": 2097152,
+  "free_total_bytes": [
+    24083693568,
+    25756696576
+  ],
+  "seconds": 0.2871104
+}

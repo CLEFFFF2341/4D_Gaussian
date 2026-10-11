@@ -1,0 +1,135 @@
+{
+  "mode": "Exact upstream native sources; diagnostic venv uses Python 3.9 / torch 2.1.2 / CUDA 11.8",
+  "module_path": "E:\\4D_Gaussian\\rank1_experiments\\envs\\morgs-native-probe\\lib\\site-packages\\gaussian_rasterization_grad\\__init__.py",
+  "torch": "2.1.2",
+  "torch_cuda": "11.8",
+  "device": "NVIDIA GeForce RTX 4090",
+  "all_true": {
+    "flow_x_mean": 2.133326768875122,
+    "radii": [
+      4,
+      4,
+      4
+    ],
+    "visible_pixels": 36,
+    "loss": 0.006837634835392237,
+    "means_gradient": [
+      [
+        0.0012866179458796978,
+        0.0005566081963479519,
+        -0.002344551496207714
+      ],
+      [
+        3.722214751178399e-05,
+        -0.001197120756842196,
+        -0.002637432189658284
+      ],
+      [
+        -0.0017704888014122844,
+        0.000587086018640548,
+        -0.002190351951867342
+      ]
+    ],
+    "flow_gradient": [
+      [
+        0.04001964256167412,
+        0.0,
+        0.0
+      ],
+      [
+        0.040925681591033936,
+        0.0,
+        0.0
+      ],
+      [
+        0.035358577966690063,
+        0.0,
+        0.0
+      ]
+    ],
+    "finite_gradients": true
+  },
+  "selective_mask": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "selective_result": {
+    "flow_x_mean": 2.133326768875122,
+    "radii": [
+      4,
+      4,
+      4
+    ],
+    "visible_pixels": 36,
+    "loss": 0.006837634835392237,
+    "means_gradient": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        3.7222525861579925e-05,
+        -0.0011971201747655869,
+        -0.0024704209063202143
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "flow_gradient": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "finite_gradients": true
+  },
+  "exact_center_projection_delta_x": 1.0666666666666667,
+  "native_to_exact_ratio": 1.999993845820427,
+  "seconds": 0.21309840000000002,
+  "peak_allocated": 403968,
+  "peak_reserved": 2097152,
+  "note": "Tiny diagnostic only. Full upstream teacher/training/checkpoint/evaluation path remains untested."
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "time": "2026-10-11T01:04:44.732788+08:00",
+    "attempt": 1,
+    "error": "RuntimeError('cut_roasted_beef/cam19: incomplete raw frame 122')"
+  }
+]

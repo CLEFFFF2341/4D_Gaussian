@@ -1,0 +1,470 @@
+{
+  "status": "MANIFEST_ONLY",
+  "official_entry": "https://github.com/AlgoHunt/StreamRF#dataset",
+  "official_drive": "https://drive.google.com/drive/folders/1lNmQ6_ykyKjT6UKy-SnqWoSlI5yjh3l_",
+  "paper": "https://arxiv.org/abs/2603.25042",
+  "expected_protocol": {
+    "scenes": 3,
+    "cameras": 13,
+    "frames": 300,
+    "fps": 30,
+    "held_out": "central view"
+  },
+  "modelscope": {
+    "tree_reachable": true,
+    "revision": "8422e507d5a802b45b4fdba99ff31b8daa7bb722",
+    "file_download": "API returned Code10020301002 login required; no account credentials requested",
+    "extra_scene": "stepin exists in ModelScope listing; excluded from original three-folder Drive release"
+  },
+  "scenes": [
+    {
+      "scene": "discussion",
+      "drive_folder": "1ZT7WU_giCBDezj_q21zlaiFhQOWBY_gD",
+      "entries": [
+        {
+          "name": "cam_0.mp4",
+          "drive_id": "1sJkZD7MiqVkD-uVvpgezlUiJ8NCFAmay"
+        },
+        {
+          "name": "cam_1.mp4",
+          "drive_id": "1c15E8sTtdqJ63GXioFpLKhlosBC123bb"
+        },
+        {
+          "name": "cam_2.mp4",
+          "drive_id": "1OSD588DXUyAwnyUM2nMPZlNhM0Gglzwz"
+        },
+        {
+          "name": "cam_3.mp4",
+          "drive_id": "1ZUXmG3_XqImfd58B4Q4ILl-i5Ic91y5y"
+        },
+        {
+          "name": "cam_4.mp4",
+          "drive_id": "1ITvByXLTNoLd0HmT2NArlVsoClpONOK0"
+        },
+        {
+          "name": "cam_5.mp4",
+          "drive_id": "1bhBnPMe9RHSMJREz6lZSvVpcY0ycy87A"
+        },
+        {
+          "name": "cam_6.mp4",
+          "drive_id": "1HF-iaL3sAKICyTDF5-my2qiO6abK8FHT"
+        },
+        {
+          "name": "cam_7.mp4",
+          "drive_id": "1hFvXkBkTI4CMvtG9NM7izeJP1n6hWAlI"
+        },
+        {
+          "name": "cam_8.mp4",
+          "drive_id": "11mfEAIZLT0YMAZUCIMp8wNpevVCrartR"
+        },
+        {
+          "name": "cam_9.mp4",
+          "drive_id": "1pxCg_l5qLcCloewsGsloBQ8I_mwtYYKm"
+        },
+        {
+          "name": "cam_10.mp4",
+          "drive_id": "1AyMmkV_0fc69qsAF0vGZeLDWwkzBJwEd"
+        },
+        {
+          "name": "cam_11.mp4",
+          "drive_id": "1PLwTbUspd2Znd5JWL2IEoXWt4lUjAbcn"
+        },
+        {
+          "name": "cam_12.mp4",
+          "drive_id": "1y4WLRQRV3h3S5skSEeAmpvZTkN9t3d3v"
+        },
+        {
+          "name": "poses_bounds.npy",
+          "drive_id": "1xaiAnp0I7pL_Dt_yrTWhKWIxuwaHXTji"
+        }
+      ],
+      "cameras": [
+        "cam_0.mp4",
+        "cam_1.mp4",
+        "cam_2.mp4",
+        "cam_3.mp4",
+        "cam_4.mp4",
+        "cam_5.mp4",
+        "cam_6.mp4",
+        "cam_7.mp4",
+        "cam_8.mp4",
+        "cam_9.mp4",
+        "cam_10.mp4",
+        "cam_11.mp4",
+        "cam_12.mp4"
+      ],
+      "videos_downloaded": false,
+      "listing_sha256": "c52bea709b0488b87a5742753d340c462335ce357341a922a5dcb0a78f3f0779",
+      "poses_downloaded": true,
+      "test_camera": "cam_0",
+      "poses_sha256": "cde3d9de5af2b8640782cae43ad1f7cade6f4cee61852f3ba5a1012895e772c9",
+      "poses_path": "E:\\4D_Gaussian\\rank1_experiments\\sources\\meetroom_metadata\\discussion_poses_bounds.npy",
+      "poses_shape": [
+        13,
+        17
+      ],
+      "raw_hwf": [
+        720.0,
+        1280.0,
+        622.0508406585352
+      ],
+      "test_camera_candidate": "cam_0",
+      "test_camera_status": "Verified release cam_0 plus official StreamRF cam00 rename / hold_every100 first view and MoRGS test_indices[0]",
+      "nearest_camera_to_centroid_row": 0,
+      "camera_center_centroid_distances": [
+        0.10590518500797687,
+        3.92753993316317,
+        5.033916831129268,
+        3.112564943356605,
+        3.625148312850201,
+        3.1496239490284244,
+        5.120442561270495,
+        4.894883052212545,
+        4.983478734183361,
+        3.9085466045471926,
+        3.582378122341815,
+        3.5494439937143603,
+        3.6225659107793513
+      ],
+      "camera_sort": "numeric suffix order cam_0..cam_12; never lexicographic unpadded names",
+      "derived_name_mapping": {
+        "cam_0": "cam00",
+        "cam_1": "cam01",
+        "cam_2": "cam02",
+        "cam_3": "cam03",
+        "cam_4": "cam04",
+        "cam_5": "cam05",
+        "cam_6": "cam06",
+        "cam_7": "cam07",
+        "cam_8": "cam08",
+        "cam_9": "cam09",
+        "cam_10": "cam10",
+        "cam_11": "cam11",
+        "cam_12": "cam12"
+      },
+      "source_pose_rows": {
+        "cam_0": 0,
+        "cam_1": 1,
+        "cam_2": 2,
+        "cam_3": 3,
+        "cam_4": 4,
+        "cam_5": 5,
+        "cam_6": 6,
+        "cam_7": 7,
+        "cam_8": 8,
+        "cam_9": 9,
+        "cam_10": 10,
+        "cam_11": 11,
+        "cam_12": 12
+      },
+      "flow_cameras_morgs_filtered_train_indices_1_4_7_10": [
+        "cam_2",
+        "cam_5",
+        "cam_8",
+        "cam_11"
+      ]
+    },
+    {
+      "scene": "trimming",
+      "drive_folder": "1EtOJ1Mo3lKCmsV_A1TFTnhcIBbNPEPVw",
+      "entries": [
+        {
+          "name": "cam_0.mp4",
+          "drive_id": "1zwdAf72wYsiGSmJM6Ik0O05RCQT7UlFG"
+        },
+        {
+          "name": "cam_1.mp4",
+          "drive_id": "1ZjIj_vm-aMzE12jmI4XSsoQs09ZZePmg"
+        },
+        {
+          "name": "cam_2.mp4",
+          "drive_id": "1qGM8ZoFyYkS-uLV7E8m2CksroRUt2f7Z"
+        },
+        {
+          "name": "cam_3.mp4",
+          "drive_id": "1kBB3XAa-7xL4aydy3i2scW7htouJXSun"
+        },
+        {
+          "name": "cam_4.mp4",
+          "drive_id": "1qYZe5hOBcFqNfRJC1ckOWXo2sogjiygl"
+        },
+        {
+          "name": "cam_5.mp4",
+          "drive_id": "1su6Fb7-nOynn5X_JSvm-Jej1icQ2poae"
+        },
+        {
+          "name": "cam_6.mp4",
+          "drive_id": "13smdHal6JyjGbXovQOdYFXWZsGJrUlGC"
+        },
+        {
+          "name": "cam_7.mp4",
+          "drive_id": "10YXGxil8phb3uP2DgZhNgia7sKNIaJXE"
+        },
+        {
+          "name": "cam_8.mp4",
+          "drive_id": "1CT26aMl-zne9ww0WIUBZNqvJRxa_vb5B"
+        },
+        {
+          "name": "cam_9.mp4",
+          "drive_id": "1LgB8RManXVp5CjMbdvm4RGYFcdNG_cy9"
+        },
+        {
+          "name": "cam_10.mp4",
+          "drive_id": "1JEjTBVXXmfK-CVcSKOv9PAX9XuRiP5hj"
+        },
+        {
+          "name": "cam_11.mp4",
+          "drive_id": "1qz_h5U9qkR9rX2dehl7o3QeUqMrekYND"
+        },
+        {
+          "name": "cam_12.mp4",
+          "drive_id": "1y5vlTsodaN-HglF3C5R6tTM7SLp1PfdG"
+        },
+        {
+          "name": "poses_bounds.npy",
+          "drive_id": "1aMD4ZD9gu0_RU8jlXXs_REyibWhVcaSZ"
+        }
+      ],
+      "cameras": [
+        "cam_0.mp4",
+        "cam_1.mp4",
+        "cam_2.mp4",
+        "cam_3.mp4",
+        "cam_4.mp4",
+        "cam_5.mp4",
+        "cam_6.mp4",
+        "cam_7.mp4",
+        "cam_8.mp4",
+        "cam_9.mp4",
+        "cam_10.mp4",
+        "cam_11.mp4",
+        "cam_12.mp4"
+      ],
+      "videos_downloaded": false,
+      "listing_sha256": "1c81e2e7abf3dbf96ed545ade4941bd56ad65f84a97a8863523585b104cfe795",
+      "poses_downloaded": true,
+      "test_camera": "cam_0",
+      "poses_sha256": "3167f0149d9cad37321a995ac79f16f6ac7bcfab0a791486764987eb3b99d021",
+      "poses_path": "E:\\4D_Gaussian\\rank1_experiments\\sources\\meetroom_metadata\\trimming_poses_bounds.npy",
+      "poses_shape": [
+        13,
+        17
+      ],
+      "raw_hwf": [
+        720.0,
+        1280.0,
+        623.2407097641002
+      ],
+      "test_camera_candidate": "cam_0",
+      "test_camera_status": "Verified release cam_0 plus official StreamRF cam00 rename / hold_every100 first view and MoRGS test_indices[0]",
+      "nearest_camera_to_centroid_row": 0,
+      "camera_center_centroid_distances": [
+        0.13459650273854393,
+        3.9479964923752107,
+        5.038322385215751,
+        3.1464142303916938,
+        3.653033133364777,
+        3.17583481820802,
+        5.124451561308078,
+        4.898792013348372,
+        4.9695118704873344,
+        3.8562217356123942,
+        3.6211604933428747,
+        3.5625742398251194,
+        3.611382062323352
+      ],
+      "camera_sort": "numeric suffix order cam_0..cam_12; never lexicographic unpadded names",
+      "derived_name_mapping": {
+        "cam_0": "cam00",
+        "cam_1": "cam01",
+        "cam_2": "cam02",
+        "cam_3": "cam03",
+        "cam_4": "cam04",
+        "cam_5": "cam05",
+        "cam_6": "cam06",
+        "cam_7": "cam07",
+        "cam_8": "cam08",
+        "cam_9": "cam09",
+        "cam_10": "cam10",
+        "cam_11": "cam11",
+        "cam_12": "cam12"
+      },
+      "source_pose_rows": {
+        "cam_0": 0,
+        "cam_1": 1,
+        "cam_2": 2,
+        "cam_3": 3,
+        "cam_4": 4,
+        "cam_5": 5,
+        "cam_6": 6,
+        "cam_7": 7,
+        "cam_8": 8,
+        "cam_9": 9,
+        "cam_10": 10,
+        "cam_11": 11,
+        "cam_12": 12
+      },
+      "flow_cameras_morgs_filtered_train_indices_1_4_7_10": [
+        "cam_2",
+        "cam_5",
+        "cam_8",
+        "cam_11"
+      ]
+    },
+    {
+      "scene": "vrheadset",
+      "drive_folder": "17fX5zp-t311K4xtuJU6H1a2WRydKPOvZ",
+      "entries": [
+        {
+          "name": "cam_0.mp4",
+          "drive_id": "1VXpC_on85dga9FLVnBNHMmub7NtG15fw"
+        },
+        {
+          "name": "cam_1.mp4",
+          "drive_id": "1Iy5B92go17AYYjmw9RFbvJ9ZnerWTzrU"
+        },
+        {
+          "name": "cam_2.mp4",
+          "drive_id": "1fumUIyMQrsjNtYkppdBD6WXTIv7vdLAR"
+        },
+        {
+          "name": "cam_3.mp4",
+          "drive_id": "1TJX0GH1s2MEF0Pyaz52tQAg46ZhpJcwV"
+        },
+        {
+          "name": "cam_4.mp4",
+          "drive_id": "1SZ_zfBSQ8ygyITOwrGlvbC-vHzI-0UwF"
+        },
+        {
+          "name": "cam_5.mp4",
+          "drive_id": "1-YeRQfrt9f4p7oSZfniiBlKcpFl8t_AK"
+        },
+        {
+          "name": "cam_6.mp4",
+          "drive_id": "1UDDYGcQ2kQd_QAiTrD3EAYehB6KV5LqQ"
+        },
+        {
+          "name": "cam_7.mp4",
+          "drive_id": "1MehLHa_SW3EalgZSuLKJQzeG9kdi8tCR"
+        },
+        {
+          "name": "cam_8.mp4",
+          "drive_id": "1MCOQ--dVFNXQTD_h7bAhZFiGC00aPNQy"
+        },
+        {
+          "name": "cam_9.mp4",
+          "drive_id": "1UPnbdOOXE4QwDjLawXj_fU7_2onVBM2t"
+        },
+        {
+          "name": "cam_10.mp4",
+          "drive_id": "1rZFZvAQBK7F0Dm7EI4Je_AoDuthsevT2"
+        },
+        {
+          "name": "cam_11.mp4",
+          "drive_id": "1__RV85AlCRSS6zcXbc_sx6QRmXh3DEtH"
+        },
+        {
+          "name": "cam_12.mp4",
+          "drive_id": "1_uVgGwoqzkcnwAHt7TQVZ-MzT7UnAHPc"
+        },
+        {
+          "name": "poses_bounds.npy",
+          "drive_id": "1LaYTAMTlrO13sEuGNZOdyzO1P-O9RAxa"
+        }
+      ],
+      "cameras": [
+        "cam_0.mp4",
+        "cam_1.mp4",
+        "cam_2.mp4",
+        "cam_3.mp4",
+        "cam_4.mp4",
+        "cam_5.mp4",
+        "cam_6.mp4",
+        "cam_7.mp4",
+        "cam_8.mp4",
+        "cam_9.mp4",
+        "cam_10.mp4",
+        "cam_11.mp4",
+        "cam_12.mp4"
+      ],
+      "videos_downloaded": false,
+      "listing_sha256": "49c79e26e4abe051d5da4b3b315b75db0fb7c301d8235c7d4b5265c348beff4c",
+      "poses_downloaded": true,
+      "test_camera": "cam_0",
+      "poses_sha256": "3167f0149d9cad37321a995ac79f16f6ac7bcfab0a791486764987eb3b99d021",
+      "poses_path": "E:\\4D_Gaussian\\rank1_experiments\\sources\\meetroom_metadata\\vrheadset_poses_bounds.npy",
+      "poses_shape": [
+        13,
+        17
+      ],
+      "raw_hwf": [
+        720.0,
+        1280.0,
+        623.2407097641002
+      ],
+      "test_camera_candidate": "cam_0",
+      "test_camera_status": "Verified release cam_0 plus official StreamRF cam00 rename / hold_every100 first view and MoRGS test_indices[0]",
+      "nearest_camera_to_centroid_row": 0,
+      "camera_center_centroid_distances": [
+        0.13459650273854393,
+        3.9479964923752107,
+        5.038322385215751,
+        3.1464142303916938,
+        3.653033133364777,
+        3.17583481820802,
+        5.124451561308078,
+        4.898792013348372,
+        4.9695118704873344,
+        3.8562217356123942,
+        3.6211604933428747,
+        3.5625742398251194,
+        3.611382062323352
+      ],
+      "camera_sort": "numeric suffix order cam_0..cam_12; never lexicographic unpadded names",
+      "derived_name_mapping": {
+        "cam_0": "cam00",
+        "cam_1": "cam01",
+        "cam_2": "cam02",
+        "cam_3": "cam03",
+        "cam_4": "cam04",
+        "cam_5": "cam05",
+        "cam_6": "cam06",
+        "cam_7": "cam07",
+        "cam_8": "cam08",
+        "cam_9": "cam09",
+        "cam_10": "cam10",
+        "cam_11": "cam11",
+        "cam_12": "cam12"
+      },
+      "source_pose_rows": {
+        "cam_0": 0,
+        "cam_1": 1,
+        "cam_2": 2,
+        "cam_3": 3,
+        "cam_4": 4,
+        "cam_5": 5,
+        "cam_6": 6,
+        "cam_7": 7,
+        "cam_8": 8,
+        "cam_9": 9,
+        "cam_10": 10,
+        "cam_11": 11,
+        "cam_12": 12
+      },
+      "flow_cameras_morgs_filtered_train_indices_1_4_7_10": [
+        "cam_2",
+        "cam_5",
+        "cam_8",
+        "cam_11"
+      ]
+    }
+  ],
+  "protocol_evidence": {
+    "E:\\4D_Gaussian\\rank1_experiments\\sources\\meetroom_metadata\\streamrf_llff.py": "9f661fb94353d1364b76c03e76ea48c3e5f006945cb852a3ec1771d7aa135af4",
+    "E:\\4D_Gaussian\\rank1_experiments\\sources\\meetroom_metadata\\streamrf_prepare_dataset.py": "1d1fa71c7082bd45c11b7166e4010e5cc106d8c2213fe8941608f256d5eac7fa",
+    "E:\\4D_Gaussian\\rank1_experiments\\sources\\meetroom_metadata\\streamrf_meetroom.json": "bba0551412d21e8907539a3a7d814ec77e546ce1ad4c6d301ef108c3055f4038",
+    "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\configs\\meetroom.yaml": "2a60ff6454d964c8e752852de6aa4b2bdd4a650b0eb039c05f6a719274247a18",
+    "E:\\4D_Gaussian\\rank1_experiments\\working\\MoRGS\\arguments\\__init__.py": "347dfe2e07528f4254a74ecd3c49eee64a42de4297db0bbb33a83ca3b26eaa3c"
+  },
+  "protocol_limits": "No video decoding or image-level pose reprojection yet. Pose-row numeric mapping is release-format evidence, not new visual validation."
+}

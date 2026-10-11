@@ -1,0 +1,18 @@
+--- a/scene/cameras.py
++++ b/scene/cameras.py
+@@ -18,6 +18,7 @@
+ from utils.graphics_utils import getWorld2View2, getProjectionMatrix, getProjectionMatrixOffCenter
+ 
+ def imageName_from_Path(path):
++    path = str(path).replace("\\", "/")
+     if "camera_" in path:
+         match = re.match(r'.*(camera_\d*).*\/(.*)\.png',path)
+     else:
+@@ -25,6 +26,7 @@
+     return match.group(1)+'_'+match.group(2)
+ 
+ def camName_from_Path(path):
++    path = str(path).replace("\\", "/")
+     if "camera_" in path:
+         match = re.match(r'.*(camera_\d*).*\/(.*)\.png',path)
+     else:

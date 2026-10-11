@@ -1,0 +1,172 @@
+--- phase02_teacher_cache.py
++++ phase03_teacher_final.py
+@@ -1,6 +1,7 @@
+ """Build B0-exact FP32 flow and separate corrected/shared FP16 flow caches."""
+ import argparse
+ from functools import lru_cache
++from concurrent.futures import ThreadPoolExecutor
+ import gc
+ import json
+ from pathlib import Path
+@@ -15,12 +16,27 @@
+ WORK=ROOT/'working/MoRGS';sys.path.insert(0,str(WORK))
+ CKPT=ROOT/'weights/Tartan-C-T-TSKH-spring540x960-M.pth'
+ CFG=WORK/'RAFT/config/eval/spring-M.json'
+-CACHE=ROOT/'cache/teachers/dev'
++DEV=['coffee_martini']
++CACHE=ROOT/'cache/teachers/final'
++
++def write_cache(path, arrays, metadata_value, roundtrip):
++    started=time.perf_counter()
++    temporary=path.with_suffix('.npz.tmp')
++    with temporary.open('wb') as handle:
++        np.savez_compressed(handle,**arrays,metadata=np.array(json.dumps(metadata_value)))
++    temporary.replace(path)
++    if roundtrip:
++        with np.load(path) as stored:
++            error=float(np.abs(stored['b0_flow']-arrays['b0_flow']).max())
++        assert error==0,error
++        metadata_value['cache_roundtrip_abs_max']=error
++    metadata_value.update(path=str(path),sha256=sha(path),cache_write_seconds=time.perf_counter()-started)
++    save(path.with_suffix('.json'),metadata_value)
+ def image(scene,cam,frame):
+     assert cam in FLOW[scene] and cam not in ['cam00','cam01']
+-    p=ROOT/f'data/dynerf/dev/train/{scene}/{cam}/{frame:04d}.png'
++    p=ROOT/f'data/dynerf/final/train/{scene}/{cam}/{frame:04d}.png'
+     a=np.asarray(Image.open(p).convert('RGB')).copy()
+-    return torch.from_numpy(a).permute(2,0,1).float().cuda()/255
++    return torch.from_numpy(a).permute(2,0,1).float().div(255).cuda()
+ def pair_path(scene,cam,a,b):return CACHE/f'{scene}/{cam}/{a:04d}_{b:04d}.npz'
+ def fb_mask(f,b):
+     _,_,h,w=f.shape
+@@ -29,18 +45,18 @@
+     grid=torch.stack([2*x/(w-1)-1,2*y/(h-1)-1],-1)
+     backward=F.grid_sample(b,grid,mode='bilinear',padding_mode='zeros',align_corners=True)
+     # Express both vectors in reference 1352x1014 pixels before squared threshold.
+-    fref=f*2;bref=backward*2
++    fref=f;bref=backward
+     err=(fref+bref).square().sum(1)
+     valid=(x>=0)&(x<=w-1)&(y>=0)&(y<=h-1)&torch.isfinite(f).all(1)&torch.isfinite(backward).all(1)
+     valid &= err <= 0.01*(fref.square().sum(1)+bref.square().sum(1))+0.5
+     return valid[0],err[0]
+ def metadata(scene,cam,a,b):
+-    return dict(scene=scene,camera=cam,source_frame=a,target_frame=b,shape_hw=[507,676],
++    return dict(scene=scene,camera=cam,source_frame=a,target_frame=b,shape_hw=[1014,1352],
+       flow_units='destination pixel displacement on source image grid; x right/y down',
+       reference_wh=[1352,1014],checkpoint_sha256=sha(CKPT),config_sha256=sha(CFG),
+-      code_sha256=sha(WORK/'scene/utils.py'),input_range='RGB float32 [0,1], upstream MoRGS behavior',
++      code_sha256=sha(WORK/'scene/utils.py'),input_range='RGB float32 [0,1]; uint8 -> float32 /255 on CPU before CUDA, matching ToTensor training loader',
+       b0_precision='float32 lossless',shared_precision='float16',
+-      shared_change='y*=507/506 after upstream odd-height resize; input normalization unchanged',
++      shared_change='No odd-height resize correction at 1014px; input normalization unchanged',
+       b0_valid_mask='all pixels; shared_valid must NEVER be applied to original B0 loss',
+       fb_threshold='Squared reference pixel units: <=0.01*(f^2+warped_b^2)+0.5',
+       inference='eval/no_grad, float32, TF32 matmul/cudnn enabled matching upstream SAM helper')
+@@ -48,21 +64,23 @@
+     from scene.utils import get_flow_model,get_flow
+     torch.backends.cuda.matmul.allow_tf32=True;torch.backends.cudnn.allow_tf32=True
+     model=get_flow_model(str(CKPT),str(CFG));assert not model.training
+-    manifest_path=ROOT/'manifests/teacher_manifest.json'
+-    record=dict(status='IN_PROGRESS',protocol='dev90',models=dict(raft=str(CKPT),raft_sha256=sha(CKPT),
++    manifest_path=ROOT/'manifests/phase03_teacher_final.json'
++    record=dict(status='IN_PROGRESS',protocol='final300',models=dict(raft=str(CKPT),raft_sha256=sha(CKPT),
+        raft_config=str(CFG),config_sha256=sha(CFG),sam2=str(ROOT/'weights/sam2.1_hiera_large.pt'),
+        sam2_sha256=sha(ROOT/'weights/sam2.1_hiera_large.pt')),flow_records=[],sam_records=[],
+        b0_preserved='Lossless FP32 flow/heatmap, original call path and threshold; SAM uses cross-camera ordering.',
+        shared_protocol='Separate FB mask and axis resize correction. No B0 mask substitution.',
+-       formal300_cache='NOT_GENERATED',teacher_gpu_unloaded=False)
++       formal300_cache='IN_PROGRESS',teacher_gpu_unloaded=False)
+     if manifest_path.exists():record=json.loads(manifest_path.read_text(encoding='utf-8'))
+     save(manifest_path,record);started=time.perf_counter()
++    writer=ThreadPoolExecutor(max_workers=4)
++    pending=[]
+     for scene in DEV:
+         for cam in FLOW[scene]:
+             ready=ROOT/f'manifests/extraction/{scene}/{cam}.json'
+             while not ready.exists():time.sleep(2)
+             d=CACHE/f'{scene}/{cam}';d.mkdir(parents=True,exist_ok=True)
+-            pairs=[(i,i+1) for i in range(89)]+[(0,3)]
++            pairs=[(i,i+1) for i in range(299)]+[(0,3)]
+             for a,b in pairs:
+                 out=pair_path(scene,cam,a,b);rev=pair_path(scene,cam,b,a)
+                 if all(p.exists() and p.with_suffix('.json').exists() for p in [out,rev]):continue
+@@ -71,41 +89,45 @@
+                     f,fi,fh=get_flow(str(CKPT),str(CFG),model,ia,ib)
+                     r,ri,rh=get_flow(str(CKPT),str(CFG),model,ib,ia)
+                     assert torch.isfinite(f).all() and torch.isfinite(r).all()
+-                    sf=f.clone();sr=r.clone();sf[:,1]*=507/506;sr[:,1]*=507/506
+-                    checks=[]
++                    sf=f.clone();sr=r.clone();sf[:,1]*=1;sr[:,1]*=1
++                    checks=[];payloads=[]
+                     for p,x,info,heat,sx,other,source,target in [(out,f,fi,fh,sf,sr,a,b),(rev,r,ri,rh,sr,sf,b,a)]:
+                         mask,err=fb_mask(sx,other)
+                         fp16=sx.half().float();error=(fp16-sx).abs()
+                         m=metadata(scene,cam,source,target)
+                         m.update(fp16_abs_max=error.max().item(),fp16_mean_epe=(fp16-sx).norm(dim=1).mean().item(),
+                                  shared_coverage=mask.float().mean().item(),motion_coverage=(x[0].norm(dim=0)>1.5).float().mean().item())
+-                        np.savez_compressed(p,b0_flow=x[0].cpu().numpy(),b0_heatmap=heat[0].cpu().numpy(),
++                        arrays=dict(b0_flow=x[0].cpu().numpy(),b0_heatmap=heat[0].cpu().numpy(),
+                           shared_flow=sx[0].half().cpu().numpy(),shared_valid=mask.cpu().numpy(),
+-                          b0_motion=(x[0].norm(dim=0)>1.5).cpu().numpy(),info=info[0].half().cpu().numpy(),
+-                          metadata=np.array(json.dumps(m)))
+-                        checks.append(m)
+-                    if a in [0,44,88] and b==a+1:
++                          b0_motion=(x[0].norm(dim=0)>1.5).cpu().numpy(),info=info[0].half().cpu().numpy())
++                        checks.append(m);payloads.append(arrays)
++                    roundtrip=a in [0,149,298] and b==a+1
++                    if roundtrip:
+                         repeat,_,_=get_flow(str(CKPT),str(CFG),model,ia,ib)
+-                        replay=torch.from_numpy(np.load(out)['b0_flow']).cuda()[None]
+-                        checks[0]['online_repeat_abs_max']=(repeat-replay).abs().max().item()
+-                        checks[0]['cache_roundtrip_abs_max']=(f-replay).abs().max().item()
+-                    for p,m in zip([out,rev],checks):
+-                        m['path']=str(p);m['sha256']=sha(p)
+-                        save(p.with_suffix('.json'),m)
++                        checks[0]['online_repeat_abs_max']=(repeat-f).abs().max().item()
++                    for index,(p,m,arrays) in enumerate(zip([out,rev],checks,payloads)):
++                        pending.append(writer.submit(write_cache,p,arrays,m,roundtrip and index==0))
++                        if len(pending)>=8:pending.pop(0).result()
+                 del ia,ib,f,fi,fh,r,ri,rh,sf,sr
++                if a%25==0:print('RAFT_PROGRESS',scene,cam,a,flush=True)
++            for future in pending:future.result()
++            pending.clear()
+             print('RAFT PASS',scene,cam,flush=True)
++    writer.shutdown(wait=True)
+     del model;gc.collect();torch.cuda.empty_cache();torch.cuda.synchronize()
+     record['flow_records']=[str(p) for p in sorted(CACHE.glob('*/*/*.json')) if not p.name.startswith('sam_')]
+     record.update(raft_status='PASS',raft_seconds=time.perf_counter()-started,raft_peak_allocated=torch.cuda.max_memory_allocated(),
++                  raft_peak_reserved=torch.cuda.max_memory_reserved(),
++                  cache_writer='4 CPU lossless compression workers, at most8 in-flight files; GPU inference stays sequential',
+                   raft_gpu_unloaded=True);save(manifest_path,record)
+ def sam():
+     from scene.utils import get_sam2_model,get_sam2_mask
+-    manifest_path=ROOT/'manifests/teacher_manifest.json';record=json.loads(manifest_path.read_text(encoding='utf-8'))
++    manifest_path=ROOT/'manifests/phase03_teacher_final.json';record=json.loads(manifest_path.read_text(encoding='utf-8'))
+     assert record['raft_status']=='PASS'
+     predictor=get_sam2_model(str(ROOT/'weights/sam2.1_hiera_large.pt'),'configs/sam2.1/sam2.1_hiera_l.yaml')
+     assert not predictor.training
+     mask=motion=final=repeat=None
+-    started=time.perf_counter();refresh=[1,2]+list(range(10,91,10))
++    started=time.perf_counter();refresh=[1,2]+list(range(10,301,10))
+     for scene in DEV:
+         for step in refresh:
+             current=step-1;a,b=(0,3) if step==1 else (current-1,current)
+@@ -126,7 +148,7 @@
+                    checkpoint_sha256=record['models']['sam2_sha256'],
+                    config_sha256=sha(WORK/'sam2/configs/sam2.1/sam2.1_hiera_l.yaml'),
+                    code_sha256=sha(WORK/'sam2/sam2_video_predictor.py'),
+-                   shape_hw=[507,676],mask_frame_grid='current RGB frame; upstream previous-source flow prompt preserved')
++                   shape_hw=[1014,1352],mask_frame_grid='current RGB frame; upstream previous-source flow prompt preserved')
+                 np.savez_compressed(p,b0_sam=mask.cpu().numpy(),b0_union=final.cpu().numpy(),metadata=np.array(json.dumps(m)))
+                 m.update(path=str(p),sha256=sha(p));save(p.with_suffix('.json'),m)
+             if step==1:
+@@ -138,7 +160,9 @@
+     del predictor,mask,motion,final,repeat
+     gc.collect();torch.cuda.empty_cache();torch.cuda.synchronize()
+     record['sam_records']=[str(p) for p in sorted(CACHE.glob('*/*/sam_*.json'))]
++    assert len(record['flow_records'])==2400 and len(record['sam_records'])==128
+     record.update(sam_status='PASS',sam_seconds=time.perf_counter()-started,sam_peak_allocated=torch.cuda.max_memory_allocated(),
++                  sam_peak_reserved=torch.cuda.max_memory_reserved(),formal300_cache='PASS',
+                   status='PASS',teacher_gpu_unloaded=True,remaining_process_allocated=torch.cuda.memory_allocated())
+     save(manifest_path,record)
+ if __name__=='__main__':

@@ -1,0 +1,42 @@
+{
+  "updated_at": "2026-10-10T23:09:50.229518+08:00",
+  "os": "Windows-10-10.0.26200-SP0",
+  "gpu": "RTX 4090 24GB",
+  "official_target": {
+    "python": "3.10.18",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "cuda": "12.1"
+  },
+  "official_environment_status": "NOT_CREATED: package SSL EOF / HTTP timeouts",
+  "official_environment_attempts": [
+    "logs/conda_create.json",
+    "logs/conda_create_explicit_v2.json"
+  ],
+  "diagnostic_environment": {
+    "path": "E:\\4D_Gaussian\\rank1_experiments\\envs\\morgs-native-probe",
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "system_site_packages": true,
+    "base_environment_read_only": "C:/Users/CLEFFFF/anaconda3/envs/Ex4DGS",
+    "torch": "2.1.2",
+    "cuda": "11.8",
+    "gpu_smoke": true,
+    "rasterizer_forward_backward": true,
+    "full_training": false
+  },
+  "wsl": "No installed distribution reported",
+  "system_cuda_toolkit": "11.8",
+  "msvc": "VS 2019 Community 16.11.57",
+  "teachers": {
+    "raft_import": true,
+    "sam2_import": true,
+    "checkpoint_loaded": false,
+    "pretrained_inference": false,
+    "sam2_default_config_composition": false,
+    "sam2_corrected_config_composition": true
+  },
+  "device_memory_caveat": "WDDM nvidia-smi usage and torch mem_get_info are not interchangeable budget measurements.",
+  "model_training_peak_memory": null,
+  "model_training_seconds": null,
+  "native_smoke_peak_bytes": 403968
+}

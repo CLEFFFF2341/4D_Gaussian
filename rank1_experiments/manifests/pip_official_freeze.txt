@@ -1,0 +1,81 @@
+annotated-types==0.8.0
+antlr4-python3-runtime==4.9.3
+brotlicffi @ file:///C:/Users/task_178644395772558/croot/brotlicffi_1786444050549/work
+certifi @ file:///C:/Users/task_OnZ8_yCfQtaOr_0/croot/certifi_1785412608423/work/certifi
+cffi @ file:///C:/Users/task_178669709509663/croot/cffi_1786697233080/work
+charset-normalizer @ file:///C:/Users/task_EGOj6_hZRbGlV_0/croot/charset-normalizer_1782917501208/work
+click==8.5.0
+colorama==0.4.6
+contourpy==1.3.2
+cycler==0.12.1
+diff_gaussian_rasterization @ file:///E:/4D_Gaussian/rank1_experiments/wheels_cu121/diff_gaussian_rasterization-0.0.0-cp310-cp310-win_amd64.whl#sha256=631ed6cfa456cf4f4e9800d6c9299c518ee8906e422346c3c57b06cd649d0493
+einops==0.6.0
+filelock @ file:///C:/Users/task_179145610728396/croot/filelock_1791456233246/work
+fonttools==4.65.0
+fsspec==2026.9.0
+gaussian_rasterization_grad @ file:///E:/4D_Gaussian/rank1_experiments/wheels_cu121/gaussian_rasterization_grad-0.0.0-cp310-cp310-win_amd64.whl#sha256=f8e4317b094abe62d71b1f0b9404d749687f8bc269873f7088fcad68623f4c27
+gitdb==4.0.12
+GitPython==3.2.0
+gmpy2 @ file:///C:/Users/task_CBXjOH3vTLmv8_0/croot/gmpy2_1786359536427/work
+huggingface-hub==0.34.3
+hydra-core==1.3.2
+idna @ file:///C:/Users/task_179136521149008/croot/idna_1791365349554/work
+ImageIO==2.38.0
+imutils==0.5.4
+iopath==0.1.10
+Jinja2 @ file:///C:/Users/task_178782650646034/croot/jinja2_1787826588578/work
+kiwisolver==1.5.1
+lazy-loader==0.6
+lightning-utilities==0.15.3
+lpips==0.1.4
+MarkupSafe @ file:///C:/Users/task_178239072904231/croot/markupsafe_1782390847501/work
+matplotlib==3.10.3
+mkl-service==2.4.0
+mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
+mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
+mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
+natsort==8.4.0
+networkx @ file:///C:/b/abs_b054htfn9t/croot/networkx_1737043671910/work
+ninja==1.11.1.4
+numpy @ file:///C:/b/abs_c1ywpu18ar/croot/numpy_and_numpy_base_1708638681471/work/dist/numpy-1.26.4-cp310-cp310-win_amd64.whl#sha256=ebb5aa2b36d8afa5ec3231c19e5a1fc75b6d85e7db483f0fb9e77dad58469977
+omegaconf==2.3.0
+opencv-python-headless==4.11.0.86
+packaging==26.3
+pillow==11.3.0
+pip @ file:///home/task_176054724192090/conda-bld/pip_1760547668629/work
+platformdirs==4.12.4
+plyfile==1.1.2
+portalocker==4.4.0
+protobuf==6.33.6
+pycparser @ file:///C:/Users/task_177495971250430/croot/pycparser_1774959822609/work
+pydantic==2.14.0
+pydantic_core==2.50.0
+pyparsing==3.3.3
+PySocks @ file:///C:/Users/task_179002186901074/croot/pysocks_1790022027061/work
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+requests @ file:///C:/Users/task_179138605429201/croot/requests_1791386634699/work
+safetensors==0.6.2
+scikit-image==0.25.2
+scipy==1.15.3
+sentry-sdk==2.71.0
+setuptools==75.8.0
+simple_knn @ file:///E:/4D_Gaussian/rank1_experiments/wheels_cu121/simple_knn-0.0.0-cp310-cp310-win_amd64.whl#sha256=5288375f6baae935c4b009ce7aee2db9482b9caf9478735a87b2d9dd90f6db98
+six==1.17.0
+smmap==5.0.3
+sympy==1.13.1
+tifffile==2025.5.10
+timm==0.6.13
+torch==2.5.1
+torch_cluster @ file:///E:/4D_Gaussian/rank1_experiments/wheels_cu121/torch_cluster-1.6.3%2Bpt25cu121-cp310-cp310-win_amd64.whl#sha256=bb9152ed317f8ce60cdb36a406ad5f87b2d4a9059eb613e2b22a150bd449bbb7
+torchac==0.9.3
+torchaudio==2.5.1
+torchmetrics==1.8.2
+torchvision==0.20.1
+tqdm==4.70.1
+typing-inspection==0.4.4
+typing_extensions @ file:///C:/Users/task_EDsWzFOYRby3O_0/croot/typing_extensions_1784101035613/work
+urllib3 @ file:///C:/Users/task_179070081914011/croot/urllib3_1790701130724/work
+wandb==0.21.3
+wheel==0.45.1
+win_inet_pton @ file:///C:/miniconda3/conda-bld/win_inet_pton_1761746276406/work

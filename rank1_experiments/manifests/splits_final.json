@@ -1,0 +1,437 @@
+{
+  "protocol": "final",
+  "scenes": {
+    "coffee_martini": {
+      "train": [
+        "cam01",
+        "cam02",
+        "cam04",
+        "cam05",
+        "cam06",
+        "cam07",
+        "cam08",
+        "cam09",
+        "cam10",
+        "cam11",
+        "cam12",
+        "cam13",
+        "cam14",
+        "cam16",
+        "cam18",
+        "cam19",
+        "cam20"
+      ],
+      "validation": [],
+      "test": [
+        "cam00"
+      ],
+      "pose_rows": {
+        "cam00": 0,
+        "cam01": 1,
+        "cam02": 2,
+        "cam04": 3,
+        "cam05": 4,
+        "cam06": 5,
+        "cam07": 6,
+        "cam08": 7,
+        "cam09": 8,
+        "cam10": 9,
+        "cam11": 10,
+        "cam12": 11,
+        "cam13": 12,
+        "cam14": 13,
+        "cam16": 14,
+        "cam18": 15,
+        "cam19": 16,
+        "cam20": 17
+      },
+      "flow_cameras": [
+        "cam02",
+        "cam06",
+        "cam10",
+        "cam16"
+      ],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ],
+      "frame_range": [
+        0,
+        299
+      ],
+      "size_wh": [
+        1352,
+        1014
+      ]
+    },
+    "cut_roasted_beef": {
+      "train": [
+        "cam01",
+        "cam02",
+        "cam03",
+        "cam05",
+        "cam06",
+        "cam07",
+        "cam08",
+        "cam09",
+        "cam10",
+        "cam11",
+        "cam12",
+        "cam13",
+        "cam14",
+        "cam15",
+        "cam16",
+        "cam17",
+        "cam18",
+        "cam19",
+        "cam20"
+      ],
+      "validation": [],
+      "test": [
+        "cam00"
+      ],
+      "pose_rows": {
+        "cam00": 0,
+        "cam01": 1,
+        "cam02": 2,
+        "cam03": 3,
+        "cam05": 4,
+        "cam06": 5,
+        "cam07": 6,
+        "cam08": 7,
+        "cam09": 8,
+        "cam10": 9,
+        "cam11": 10,
+        "cam12": 11,
+        "cam13": 12,
+        "cam14": 13,
+        "cam15": 14,
+        "cam16": 15,
+        "cam17": 16,
+        "cam18": 17,
+        "cam19": 18,
+        "cam20": 19
+      },
+      "flow_cameras": [
+        "cam02",
+        "cam06",
+        "cam10",
+        "cam15"
+      ],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ],
+      "frame_range": [
+        0,
+        299
+      ],
+      "size_wh": [
+        1352,
+        1014
+      ]
+    },
+    "cook_spinach": {
+      "train": [
+        "cam01",
+        "cam02",
+        "cam03",
+        "cam04",
+        "cam05",
+        "cam06",
+        "cam07",
+        "cam08",
+        "cam09",
+        "cam10",
+        "cam11",
+        "cam12",
+        "cam13",
+        "cam14",
+        "cam15",
+        "cam16",
+        "cam17",
+        "cam18",
+        "cam19",
+        "cam20"
+      ],
+      "validation": [],
+      "test": [
+        "cam00"
+      ],
+      "pose_rows": {
+        "cam00": 0,
+        "cam01": 1,
+        "cam02": 2,
+        "cam03": 3,
+        "cam04": 4,
+        "cam05": 5,
+        "cam06": 6,
+        "cam07": 7,
+        "cam08": 8,
+        "cam09": 9,
+        "cam10": 10,
+        "cam11": 11,
+        "cam12": 12,
+        "cam13": 13,
+        "cam14": 14,
+        "cam15": 15,
+        "cam16": 16,
+        "cam17": 17,
+        "cam18": 18,
+        "cam19": 19,
+        "cam20": 20
+      },
+      "flow_cameras": [
+        "cam02",
+        "cam05",
+        "cam09",
+        "cam14"
+      ],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ],
+      "frame_range": [
+        0,
+        299
+      ],
+      "size_wh": [
+        1352,
+        1014
+      ]
+    },
+    "flame_salmon_1": {
+      "train": [
+        "cam01",
+        "cam02",
+        "cam04",
+        "cam05",
+        "cam06",
+        "cam07",
+        "cam08",
+        "cam09",
+        "cam10",
+        "cam11",
+        "cam12",
+        "cam13",
+        "cam14",
+        "cam15",
+        "cam16",
+        "cam18",
+        "cam19",
+        "cam20"
+      ],
+      "validation": [],
+      "test": [
+        "cam00"
+      ],
+      "pose_rows": {
+        "cam00": 0,
+        "cam01": 1,
+        "cam02": 2,
+        "cam04": 3,
+        "cam05": 4,
+        "cam06": 5,
+        "cam07": 6,
+        "cam08": 7,
+        "cam09": 8,
+        "cam10": 9,
+        "cam11": 10,
+        "cam12": 11,
+        "cam13": 12,
+        "cam14": 13,
+        "cam15": 14,
+        "cam16": 15,
+        "cam18": 16,
+        "cam19": 17,
+        "cam20": 18
+      },
+      "flow_cameras": [
+        "cam02",
+        "cam06",
+        "cam10",
+        "cam15"
+      ],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ],
+      "frame_range": [
+        0,
+        299
+      ],
+      "size_wh": [
+        1352,
+        1014
+      ]
+    },
+    "flame_steak": {
+      "train": [
+        "cam01",
+        "cam02",
+        "cam03",
+        "cam04",
+        "cam05",
+        "cam06",
+        "cam07",
+        "cam08",
+        "cam09",
+        "cam10",
+        "cam11",
+        "cam12",
+        "cam13",
+        "cam14",
+        "cam15",
+        "cam16",
+        "cam17",
+        "cam18",
+        "cam19",
+        "cam20"
+      ],
+      "validation": [],
+      "test": [
+        "cam00"
+      ],
+      "pose_rows": {
+        "cam00": 0,
+        "cam01": 1,
+        "cam02": 2,
+        "cam03": 3,
+        "cam04": 4,
+        "cam05": 5,
+        "cam06": 6,
+        "cam07": 7,
+        "cam08": 8,
+        "cam09": 9,
+        "cam10": 10,
+        "cam11": 11,
+        "cam12": 12,
+        "cam13": 13,
+        "cam14": 14,
+        "cam15": 15,
+        "cam16": 16,
+        "cam17": 17,
+        "cam18": 18,
+        "cam19": 19,
+        "cam20": 20
+      },
+      "flow_cameras": [
+        "cam02",
+        "cam05",
+        "cam09",
+        "cam14"
+      ],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ],
+      "frame_range": [
+        0,
+        299
+      ],
+      "size_wh": [
+        1352,
+        1014
+      ]
+    },
+    "sear_steak": {
+      "train": [
+        "cam01",
+        "cam02",
+        "cam03",
+        "cam04",
+        "cam05",
+        "cam06",
+        "cam07",
+        "cam08",
+        "cam09",
+        "cam10",
+        "cam11",
+        "cam12",
+        "cam13",
+        "cam14",
+        "cam15",
+        "cam16",
+        "cam17",
+        "cam18",
+        "cam19",
+        "cam20"
+      ],
+      "validation": [],
+      "test": [
+        "cam00"
+      ],
+      "pose_rows": {
+        "cam00": 0,
+        "cam01": 1,
+        "cam02": 2,
+        "cam03": 3,
+        "cam04": 4,
+        "cam05": 5,
+        "cam06": 6,
+        "cam07": 7,
+        "cam08": 8,
+        "cam09": 9,
+        "cam10": 10,
+        "cam11": 11,
+        "cam12": 12,
+        "cam13": 13,
+        "cam14": 14,
+        "cam15": 15,
+        "cam16": 16,
+        "cam17": 17,
+        "cam18": 18,
+        "cam19": 19,
+        "cam20": 20
+      },
+      "flow_cameras": [
+        "cam02",
+        "cam05",
+        "cam09",
+        "cam14"
+      ],
+      "flow_runtime_indices": [
+        1,
+        4,
+        8,
+        13
+      ],
+      "frame_range": [
+        0,
+        299
+      ],
+      "size_wh": [
+        1352,
+        1014
+      ]
+    }
+  },
+  "split_frozen_at": "2026-10-11T00:33:04.801219+08:00",
+  "test_rgb_policy": "Only preprocessing integrity checks and separate final evaluation may access test RGB.",
+  "camera_mapping": "Sorted actual original MP4 filenames map to full poses_bounds rows; subset poses preserve that order.",
+  "resolution_convention": {
+    "raw_wh": [
+      2704,
+      2028
+    ],
+    "size_wh": [
+      1352,
+      1014
+    ],
+    "resize": "FFmpeg area raw->formal x0.5; OpenCV INTER_AREA formal->dev x0.5; no crop or rotation",
+    "pixel_mapping": "x_dst=(x_src+0.5)*sx-0.5; y_dst=(y_src+0.5)*sy-0.5",
+    "flow_mapping": "flow_x*=dst_w/src_w; flow_y*=dst_h/src_h",
+    "b0_principal_point": "MoRGS symmetric FoV with (W-1)/2,(H-1)/2 raster pixel center",
+    "strict_calibrated_principal_point": "raw W/2,H/2 transformed with half-pixel resize; same (dst-1)/2+scale/2"
+  }
+}

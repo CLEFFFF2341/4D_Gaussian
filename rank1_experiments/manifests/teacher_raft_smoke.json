@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "eval_mode": true,
+  "no_grad": true,
+  "checkpoint_sha256": "d306e7d75428bf943f7c6f163c05df60c9a808964e757c3d26c29b539a4a9bac",
+  "calls": [
+    {
+      "direction": "0->1",
+      "shape": [
+        1,
+        2,
+        507,
+        676
+      ],
+      "abs_mean": 0.03236164152622223,
+      "abs_max": 1.440509557723999
+    },
+    {
+      "direction": "1->0",
+      "shape": [
+        1,
+        2,
+        507,
+        676
+      ],
+      "abs_mean": 0.032847411930561066,
+      "abs_max": 1.3545559644699097
+    }
+  ],
+  "identity_mean_epe_pixels": 0.007379428017884493,
+  "input_range": "[0,1], matching vendored MoRGS call path; no preprocessing correction",
+  "caveat": "Finite outputs and strict weights establish execution, not flow quality or cache agreement.",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "python": "3.10.18",
+  "seconds": 4.002315599998838,
+  "peak_allocated": 162221568,
+  "peak_reserved": 186646528,
+  "camera": "coffee_martini/cam02",
+  "frame_ids": [
+    0,
+    1
+  ],
+  "official_environment": true
+}
