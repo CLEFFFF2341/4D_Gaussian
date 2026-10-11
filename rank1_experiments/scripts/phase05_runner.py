@@ -126,6 +126,7 @@ class Runner:
         subprocess.run(['git','commit','-m',f'phase05 trial: {scene} {method} {trial} full90 validation and checkpoint index'],cwd=ROOT.parent,check=True)
 
     def run(self):
+        self.active=dict(stage='freeze independent validation proxies');self.save_progress()
         self.invoke('regions','phase05_regions.py')
         for job in self.p['jobs']:
             if job['role']=='calibration':self.job(job,True)
@@ -145,11 +146,13 @@ class Runner:
         if gate['signal']:
             self.status='SEED0_SIGNAL_REPEAT_REQUIRED'
             state_update(status='RUNNING',phase05='REPEAT_REQUIRED',continue_gate_passed=False,next_phase='05',
+                         next_actions=['Prepare formal cam01 data and shared-head resource probe','Run selected M and two controls over both300-frame scenes, seeds0/1/2; fixed global lambdas'],
                          scope='Seed0 screening signal only; mandatory300-frame3-seed repetition remains')
         else:
             self.invoke('one_readonly_diagnosis','phase05_diagnose.py')
             self.status='NO_GO_AFTER_READONLY_DIAGNOSIS'
             state_update(status='NO_GO',phase05='COMPLETE_NO_GO',continue_gate_passed=False,next_phase='STOPPED',
+                         next_actions=['Review paired negative results and one read-only diagnosis; no stage06/08 expansion'],
                          scope='All24 seed0 trials and one diagnosis complete; no screening signal, no expansion')
         self.active={};self.save_progress()
         self.invoke('paired_figures','phase05_figures.py')

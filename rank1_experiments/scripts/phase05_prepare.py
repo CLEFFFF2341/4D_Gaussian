@@ -10,6 +10,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from phase05.common import SCENES,METHODS,read,write,sha,now,state_update
 
 def main():
+    assert not (ROOT/'manifests/phase05_protocol.json').exists(),'Frozen protocol already exists; do not rerun prepare'
     assert read(ROOT/'experiment_state.json')['phase04']=='PASS'
     lock=read(ROOT/'manifests/phase04_artifact_lock.json')
     assert all(sha(ROOT/p)==h for p,h in lock.items()),'Frozen phase04 artifact changed'
