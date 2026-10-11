@@ -11,6 +11,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 if __name__ == '__main__':
     label, script, *arguments = sys.argv[1:]
+    pause = ROOT/'manifests/phase04_pause.lock'
+    if label.startswith('short_') and pause.exists():
+        print('Waiting between complete jobs for the phase04 reference audit', flush=True)
+        while pause.exists():
+            time.sleep(1)
     stamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     log = ROOT/'logs'/f'phase04_{label}_{stamp}.log'
     command = [str(ROOT/'scripts/run_phase04.cmd'), str(Path(script).resolve()), *arguments]
