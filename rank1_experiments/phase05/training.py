@@ -115,7 +115,7 @@ class PilotTraining(SharedTraining):
                  sampler_sha256=hashlib.sha256(json.dumps(self.sample_sequence).encode()).hexdigest(),
                  flow_diagnostic_events=len(self.flow_rows),flow_enabled=self.enabled and not self.calibrating)
         for key in ('flow_loss','flow_grad_norm','rgb_grad_norm','outlier_posterior','responsibility_entropy',
-                    candidate_count_mean','teacher_mean_epe_reference'):
+                    'candidate_count_mean','teacher_mean_epe_reference'):
             values=[d[key] for d in self.flow_rows if key in d]
             row[key+'_event_mean']=sum(values)/len(values) if values else None
         with (self.out/'training_metrics.jsonl').open('a',encoding='utf-8') as f:f.write(json.dumps(row)+'\n')

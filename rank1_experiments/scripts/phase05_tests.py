@@ -1,5 +1,6 @@
 """Checks that can affect pilot decisions: region metrics and scene-level gating."""
 import sys
+import ast
 from pathlib import Path
 import torch
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'scripts'),str(ROOT/'working/MoRGS')]
@@ -8,6 +9,9 @@ from phase05.selection import select,screen
 from phase05_evaluate import region_metrics,ssim_map
 from utils.loss_utils import ssim
 from phase05_regions import masks,fb
+
+for path in list((ROOT/'phase05').glob('*.py'))+list((ROOT/'scripts').glob('phase05*.py'))+[ROOT/'working/MoRGS/train_phase05.py']:
+    ast.parse(path.read_text(encoding='utf-8'),filename=str(path))
 
 generator=torch.Generator().manual_seed(414)
 a=torch.rand((1,3,31,37),generator=generator);b=torch.rand(a.shape,generator=generator)
