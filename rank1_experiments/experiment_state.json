@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T12:06:29.927905+08:00",
+  "updated_at": "2026-10-11T12:16:47.996786+08:00",
   "last_audit_run_ended_at": "2026-10-11T00:02:54.348831+08:00",
   "start_time": "2026-10-10T22:33:30+08:00",
   "timezone": "Asia/Shanghai",
@@ -50,7 +50,9 @@
     "phase03_teacher_final.json": "7fa6f816d8b0f99ecbfea10a20dc3866353e046d3c80cb46ab2d681d20c8e015",
     "phase03_teacher_training_equivalence.json": "0999d531a2afbc7ccc56a62fe3fed457a9a2376531e39679f5f1f2f22f1b1007",
     "phase03_visual_qa.json": "2f068467f1e6d253c47e87d93428b1793f44c99ece659a7182fe9cca40b08c95",
-    "phase04_artifact_lock.json": "3f6786292cf747880c4aca3b04db793302be3b3a6f3599bb94ea119f6a9ee576"
+    "phase04_artifact_lock.json": "3f6786292cf747880c4aca3b04db793302be3b3a6f3599bb94ea119f6a9ee576",
+    "phase05_protocol.json": "34b5551d6e8639f94ddf83129f6162a95f98c3141637e013e1e5bbe7a503179d",
+    "phase05_startup_artifact_lock.json": "c540275e61c1a591ad08520e526b1716b93d48f5bf2528809bf111e998c07efe"
   },
   "completed": [
     "Pinned source archive and all original file hashes",
@@ -382,7 +384,7 @@
   ],
   "baseline_quality_scope": "Execution/alignment verified; development sparse-init coverage and later cut quality decline remain limitations; paper numbers not reproduced.",
   "phase03_finished": "2026-10-11T03:22:31.251478+08:00",
-  "active_artifact_lock": "manifests/phase04_artifact_lock.json",
+  "active_artifact_lock": "manifests/phase05_startup_artifact_lock.json",
   "phase03_report": "reports/phase03_baseline.md",
   "phase04": "PASS",
   "phase04_started": "2026-10-11T11:13:00.650218+08:00",
@@ -409,5 +411,6 @@
   },
   "phase05_started": "2026-10-11T12:06:29.921350+08:00",
   "phase05_protocol_sha256": "34b5551d6e8639f94ddf83129f6162a95f98c3141637e013e1e5bbe7a503179d",
-  "phase05_report": "reports/phase05_go_no_go.md"
+  "phase05_report": "reports/phase05_go_no_go.md",
+  "phase05_startup": "PASS"
 }

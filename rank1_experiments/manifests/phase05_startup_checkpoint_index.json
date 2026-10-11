@@ -1,0 +1,74 @@
+[
+  {
+    "path": "runs\\pilot\\calibration\\coffee_martini\\CALIBRATE\\r000\\checkpoints\\frame_0002.pt",
+    "bytes": 421823990,
+    "sha256": "3307dc44dec9c855ce5a8e63bf4b8f618d3d3cfade0524cc65cb416c738c39a5",
+    "role": "runs/pilot/calibration"
+  },
+  {
+    "path": "runs\\pilot\\calibration\\coffee_martini\\CALIBRATE\\r000\\checkpoints\\latest.pt",
+    "bytes": 421823290,
+    "sha256": "1ae8c98ff996982dd09a27f4415d61e2c23c32ca22fa2d3235b05ce6961f1595",
+    "role": "runs/pilot/calibration"
+  },
+  {
+    "path": "runs\\pilot\\calibration\\cut_roasted_beef\\CALIBRATE\\r000\\checkpoints\\frame_0002.pt",
+    "bytes": 297606398,
+    "sha256": "328e0b48eaa0d8463a902797a5a3c60931013e5ce2d65307bb0e8c01b80c57b8",
+    "role": "runs/pilot/calibration"
+  },
+  {
+    "path": "runs\\pilot\\calibration\\cut_roasted_beef\\CALIBRATE\\r000\\checkpoints\\latest.pt",
+    "bytes": 297605690,
+    "sha256": "7b83fc74ee7a6a020161e9d207febea336347303bb02abe457259da14bf9e631",
+    "role": "runs/pilot/calibration"
+  },
+  {
+    "path": "runs\\pilot\\startup\\coffee_martini\\M\\checkpoints\\frame_0002.pt",
+    "bytes": 421823990,
+    "sha256": "c571fd8abc3468bf8913db23224cb87ce1e12807af193764f4d58114edf20ce3",
+    "role": "runs/pilot/startup"
+  },
+  {
+    "path": "runs\\pilot\\startup\\coffee_martini\\M\\checkpoints\\latest.pt",
+    "bytes": 421823290,
+    "sha256": "be0f3dc707800096219fdd677c5ed3988d2d42fed15efedaa60ece7459028aed",
+    "role": "runs/pilot/startup"
+  },
+  {
+    "path": "runs\\pilot\\startup\\cut_roasted_beef\\M\\checkpoints\\frame_0002.pt",
+    "bytes": 297605694,
+    "sha256": "f46ecc3f91bde2870265a86b2e2edf3d38a5fefee785d0f95aafd1ef87926f9b",
+    "role": "runs/pilot/startup"
+  },
+  {
+    "path": "runs\\pilot\\startup\\cut_roasted_beef\\M\\checkpoints\\latest.pt",
+    "bytes": 297604986,
+    "sha256": "8bd3af7a0bac6f244fd72fa80b5c7fe7edbc84475fafe2dc29e27908986d33dc",
+    "role": "runs/pilot/startup"
+  },
+  {
+    "path": "runs\\pilot\\startup_v3\\coffee_martini\\M\\checkpoints\\frame_0002.pt",
+    "bytes": 421823990,
+    "sha256": "b909a0bb6231841e0c7954cc95e9e737d0ecee6644bed8178a30340d737d66bb",
+    "role": "runs/pilot/startup_v3"
+  },
+  {
+    "path": "runs\\pilot\\startup_v3\\coffee_martini\\M\\checkpoints\\latest.pt",
+    "bytes": 421823290,
+    "sha256": "10107b969f259f86151f4f1cc092f2578067b5e7c7cba685d2c5188fe96563dc",
+    "role": "runs/pilot/startup_v3"
+  },
+  {
+    "path": "runs\\pilot\\startup_v3\\cut_roasted_beef\\M\\checkpoints\\frame_0002.pt",
+    "bytes": 297605758,
+    "sha256": "bb01243f6632782e3bf24bfa7bb1e9cc5c653de3fa86f7f18c2b9b3c779d8b41",
+    "role": "runs/pilot/startup_v3"
+  },
+  {
+    "path": "runs\\pilot\\startup_v3\\cut_roasted_beef\\M\\checkpoints\\latest.pt",
+    "bytes": 297605050,
+    "sha256": "3c9b32ab9be32f7b971a95a09f4b1b1955883a384ed6f60df26b727f7afc4388",
+    "role": "runs/pilot/startup_v3"
+  }
+]

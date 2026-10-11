@@ -1,0 +1,19 @@
+{
+  "phase05\\common.py": "7ba75dacc604797d6980313e60ef067e4126405d6a9526d65e9349ced5fd6d45",
+  "phase05\\selection.py": "66d4150bf0231d98d5fbf88b59e0d0f8ca5e7d2e40abae011d02aa6165057ead",
+  "phase05\\training.py": "2cb6b929fdadc78b356edd5fe038662b87b4fdde658b23538d688e2e8c5f59f4",
+  "phase05\\__init__.py": "120a21b51641c1a7ba4c7d08270d1e140156ce618d275dcec845ff060708e85e",
+  "scripts\\phase05_diagnose.py": "54248e119f0e5dc9638c7a0b920e8cf6fbf725dc290c3bf1e3364b6e7ebec3a2",
+  "scripts\\phase05_evaluate.py": "0e7b1fab6afe2676d658eca661ef2ae1c87884d521696356bf84753cc17765b6",
+  "scripts\\phase05_figures.py": "39ecef89f8ba4c14b342f27a3b697cfa9fbc71f1a41f66a98236ccfd7e475af8",
+  "scripts\\phase05_launch.py": "598b62ca417b5458d77331f260a2deb535097df061ee9ee5084b52ae8959ff9b",
+  "scripts\\phase05_prepare.py": "593ce49e35d75471643429a11c77c25d821a2f0fb9d5cda66ceb3c6c624a06c5",
+  "scripts\\phase05_regions.py": "97ecf89c911a55fe247140e4788bd1dea0e5efbae8c290df8c33229d7bc5e216",
+  "scripts\\phase05_report.py": "13b5d2c387ef9389f090e3eba07a9707827b7e58009415f167a7052e24257424",
+  "scripts\\phase05_runner.py": "df3005ac7943621bd8adc3ce9ddea73368d97f6295b4b059be5e04b5131e15fc",
+  "scripts\\phase05_seal_startup.py": "5cf5a765f24830f8d576aeabf1f273c327be53277361a8a0fc4d1e8717d106fe",
+  "scripts\\phase05_startup_check.py": "90b248138ef85e765e1217fd2d5db886a400379ada53c7af4e1348649d961b99",
+  "scripts\\phase05_status.py": "c6021083381f16e52e5885af49e06c88795676c7647ab1101c0f0b15359c4f04",
+  "scripts\\phase05_tests.py": "8afc586c0d480a77858e656b30465a0cdf17558454bbe91b676b0a5f57663d95",
+  "working\\MoRGS\\train_phase05.py": "d92b3872c058456f7423d43a0e6fe7867652741c68ef6e114e607d2db8434349"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scenes": [
+    {
+      "scene": "coffee_martini",
+      "calibration": "E:/4D_Gaussian/rank1_experiments/runs/pilot/calibration/coffee_martini/CALIBRATE/r000/calibration.json",
+      "calibration_sha256": "cfb5a6d3a67fede2ef623ddc3b9b5bda1d4d426d37f7f0168de16d78c07aab52",
+      "lambda_flow": 0.01223629838725207,
+      "gradients_nonzero": true,
+      "posterior_recorded": true,
+      "sampler_prefix_sha256": "043f8b1a29b7e0e5686f82fc52861c2bcae67af570cadde9b5ded14666d7fd3b",
+      "peak_allocated_gib": 3.213718891143799,
+      "train_seconds": 39.081842399999914,
+      "evaluation_status": "PASS"
+    },
+    {
+      "scene": "cut_roasted_beef",
+      "calibration": "E:/4D_Gaussian/rank1_experiments/runs/pilot/calibration/cut_roasted_beef/CALIBRATE/r000/calibration.json",
+      "calibration_sha256": "1b3fa9b1396d66b756a25de7a8d997ff516cafda58c11f60595952b2a2ef8b4f",
+      "lambda_flow": 0.011939032906003384,
+      "gradients_nonzero": true,
+      "posterior_recorded": true,
+      "sampler_prefix_sha256": "c75f253a9c6d69415da7179c9ec2f3f9ea240ff97362f98e0465351ded5dc917",
+      "peak_allocated_gib": 3.009124279022217,
+      "train_seconds": 28.804177699999855,
+      "evaluation_status": "PASS"
+    }
+  ],
+  "scope": "Training and evaluation one-frame startup check; not a full90 search trial and not selection evidence"
+}

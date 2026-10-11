@@ -1,0 +1,6 @@
+{
+  "runs\\pilot\\calibration\\coffee_martini\\CALIBRATE\\r000\\calibration.json": "cfb5a6d3a67fede2ef623ddc3b9b5bda1d4d426d37f7f0168de16d78c07aab52",
+  "manifests\\phase05_sampler_coffee_martini.json": "bf784a4cde327e3a8297387ba14bc5e782baf40973d6c385f77cc9c37c27d7a5",
+  "runs\\pilot\\calibration\\cut_roasted_beef\\CALIBRATE\\r000\\calibration.json": "1b3fa9b1396d66b756a25de7a8d997ff516cafda58c11f60595952b2a2ef8b4f",
+  "manifests\\phase05_sampler_cut_roasted_beef.json": "2e319b6c9c05e30f50b0dcfe2bc2df2cc3e0e17810eb39ddefa0c02bb6cb4b4c"
+}
