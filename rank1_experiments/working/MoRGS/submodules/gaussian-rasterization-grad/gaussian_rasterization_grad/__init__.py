@@ -3,7 +3,7 @@
 # GRAPHDECO research group, https://team.inria.fr/graphdeco
 # All rights reserved.
 #
-# This software is free for non-commercial, research and evaluation use 
+# This software is free for non-commercial, research and evaluation use
 # under the terms of the LICENSE.md file.
 #
 # For inquiries contact  george.drettakis@inria.fr
@@ -76,7 +76,7 @@ class _RasterizeGaussians(torch.autograd.Function):
 
         # Restructure arguments the way that the C++ lib expects them
         args = (
-            raster_settings.bg, 
+            raster_settings.bg,
             means3D,
             colors_precomp,
             motion_label, #추가
@@ -106,6 +106,7 @@ class _RasterizeGaussians(torch.autograd.Function):
             raster_settings.render_motion_label #추가
         )
 
+        point_motion_label = motion_label
         # Invoke C++/CUDA rasterizer
         if raster_settings.debug:
             cpu_args = cpu_deep_copy_tuple(args) # Copy them before they can be corrupted
@@ -122,7 +123,7 @@ class _RasterizeGaussians(torch.autograd.Function):
         # Keep relevant tensors for backward
         ctx.raster_settings = raster_settings
         ctx.num_rendered = num_rendered
-        ctx.save_for_backward(colors_precomp, motion_label, means3D, flow3D, scales, rotations, cov3Ds_precomp, radii, sh, geomBuffer, 
+        ctx.save_for_backward(colors_precomp, point_motion_label, means3D, flow3D, scales, rotations, cov3Ds_precomp, radii, sh, geomBuffer,
                               binningBuffer, imgBuffer, alpha, update_mask, pixel_mask) # 추가
         return color, motion_label, flow2D, infl, count_infl, depth, alpha, radii # 추가
 
@@ -137,28 +138,28 @@ class _RasterizeGaussians(torch.autograd.Function):
         pixel_mult = (pixel_mask>0.0).unsqueeze(0) if pixel_mask.shape[0]>0 else 1
         # Restructure args as C++ method expects them
         args = (raster_settings.bg,
-                means3D, 
+                means3D,
                 flow3D,
-                radii, 
-                colors_precomp, 
+                radii,
+                colors_precomp,
                 motion_label, #추가
-                scales, 
-                rotations, 
+                scales,
+                rotations,
                 update_mask,
                 pixel_mask,
-                raster_settings.scale_modifier, 
-                cov3Ds_precomp, 
-                raster_settings.viewmatrix, 
-                raster_settings.projmatrix, 
-                raster_settings.tanfovx, 
-                raster_settings.tanfovy, 
-                grad_out_color*pixel_mult, 
+                raster_settings.scale_modifier,
+                cov3Ds_precomp,
+                raster_settings.viewmatrix,
+                raster_settings.projmatrix,
+                raster_settings.tanfovx,
+                raster_settings.tanfovy,
+                grad_out_color*pixel_mult,
                 grad_out_motion_label*pixel_mult if raster_settings.render_motion_label else torch.Tensor([]), #추가
                 grad_out_flow2D*pixel_mult if raster_settings.render_flow else torch.Tensor([]),
                 grad_depth*pixel_mult if raster_settings.render_depth else torch.Tensor([]),
                 grad_alpha*pixel_mult if raster_settings.backward_alpha else torch.Tensor([]),
-                sh, 
-                raster_settings.sh_degree, 
+                sh,
+                raster_settings.sh_degree,
                 raster_settings.campos,
                 geomBuffer,
                 num_rendered,
@@ -201,7 +202,7 @@ class _RasterizeGaussians(torch.autograd.Function):
 
 class GaussianRasterizationSettings(NamedTuple):
     image_height: int
-    image_width: int 
+    image_width: int
     tanfovx : float
     tanfovy : float
     bg : torch.Tensor
@@ -216,41 +217,41 @@ class GaussianRasterizationSettings(NamedTuple):
     backward_alpha: bool
     render_flow: bool
     render_motion_label: bool # 추가
- 
+
 class GaussianRasterizer(nn.Module):
     def __init__(self, raster_settings):
         super().__init__()
         self.raster_settings = raster_settings
 
     def markVisible(self, positions):
-        # Mark visible points (based on frustum culling for camera) with a boolean 
+        # Mark visible points (based on frustum culling for camera) with a boolean
         with torch.no_grad():
             raster_settings = self.raster_settings
             visible = _C.mark_visible(
                 positions,
                 raster_settings.viewmatrix,
                 raster_settings.projmatrix)
-            
+
         return visible
 
     def forward(self, means3D, flow3D, means2D, opacities, shs = None, colors_precomp = None, motion_label = None, scales = None, rotations = None, cov3D_precomp = None, pixel_mask = None, # 추가
                 color_mask = None, cov_mask = None, update_mask = None):
-        
+
         raster_settings = self.raster_settings
 
         if color_mask is None and ((shs is None and colors_precomp is None) or (shs is not None and colors_precomp is not None)):
             raise Exception('Please provide excatly one of either SHs or precomputed colors!')
         elif (color_mask is not None and colors_precomp is None) :
             raise Exception('Color mask provided for reading/writing from colors_precomp but colors_precomp is not provided!')
-        
+
         if ((scales is None or rotations is None) and cov3D_precomp is None) or ((scales is not None or rotations is not None) and cov3D_precomp is not None):
             raise Exception('Please provide exactly one of either scale/rotation pair or precomputed 3D covariance!')
-        
+
         if shs is None:
             shs = torch.Tensor([])
         if colors_precomp is None:
             colors_precomp = torch.Tensor([])
-            
+
         if motion_label is None:
             motion_label = torch.Tensor([])
 
@@ -276,13 +277,12 @@ class GaussianRasterizer(nn.Module):
             colors_precomp,
             motion_label, #추가
             opacities,
-            scales, 
+            scales,
             rotations,
-            cov3D_precomp, 
+            cov3D_precomp,
             pixel_mask,
             color_mask,
             cov_mask,
             update_mask,
             raster_settings,
         )
-

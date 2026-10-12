@@ -3,7 +3,7 @@
 # GRAPHDECO research group, https://team.inria.fr/graphdeco
 # All rights reserved.
 #
-# This software is free for non-commercial, research and evaluation use 
+# This software is free for non-commercial, research and evaluation use
 # under the terms of the LICENSE.md file.
 #
 # For inquiries contact  george.drettakis@inria.fr
@@ -40,7 +40,7 @@ class CameraInfo(NamedTuple):
     znear: float
     zfar: float
     principle_point: tuple
-    
+
 class SequentialCameraInfo(NamedTuple):
     uid: int
     R: np.array
@@ -120,11 +120,11 @@ def readColmapCameras(cam_extrinsics, cam_intrinsics, images_folder):
 
         znear = 0.01
         zfar = 100.0
-        
+
         cam_info = CameraInfo(uid=uid, R=R, T=T, FovY=FovY, FovX=FovX, image=image,
                               image_path=image_path, image_name=image_name, width=width, height=height,
                               znear=znear, zfar=zfar, principle_point=None)
-        
+
         cam_infos.append(cam_info)
     sys.stdout.write('\n')
     return cam_infos
@@ -143,7 +143,7 @@ def storePly(path, xyz, rgb):
     dtype = [('x', 'f4'), ('y', 'f4'), ('z', 'f4'),
             ('nx', 'f4'), ('ny', 'f4'), ('nz', 'f4'),
             ('red', 'u1'), ('green', 'u1'), ('blue', 'u1')]
-    
+
     normals = np.zeros_like(xyz)
 
     elements = np.empty(xyz.shape[0], dtype=dtype)
@@ -168,13 +168,13 @@ def readColmapSceneInfo(path, images, eval, llffhold=100):
         cam_intrinsics = read_intrinsics_text(cameras_intrinsic_file)
 
     reading_dir = "images" if images == None else images
-    # cam_infos_unsorted = readColmapCameras(cam_extrinsics=cam_extrinsics, cam_intrinsics=cam_intrinsics, 
+    # cam_infos_unsorted = readColmapCameras(cam_extrinsics=cam_extrinsics, cam_intrinsics=cam_intrinsics,
     #                                        images_folder=os.path.join(path, reading_dir))
-    cam_infos_unsorted = readColmapCameras(cam_extrinsics=cam_extrinsics, cam_intrinsics=cam_intrinsics, 
+    cam_infos_unsorted = readColmapCameras(cam_extrinsics=cam_extrinsics, cam_intrinsics=cam_intrinsics,
                                            images_folder=os.path.join(path, "sparse", reading_dir))
     cam_infos = sorted(cam_infos_unsorted.copy(), key = lambda x : x.image_name)
 
-    # if eval:    
+    # if eval:
     #     train_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold != 0]
     #     test_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold == 0]
     # else:
@@ -193,7 +193,7 @@ def readColmapSceneInfo(path, images, eval, llffhold=100):
 
     if "meetroom" in path:
         ply_path = os.path.join(path, "points3D_downsample2.ply")
-    
+
     if not os.path.exists(ply_path):
         print("Converting point3d.bin to .ply, will happen only the first time you open the scene.")
         try:
@@ -300,7 +300,7 @@ def readImmersiveSceneInfo(path, test_indices, resolution, world_scale = 0.0):
     image_wh = (
         int(image.width / scale),
         int(image.height / scale),
-    )  
+    )
 
     ply_path = os.path.join(path, "colmap", "sparse/0/points3D.ply")
     bin_path = os.path.join(path, "colmap", "sparse/0/points3D.bin")
@@ -333,8 +333,8 @@ def readImmersiveSceneInfo(path, test_indices, resolution, world_scale = 0.0):
         cam_extrinsics = read_extrinsics_text(cameras_extrinsic_file)
         cam_intrinsics = read_intrinsics_text(cameras_intrinsic_file)
 
-    cam_infos_unsorted, video_cam_infos = readImmersiveCameras(cam_extrinsics=cam_extrinsics, 
-                                              cam_intrinsics=cam_intrinsics, 
+    cam_infos_unsorted, video_cam_infos = readImmersiveCameras(cam_extrinsics=cam_extrinsics,
+                                              cam_intrinsics=cam_intrinsics,
                                               image_wh=image_wh,
                                               world_scale=world_scale)
     cam_infos = sorted(cam_infos_unsorted.copy(), key = lambda x : x.uid)
@@ -368,7 +368,7 @@ def getImmersiveVideoCameras(poses, image_wh, focal, world_scale, width, height,
         FovY = focal2fov(focal[1], image_wh[1])
         cameras.append(SequentialCameraInfo(uid=idx, R=R, T=T*world_scale, FovY=FovY, FovX=FovX,
                                         width=int(width), height=int(height),
-                                        znear=.1, zfar=1000., 
+                                        znear=.1, zfar=1000.,
                                         principle_point=principle_point))
     return cameras
 
@@ -385,7 +385,7 @@ def getVideoCameras(poses, image_wh, focal, znear, zfar):
         T = -pose[:3,3].dot(R)
         FovX = focal2fov(focal[0], image_wh[0])
         FovY = focal2fov(focal[1], image_wh[1])
-        cameras.append(SequentialCameraInfo(uid=idx, R=R, T=T, FovY=FovY, FovX=FovX, 
+        cameras.append(SequentialCameraInfo(uid=idx, R=R, T=T, FovY=FovY, FovX=FovX,
                                             width=image_wh[0], height=image_wh[1],
                                             znear=znear, zfar=zfar, principle_point=None))
     return cameras
@@ -398,15 +398,15 @@ def readCamerasFromPoseBounds(poses_path=None, image_wh=[0,0], N_video_views=300
         poses_arr=poses_arr
     else:
         raise NotImplementedError("No poses path or poses array provided")
-    
+
     # if "coffee_martini" in poses_path:
     #      print('====================deletting unsynchronized video==============')
     #      poses_arr = np.concatenate([poses_arr[:12], poses_arr[13:]], axis=0)
-         
+
     poses = poses_arr[:, :-2].reshape([-1, 3, 5])  # (N_cams, 3, 5)
     near_fars = poses_arr[:, -2:]
 
-    
+
     # poses_bounds can have image at original resolution, which might not match the existing images
     # therefore we will scale it correctly according to `image_wh`
     H, W, focal = poses[0, :, -1]
@@ -425,46 +425,39 @@ def readCamerasFromPoseBounds(poses_path=None, image_wh=[0,0], N_video_views=300
         FovX = focal2fov(focal[0], image_wh[0])
         FovY = focal2fov(focal[1], image_wh[1])
         # Load image after
-        cameras.append(SequentialCameraInfo(uid=idx+idx_offset, R=R, T=T, FovY=FovY, FovX=FovX, 
+        cameras.append(SequentialCameraInfo(uid=idx+idx_offset, R=R, T=T, FovY=FovY, FovX=FovX,
                                              width=image_wh[0], height=image_wh[1],
-                                             znear=near_fars[idx][0], 
+                                             znear=near_fars[idx][0],
                                              zfar=near_fars[idx][1],
                                              principle_point=None))
-        
+
     video_poses = get_spiral(poses, near_fars, N_views=N_video_views)
     video_cameras = getVideoCameras(video_poses, image_wh, focal,
                                     znear=np.median(near_fars[:,0]),
                                     zfar=np.median(near_fars[:,1]))
 
     return cameras, video_cameras
-        
+
 def readDynerfInfo(datadir, test_indices, resolution, N_video_views=300, verbose=False):
-    
+
     downsample = resolution
     #image = Image.open(os.path.join(datadir,'cam00','images','0000.png'))
-    meta_path = os.path.join(datadir, 'dataset_meta.json')
-    if os.path.exists(meta_path):
-        with open(meta_path, 'r', encoding='utf-8') as f:
-            meta = json.load(f)
-        if meta['role'] == 'train' and list(test_indices):
-            raise ValueError('Isolated training root requires test_indices=[]; original test RGB lives in a separate root.')
-        image_wh = tuple(int(x / downsample) for x in meta['size_wh'])
-    elif "dynerf" in datadir:
+    if "dynerf" in datadir:
         image = Image.open(os.path.join(datadir,'cam00','0000.png'))
-    elif "meetroom" in datadir:
+    if "meetroom" in datadir:
         image = Image.open(os.path.join(datadir,'cam_0','0.png'))
-    if not os.path.exists(meta_path):
-        image_wh = (
-            int(image.width / downsample),
-            int(image.height / downsample),
-        )
+
+    image_wh = (
+        int(image.width / downsample),
+        int(image.height / downsample),
+    )
 
     cam_infos, video_cam_infos = readCamerasFromPoseBounds(os.path.join(datadir, "poses_bounds.npy"), image_wh, N_video_views=N_video_views)
     #cam_infos, video_cam_infos = readCamerasFromPoseBounds(os.path.join(datadir, "poses_bounds_multipleview.npy"), image_wh, N_video_views=N_video_views)
     #cam_infos, video_cam_infos = readCamerasFromPoseBounds(os.path.join(datadir, "colmap", "poses_bounds.npy"), image_wh, N_video_views=N_video_views)
     cam_infos = sorted(cam_infos.copy(), key = lambda x : x.uid)
     video_cam_infos = sorted(video_cam_infos.copy(), key = lambda x : x.uid)
-         
+
     train_cam_infos = [cam_info for cam_info in cam_infos if cam_info.uid not in test_indices]
     test_cam_infos = [cam_info for cam_info in cam_infos if cam_info.uid in test_indices]
     nerf_normalization = getNerfppNorm(train_cam_infos)
@@ -476,14 +469,14 @@ def readDynerfInfo(datadir, test_indices, resolution, N_video_views=300, verbose
         #ply_path = os.path.join(datadir, "sparse_", "points3D.ply")
     else:
         ply_path = os.path.join(datadir, "colmap/dense/workspace/fused.ply")
-    
+
     # if not os.path.exists(ply_path):
     #     xyz, rgb, _ = read_points3D_binary(bin_path)
     #     storePly(ply_path, xyz, rgb)
-    
+
     pcd = fetchPly(ply_path)
-    
-    
+
+
     if verbose:
         print("readDynerfInfo(): acquired point cloud of shape ", pcd.points.shape)
 
@@ -515,7 +508,7 @@ def readPanopticInfo(datadir):
     for id in cam_intrinsics:
         train_info = setup_camera(width, height, cam_intrinsics[id], w2c)
         train_infos.append(train_info)
-    
+
     # Return placeholder scene info - this function needs proper implementation
     scene_info = SceneInfo(point_cloud=None,
                            train_cameras=train_infos,

@@ -3,7 +3,7 @@
 # GRAPHDECO research group, https://team.inria.fr/graphdeco
 # All rights reserved.
 #
-# This software is free for non-commercial, research and evaluation use 
+# This software is free for non-commercial, research and evaluation use
 # under the terms of the LICENSE.md file.
 #
 # For inquiries contact  george.drettakis@inria.fr
@@ -18,7 +18,6 @@ import re
 from utils.graphics_utils import getWorld2View2, getProjectionMatrix, getProjectionMatrixOffCenter
 
 def imageName_from_Path(path):
-    path = str(path).replace("\\", "/")
     if "camera_" in path:
         match = re.match(r'.*(camera_\d*).*\/(.*)\.png',path)
     else:
@@ -26,7 +25,6 @@ def imageName_from_Path(path):
     return match.group(1)+'_'+match.group(2)
 
 def camName_from_Path(path):
-    path = str(path).replace("\\", "/")
     if "camera_" in path:
         match = re.match(r'.*(camera_\d*).*\/(.*)\.png',path)
     else:
@@ -108,7 +106,7 @@ class SequentialCamera(nn.Module):
         self.image_width = image_wh[0]
         self.image_height = image_wh[1]
         self.gt_alpha_mask = gt_alpha_mask
-        
+
         self.gt_depth = None
 
         self.zfar = zfar
@@ -122,12 +120,12 @@ class SequentialCamera(nn.Module):
         self.gt_depth = None
         self.err_scale = None
         self.pix_thresh_vals = None
-        
+
         self.optical_flow = None
         self.optical_flow_mask = None
         self.heatmap = None
         self.optical_flow_sam2_mask = None
-        
+
         self.mask = None
         self.orig_mask = None
         self.dynamic_mask = None
@@ -138,14 +136,14 @@ class SequentialCamera(nn.Module):
         if principle_point is None:
             self.projection_matrix = getProjectionMatrix(znear=self.znear, zfar=self.zfar, fovX=self.FoVx, fovY=self.FoVy).transpose(0,1).cuda()
         else:
-            self.projection_matrix = getProjectionMatrixOffCenter(znear=self.znear, zfar=self.zfar, 
+            self.projection_matrix = getProjectionMatrixOffCenter(znear=self.znear, zfar=self.zfar,
                                                                    fovX=self.FoVx, fovY=self.FoVy,
                                                                    cx=principle_point[0], cy=principle_point[1],
                                                                    width=self.image_width, height=self.image_height).transpose(0,1).cuda()
-            
+
         self.full_proj_transform = (self.world_view_transform.unsqueeze(0).bmm(self.projection_matrix.unsqueeze(0))).squeeze(0)
         self.camera_center = self.world_view_transform.inverse()[3, :3]
-        
+
         if self.original_image is not None:
             self.update_image(self.original_image, self.image_path, frame_idx, gt_alpha_mask)
 
@@ -166,7 +164,7 @@ class MiniCam:
     def __init__(self, uid, width, height, fovy, fovx, znear, zfar, world_view_transform, full_proj_transform, camera_center=None, frame_idx=0):
         self.uid = uid
         self.image_width = width
-        self.image_height = height    
+        self.image_height = height
         self.FoVy = fovy
         self.FoVx = fovx
         self.znear = znear
@@ -179,4 +177,3 @@ class MiniCam:
         else:
             self.camera_center = camera_center
         self.frame_idx = frame_idx
-

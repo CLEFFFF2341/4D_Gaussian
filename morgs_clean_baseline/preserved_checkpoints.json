@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "path": "bootstrap/coffee_martini/seed0/frame_0001.pt",
+      "frame": 1,
+      "groups": 358431
+    },
+    {
+      "path": "reference/coffee_martini/seed0/frame_0090.pt",
+      "frame": 90,
+      "groups": 364245
+    },
+    {
+      "path": "bootstrap/cut_roasted_beef/seed0/frame_0001.pt",
+      "frame": 1,
+      "groups": 218102
+    },
+    {
+      "path": "reference/cut_roasted_beef/seed0/frame_0090.pt",
+      "frame": 90,
+      "groups": 222674
+    }
+  ]
+}

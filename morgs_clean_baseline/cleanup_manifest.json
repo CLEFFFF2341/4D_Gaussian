@@ -1,0 +1,78 @@
+[
+  {
+    "from": "E:\\4D_Gaussian\\morgs_n02_v1",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\morgs_n02_v1"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\n01_code_disabled_20261012",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\n01_code_disabled_20261012"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\n01_removed_20261012",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\n01_removed_20261012"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\diagnostics\\phase06v2_r1_source_archive",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\diagnostics\\phase06v2_r1_source_archive"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\tmp\\prepare_n02_workspace.py.disabled",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\tmp\\prepare_n02_workspace.py.disabled"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\tmp\\archive_restore_morgs.py",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\tmp\\archive_restore_morgs.py"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\tmp\\finalize_morgs_archive.py",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\tmp\\finalize_morgs_archive.py"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\tmp\\move_morgs_archive.ps1",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\tmp\\move_morgs_archive.ps1"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\training_monitor",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\training_monitor"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\scripts\\benchmark_morgs_f0.py",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\scripts\\benchmark_morgs_f0.py"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\patches\\phase04_train_adapter.patch",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\patches\\phase04_train_adapter.patch"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\patches\\phase05_training_adapter.patch",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\patches\\phase05_training_adapter.patch"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase04",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase04"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase05",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase05"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase06",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase06"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase06v2",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\phase06v2"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\scripts",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\scripts"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\working",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\working"
+  },
+  {
+    "from": "E:\\4D_Gaussian\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\restoration_tools",
+    "to": "E:\\4D_Gaussian_retired_code_20261012\\rank1_experiments\\archives\\phase06v2_abandoned_20261011\\restoration_tools"
+  }
+]

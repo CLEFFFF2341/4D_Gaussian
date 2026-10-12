@@ -1,0 +1,30 @@
+[
+  {
+    "scene": "coffee_martini",
+    "frame": 90,
+    "points": 364245,
+    "max_export_error": 0.0019608139991760254,
+    "loss": 0.01626596413552761,
+    "optimizer_step_finite": true,
+    "forbidden_imports": []
+  },
+  {
+    "scene": "cut_roasted_beef",
+    "frame": 90,
+    "points": 222674,
+    "max_export_error": 0.0019608139991760254,
+    "loss": 0.012131117284297943,
+    "optimizer_step_finite": true,
+    "forbidden_imports": []
+  },
+  {
+    "scene": "coffee_martini",
+    "frame": 2,
+    "steps": 2,
+    "residual_transition": true,
+    "points": 358431,
+    "position_updated": true,
+    "checkpoint_roundtrip_exact": true,
+    "loss": 0.018181554973125458
+  }
+]

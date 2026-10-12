@@ -27,19 +27,8 @@ class MultiViewVideoDataset(Dataset):
         verbose=False,
         resolution=1
     ):
-        videos = [p for p in glob.glob(os.path.join(datadir, "cam*")) if os.path.isdir(p)]
+        videos = glob.glob(os.path.join(datadir, "cam*"))
         videos = sorted(videos)
-        meta_path = os.path.join(datadir, 'dataset_meta.json')
-        if os.path.exists(meta_path):
-            with open(meta_path, 'r', encoding='utf-8') as f:
-                protocol_meta = json.load(f)
-            actual_cameras = [os.path.basename(p) for p in videos]
-            if actual_cameras != protocol_meta['cameras']:
-                raise ValueError('Camera directory order does not match frozen protocol metadata.')
-            if split == 'train' and protocol_meta['role'] != 'train':
-                raise ValueError('Training loader cannot read a held-out root.')
-            if protocol_meta['role'] == 'train' and list(test_indices):
-                raise ValueError('Isolated training root requires test_indices=[].')
         self.n_cams = 0
         self.n_frames = None
         self.image_transform = transforms.ToTensor()
@@ -49,6 +38,7 @@ class MultiViewVideoDataset(Dataset):
         self.mask_paths = []
         # For Google Immersive some cameras might not exist in models.json, remove them
         if os.path.exists(os.path.join(datadir,"models.json")):
+            import json
             with open(os.path.join(datadir, "models.json"), "r") as f:
                 meta = json.load(f)
             camera_names_meta = [camera['name'] for camera in meta]
@@ -58,7 +48,7 @@ class MultiViewVideoDataset(Dataset):
                 if camera_name_image in camera_names_meta:
                     filtered_videos.append(os.path.join(datadir, camera_name_image))
             videos = sorted(filtered_videos)
-            
+
         # if "coffee_martini" in datadir:
         #     # Remove unsynchronized camera "cam12"
         #     filtered_videos = []
@@ -67,7 +57,7 @@ class MultiViewVideoDataset(Dataset):
         #             filtered_videos.append(video)
         #     videos = sorted(filtered_videos)
         #     print(f"MultiViewVideoDataset::__init__(): removed unsynchronized cam13, remaining {len(videos)} views")
-    
+
         if verbose:
             print(f"MultiViewVideoDataset::__init__(): parsed {len(videos)} videos (sequences)")
 
@@ -82,12 +72,12 @@ class MultiViewVideoDataset(Dataset):
                     #image_list = sorted(glob.glob(os.path.join(video,'images','*.png')))
                     image_list = sorted(glob.glob(os.path.join(video,'*.png')))
                 image_list = image_list[start_idx:start_idx+max_frames]
-                
+
                 if "meetroom" in video:
                     image_list = natsorted(glob.glob(os.path.join(video, '*.png')))
-                
+
                 cam_name = os.path.basename(video)
-                mask_list = [None] * len(image_list)   
+                mask_list = [None] * len(image_list)
                 if "coffee_martini" in datadir and cam_name == "cam13":
                     _all_masks = sorted(glob.glob(os.path.join(datadir,'mask_cam13', '*.png')))
                     # frame 슬라이싱 범위와 맞춤
@@ -96,7 +86,7 @@ class MultiViewVideoDataset(Dataset):
                     if len(_all_masks) < len(image_list):
                         _all_masks += [None] * (len(image_list) - len(_all_masks))
                     mask_list = _all_masks
-                
+
                 if verbose and idx == 0:
                     print(f"MultiViewVideoDataset::__init__(): View {idx}: by start_idx ({start_idx}) and max_frames({max_frames}), selected image_list = {image_list}")
                 self.image_paths += image_list
@@ -133,13 +123,13 @@ class MultiViewVideoDataset(Dataset):
                 new_h = int(orig_h / global_down)
 
             self.image_resize = transforms.Resize((new_h, new_w))
-            
+
             self.mask_resize  = transforms.Resize((new_h, new_w), interpolation=InterpolationMode.NEAREST)
 
 
     def __getitem__(self, index):
         img = Image.open(self.image_paths[index])
-        
+
         # orig_w, orig_h = img.size
         # # Resolution scaling logic
         # if self.resolution in [1, 2, 4, 8]:
@@ -167,9 +157,9 @@ class MultiViewVideoDataset(Dataset):
         # img = self.image_resize((new_h, new_w))(img)
 
         img = self.image_resize(img)
-    
+
         img = self.image_transform(img)
-        
+
         H, W = img.shape[-2], img.shape[-1]
         mpath = self.mask_paths[index]
         mask_tensor = torch.ones((1, H, W), dtype=torch.uint8)
@@ -189,12 +179,12 @@ class MultiViewVideoDataset(Dataset):
                 mask_tensor = torch.from_numpy(1-m).unsqueeze(0).clone() # ★ clone으로 저장소 독립
 
         return img, self.image_paths[index], mask_tensor
-    
+
     def __len__(self):
         return len(self.image_paths)
-    
+
 class SequentialMultiviewSampler(Sampler):
-    
+
     def __init__(self, dataset: MultiViewVideoDataset) -> None:
         super().__init__(dataset)
         self.n_cams, self.n_frames = dataset.n_cams, dataset.n_frames
@@ -203,14 +193,14 @@ class SequentialMultiviewSampler(Sampler):
         rearrange = []
         for frame_idx in range(self.n_frames):
             rearrange += list(range(frame_idx, self.n_cams*self.n_frames, self.n_frames))
-        return iter(rearrange) 
-    
+        return iter(rearrange)
+
     def __len__(self):
         return self.n_cams*self.n_frames
-    
+
 
 class IndexedMultiviewSampler(Sampler):
-    
+
     def __init__(self, dataset: MultiViewVideoDataset, frame_idx: int) -> None:
         super().__init__(dataset)
         self.n_cams, self.n_frames = dataset.n_cams, dataset.n_frames
@@ -218,6 +208,6 @@ class IndexedMultiviewSampler(Sampler):
 
     def __iter__(self):
         return iter(list(range(self.frame_idx, self.n_cams*self.n_frames, self.n_frames)))
-    
+
     def __len__(self):
         return self.n_cams

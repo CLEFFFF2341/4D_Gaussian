@@ -2,6 +2,14 @@
 !/.gitignore
 !/rank1_experiment_plan_20261010/
 !/rank1_experiments/
+!/morgs_clean_baseline/
+/morgs_clean_baseline/bootstrap/
+/morgs_clean_baseline/reference/
+/morgs_clean_baseline/runs/
+/morgs_clean_baseline/smoke_outputs/
+/morgs_clean_baseline/native/third_party/glm/*
+!/morgs_clean_baseline/native/third_party/glm/glm/
+!/morgs_clean_baseline/native/third_party/glm/copying.txt
 /rank1_experiments/*
 !/rank1_experiments/scripts/
 !/rank1_experiments/configs/
